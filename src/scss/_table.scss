@@ -1,0 +1,74 @@
+/* ============================================================================
+		table  :: Start
+============================================================================ */
+
+// table
+div.table {
+  margin: 0;
+}
+#ms-core-tableNoSpace {
+  display: block;
+}
+
+@media (max-width: $screen-xs) {
+  table.ms-listviewtable {
+    > tbody > tr {
+      padding: 10px;
+      > td {
+        text-align: left;
+        display: block;
+        border: none !important;
+        width: 100%;
+
+        /* IE8 */
+        float: left;
+      }
+    }
+    tr {
+      &.s4-itm-hover > td,
+      &.ms-itmhover:hover > td {
+        border: none;
+      }
+    }
+  }
+  table.ms-listviewtable {
+    .ms-viewheadertr,
+    tbody tr td.ms-vb-firstCell {
+      display: none;
+    }
+  }
+  tr.s4-itm-selected {
+    > td,
+    &:hover > td {
+      border: none;
+    }
+  }
+  td.ms-list-itemLink-td.ms-cellstyle,
+  img.ms-newdocument-icon {
+    display: none;
+  }
+}
+
+//@media (max-width: $screen-sm) {}
+
+@media (max-width: $screen-md) {
+  table {
+    thead tr th:nth-child(5),
+    tbody tr td:nth-child(5) {
+      display: none;
+    }
+  }
+}
+
+//@media (min-width: $screen-lg) {}
+
+/* Table getting scrollable */
+.table-scrollable {
+  overflow-y: auto;
+
+  // @include centerWithMargin(400);
+
+  @media screen and (max-width: $screen-sm) {
+    margin: 0 10px 10px;
+  }
+}

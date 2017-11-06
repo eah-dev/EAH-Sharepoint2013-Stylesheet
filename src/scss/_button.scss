@@ -1,0 +1,165 @@
+/* ============================================================================
+		Button :: Start
+============================================================================ */
+
+/// moegliche Button-Farben: btn-white, btn-white-blue, btn-blue, btn-green
+/// @author Carsten Hoelbing
+/// @example markup
+/// <div class="button-wrapper">
+///  <a class="btn btn-xxxx" role="button" href="#">
+///    BUTTON-TEXT
+///  </a>
+/// </div>
+.button-wrapper {
+  margin-bottom: 33px;
+  margin-top: 33px;
+  padding: 8px;
+  text-align: center;
+  .title {
+    margin-left: 10px;
+  }
+  i {
+    padding-right: 15px;
+  }
+}
+
+/// Ein Button mit der Farbe 'Weiss' welcher beim Mouse-Hover 'Blau' wird.
+/// @example markup
+/// <a class="btn btn-white" role="button" href="#">
+///   BUTTON-TEXT
+/// </a>
+.btn-white {
+  background-color: $btn-color-white;
+  border-color: $btn-color-green;
+  color: $btn-color-green;
+  &:hover {
+    background: $btn-color-green;
+    border-color: $btn-color-white;
+    color: $btn-color-white;
+  }
+}
+
+/// Ein Button mit der Farbe 'Weiss' welcher beim Mouse-Hover 'Blau' wird.
+/// @example markup
+/// <a class="btn btn-white-blue" role="button" href="#">
+///   BUTTON-TEXT
+/// </a>
+.btn-white-blue {
+  background-color: $btn-color-white;
+  border-color: $btn-color-blue;
+  color: $btn-color-blue !important;
+  &:hover {
+    background: $btn-color-blue;
+    border-color: $btn-color-white;
+    color: $btn-color-white !important;
+  }
+}
+
+/// Ein Button mit der Farbe 'Blau' welcher beim Mouse-Hover 'Weiss' wird.
+/// @example markup
+/// <a class="btn btn-blue" role="button" href="#">
+///   BUTTON-TEXT
+/// </a>
+.btn-blue {
+  background-color: $btn-color-blue;
+  border-color: $btn-color-blue;
+  color: $btn-color-white !important;
+  &:hover {
+    background: $btn-color-white;
+    border-color: $btn-color-blue;
+    color: $btn-color-blue !important;
+  }
+}
+
+/// Ein Button mit der Farbe 'Gruen' welcher beim Mouse-Hover 'Weiss' wird.
+/// @example markup
+/// <a class="btn btn-green" role="button" href="#">
+///   BUTTON-TEXT
+/// </a>
+.btn-green {
+  background-color: $btn-color-green;
+  border-color: $btn-color-white;
+  color: $btn-color-white !important;
+  &:hover {
+    background: $btn-color-white;
+    border-color: $btn-color-green;
+    color: $btn-color-green !important;
+  }
+}
+
+/// Eine Klasse um ein Button mittig/zentriert anzuzeigen.
+/// @example markup
+/// <div class="button-wrapper btn-center-wrapper">
+///  <a class="btn btn-xxxx" role="button" href="#">
+///    BUTTON-TEXT
+///  </a>
+/// </div>
+.btn-center-wrapper {
+  text-align: center;
+}
+
+/// button - Back to Top Button (wird rechts unten angezeigt)
+a.back-to-top {
+  display: none;
+  width: 60px;
+  height: 40px;
+  position: fixed;
+  z-index: 999;
+  right: 17px;
+  bottom: 36px;
+  &::after {
+    content: '';
+    width: 60px;
+    height: 0;
+    line-height: 0;
+    border-left: 15px solid transparent;
+    border-bottom: 40px solid $btn-color-green;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+  > i {
+    font-size: 20px;
+    color: $white;
+    position: absolute;
+    z-index: 999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/*
+// sharepoint buttons
+// eingabefelder mit typ=buttons (input) und disabled
+input {
+  &[type="button"][disabled],
+  &[type="reset"][disabled],
+  &[type="submit"][disabled] {
+    background-color: $black;
+    border-color: $gray-dark;
+  }
+}
+// sharepoint buttons
+// buttons (input) disabled
+button[disabled][disabled] {
+  background-color: $black;
+  border-color: $gray-dark;
+}
+*/
+
+/*
+// wird nicht verwendet
+.left-navbar {
+  input {
+    &[type="button"][disabled],
+    &[type="reset"][disabled],
+    &[type="submit"][disabled] {
+      background-color: #f7f5fa;
+    }
+  }
+  button[disabled][disabled] {
+    background-color: #f7f5fa;
+  }
+}
+*/

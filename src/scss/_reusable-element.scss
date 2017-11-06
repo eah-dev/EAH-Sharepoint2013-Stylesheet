@@ -1,0 +1,894 @@
+/* ============================================================================
+		Reusable Elements  :: Start
+============================================================================ */
+
+/**
+Aufbau der einzelnen wiederverwendbaren Elemente
+-------------------------------------------------------
+<section class="element-wrapper XXXXX-color">
+    <div class="container">
+      <div class="row">
+        <div class="XXXXX-wrapper">
+        </div>
+      </div>
+  </div>
+</section>
+-------------------------------------------------------
+"XXXXX" wird durch einen eindeutigen namen ersetzt
+XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer aufbau wie XXXXX-wrapper klasse
+**/
+
+/// Aufbau der wiederverwendbaren Elemente
+/// @author Carsten Hoelbing
+/// @example markup
+/// <section class="element-wrapper XXXXX-color">
+///    <div class="container">
+///      <div class="row">
+///        <div class="XXXXX-wrapper">
+///        </div>
+///      </div>
+///  </div>
+/// </section>
+.element-wrapper {
+  // Allgemeine einstellungen fuer standart elemenete
+  font-family: $font-family-base;
+  padding: 10px;
+
+  // kein efekt bei den events -> kein unterstrich
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+// mehrere Ansprechpartner
+.contacts-wrapper {
+  .title {
+    margin: 0 0 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding-bottom: 3px;
+    font-size: $font-size-h3;
+    border-bottom-style: solid;
+    border-width: 1px;
+    .spantitle {
+      padding-bottom: 6px;
+      border-bottom-style: solid;
+      border-width: 2px;
+    }
+  }
+}
+
+/*
+ * contact
+ * - Ansprechpartner
+ */
+.contact-wrapper {
+  padding: 30px 0;
+  .title {
+    margin: 0 0 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding-bottom: 3px;
+    font-size: $font-size-h3;
+    border-bottom-style: solid;
+    border-width: 1px;
+    .spantitle {
+      padding-bottom: 6px;
+      border-bottom-style: solid;
+      border-width: 2px;
+    }
+  }
+  // der aeussere Kreis
+  .contact-picture-content {
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    border-style: solid;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    .defaulticon {
+      text-align: center;
+      color: $bg-color-blue;
+    }
+    .defaulticon::before {
+      // FontAwesome icon: "fa-users" (http://fontawesome.io/icon/users/)
+      content: '\f0c0';
+      font-family: $font-family-fontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 100px;
+      text-decoration: inherit;
+      padding-left: 5px;
+    }
+  }
+  // informationen ueber den Ansprechpartner
+  .contact-details-wrapper {
+    line-height: 1.7;
+    text-align: left;
+
+    @media screen and (max-width: $screen-md-min) {
+      text-align: center;
+    }
+    i {
+      padding-right: 5px;
+    }
+    .fa {
+      width: 20px;
+    }
+    .contact-name {
+      font-size: $font-size-large;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      //
+    }
+    .contact-workphone,
+    .contact-workfax,
+    .contact-email,
+    .contact-roomnumber,
+    .contact-servicetime {
+      //
+    }
+    a {
+      &:link,
+      &:visited,
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// only colors
+.contact-color {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $green;
+    .spantitle {
+      border-bottom-color: $green;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $green;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $green;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $green;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+.contact-white {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $green;
+    .spantitle {
+      border-bottom-color: $green;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $green;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $green;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $green;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+// ist fuer die darstellung im Editor modus
+// Additional formats for contact element
+// select field for choose contact
+.contact-selector-button {
+  cursor: pointer;
+}
+.eah-select-contact {
+  color: $green;
+  padding: 5px 0;
+  margin-left: 70px;
+  a {
+    color: $green;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    &:visited,
+    &:hover {
+      color: $green;
+      text-decoration: none;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+  li {
+    padding-bottom: 15px;
+  }
+}
+
+/*
+ * graue linie ; veraltet
+ */
+.grey-line-wrapper {
+  border-bottom-color: $gray-lighter;
+  border-bottom-style: solid;
+  border-width: 2px;
+  margin: 0 0 20px;
+}
+
+/*
+ * line
+ * - trennline
+ */
+.line-wrapper {
+  margin: 0 0 20px;
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+.line-default {
+  .line-wrapper {
+    border-bottom-color: $gray-lighter;
+  }
+}
+
+/*
+ * anchorbox
+ * - sprungbox
+ */
+.anchorbox-header-wrapper {
+  margin-top: -50px;
+  position: relative;
+  .text-blur {
+    .header-title {
+      text-align: center;
+    }
+  }
+}
+.anchorbox-body-wrapper,
+.anchorbox-body-single-wrapper {
+  //margin-top: -50px;
+  padding: 20px;
+  border-radius: 1px;
+  //display: flex;
+  .header-title {
+    h2 {
+      border-bottom-style: solid;
+      border-width: 1px;
+      .spantitle {
+        border-bottom-style: solid;
+        border-width: 1px;
+      }
+    }
+  }
+  .body-content {
+    .content-title {
+      h2 {
+        text-align: left;
+        border-bottom-style: solid;
+        border-width: 1px;
+        .spantitle {
+          border-bottom-style: solid;
+          border-width: 1px;
+        }
+      }
+    }
+    ul {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      list-style-type: none;
+      li {
+        //
+      }
+      // vor jeden listeneintrag, ein symbol einfuegen
+      // FontAwesome icon: "chevron-right" (http://fontawesome.io/icon/chevron-right/)
+      li::before {
+        content: '\f054';
+        font-family: $font-family-fontAwesome;
+        float: left;
+        width: 1.4em;
+      }
+    }
+  }
+}
+.anchorbox-body-single-wrapper {
+  display: flow-root;
+  .header-title {
+    text-align: center;
+  }
+}
+// farben
+.anchorbox-blue {
+  .anchorbox-header-wrapper {
+    .text-blur {
+      // blur efekt
+      background-color: $eah-overlay-50;
+      .header-title {
+        color: $white;
+      }
+    }
+  }
+  .anchorbox-body-wrapper,
+  .anchorbox-body-single-wrapper {
+    background: $white;
+    box-shadow: 2px 2px 5px $bg-color-blue;
+
+    // gib es nur bei .anchorbox-body-single-wrapper
+    .header-title {
+      h2 {
+        border-bottom-color: $green;
+        color: $bg-color-blue;
+        .spantitle {
+          border-bottom-color: $green;
+        }
+      }
+    }
+    .body-content {
+      .content-title {
+        h2 {
+          border-bottom-color: $green;
+          color: $bg-color-blue;
+          .spantitle {
+            border-bottom-color: $green;
+          }
+        }
+        ul {
+          li {
+            color: $bg-color-blue;
+            a:hover {
+              color: $bg-color-green;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+ * articel
+ * - Artikel
+ */
+.articel-wrapper {
+  .article-text {
+    .title {
+      font-size: $font-size-h2;
+    }
+    .content-text-left {
+      text-align: left;
+    }
+    .content-text-right {
+      text-align: right;
+    }
+  }
+  .article-img {
+    .img-test {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+.articel-gray {
+  background: $bg-color-gray;
+  .title {
+    color: $green;
+  }
+  .content {
+    color: $black;
+  }
+}
+
+/// Bewerberbox
+/// @author Carsten Hoelbing
+/// <section>
+///   <h1>Artikel mit Bild rechts</h1>
+///   <section class="element-wrapper articel-gray">
+///     <div class="container">
+///       <div class="row">
+///         <div class="articel-wrapper">
+///           <div class="col-xs-12 col-sm-6 article-text">
+///             <div class="title">Überschrift</div>
+///             <div class="content content-text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+///               dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+///               clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+///               consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+///               sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+///               sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+///           </div>
+///           <div class="col-xs-12 col-sm-6 article-img">
+///             <img class="img-test" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="" />
+///           </div>
+///         </div>
+///       </div>
+///     </div>
+///     </div>
+///     </div>
+///   </section>
+/// </section>
+.application-wrapper {
+  .application-img {
+    img {
+      padding: 30px 0;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .application-text {
+    .title {
+      font-size: $font-size-h2;
+      margin-top: 25px;
+      padding-bottom: 15px;
+      margin-bottom: 12.5px;
+    }
+  }
+}
+
+// bewerbungspanel blue
+.application-blue {
+  background-color: $bg-color-blue;
+  .application-text {
+    color: $white;
+  }
+}
+
+/// Artikelblock
+/// @author Carsten Hoelbing
+/// @example markup
+/// <section class="element-wrapper articelblock-green">
+///   <div class="container">
+///     <div class="row">
+///       <div class="articelblock-wrapper">
+///         <div class="col-xs-12 text-center">
+///           <h1>Lorem ipsum dolor sit amet</h1>
+///           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+///             dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+///             clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+///             consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+///             sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+///             sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+///           <div class="button-wrapper">
+///             <a class="btn btn-blue" role="button" href="#">
+///               Mehr Erfahren</a>
+///           </div>
+///         </div>
+///       </div>
+///     </div>
+///   </div>
+/// </section>
+.articelblock-wrapper {
+  margin-top: 30px;
+  h1,
+  h2,
+  .title {
+    padding-bottom: 15px;
+    font-size: $font-size-h2;
+  }
+  p {
+    text-align: left;
+  }
+}
+// Artikelblock - gruen
+.articelblock-green {
+  background-color: $green;
+  h1,
+  h2,
+  .title {
+    color: $white;
+  }
+  p {
+    color: $white;
+  }
+  a {
+    color: $white;
+  }
+}
+// Artikelblock - white
+.articelblock-white {
+  background-color: $white;
+  h1,
+  h2,
+  .title {
+    color: $blue;
+  }
+  p {
+    color: $black;
+  }
+  a {
+    color: $link-color;
+  }
+}
+// Artikelblock - blau
+.articelblock-blue {
+  background-color: $blue;
+  h1,
+  h2,
+  .title {
+    color: $white;
+  }
+  p {
+    color: $white;
+  }
+  a {
+    color: $white;
+  }
+}
+
+/// Zitat
+/// das meiste wird ueber die bootstrap variablen geregelt
+/// @author Carsten Hoelbing
+/// @example markup
+/// <section>
+///   <h1>Zitat gruener Hintergrund</h1>
+///   <section class="element-wrapper blockquote-gray">
+///     <div class="container">
+///       <div class="row">
+///         <div class="blockquote-wrapper">
+///           <blockquote>
+///            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+///              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+///              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+///              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+///              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+///              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+///            <footer>Donald Franz</footer>
+///          </blockquote>
+///        </div>
+///      </div>
+///    </div>
+///  </section>
+/// </section>
+.blockquote-wrapper {
+  margin-top: 30px;
+  font-family: "Roboto";
+  blockquote {
+    p {
+      font-size: $blockquote-font-size;
+    }
+    footer {
+      font-size: $font-size-base;
+    }
+  }
+}
+.blockquote-default,
+.blockquote-gray {
+  background: $gray-lighter;
+  color: $black;
+}
+// bild align-center
+.img-center-wrapper {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/// prozess ablauf
+/// @author Carsten Hoelbing
+/// @example markup
+/// <section class="element-wrapper processtask-default">
+///   <div class="container">
+///       <div class="row">
+///         <div class="processtask-wrapper">
+///           <div class="processtask-header-icon">
+///             <i class="fa fa-arrow-down" aria-hidden="true"></i>
+///           </div>
+///           <div class="processtask-content">
+///             <div class="processtask-header">
+///              HEADER
+///             </div>
+///             <div class="processtask-body">
+///               Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+////              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+///             </div>
+///           </div>
+///         </div>
+///       </div>
+///   </div>
+/// </section>
+.processtask-wrapper {
+  .processtask-header-icon {
+    text-align: center;
+    font-size: $font-size-h1;
+  }
+  .processtask-content {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    .processtask-header {
+      text-align: center;
+      font-size: $font-size-h4;
+    }
+    .processtask-body {
+      margin: 10px;
+    }
+  }
+}
+.processtask-default {
+  .processtask-header-icon {
+    color: $green;
+  }
+  .processtask-content {
+    border-color: $blue;
+    color: $blue;
+  }
+}
+/// Kachel mit einem sich aufklappenden Menu
+/// das Bild muss folgende Abmessungen haben: Breite 566 Pixel und eine Hoehe von 268 Pixel
+/// @author Carsten Hoelbing
+/// @example markup
+/// <div class="eahTile eahTile-gray-green">
+///   <img
+///      class="eahTile-bgImage"
+///      src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png"
+///      alt=""
+///   />
+///   <div class="eahTile-heading eahTile-triangel">
+///     <div class="eahTile-body overlay-triangel">
+///       <div class="eahTile-title">Bewerben</div>
+///       <ul class="eahTile-collapse-list">
+///         <li>
+///           <div class="tile-icon">
+///             <i class="ion ion-plus-round" aria-hidden="true"></i>
+///           </div>
+///         </li>
+///       </ul>
+///     </div>
+///   </div>
+///   <div class="eahTile-heading eahTile-list hidden">
+///     <div class="eahTile-body overlay-list">
+///       <div class="eahTile-title">Bewerben</div>
+///      <ul class="eahTile-collapse-list">
+///         <li>
+///           <a href="/de-de/studium/bewerbung/bachelor">Bachelor</a></li>
+///         <li>
+///           <a href="/de-de/studium/bewerbung/master">Master</a></li>
+///         <li>
+///           <a href="/de-de/studium/bewerbung/austausch">Austausch</a></li>
+///         <li>
+///           <a href="/de-de/studium/bewerbung/weiterbildung">Weiterbildung</a></li>
+///       </ul>
+///     </div>
+///   </div>
+/// </div>
+.eahTile,
+.eahTileLink {
+  margin: 2px;
+  width: auto;
+  position: relative;
+  // .eahTile-bgImage-container {
+  //  .eahTile-bgImage { }
+  // }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .eahTile-heading,
+  .eahTileLink-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    .overlay-triangel {
+      border-right-style: solid;
+      border-right-width: 300px;
+      border-top-style: solid;
+      border-top-width: 150px;
+    }
+    .overlay-list {
+      height: 100%;
+      width: 200px;
+      .content-title {
+        border-bottom-style: solid;
+        border-width: 2px;
+      }
+    }
+    .content-body {
+      font-family: $font-family-robotoLight;
+      font-size: $font-size-large;
+      top: 0;
+      left: 0;
+      list-style: none;
+      // .tile-header-text {}
+      .content-title {
+        padding: 10px;
+        padding-left: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-top: 10px;
+        list-style-type: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        li {
+          text-indent: 0 !important;
+          padding: 5px 0 5px 20px;
+          content: none;
+          font-family: $font-family-robotoLight;
+          font-size: $font-size-base;
+
+          @media screen and (min-width: $screen-md-min) {
+            font-size: $font-size-large;
+          }
+          .tile-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 20px;
+            position: absolute;
+            cursor: pointer;
+            i {
+              position: absolute;
+              top: 6px;
+            }
+          }
+          a,
+          a:hover {
+            text-decoration: none;
+          }
+          > &::before {
+            // symbol vor dem list-item entfernten
+            content: '' !important;
+          }
+        }
+        // &:hover {}
+      }
+    }
+  }
+  ul {
+    list-style-type: none;
+    li {
+      line-height: $line-height-base !important;
+    }
+  }
+  &:hover,
+  &:link {
+    text-decoration: none !important;
+  }
+}
+// spezielle Anpassungen
+.eahTile {
+  .tile-icon {
+    i {
+      left: 9px;
+    }
+  }
+}
+.eahTileLink {
+  .tile-icon {
+    i {
+      left: 15px;
+    }
+  }
+}
+// farbe fuer die kachel
+.eahTile-gray-green {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $green;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}

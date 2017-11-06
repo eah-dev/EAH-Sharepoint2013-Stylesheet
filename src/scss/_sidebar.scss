@@ -1,0 +1,32 @@
+/* ============================================================================
+		sidebar  :: Start
+============================================================================ */
+
+// sidebar
+#sidebar {
+  padding-top: 34px;
+  h4 {
+    color: $green;
+  }
+  .list-group-item:first-child {
+    background-color: $green;
+    color: $white;
+    font-weight: 300;
+    font-size: $font-size-base;
+    text-transform: uppercase;
+    &:hover {
+      background: $green;
+    }
+    a.list-group-item,
+    button.list-group-item {
+      background: $gray-lighter;
+      color: $green;
+    }
+    a.list-group-item:hover,
+    a.list-group-item:focus,
+    button.list-group-item:hover,
+    button.list-group-item:focus {
+      background-color: $white;
+    }
+  }
+}

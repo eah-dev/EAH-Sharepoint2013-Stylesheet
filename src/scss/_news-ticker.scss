@@ -1,0 +1,49 @@
+/* ============================================================================
+		News Ticker :: Start
+============================================================================ */
+
+// news-ticker
+#news-ticker {
+  background: $white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
+  height: 243px;
+  a {
+    color: $gray-dark;
+  }
+  h3 {
+    margin: 0;
+    font-size: $font-size-h4;
+    border-bottom: 1px solid $gray;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  p {
+    padding-top: 4px;
+  }
+  img {
+    max-width: 100%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 1);
+  }
+  .carousel {
+    padding: 60px 0;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-control {
+    margin-top: 100px;
+    color: $white;
+    height: 30px;
+    width: 30px;
+    line-height: 21px;
+    background: none repeat scroll 0 0 $green;
+    border: 2px solid $white;
+    border-radius: 10px;
+    opacity: 1;
+    text-shadow: none;
+    &.left,
+    &.right {
+      background-image: none;
+    }
+  }
+}

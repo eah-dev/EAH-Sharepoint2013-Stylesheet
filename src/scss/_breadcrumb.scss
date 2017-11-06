@@ -1,0 +1,96 @@
+/* ============================================================================
+		breadcrumb :: Start
+============================================================================ */
+
+/* wird nicht mehr verwendet
+
+form[action*="Forms"] #eah-breadcrumb,
+form[action*="Lists"] #eah-breadcrumb {
+  display: none;
+}
+#eah-breadcrumb {
+  margin-bottom: 35px;			//Abstand zum folgenden Element
+  font-size: $font-size-large;	//Schriftgroesse des Menues (18px)
+  ul.s4-breadcrumb {
+    padding-left: 0;
+    ul {
+      padding-left: 0;
+    }
+  }
+
+  // Abstand zum obigen Element und nach links - ausserdem verschiedene viewports beruecksichtigt
+  .eah-breadcrumbNodes {
+    text-transform: uppercase;
+
+    @include centerWithMargin(380);
+
+    @include mediaQuery(0,767px) {
+      @include distanceWithMargin(60, true);
+      position: relative;
+    }
+
+    @include mediaQuery(0,500px) {
+      position: relative;
+    }
+    //zweite Ebene des Pfades
+    > a {
+      vertical-align: text-bottom;
+
+      @include mediaQuery(0,500px) {
+        position: absolute;
+        left: 60px;
+        padding-top: 5px;
+      }
+    }
+    //Logo und Symbol -Eigenschaften
+    > i {
+      font-size: $font-size-h2;
+      color: $green;
+      margin: 10px;
+      margin-top: 0;
+
+      @include mediaQuery(0,500px) {
+        position: absolute;
+        left: 30px;
+      }
+    }
+    //erste Ebene des Pfades
+    span {
+      color: $green;
+      cursor: pointer;
+      vertical-align: text-bottom;
+
+      @include mediaQuery(0,500px) {
+        position: absolute;
+        left: 60px;
+        padding-top: 5px;
+      }
+    }
+  }
+}
+ul.s4-breadcrumb {
+  margin: 0 0 2px;
+  list-style: none inside none;
+  display: inline-block;
+  ul {
+    margin: 0 0 5px;
+    list-style: none inside none;
+    display: inline-block;
+  }
+  .s4-breadcrumb-arrowcont {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url('../img/glyphicons-halflings.png') no-repeat -262px -92px;
+    img {
+      display: none !important;
+    }
+  }
+  > li:first-child > span.s4-breadcrumb-arrowcont {
+    display: none;
+  }
+  a.s4-breadcrumbCurrentNode {
+    color: #000;
+  }
+}
+*/

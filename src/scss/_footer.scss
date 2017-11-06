@@ -1,0 +1,482 @@
+/* ============================================================================
+		Footer :: Start
+============================================================================ */
+#footer {
+  .row {
+    li a,
+    h3 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-wrap: normal;
+      word-break: normal;
+    }
+  }
+  .ms-WPAddButton {
+    display: none !important;
+  }
+  a {
+    &:hover,
+    &:active {
+      color: $black;
+    }
+  }
+  div {
+    &.ms-webpart-zone,
+    &.s4-wpcell-plain {
+      table-layout: fixed;
+    }
+  }
+}
+.footer {
+  background: $gray-lighter;
+  background: -moz-linear-gradient(top, $gray-lighter 0, $white 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, $gray-lighter), color-stop(100%, $white));
+  background: -webkit-linear-gradient(top, $gray-lighter 0, $white 100%);
+  background: -o-linear-gradient(top, $gray-lighter 0, $white 100%);
+  background: -ms-linear-gradient(top, $gray-lighter 0, $white 100%);
+  background: linear-gradient(to bottom, $gray-lighter 0, $white 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='$gray-lighter', endColorstr='$white', GradientType=0);
+  height: auto;
+  padding-bottom: 30px;
+  margin-top: 0;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid $gray-darker;
+  border-top: 1px solid $gray-light;
+  box-shadow: 0 0 1px rgba(51, 51, 51, 0.7);
+  h3 {
+    border-bottom: 1px solid $gray-darker;
+    color: $gray-darker;
+    font-size: $font-size-large;
+    font-weight: 300;
+    line-height: 27px;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+  }
+  ul {
+    font-size: $font-size-base;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: $gray-darker;
+    li a:link {
+      padding: 0 0 5px;
+      display: block;
+      color: $green;
+    }
+  }
+}
+.footer-bottom {
+  background: $gray-darker;
+  padding-top: 10px;
+  ul {
+    list-style: none;
+  }
+  .social {
+    li {
+      background: none repeat scroll 0 0 $gray-light;
+      border: 2px solid $gray-light;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -o-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      // float: left;
+      height: 30px;
+      line-height: 30px;
+      margin: 0 10px 0 0;
+      padding: 0;
+      text-align: center;
+      width: 30px;
+      transition: all 0.5s ease 0s;
+      -moz-transition: all 0.5s ease 0s;
+      -webkit-transition: all 0.5s ease 0s;
+      -ms-transition: all 0.5s ease 0s;
+      -o-transition: all 0.5s ease 0s;
+      &:hover {
+        transform: scale(1.15) rotate(360deg);
+        -webkit-transform: scale(1.1) rotate(360deg);
+        -moz-transform: scale(1.1) rotate(360deg);
+        -ms-transform: scale(1.1) rotate(360deg);
+        -o-transform: scale(1.1) rotate(360deg);
+      }
+      a {
+        color: $gray-lighter;
+      }
+      &.fb:hover {
+        color: rgb(255, 255, 255) !important;
+        background-color: rgb(75, 110, 168) !important;
+      }
+      &.tw:hover {
+        color: rgb(255, 255, 255) !important;
+        background-color: rgb(79, 213, 248) !important;
+      }
+      &.gp:hover {
+        color: rgb(255, 255, 255) !important;
+        background-color: rgb(221, 75, 57) !important;
+      }
+      &.yt:hover {
+        color: rgb(255, 255, 255) !important;
+        background-color: rgb(204, 24, 30) !important;
+      }
+      &.ig:hover {
+        color: rgb(255, 255, 255) !important;
+        background-color: rgb(233, 89, 80) !important;
+      }
+      a i {
+        font-size: $font-size-base;
+        margin: 0 0 0 1px;
+        color: $gray-lighter !important;
+      }
+    }
+
+    float: right;
+  }
+  .copyright {
+    padding: 5px 0 0;
+    color: $white;
+    text-align: center;
+  }
+}
+.footer-links {
+  text-align: center;
+  padding: 5px 0 0;
+  margin: 0;
+  li {
+    display: inline;
+    padding: 0 10px;
+    &:last-child {
+      border-right: none;
+    }
+    a {
+      color: $white;
+      text-transform: uppercase;
+    }
+  }
+
+  @media screen and (min-width: $screen-xs) {
+    white-space: nowrap;
+    word-break: normal;
+    word-wrap: normal;
+    font-size: $font-size-base;
+    li {
+      padding: 3px !important;
+    }
+  }
+}
+
+// -- Footer Style --*/
+.eah-footer-wrapper {
+  width: 100%;
+  background-color: $gray-lighter;
+  &.footer-bottom {
+    // background-color: transparent;
+    padding-top: 25px;
+  }
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+  .footer-content {
+    margin-bottom: 20px;
+    .row {
+      margin: 0;
+    }
+    .footer-campus {
+      padding: 0;
+
+      @media (min-width: $screen-md) {
+        //padding-left: 60px;
+      }
+
+      @media (min-width: $screen-lg) {
+        //padding-left: 100px;
+      }
+      .footer-campus-header {
+        color: $footer-font-color;
+        font-size: $footer-font-headline-size;
+        font-family: $footer-font-headline-style;
+        //font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .footer-campus-list {
+        font-size: $footer-font-links-size;
+        font-family: $footer-font-links-style;
+        list-style: none;
+        line-height: 24px;
+        padding: 0;
+        a {
+          &:link,
+          &:visited {
+            color: $footer-font-color;
+          }
+          &:hover,
+          &:active {
+            color: black;
+          }
+        }
+      }
+    }
+    .footer-faculties {
+      padding: 0;
+      .footer-faculties-header {
+        color: $footer-font-color;
+        font-size: $footer-font-headline-size;
+        font-family: $footer-font-headline-style;
+        //font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .footer-faculties-list {
+        font-size: $footer-font-links-size;
+        font-family: $footer-font-links-style;
+        list-style: none;
+        line-height: 24px;
+        padding: 0;
+        a {
+          &:link,
+          &:visited {
+            color: $footer-font-color;
+          }
+          &:hover,
+          &:active {
+            color: black;
+          }
+        }
+      }
+    }
+    // gibt es nicht mehr
+    .footer-message {
+      padding-top: 25px;
+      .footer-message-logo {
+        padding-bottom: 20px;
+        background-image: url("/_catalogs/masterpage/layouts/eah-jena/images/footer-logo-ifl_cmyk_dg_s_de.png");
+        background-repeat: round;
+        width: 210px;
+        height: 84px;
+
+        @media (min-width: $screen-sm) {
+          width: 210px;
+          height: 84px;
+        }
+
+        @media (min-width: $screen-md) {
+          width: 275px;
+          height: 111px;
+        }
+
+        @media (min-width: $screen-lg) {
+          width: 350px;
+          height: 141px;
+        }
+      }
+    }
+    .footer-contact {
+      .contact-header {
+        color: $footer-font-color;
+        font-size: $footer-font-headline-size;
+        font-family: $footer-font-headline-style;
+        text-transform: uppercase;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .contact-adress {
+        ul {
+          font-size: $footer-font-links-size;
+          font-family: $footer-font-links-style;
+          list-style: none;
+          line-height: 24px;
+          padding: 0;
+          li {
+            color: $footer-font-color;
+            a {
+              color: $footer-font-color;
+            }
+          }
+        }
+      }
+    }
+    .footer-contact-logo {
+      padding-bottom: 20px;
+      background-image: url("/_catalogs/masterpage/layouts/eah-jena/images/footer-logo-ifl_cmyk_dg_s_de.png");
+      background-repeat: round;
+      width: 210px;
+      height: 84px;
+      margin-top: 20px;
+
+      @media (min-width: $screen-sm) {
+        width: 210px;
+        height: 84px;
+      }
+
+      @media (min-width: $screen-md) {
+        width: 275px;
+        height: 111px;
+      }
+    }
+    .info {
+      margin-bottom: 35px;
+      a,
+      a:hover,
+      a:visited {
+        color: $black;
+        margin: 0 20px 0 0;
+      }
+    }
+
+    /* Social links */
+    .social-icon-wrapper {
+      ul {
+        display: flex; /* li nebeneinander anzeigen */
+        list-style-type: none; /* ohne Aufzählungspunkte */
+        padding: 0;
+        margin: 0;
+        li {
+          //background: none repeat scroll 0 0  $eah-gray-dark;
+          background-color: $eah-gray-light;
+          color: $bg-color-blue;
+          //border: 2px solid $eah-gray-dark;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -o-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%;
+          font-size: 18px;
+          // float: left;
+          height: 30px;
+          width: 30px;
+          line-height: 30px;
+          margin: 0 10px 0 0;
+          padding: 0;
+          text-align: center;
+          transition: all 0.5s ease 0s;
+          -moz-transition: all 0.5s ease 0s;
+          -webkit-transition: all 0.5s ease 0s;
+          -ms-transition: all 0.5s ease 0s;
+          -o-transition: all 0.5s ease 0s;
+          cursor: pointer;
+          &:hover {
+            i {
+              color: $white !important;
+            }
+          }
+          a {
+            color: $bg-color-blue;
+          }
+          &.fb:hover {
+            background-color: rgb(75, 110, 168) !important;
+          }
+          &.tw:hover {
+            background-color: rgb(79, 213, 248) !important;
+          }
+          &.gp:hover {
+            background-color: rgb(221, 75, 57) !important;
+          }
+          &.yt:hover {
+            background-color: rgb(204, 24, 30) !important;
+          }
+          &.ig:hover {
+            background-color: rgb(233, 89, 80) !important;
+          }
+          a i {
+            margin: 0 0 0 1px;
+            color: $bg-color-blue !important;
+          }
+        }
+      }
+    }
+
+    /* Footer links */
+    .footer-links {
+      // feedback, presse ,...
+      padding: 0;
+      padding-left: 5px;
+      line-height: 24px;
+      // @TODO
+      @media screen and (min-width: $screen-xs) {
+        padding-left: 15px;
+        line-height: $line-height-base;
+      }
+      li {
+        text-align: left;
+        display: block;
+
+        @media screen and (min-width: $screen-sm) {
+          display: inline;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+        a {
+          color: $gray;
+          text-transform: none;
+          font-size: $font-size-base;
+        }
+      }
+    }
+  }
+
+  // gruene leiste die ein kleine schraeke hat
+  .eah-footer-bottom-trapez-object {
+    width: 58%;
+    height: 10px;
+    background: $green;
+    position: relative;
+  }
+  .eah-footer-bottom-trapez-object::after {
+    content: '';
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-left: 10px solid transparent;
+    border-top: 10px solid $gray-lighter;
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  // die links ganz unten (feedback, press,...)
+  .eah-footer-bottom-links {
+    background-color: $bg-color-blue;
+    font-size: $footer-font-links-size;
+    font-family: $footer-font-links-style;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        font-size: $footer-font-links-size;
+        padding: 5px;
+        margin: 5px;
+        display: inline; /* li nebeneinander anzeigen */
+        list-style-type: none; /* ohne Aufzählungspunkte */
+        a {
+          &:link,
+          &:visited {
+            color: $footer-font-color;
+          }
+          &:hover,
+          &:active {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Panel im Footer
+.footer-panel {
+  .panel-heading {
+    margin: 0 !important;
+    padding: 10px 0;
+    border: 0;
+  }
+}

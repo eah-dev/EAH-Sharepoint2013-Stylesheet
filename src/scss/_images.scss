@@ -1,0 +1,26 @@
+/* ============================================================================
+		Images, thumbnail  :: Start
+============================================================================ */
+.thumbnail {
+  border-radius: 0;
+  border: none;
+  padding: 2px;
+  box-shadow: 0 0 1px rgba(51, 51, 51, 0.7);
+}
+a.thumbnail {
+  &:hover,
+  &:focus,
+  &.active {
+    box-shadow: 0 0 1px rgba(0, 151, 144, 1);
+  }
+}
+img.editor-image {
+  border: 2px transparent dashed;
+  &.selected {
+    border-color: $green;
+  }
+}
+#eah-profile-img {
+  height: 170px;
+  width: auto;
+}

@@ -1,0 +1,49 @@
+/* ============================================================================
+		Media  :: Start
+============================================================================ */
+img {
+  max-width: none;
+  width: auto;
+}
+* [class^="span"] img {
+  max-width: 100%;
+}
+#scriptWPQ2 img,
+img.ms-webpart-menuArrowImg,
+#applist img,
+.ms-rtetoolbarmenu img {
+  width: auto;
+  max-width: none;
+}
+img[src*="/_layouts/15/images/spcommon.png"] {
+  max-width: none !important;
+}
+.mediaPlayerContainerDiv {
+  margin: 0 auto;
+}
+ul.mediaPlayerAdditionalControls {
+  margin: 0;
+}
+.mediaPlayerControl {
+  text-indent: 0 !important;
+  &:hover {
+    background: $green !important;
+  }
+}
+.mediaPlayerAdditionalControls > li::before {
+  content: '' !important;
+  width: 0 !important;
+}
+div.mediaPlayerInitialPlayButton a span {
+  margin-top: 10px !important;
+  margin-left: 15px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .mediaPlayerContainerDiv {
+    width: 100% !important;
+    > div > video {
+      width: 100% !important;
+    }
+  }
+}

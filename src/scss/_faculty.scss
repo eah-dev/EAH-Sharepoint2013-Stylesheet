@@ -1,0 +1,138 @@
+/* ============================================================================
+		Faculties :: Start
+============================================================================ */
+// Farben der Fachbereiche
+$faculties-color-bw: #ffcd55;
+$faculties-color-et: #ce5757;
+$faculties-color-gl: #3f7dc9;
+$faculties-color-mb: #9a9f9f;
+$faculties-color-mt: #69c771;
+$faculties-color-gp: #c775cc;
+$faculties-color-sc: #0fafb5;
+$faculties-color-sw: #e65c49;
+$faculties-color-wi: #027981;
+
+// wo das verwendet wird ?
+.faculties {
+  .col-md-2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+    .row {
+      margin: 0;
+    }
+  }
+}
+
+// wo das verwendet wird ?
+.faculty {
+  padding: 50px 15px;
+  text-align: center;
+  height: 220px;
+  &.fc-quicklinks {
+    padding: 10px 15px 0;
+    text-align: center;
+    height: 70px;
+    color: $white !important;
+  }
+  &.fc-quicklinks-icons {
+    padding: 10px 15px 0;
+    text-align: center;
+    height: 150px;
+    color: $white !important;
+  }
+  a {
+    color: $white !important;
+    font-size: 17px;
+    font-weight: 300;
+  }
+  &.fc-quicklinks-icons a {
+    font-size: 13px;
+  }
+}
+.fc-icon {
+  background: $white none repeat scroll 0 0;
+  border-radius: 50%;
+  display: block;
+  height: 60px;
+  margin: 2px auto 10px;
+  text-align: center;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  width: 60px;
+  i {
+    font-size: 28px;
+    padding: 16px 0;
+  }
+}
+.fc-quicklinks-icons,
+.fc-quicklinks {
+  background: #009790;
+}
+.fc-quicklinks-icons .fc-icon {
+  height: 40px;
+  width: 40px;
+  i {
+    font-size: 18px;
+    padding: 12px 0;
+  }
+}
+.fc-bw {
+  background: $faculties-color-bw;
+}
+.icon-bw {
+  color: $faculties-color-bw;
+}
+.fc-et {
+  background: $faculties-color-et;
+}
+.icon-et {
+  color: $faculties-color-et;
+}
+.fc-gl {
+  background: $faculties-color-gl;
+}
+.icon-gl {
+  color: $faculties-color-gl;
+}
+.fc-mb {
+  background: $faculties-color-mb;
+}
+.icon-mb {
+  color: $faculties-color-mb;
+}
+.fc-mt {
+  background: $faculties-color-mt;
+}
+.icon-mt {
+  color: $faculties-color-mt;
+}
+.fc-gp {
+  background: $faculties-color-gp;
+}
+.icon-gp {
+  color: $faculties-color-gp;
+}
+.fc-sc {
+  background: $faculties-color-sc;
+}
+.icon-sc {
+  color: $faculties-color-sc;
+}
+.fc-sw {
+  background: $faculties-color-sw;
+}
+.icon-sw {
+  color: $faculties-color-sw;
+}
+.fc-wi {
+  background: $faculties-color-wi;
+}
+.icon-wi {
+  color: $faculties-color-wi;
+}

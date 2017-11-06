@@ -1,0 +1,390 @@
+/* ============================================================================
+		Sharepoint 2013 element  :: Start
+============================================================================ */
+//
+// ab hier gehen die Aenderungen bzw ueberschreiben
+// der standart sharepoint klassen los
+//
+
+//-- Textelement "Absatz" in rte --
+.ms-rtestate-field p,
+p.ms-rteElement-P,
+.ms-rtestate-field h1,
+h1.ms-rteElement-H1,
+.ms-rtestate-field h2,
+h2.ms-rteElement-H2,
+.ms-rtestate-field h3,
+h3.ms-rteElement-H3,
+.ms-rtestate-field h4,
+h4.ms-rteElement-H4,
+.ms-rtestate-field h5,
+h5.ms-rteElement-H5,
+.ms-rtestate-field ul,
+ul.ms-rteElement-UL,
+.ms-rtestate-field ol,
+ol.ms-rteElement-OL {
+  line-height: 1.6;
+  margin-bottom: 20px;
+
+  @include centerWithMargin(400);
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin: 0 10px 10px;
+  }
+}
+
+//-- Beheben des einrücken von ol-Elementen --
+.ms-rtestate-field ul > li,
+ul.ms-rteElement-UL > li.ms-rteElement-LI {
+  line-height: 2;
+  list-style-type: none;
+  text-indent: -1.4em;
+  text-align: left;
+}
+.ms-rtestate-field ul > li::before,
+ul.ms-rteElement-UL > li.ms-rteElement-LI {
+  color: $green;
+  font-family: $font-family-fontAwesome;
+  content: '\f138';
+  float: left;
+  width: 1.4em;
+}
+
+//-- Blog Design --
+.ms-blog-MainArea {
+  max-width: 100% !important;
+  width: 100% !important;
+  td {
+    width: 100%;
+  }
+  a {
+    color: $green;
+    &:hover,
+    &:active,
+    &:visited {
+      color: $green;
+    }
+  }
+  li > a.ms-core-listMenu-item {
+    &:hover,
+    &:active {
+      background-color: $white;
+      color: $green;
+    }
+  }
+  .ms-splinkbutton-text {
+    color: $gray-darker !important;
+  }
+  .ms-blog-postList {
+    max-width: 100% !important;
+    h1 {
+      text-align: left !important;
+    }
+  }
+  .ms-blog-postBody {
+    img {
+      display: block !important;
+      max-width: 100% !important;
+      height: auto !important;
+    }
+  }
+  .ms-rtestate-field p,
+  p .ms-rteElement-P,
+  .ms-rtestate-field h1,
+  h1.ms-rteElement-H1,
+  .ms-rtestate-field h2,
+  h2.ms-rteElement-H2,
+  .ms-rtestate-field h3,
+  h3.ms-rteElement-H3,
+  .ms-rtestate-field h4,
+  h4.ms-rteElement-H4,
+  .ms-rtestate-field h5,
+  h5.ms-rteElement-H5,
+  .ms-rtestate-field ul,
+  ul.ms-rteElement-UL,
+  .ms-rtestate-field ol,
+  ol.ms-rteElement-OL {
+    margin: 0 !important;
+  }
+
+  // .ms-metadata.ms-textSmall
+  #admlnk2,
+  .ms-blog-postComments,
+  .ms-blog-commandSpace,
+  .ms-blog-linkCommandSeparator.ms-blog-linkCommandBottom {
+    display: none;
+  }
+}
+.ms-dlgBorder * {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  &::before,
+  &::after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+}
+.ms-navedit-editLinksText {
+  margin-right: 0;
+  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #999;
+  line-height: 20px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+
+/*
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item {
+  &:hover, &.ms-core-listMenu-selected:hover {
+    color: #fff;
+  }
+}
+
+a {
+  &.ms-tv-item:hover, &.ms-tv-header:hover {
+    color: #fff;
+  }
+}
+*/
+.navbar .ms-navedit-editLinksText:hover > span > .ms-metadata {
+  color: #fff;
+}
+.ms-navedit-editLinksText > span > {
+  .ms-metadata,
+  .ms-navedit-editLinksIconWrapper {
+    color: #999;
+  }
+}
+
+@media (max-width: 768px) {
+  .ms-core-pageTitle {
+    white-space: normal;
+    font-size: 1.5em;
+  }
+}
+
+// Menu / Nav
+li > a.ms-core-listMenu-item {
+  &.ms-core-listMenu-selected:hover,
+  &:hover,
+  &:active {
+    background-color: #08c;
+    color: #fff;
+  }
+}
+.ms-core-listMenu-selected {
+  &:link,
+  &:visited {
+    background-color: #08c;
+    color: #fff;
+  }
+
+  background-color: #08c;
+  color: #fff;
+}
+li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover {
+  color: #111;
+}
+.ms-core-listMenu-horizontalBox > .ms-core-listMenu-root > .ms-listMenu-editLink {
+  margin-left: 0;
+}
+.ms-navedit-editLinksText {
+  display: block;
+}
+.nav.ms-core-listMenu-horizontalBox .ms-navedit-editLinksText .ms-verticalAlignMiddle {
+  vertical-align: inherit;
+}
+.ms-navedit-editLinksIconWrapper {
+  margin-bottom: -3px;
+}
+.nav.ms-core-listMenu-horizontalBox li.static > {
+  span .ms-core-listMenuEdit .ms-navedit-linkCell,
+  .ms-core-listMenuEdit .ms-navedit-linkCell {
+    padding: 0;
+  }
+}
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenuEdit .ms-navedit-deletelinkCell {
+  padding-right: 0;
+}
+.nav.ms-core-listMenu-horizontalBox {
+  .ms-navedit-editLinksText,
+  a.static.ms-navedit-dropNode,
+  div.ms-navedit-hiddenAppendArea {
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 0;
+    border: none;
+    width: auto;
+  }
+}
+.ms-navedit-hidespan {
+  margin: 0;
+}
+.nav.ms-core-listMenu-horizontalBox {
+  .ms-navedit-addNewLink {
+    padding: 10px;
+    margin-top: 0;
+  }
+  .ms-navedit-editButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
+  margin: 0;
+}
+.navbar-inverse .nav.ms-core-listMenu-horizontalBox {
+  li.static > a {
+    color: #eee;
+  }
+  .ms-navedit-editLinksText {
+    > span > .ms-metadata {
+      color: #eee;
+    }
+
+    color: #eee;
+  }
+  a.static.ms-navedit-dropNode,
+  div.ms-navedit-hiddenAppendArea {
+    color: #eee;
+  }
+}
+a.ms-storefront-selectanchor {
+  clear: both;
+  width: auto;
+  &:link,
+  &:visited {
+    clear: both;
+    width: auto;
+  }
+}
+* [class^="span"] {
+  .ms-webpart-zone,
+  .ms-webpart-cell-vertical,
+  .ms-webpart-chrome-vertical {
+    display: block;
+  }
+  .ms-WPBody > table {
+    display: block;
+    width: 100%;
+    > tbody {
+      display: block;
+      width: 100%;
+      > tr {
+        display: block;
+        width: 100%;
+        > td {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+.ms-SPZone {
+  &.ms-webpart-zone {
+    padding: 5px;
+  }
+  > {
+    .s4-wpcell,
+    .s4-wpcell-plain {
+      padding: 5px 5px 10px;
+    }
+  }
+}
+.ms-rtestate-write > .ms-rte-wpbox > div > {
+  .s4-wpcell,
+  .s4-wpcell-plain {
+    padding: 5px 5px 10px;
+  }
+}
+.ms-ToolPaneBody {
+  select,
+  textarea {
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+    line-height: 20px;
+  }
+  input {
+    &[type="text"],
+    &[type="password"],
+    &[type="datetime"],
+    &[type="datetime-local"],
+    &[type="date"],
+    &[type="month"],
+    &[type="time"],
+    &[type="week"],
+    &[type="number"],
+    &[type="email"],
+    &[type="url"],
+    &[type="search"],
+    &[type="tel"],
+    &[type="color"] {
+      margin-bottom: 0;
+      width: auto;
+      height: auto;
+      line-height: 20px;
+    }
+  }
+  .uneditable-input {
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+    line-height: 20px;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+.ms-fullscreenmode #mainbody {
+  margin-left: 0;
+  width: 100%;
+}
+h3.ms-standardheader {
+  line-height: 20px;
+}
+
+@media (max-width: 979px) {
+  .ms-core-listMenu-horizontalBox {
+    ul,
+    li,
+    .ms-core-listMenu-item,
+    > ul > li > table {
+      display: block;
+    }
+    .ms-core-listMenu-horizontalBox .dynamic .dynamic-children.additional-background {
+      background-image: url("/_layouts/15/images/menu-down.gif?rev=23");
+    }
+    .nav.ms-core-listMenu-horizontalBox li.dynamic > a {
+      border: medium none;
+      color: #777;
+      float: none;
+      margin: 0;
+      padding: 10px 15px;
+      text-decoration: none;
+      &:hover {
+        background-color: #111;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125) inset;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+    .ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
+      width: 90%;
+      padding-right: 5%;
+      margin-right: 5%;
+      display: block;
+    }
+  }
+}

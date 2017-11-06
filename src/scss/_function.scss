@@ -1,0 +1,29 @@
+/* ============================================================================
+		Function :: Start
+============================================================================ */
+//
+// in dieser Datei stehen nur Funktionen, KEINE (css-)Klassen.
+//
+// Funktionen werden wie folgt aufgerufen: @extend %formHeader
+// an dieser stelle wird dann der code eingefuegt
+//
+%formHeader {
+  font-size: $font-size-base;
+  color: $green;
+  text-transform: uppercase;
+}
+
+//
+%defaultFontStyle {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+}
+
+// transformation
+@mixin transform($transformation) {
+  -moz-transform: $transformation;
+  -ms-transform: $transformation;
+  -o-transform: $transformation;
+  -webkit-transform: $transformation;
+  transform: $transformation;
+}

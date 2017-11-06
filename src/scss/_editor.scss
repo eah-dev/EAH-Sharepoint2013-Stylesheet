@@ -1,0 +1,46 @@
+/* ============================================================================
+		editor  :: Start
+============================================================================ */
+
+// editor
+.editor-upload-section {
+  margin: -36px auto 0;
+  padding: 0 2% 2px;
+}
+.editor .row {
+  padding-bottom: 20px;
+}
+.editor-container {
+  .editor > div:first-child {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  border: 1px solid #ccc;
+  margin: 0 5px 10px;
+}
+.editor-field {
+  .dropdown ul {
+    height: 300px;
+    overflow-y: auto;
+    width: 350px;
+    li {
+      float: left;
+      width: 30px;
+      a {
+        width: 20px;
+        padding: 3px;
+        margin: 0 10px;
+      }
+    }
+  }
+  .dropdown-menu > li > a {
+    &.selected,
+    &:focus,
+    &:hover {
+      color: $gray-darker;
+      text-decoration: none;
+      background-color: rgb(92, 184, 92);
+    }
+  }
+}

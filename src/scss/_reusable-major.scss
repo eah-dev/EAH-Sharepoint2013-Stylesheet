@@ -1,0 +1,199 @@
+/* ============================================================================
+		Reusable major Elements  :: Start
+============================================================================ */
+
+/*
+* SECTION: Elemente die es nur auf der Startseite gibt
+*/
+/// Startseite: wrapper fuer interRestGroup
+///
+/// Schnell-Einstieg fuer: Schueler, Studieninteressierte, Studierende, Alumni, Unternehmen, Mitarbeiter
+/// @author Carsten Hoelbing
+.major-interRestGroup-wrapper {
+  text-align: center;
+  margin-top: -37px;
+  height: 354px;
+  box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+  // rand nur wenn mindestens (>=) sm
+  @media screen and (min-width: $screen-sm-min) {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    height: 236px;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    height: 118px;
+  }
+  .major-interRestGroup {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background-color: $white;
+    position: relative;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    a {
+      vertical-align: middle;
+      text-align: center;
+      font-size: $font-size-large;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    .major-interRestGroup-img {
+      margin-left: auto;
+      margin-right: auto;
+      color: $gray;
+    }
+    .major-interRestGroup-text {
+      padding-top: 10px;
+      vertical-align: middle;
+      text-align: center;
+      color: $gray;
+    }
+    &:hover {
+      background-color: $green-light;
+      text-decoration: none;
+      border-top: $green;
+      border-top-style: solid;
+      border-top-width: 4px;
+      margin-top: -4px;
+    }
+  }
+}
+
+/// Startseite: wrapper fuer NewsInfo
+///
+/// Aktuelles, Veranstaltungen
+/// @author Lansco
+.major-NewsInfo-wrapper {
+  .major-news-wrapper,
+  .major-infos-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: $white;
+    .header-title {
+      padding-bottom: 10px;
+      .title {
+        border-bottom: 4px solid $green;
+        font-size: $font-size-large;
+        padding-bottom: 10px;
+      }
+    }
+    .body {
+      border-top: 2px solid $green;
+      padding: 10px 0;
+      height: 125px;
+      div[class^="major-news-items"],
+      div[class^="major-infos-items"] {
+        display: none;
+      }
+      .major-news-body-title,
+      .major-infos-body-title {
+        font-weight: 600;
+      }
+      .major-news-body-content,
+      .major-infos-body-content {
+        @media screen and (max-width: $screen-sm) {
+          overflow-y: auto;
+          width: 100%;
+          height: 75px;
+        }
+      }
+    }
+    .major-counter {
+      width: 100%;
+      padding-bottom: 10px;
+      position: relative;
+      div[class^="major-count-block"] {
+        display: inline-block;
+        position: relative;
+        width: 30px;
+        margin-right: 10px;
+        height: 1.5px;
+        background-color: white;
+        &.active {
+          background: $blue-dark;
+        }
+      }
+    }
+  }
+  .major-news-wrapper {
+    padding-right: 0;
+    padding-left: 20px;
+    border: 0;
+
+    @media screen and (min-width: $screen-sm-max) {
+      border-right: 2px solid $white;
+    }
+
+    @media screen and (min-width: $screen-md-max) {
+      padding-left: 0;
+      padding-right: 20px;
+    }
+  }
+  .major-infos-wrapper {
+    padding-left: 20px;
+    border: 0;
+
+    @media screen and (min-width: $screen-sm-max) {
+      border-left: 2px solid $white;
+    }
+  }
+}
+
+/// Startseite: wrapper fuer ResearchDevelop-Header
+///
+/// Forschung und Entwicklung - Ueberschrift mit border bottom
+/// @author Carsten Hoelbing
+.major-ResearchDevelop-Header-wrapper {
+  width: 100%;
+  border-bottom: 2px solid $green;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .title {
+    border-bottom: 4px solid $green;
+    padding-bottom: 10px;
+    font-size: $font-size-large;
+    font-family: $font-family-roboto;
+  }
+}
+/// Startseite: wrapper fuer ResearchDevelop
+///
+/// Forschung und Entwicklung - Inhalt
+/// @author Carsten Hoelbing
+.major-ResearchDevelop-wrapper {
+  text-align: center;
+  padding-top: 20px;
+  > div {
+    padding-bottom: 20px;
+  }
+  .major-ResearchDevelop-logo {
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    //color: $blue;
+    color: $black;
+    width: 70px;
+    height: 70px;
+    background-color: $bg-color-gray;
+    border-radius: 50%;
+    text-align: center;
+    img {
+      width: 45px;
+      height: 45px;
+      margin-left: 5px;
+    }
+  }
+  .title {
+    padding-top: 15px;
+    font-size: $font-size-large;
+    font-family: $font-family-robotoLight;
+  }
+  .description {
+    padding: 15px 0;
+  }
+}

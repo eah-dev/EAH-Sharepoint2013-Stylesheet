@@ -1,0 +1,37 @@
+{
+  "name": "EAH-Sharepoint2013-Stylesheet",
+  "version": "1.0.0",
+  "description": "Dies ist das Stylesheet (Sass) für das aktuelle Sharepoint-2013-Template der Ernst Abbe Hochschule Jena.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp prod",
+    "dist": "gulp prod"
+  },
+  "author": "Carsten Hoelbing",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-colorpicker": "latest",
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "roboto-fontface": "^0.7.0",
+    "jquery": "^1.12.4",
+    "ionicons": "^2.0.1",
+    "sassdoc": "^2.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "node-sass": "4.5.3",
+    "require-dir": "^0.3.2",
+    "gulp": "^3.9.1",
+    "gulp-minify": "^1.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-spsave": "^3.1.0",
+    "gulp-stylelint": "^4.0.0",
+    "stylelint": "^8.1.1",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-scss": "^1.5.2"
+  }
+}

@@ -1,0 +1,137 @@
+/* ============================================================================
+		Sharepoint 2013 Vorlagen  :: Start
+============================================================================ */
+
+// Vorlagen - Bilder
+
+// neu, fuer Responsive image
+.ms-rteImage-Responsive {
+  -ms-name: "Bild Responsive";
+  display: block !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+}
+
+/*
+.ms-rteImage-wideScreen {
+    -ms-name: "Bild volle Breite";
+    display: block !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+}
+*/
+
+// Vorlagen - Tabellen
+
+// neu, fuer Responsive table
+.ms-rteTable-Responsive {
+  -ms-name: "Tabelle Responsive";
+  min-height: 0.01% !important;
+  vertical-align: top;
+  .ms-rteTableEvenRow-Responsive {
+    background-color: $bg-color-gray;
+    &:first-child {
+      background-color: $bg-color-blue;
+      color: $white;
+      font-weight: bold;
+
+      @extend td; // gleiche eigenschaft wie bei td
+    }
+  }
+  td {
+    padding: 5px;
+    border: 1px solid $table-border-color;
+    white-space: pre;
+  }
+}
+// Moeglichkeiten der Anpassung fuer eine Tabelle
+
+/*
+.ms-rteTable-XXXXX
+.ms-rteTableHeaderRow-XXXXX
+.ms-rteTableHeaderFirstCol-XXXXX
+.ms-rteTableHeaderLastCol-XXXXX
+.ms-rteTableHeaderOddCol-XXXXX
+.ms-rteTableHeaderEvenCol-XXXXX
+.ms-rteTableOddRow-XXXXX
+.ms-rteTableEvenRow-XXXXX
+.ms-rteTableFirstCol-XXXXX
+.ms-rteTableLastCol-XXXXX
+.ms-rteTableOddCol-XXXXX
+.ms-rteTableEvenCol-XXXXX
+.ms-rteTableFooterRow-XXXXX
+.ms-rteTableFooterFirstCol-XXXXX
+.ms-rteTableFooterLastCol-XXXXX
+.ms-rteTableFooterOddCol-XXXXX
+.ms-rteTableFooterEvenCol-XXXXX
+*/
+
+//http://www.learningsharepoint.com/2012/08/12/sharepoint-2013-top-links-name-id-and-how-to-hide-them/
+#RibbonContainer-TabRowRight,
+.ms-core-suiteLinkList {
+  display: none !important;
+}
+
+// Hide Fonts-Box from the Ribbon
+// http://blog.sharepointexperience.com/2014/06/hide-from-sharepoint-ribbon/
+
+//
+// Font  Block
+//
+
+// Font face and size
+#Ribbon\.EditingTools\.CPEditTab\.Font-Large-0-0,
+// Highlight
+#Ribbon\.EditingTools\.CPEditTab\.Font\.FontBackgroundColor-Small,
+//Font color
+#Ribbon\.EditingTools\.CPEditTab\.Font\.FontColor-Small {
+  display: none;
+}
+
+//
+// Paragraph Block
+//
+
+// Left to right
+#Ribbon\.EditingTools\.CPEditTab\.Paragraph\.LTR-Small,
+// Right to left
+#Ribbon\.EditingTools\.CPEditTab\.Paragraph\.RTL-Small,
+// Outdent and indent
+#Ribbon\.EditingTools\.CPEditTab\.Paragraph-Large-0-0-1,
+// Outdent
+#Ribbon\.EditingTools\.CPEditTab\.Paragraph\.Outdent-Small,
+// Indent
+#Ribbon\.EditingTools\.CPEditTab\.Paragraph\.Indent-Small {
+  display: none;
+}
+
+//
+// Paragraph Block
+//
+
+// Heading Alternate (All)
+#Ribbon\.EditingTools\.CPEditTab\.Paragraph\.ElementWithStyle\.Menu\.Styles\.Gallery tr + tr,
+// Quote (browser support):
+#Ribbon\.EditingTools\.CPEditTab\.Styles\.Styles\.Menu\.Styles tr:first-child td:nth-child(2),
+// Intense Quote (browser support):
+#Ribbon\.EditingTools\.CPEditTab\.Styles\.Styles\.Menu\.Styles tr:first-child td:nth-child(3),
+// Emphasis (browser support):
+#Ribbon\.EditingTools\.CPEditTab\.Styles\.Styles\.Menu\.Styles tr:first-child td:nth-child(4),
+// Intense Emphasis (browser support):
+#Ribbon\.EditingTools\.CPEditTab\.Styles\.Styles\.Menu\.Styles tr:first-child td:nth-child(5),
+// Text Styles 2nd Row (browser support):
+#Ribbon\.EditingTools\.CPEditTab\.Styles\.Styles\.Menu\.Styles tr:nth-child(2),
+// Reference:
+#Ribbon\.EditingTools\.CPEditTab\.Styles\.Styles\.Menu\.Styles tr:nth-child(2) td:first-child,
+// Intense Reference (browser support):
+#Ribbon\.EditingTools\.CPEditTab\.Styles\.Styles\.Menu\.Styles tr:nth-child(2) td:nth-child(2),
+// Accent 1 (browser support):
+#Ribbon\.EditingTools\.CPEditTab\.Styles\.Styles\.Menu\.Styles tr:nth-child(2) td:nth-child(3),
+// Accent 2 (browser support):
+#Ribbon\.EditingTools\.CPEditTab\.Styles\.Styles\.Menu\.Styles tr:nth-child(2) td:nth-child(4) {
+  display: none;
+}

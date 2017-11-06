@@ -1,0 +1,224 @@
+/* ============================================================================
+		carousel :: Start
+============================================================================ */
+//$carousel-font-color:           #75818f;
+$carousel-font-headline-size:   22px;
+$carousel-font-headline-family:  "Roboto-Medium";
+$carousel-font-subheadline-size:      15px;
+$carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-serif;
+
+/*
+.carousel-caption h2 {				//Titel des Carousels
+  color: $white;
+}
+*/
+.carousel-placeholder button {
+  cursor: pointer;
+}
+
+/*
+.carousel-control {
+  &:focus, &:hover {
+    opacity: 0.9;
+  }
+} */
+.carousel-nav-container {
+  ul.list-group {
+    box-shadow: none;
+    li {
+      border: 1px solid $gray-light;
+      border-bottom-width: 0;
+      background-color: transparent;
+      h4 {
+        color: #303030;
+      }
+      &:last-child {
+        border: 1px solid $gray-light;
+        border-bottom-width: 1px;
+      }
+      &.active {
+        h4 {
+          color: $white !important;
+        }
+      }
+    }
+    li.list-group-item.active {
+      background: none;
+      background-color: $green !important;
+      h4 {
+        color: $white;
+      }
+    }
+  }
+  .list-group-item.active {
+    border-color: $gray-light;
+    &:focus,
+    &:hover {
+      border-color: $gray-light;
+    }
+  }
+}
+#carousel-home {
+  &.carousel {
+    height: 640px;
+
+    // Verschiedene Viewport - Ansichten
+    @media screen and (max-width: 1555px) {
+      height: 540px;
+    }
+
+    @media screen and (max-width: $screen-md) {
+      height: 440px;
+    }
+
+    @media screen and (max-width: $screen-sm) {
+      height: 340px;
+    }
+
+    @media screen and (max-width: $screen-xs) {
+      height: 240px;
+    }
+
+    @media screen and (max-width: 350px) {
+      height: 140px;
+    }
+  }
+  .item,
+  .carousel-inner {
+    height: 100%;
+  }
+
+  // Bestimmt die Groesse des Inhaltes des Carousels
+  .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  .carousel-indicators {
+    z-index: 2;
+    //bottom: -5px;
+    margin-left: -30% !important;
+    li {
+      margin: 0 9px !important;
+      width: 30px !important;
+      height: 2px !important;
+    }
+    .active {
+      border: 1px solid $btn-color-blue;
+    }
+  }
+
+  //Beschreibungsleiste im Carousel
+  .carousel-caption {
+    z-index: 1;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: $font-size-small;
+    left: 0;
+    right: 0;
+    a:hover,
+    a:active {
+      text-decoration: none;
+    }
+
+    @include transition(all 0.5s linear 0s);
+    @include container-fixed;
+
+    @media (min-width: $screen-sm-min) {
+      width: $container-sm - $grid-gutter-width;
+    }
+
+    @media (min-width: $screen-md-min) {
+      width: $container-md - $grid-gutter-width;
+    }
+
+    @media (min-width: $screen-lg-min) {
+      width: $container-lg - $grid-gutter-width;
+    }
+
+    // blur efekt
+    background-color: $eah-overlay-50;
+
+    // headline
+    h2 {
+      font-size: $carousel-font-headline-size;
+      font-family: $carousel-font-headline-family;
+      margin: 0 0 10px;
+      color: $white !important;
+      text-align: left;
+    }
+
+    // subheadline
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: $carousel-font-subheadline-size;
+      font-family: $carousel-font-subheadline-family;
+      text-align: left;
+      color: $white !important;
+    }
+    .btn {
+      margin-top: 20px;
+    }
+  }
+
+  // sollen nicht mehr sichtbar sein
+  .carousel-control {
+    display: none;
+  }
+}
+
+/* -- Slider with Nav -- */
+#home-slide-content-carousel {
+  height: 388px;
+  a {
+    color: $green;
+  }
+  .list-group .active {
+    background-color: $green;
+  }
+  .carousel-inner {
+    height: 100%;
+  }
+  .item {
+    height: 100%;
+    .fill {
+      background-size: cover;
+      height: 100%;
+    }
+  }
+  .carousel-caption h4 a {
+    color: $white;
+  }
+}
+#quote-carousel {
+  .item {
+    height: 131px;
+    max-height: 131px;
+  }
+
+  /*
+  // veraltet
+  .carousel-control {
+    .glyphicon-chevron-left,
+    .glyphicon-chevron-right {
+      font-size: $font-size-smaller;
+      width: auto;
+      height: auto;
+      margin: 0;
+      top: 50%;
+      left: 50%;
+      right: 0;
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  }
+  */
+}

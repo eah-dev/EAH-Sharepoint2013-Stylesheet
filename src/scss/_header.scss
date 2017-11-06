@@ -1,0 +1,253 @@
+/* ============================================================================
+		Header :: Start
+============================================================================ */
+// ribbonBox
+#ribbonBox {
+  ul,
+  li,
+  p,
+  span {
+    font-size: 12px;
+  }
+}
+//-- Ribbon --
+#s4-ribbonrow [class*="span"] {
+  float: none;
+  margin-left: 0;
+  line-height: 1em;
+}
+[id*='RibbonTrimmedControl'] {
+  // @extend #s4-workspace;
+}
+#s4-ribbonrow * {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  &::before,
+  &::after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+}
+//
+#area-header {
+  background: $green;
+  .brand img {
+    width: 200px;
+    margin: 30px 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+  }
+  .ms-siteicon-a {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .search-form {
+    margin-top: 35px;
+  }
+}
+
+// -- Suitebar --
+// ist die oberste Leist welche angezeigt wird wenn man sich angemeldet hat
+#suiteBar {
+  height: 30px;
+  .suitbarLogoText {
+    padding-left: 5px;
+  }
+}
+#suiteBar * {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  &::before,
+  &::after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+}
+#suiteBarLeft {
+  background-color: #08c;
+}
+//-- Greenbar on the top --
+.global-header-bar {
+  height: 35px;
+  background-color: $green;
+  margin-bottom: 70px;
+  > div {
+    //
+  }
+  .global-header-menu {
+    height: 100px;
+
+    /* EAH Logo */
+    .eah-logo {
+      display: block;
+      height: 101px;
+      a img {
+        width: 280px;
+      }
+    }
+  }
+}
+.eah-accentbar {
+  //
+}
+
+$LanguageSelector-font-color: $gray-lighter;
+.eah-language-menu {
+  padding-top: 7px;
+  color: $white;
+  a {
+    color: $white !important;
+  }
+}
+.eah-language-selector {
+  top: 0;
+  font-family: $font-family-base;
+  font-size: 17px;
+  #eah-language-selector-label {
+    padding: 8px 20px;
+  }
+  > a {
+    color: $LanguageSelector-font-color;
+    font-size: 14px;
+    outline: 0;
+    border: 0;
+    &:hover,
+    &:active,
+    &:focus,
+    &.active {
+      @extend a;
+
+      box-shadow: none;
+      padding: 6px 12px;
+      color: $LanguageSelector-font-color;
+    }
+  }
+  .dropdown-menu {
+    border: 0 !important;
+    background-color: $bg-color-blue;
+    border-radius: 0 !important;
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    li {
+      a {
+        color: $LanguageSelector-font-color;
+      }
+      .selected::after {
+        font-family: $font-family-fontAwesome;
+        content: '\f058';
+        padding-left: 10px;
+      }
+    }
+  }
+  .dropdown-menu > li > a:hover {
+    color: $LanguageSelector-font-color !important;
+    text-decoration: none;
+    background: $green !important;
+  }
+}
+.header-search-icon {
+  padding-top: 7px;
+  margin-right: 5px;
+  color: $white;
+  font-size: $font-size-base;
+  cursor: pointer;
+  &:hover {
+    padding-top: 2px;
+    font-size: 20px;
+  }
+}
+.header {
+  margin-top: 10px;
+}
+.headtitle {
+  margin-left: 10px;
+}
+// ID showGlobalSideMainMenu
+#showGlobalSideMainMenu {
+  width: 50px;
+  height: 35px;
+  padding: 8px;
+  font-size: 14px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    font-size: 17px;
+  }
+
+  box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+  background-color: $bg-color-blue;
+  color: $white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $font-family-base;
+  cursor: pointer;
+  i {
+    color: $white;
+    // padding-right: 5px;
+  }
+  &:hover {
+    color: $LanguageSelector-font-color;
+    i {
+      color: $LanguageSelector-font-color;
+    }
+  }
+}
+#pageTitle {
+  margin: 0 0 5px;
+  font-size: 2em;
+}
+#f {
+  padding-bottom: 15px;
+  text-align: center;
+  // search box
+  .ms-srch-sb-border,
+  .ms-srch-sb-borderFocused {
+    font-size: $font-size-h3;
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid $search-form-color;
+    &:active,
+    &:hover,
+    &:focus {
+      border: none;
+      border-bottom: 2px solid $search-form-color;
+    }
+    a,
+    i {
+      font-size: $font-size-h3;
+    }
+  }
+  .ms-srch-sb {
+    > input,
+    > input:active {
+      width: 80%;
+      color: $search-form-color;
+      padding: 0;
+      margin: 0;
+      height: $font-size-h3;
+      line-height: $font-size-h3;
+    }
+    > .ms-srch-sb-searchLink {
+      height: 33px;
+      width: 33px;
+      float: right;
+      color: $search-form-color;
+      .ms-srch-sb-searchImg {
+        display: none;
+      }
+      &::after {
+        content: '\f002';
+        font-family: $font-family-fontAwesome;
+        color: $search-form-color;
+        text-align: center center;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+/* ============================================================================
+		Panel  :: Start
+============================================================================ */
+/// Hauptklasse fuer ein Panel
+///
+/// Werte fuer die Farben: panel-green, panel-white, panel-blue, panel-gray
+/// @example markup - HTML-Aufbau des Panels; Hinweis: 'panel-color' durch eine Farbe ersetzen
+///      <div class="panel panel-default">
+///         <div class="panel-heading panel-collapsed">
+///            <span class="panel-title">Panel gray</span><span class="pull-right clickable"><i class="fa fa-angle-down"></i></span>
+///        </div>
+///        <div class="panel-body" style="display: none;">
+///          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing eli
+///        </div>
+///      </div>
+/// @author Carsten Hoelbing
+.panel {
+  .panel-heading {
+    // ueberschrift
+    .panel-title {
+      //
+    }
+    .clickable {
+      cursor: pointer;
+    }
+  }
+  // hier steht der text
+  .panel-body {
+    //
+  }
+  .panel-footer {
+    //
+  }
+  .panel-collapse {
+    .panel-body {
+      // abstaende auf 0 setzten
+      ul,
+      p {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+// Panel Farbe - blue [default color]
+.panel-blue,
+.panel-default {
+  @include panel-variant($bg-color-blue, $white, $bg-color-blue, $bg-color-blue);
+}
+
+// Panel Farbe - green
+.panel-green {
+  @include panel-variant($bg-color-green, $white, $bg-color-green, $bg-color-green);
+}
+
+// Panel Farbe - gray
+.panel-gray {
+  @include panel-variant($bg-color-gray, $black, $bg-color-gray, $bg-color-gray);
+}
+
+// Panel Farbe - white
+.panel-white {
+  @include panel-variant($bg-color-white, $black, $bg-color-white, $bg-color-white);
+}

@@ -1,0 +1,95 @@
+/* ============================================================================
+		utilities  :: Start
+============================================================================ */
+
+/// element ausblenden
+.hidden {
+  display: none;
+}
+/// abstand (padding und margin, !important) auf null setzten
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/// abstand (nur padding, !important) auf null setzten
+.no-padding-o {
+  padding: 0 !important;
+}
+
+// loader
+.loader {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  font-size: $font-size-h2;
+}
+
+/*
+// fa-external-link
+// http://fontawesome.io/icon/external-link/
+.caret {
+  margin-top: -3px;
+  content: '\f08e';
+  font-family: $font-family-fontAwesome;
+  position: absolute;
+}
+*/
+.spinning {
+  -moz-animation: spin 1s infinite linear;
+  -o-animation: spin 1s infinite linear;
+  -webkit-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
+}
+/// Hintergrund-Farbe - Gruen
+/// @example markup
+/// <span class="background-green">TEXT mit Hintergrundfarbe</span>
+.background-green {
+  background-color: $bg-color-green;
+}
+/// Hintergrund-Farbe - white
+/// @example markup
+/// <span class="background-white">TEXT mit Hintergrundfarbe</span>
+.background-white {
+  background-color: $bg-color-white;
+}
+/// Hintergrund-Farbe - blue
+/// @example markup
+/// <span class="background-blue">TEXT mit Hintergrundfarbe</span>
+.background-blue {
+  background-color: $bg-color-blue;
+}
+/// Hintergrund-Farbe - grau
+/// @example markup
+/// <span class="background-gray">TEXT mit Hintergrundfarbe</span>
+.background-gray {
+  background-color: $bg-color-gray;
+}
+
+/// Text-Farbe - Gruen
+/// @example markup
+/// <span class="text-color-green">TEXT</span>
+.text-color-green {
+  color: $bg-color-green;
+}
+/// Text-Farbe - Weiss
+/// @example markup
+/// <span class="text-color-white">TEXT</span>
+.text-color-white {
+  color: $bg-color-white;
+}
+/// Text-Farbe - Blau
+/// @example markup
+/// <span class="text-color-blue">TEXT</span>
+.text-color-blue {
+  color: $bg-color-blue;
+}
+/// Text-Farbe - Grau
+/// @example markup
+/// <span class="text-color-gray">TEXT</span>
+.text-color-gray {
+  color: $bg-color-gray;
+}
+

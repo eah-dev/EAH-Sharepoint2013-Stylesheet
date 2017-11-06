@@ -1,0 +1,48 @@
+/* ============================================================================
+		dropdown-menu :: Start
+============================================================================ */
+
+/* Mega Flyout */
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+  padding: 20px 0;
+  width: 100%;
+  box-shadow: none;
+  .dropdown-header {
+    font-size: $font-size-large;
+    color: $gray-dark;
+    padding: 5px 60px 5px 0;
+    line-height: 30px;
+    white-space: normal;
+  }
+  .divider {
+    margin: 12px 9px 0 0;
+  }
+  li {
+    word-break: normal;
+    word-wrap: normal;
+  }
+  > li {
+    > ul {
+      padding: 0;
+      margin: 0;
+      > li {
+        list-style: none;
+        > a {
+          display: block;
+          color: $gray-dark;
+          padding: 3px 5px;
+        }
+      }
+    }
+    ul > li > a {
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        color: $gray-dark;
+      }
+    }
+  }
+}

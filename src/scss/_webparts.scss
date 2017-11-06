@@ -1,0 +1,236 @@
+/* ============================================================================
+		webparts  :: Start
+============================================================================ */
+// page-content
+#page-content header {
+  height: 60%;
+  .ms-webpart-cell-vertical {
+    display: block;
+    width: 100%;
+  }
+  .ms-webpart-zone,
+  .ms-webpart-chrome,
+  .s4-wpcell-plain.ms-webpartzone-cell {
+    display: block;
+    height: 100%;
+  }
+  .ms-WPBody:not(.editor) {
+    display: block;
+    height: 100%;
+    > div {
+      display: block;
+      height: 100%;
+      > div {
+        display: block;
+        height: 100%;
+      }
+    }
+  }
+}
+#topnavwebpart {
+  display: block;
+  .ms-WPAddButton {
+    display: none !important;
+  }
+}
+// -- Google Maps --
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+// -- Style for forms like feedback-form, contact-form
+.studiefilter-wrapper {
+  .studiefilter-header-wrapper {
+    .header-title {
+      text-align: center;
+      font-size: $font-size-h2;
+      padding-bottom: 10px;
+    }
+  }
+  .studiefilter-main-wrapper {
+    margin-top: 30px;
+    .filter-area {
+      display: inline-block;
+      width: 100%;
+      padding: 20px;
+    }
+    .filter {
+      height: 170px;
+    }
+    .filter-title {
+      text-align: center;
+      font-size: $font-size-h3;
+      padding-bottom: 20px;
+      font-weight: 600;
+    }
+    .button-section {
+      width: 100%;
+      margin: 30px 0 60px;
+    }
+    .btn-center-wrapper {
+      padding-bottom: 10px;
+    }
+    .checkbox {
+      line-height: 20px;
+      font-size: 16px;
+    }
+    .filter-area-section-title {
+      font-size: $font-size-large;
+      padding-top: 10px;
+      font-weight: 600;
+      padding-bottom: 3px;
+      .spantitle {
+        padding-bottom: 2px;
+      }
+    }
+  }
+  .studiefilter-information {
+    margin: 20px 0 0;
+    font-size: $font-size-base;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+}
+
+// einstellungen fuer die farben
+.studiefilter-color {
+  .studiefilter-header-color {
+    .studiefilter-title-wrapper {
+      h2 {
+        color: $bg-color-blue;
+      }
+    }
+  }
+  .studiefilter-main-color {
+    background-color: $bg-color-blue;
+    .header-title {
+      color: $green;
+    }
+    .filter-area {
+      color: $white;
+    }
+    .filter-area-section-title {
+      color: $white;
+      border-bottom: 1px solid $green;
+    }
+    .spantitle {
+      border-bottom: 1px solid $green;
+    }
+  }
+}
+#studiefilter-tiles-wrapper {
+  .eah-major-tile {
+    &:visited,
+    &:active,
+    &:hover {
+      text-decoration: none;
+    }
+    .eah-major-header {
+      margin-top: 40px;
+      min-height: 70px;
+      text-align: right;
+      .faculty-icon {
+        width: 40px;
+        height: 40px;
+      }
+      .studiefilter-tile-Studiengang-title {
+        margin: 0 !important;
+        font-size: $font-size-h5;
+        font-family: $font-family-sans-serif;
+        font-weight: 600;
+        a {
+          color: $bg-color-blue;
+        }
+      }
+    }
+    .eah-major-body {
+      padding-bottom: 40px;
+      border-bottom: 1px solid $gray-light;
+      .eah-major-body-pic {
+        width: 100%;
+      }
+      .eah-major-info {
+        color: $black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: $font-size-h5;
+      }
+    }
+  }
+}
+.studiefilter-tiles-color {
+  color: $black;
+}
+
+// Seite - Veranstaltungen
+#WebPartWPQ3 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 7px;
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: $container-md - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg - $grid-gutter-width;
+  }
+}
+// Seite - Changelog/Verbesserungen
+#WebPartWPQ2 {
+  /*  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 7px;
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: $container-md - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg - $grid-gutter-width;
+  }
+
+  // cbq-layout-main
+  .cbq-layout-main {
+    .dfwp-item {
+      .item {
+        padding: 0;
+      }
+      .eah-event-title-de {
+        font-size: $font-size-h4;
+      }
+      .eah-event-title-en {
+        //
+      }
+      .eah-event-description {
+        padding: 7px 0;
+        font-size: $font-size-base;
+      }
+      .eah-event-eventdate {
+        .eah-event-date {
+          padding-right: 5px;
+        }
+        .eah-event-time {
+          //
+        }
+      }
+    }
+  } */
+}

@@ -1,0 +1,26 @@
+/* ============================================================================
+		Color Picker :: Start
+============================================================================ */
+.colorpicker-2x {
+  .colorpicker-saturation {
+    width: 200px;
+    height: 200px;
+  }
+  .colorpicker-hue,
+  .colorpicker-alpha {
+    width: 30px;
+    height: 200px;
+  }
+  .colorpicker-color {
+    height: 30px;
+    div {
+      height: 30px;
+    }
+  }
+}
+.row.color-picker {
+  display: block;
+}
+#eah-jena-section-color-picker .input-group-addon {
+  padding-left: 22px;
+}

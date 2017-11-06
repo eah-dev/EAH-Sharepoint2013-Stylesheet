@@ -1,0 +1,39 @@
+/* ============================================================================
+		default html tags  :: Start
+============================================================================ */
+
+// Body text
+// -------------------------
+body {
+  height: 100%;
+  background-color: $white;
+  font-size: $font-size-base !important;
+}
+
+// Links
+// -------------------------
+a {
+  color: $green;
+  &:link,
+  &:visited {
+    color: $green;
+  }
+  &:hover,
+  &:focus {
+    color: $green;
+    text-decoration: none;
+  }
+  &:active {
+    color: $green;
+    text-decoration: none;
+  }
+}
+
+// Emphasis & misc
+// -------------------------
+html {
+  height: 100%;
+}
+textarea {
+  resize: vertical;
+}

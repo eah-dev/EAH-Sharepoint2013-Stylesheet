@@ -1,0 +1,73 @@
+/* ============================================================================
+		style  :: Start
+============================================================================ */
+
+//-- Additional style for font --
+#s4-bodyContainer {
+  padding: 0;
+  height: 100%;
+  > .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+#s4-workspace {
+  position: relative;
+}
+#DeltaPlaceHolderMain {
+  height: 100%;
+}
+
+// login link auf startseite ausblenden
+.ms-signInLink {
+  display: none !important;
+}
+
+/* ============================================================================
+		Homesite MainContent :: Start
+============================================================================ */
+.ms-WPBody.editor {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+}
+#topnavwebpart,
+.carousel-placeholder,
+.content-placeholder,
+.row.color-picker,
+.eah-jena-section-color,
+.row.section-title {
+  display: none;
+}
+
+// masthead
+.masthead {
+  background-color: $green;
+}
+// headtitle
+.headtitle * {
+  color: #fff !important;
+}
+
+/*
+// eah-homeNode
+.eah-homeNode {
+  @include mediaQuery(0, 500px) {
+    position: relative;
+    left: 0 !important;
+    top: 0 !important;
+  }
+  > i {
+    font-size: 30px;
+
+    @include mediaQuery(0,500px) {
+      margin-top: -5px;
+    }
+  }
+} */
+//
+[id*='RichHtmlField_displayContent'] {
+  border: 1px solid $white;
+  padding: 15px 10px;
+}
+

@@ -1,0 +1,39 @@
+/* ============================================================================
+		Forms :: Start
+============================================================================ */
+
+// Styling for the forms
+.eah-form-wrapper {
+  display: inline-block;
+  width: 100%;
+  background-color: $gray-lighter;
+  padding-top: 50px;
+  .eah-form {
+    .loader {
+      background-color: $gray-lighter;
+    }
+    h3.form-header {
+      font-size: $font-size-h3;
+      color: $green;
+      text-align: center;
+    }
+    label,
+    .eah-jena-sendform {
+      @extend %formHeader;
+    }
+    .panel-eah {
+      border: none;
+      background-color: $gray-lighter;
+      box-shadow: none;
+      .panel-heading {
+        background-color: transparent;
+        color: $green;
+      }
+    }
+    .form-group {
+      &.button {
+        text-align: center;
+      }
+    }
+  }
+}

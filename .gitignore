@@ -1,0 +1,45 @@
+# compiled output
+/tmp
+/build
+/test/_catalogs/masterpage/layouts/eah-jena/css
+/test/_catalogs/masterpage/layouts/eah-jena/assets
+/test/_catalogs/masterpage/layouts/eah-jena/js
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+*.css.map
+/connect.lock
+/coverage
+/libpeerconnection.log
+/typings
+npm-debug.log
+testem.log
+package-lock.json
+# spsave-settings.js
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
