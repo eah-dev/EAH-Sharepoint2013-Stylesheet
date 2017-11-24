@@ -2,16 +2,29 @@
 		Faculties :: Start
 ============================================================================ */
 // Farben der Fachbereiche
-$faculties-color-bw: #ffcd55;
-$faculties-color-et: #ce5757;
-$faculties-color-gl: #3f7dc9;
-$faculties-color-mb: #9a9f9f;
-$faculties-color-mt: #69c771;
-$faculties-color-gp: #c775cc;
-$faculties-color-sc: #0fafb5;
-$faculties-color-sw: #e65c49;
-$faculties-color-wi: #027981;
+$faculties-color-bw: rgba(222, 154, 39, 1);
+$faculties-color-bw-overlay: rgba(222, 154, 39, 0.5);
+$faculties-color-et: rgba(160, 49, 57, 1);
+$faculties-color-et-overlay: rgba(160, 49, 57, 0.5);
+$faculties-color-gp: rgba(128, 33, 126, 1);
+$faculties-color-gp-overlay: rgba(128, 33, 126, 0.5);
+$faculties-color-gl: rgba(44, 59, 89, 1);
+$faculties-color-gl-overlay: rgba(44, 59, 89, 0.5);
+$faculties-color-mb: rgba(240, 202, 32, 1);
+$faculties-color-mb-overlay: rgba(240, 202, 32, 0.5);
+$faculties-color-mt: rgba(6, 139, 3, 1);
+$faculties-color-mt-overlay: rgba(6, 139, 3, 0.5);
+$faculties-color-sc: rgba(124, 192, 231, 1);
+$faculties-color-sc-overlay: rgba(124, 192, 231, 0.5);
+$faculties-color-sw: rgba(201, 68, 44, 1);
+$faculties-color-sw-overlay: rgba(201, 68, 44, 0.5);
+$faculties-color-wi: rgba(116, 245, 1, 1);
+$faculties-color-wi-overlay: rgba(116, 245, 1, 0.5);
 
+/*
+folgende Elemente wurde mit unterschiedlichen (Fachbereichs-) Farben angepasst
+- button
+*/
 // wo das verwendet wird ?
 .faculties {
   .col-md-2 {

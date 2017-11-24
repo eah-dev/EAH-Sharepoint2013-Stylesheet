@@ -93,3 +93,11 @@
   color: $bg-color-gray;
 }
 
+// bild align-center
+.img-center-wrapper {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

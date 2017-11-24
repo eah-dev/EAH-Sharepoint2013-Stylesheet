@@ -1,0 +1,36 @@
+/* ============================================================================
+		article :: Start
+============================================================================ */
+
+/// wrapper klasse fuer ein Artikel mit Bild
+.article-wrapper {
+  .article-text {
+    .title {
+      font-size: $font-size-h2;
+    }
+    .content-text-left {
+      text-align: left;
+    }
+    .content-text-right {
+      text-align: right;
+    }
+  }
+  .article-img {
+    .img-test {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+.article-gray {
+  background: $bg-color-gray;
+  .title {
+    color: $green;
+  }
+  .content {
+    color: $black;
+  }
+}

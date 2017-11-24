@@ -1,0 +1,45 @@
+/* ============================================================================
+		blockquote :: Start
+============================================================================ */
+
+/// Zitat
+/// das meiste wird ueber die bootstrap variablen geregelt
+/// @author Carsten Hoelbing
+/// @example markup
+/// <section>
+///   <h1>Zitat gruener Hintergrund</h1>
+///   <section class="element-wrapper blockquote-gray">
+///     <div class="container">
+///       <div class="row">
+///         <div class="blockquote-wrapper">
+///           <blockquote>
+///            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+///              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+///              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+///              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+///              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+///              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+///            <footer>Donald Franz</footer>
+///          </blockquote>
+///        </div>
+///      </div>
+///    </div>
+///  </section>
+/// </section>
+.blockquote-wrapper {
+  margin-top: 30px;
+  font-family: "Roboto";
+  blockquote {
+    p {
+      font-size: $blockquote-font-size;
+    }
+    footer {
+      font-size: $font-size-base;
+    }
+  }
+}
+.blockquote-default,
+.blockquote-gray {
+  background: $gray-lighter;
+  color: $black;
+}

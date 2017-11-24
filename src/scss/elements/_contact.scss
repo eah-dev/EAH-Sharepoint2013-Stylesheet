@@ -1,0 +1,313 @@
+/* ============================================================================
+		contact :: Start
+============================================================================ */
+
+/// zwei Ansprechpartner ist dies dies wrapper-klasse
+.contacts-wrapper {
+  .title {
+    margin: 0 0 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding-bottom: 3px;
+    font-size: $font-size-h3;
+    border-bottom-style: solid;
+    border-width: 1px;
+    .spantitle {
+      padding-bottom: 6px;
+      border-bottom-style: solid;
+      border-width: 2px;
+    }
+  }
+}
+
+/// Ansprechpartner
+.contact-wrapper {
+  padding: 30px 0;
+  .title {
+    margin: 0 0 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding-bottom: 3px;
+    font-size: $font-size-h3;
+    border-bottom-style: solid;
+    border-width: 1px;
+    .spantitle {
+      padding-bottom: 6px;
+      border-bottom-style: solid;
+      border-width: 2px;
+    }
+  }
+  // der aeussere Kreis
+  .contact-picture-content {
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    border-style: solid;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    .defaulticon {
+      text-align: center;
+      color: $bg-color-blue;
+    }
+    .defaulticon::before {
+      // FontAwesome icon: "fa-users" (http://fontawesome.io/icon/users/)
+      content: '\f0c0';
+      font-family: $font-family-fontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 100px;
+      text-decoration: inherit;
+      padding-left: 5px;
+    }
+  }
+  // informationen ueber den Ansprechpartner
+  .contact-details-wrapper {
+    line-height: 1.7;
+    text-align: left;
+
+    @media screen and (max-width: $screen-md-min) {
+      text-align: center;
+    }
+    i {
+      padding-right: 5px;
+    }
+    .fa {
+      width: 20px;
+    }
+    .contact-name {
+      font-size: $font-size-large;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      //
+    }
+    .contact-workphone,
+    .contact-workfax,
+    .contact-email,
+    .contact-roomnumber,
+    .contact-servicetime {
+      //
+    }
+    a {
+      &:link,
+      &:visited,
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// only colors
+.contact-color {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $green;
+    .spantitle {
+      border-bottom-color: $green;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $green;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $green;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $green;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+.contact-white {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $green;
+    .spantitle {
+      border-bottom-color: $green;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $green;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $green;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $green;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+/// bw
+.contact-fc-bw {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $faculties-color-bw;
+    .spantitle {
+      border-bottom-color: $faculties-color-bw;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-bw;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $green;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $green;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+/// bw (inverse)
+.contact-fc-bw-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-bw;
+    .spantitle {
+      border-bottom-color: $faculties-color-bw;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-bw;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $green;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $green;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}

@@ -2,6 +2,34 @@
 		editor  :: Start
 ============================================================================ */
 
+// ist fuer die darstellung im Editor modus
+// Additional formats for contact element
+// select field for choose contact
+.contact-selector-button {
+  cursor: pointer;
+}
+.eah-select-contact {
+  color: $green;
+  padding: 5px 0;
+  margin-left: 70px;
+  a {
+    color: $green;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    &:visited,
+    &:hover {
+      color: $green;
+      text-decoration: none;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+  li {
+    padding-bottom: 15px;
+  }
+}
+
 // editor
 .editor-upload-section {
   margin: -36px auto 0;

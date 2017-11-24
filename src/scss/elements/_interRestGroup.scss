@@ -1,0 +1,416 @@
+/* ============================================================================
+		interRestGroup :: Start
+============================================================================ */
+
+/// Startseite: wrapper fuer interRestGroup
+///
+/// Schnell-Einstieg fuer: Schueler, Studieninteressierte, Studierende, Alumni, Unternehmen, Mitarbeiter
+/// @author Carsten Hoelbing
+.interRestGroup-wrapper {
+  text-align: center;
+  // margin-top: -37px;
+  height: 354px;
+
+  // rand nur wenn mindestens (>=) sm
+  @media screen and (min-width: $screen-sm-min) {
+    height: 236px;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    height: 118px;
+  }
+  .interRestGroup-icon {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    position: relative;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    a {
+      vertical-align: middle;
+      text-align: center;
+      font-size: $font-size-large;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    .interRestGroup-icon-img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .interRestGroup-icon-text {
+      padding-top: 10px;
+      vertical-align: middle;
+      text-align: center;
+    }
+    &:hover {
+      text-decoration: none;
+      border-top-style: solid;
+      border-top-width: 4px;
+      margin-top: -4px;
+    }
+  }
+}
+//
+.interRestGroup-color {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $green-light;
+        border-top: $green;
+      }
+    }
+  }
+}
+.interRestGroup-fc-bw {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $faculties-color-bw-overlay;
+        border-top: $green;
+      }
+    }
+  }
+}
+.interRestGroup-fc-et {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $faculties-color-et-overlay;
+        border-top: $green;
+      }
+    }
+  }
+}
+.interRestGroup-fc-gl {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $faculties-color-gl-overlay;
+        border-top: $green;
+      }
+    }
+  }
+}
+.interRestGroup-fc-gp {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $faculties-color-gp-overlay;
+        border-top: $green;
+      }
+    }
+  }
+}
+.interRestGroup-fc-mb {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $faculties-color-mb-overlay;
+        border-top: $green;
+      }
+    }
+  }
+}
+.interRestGroup-fc-mt {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $faculties-color-mt-overlay;
+        border-top: $green;
+      }
+    }
+  }
+}
+.interRestGroup-fc-sc {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $faculties-color-sc-overlay;
+        border-top: $green;
+      }
+    }
+  }
+}
+.interRestGroup-fc-sw {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $faculties-color-sw-overlay;
+        border-top: $green;
+      }
+    }
+  }
+}
+.interRestGroup-fc-wi {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $faculties-color-wi-overlay;
+        border-top: $green;
+      }
+    }
+  }
+}

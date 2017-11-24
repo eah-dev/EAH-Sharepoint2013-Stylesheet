@@ -1,0 +1,54 @@
+/* ============================================================================
+		Button :: Start
+============================================================================ */
+
+/// prozess ablauf
+/// @author Carsten Hoelbing
+/// @example markup
+/// <section class="element-wrapper processtask-default">
+///   <div class="container">
+///       <div class="row">
+///         <div class="processtask-wrapper">
+///           <div class="processtask-header-icon">
+///             <i class="fa fa-arrow-down" aria-hidden="true"></i>
+///           </div>
+///           <div class="processtask-content">
+///             <div class="processtask-header">
+///              HEADER
+///             </div>
+///             <div class="processtask-body">
+///               Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+////              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+///             </div>
+///           </div>
+///         </div>
+///       </div>
+///   </div>
+/// </section>
+.processtask-wrapper {
+  .processtask-header-icon {
+    text-align: center;
+    font-size: $font-size-h1;
+  }
+  .processtask-content {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    .processtask-header {
+      text-align: center;
+      font-size: $font-size-h4;
+    }
+    .processtask-body {
+      margin: 10px;
+    }
+  }
+}
+.processtask-default {
+  .processtask-header-icon {
+    color: $green;
+  }
+  .processtask-content {
+    border-color: $blue;
+    color: $blue;
+  }
+}

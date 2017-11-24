@@ -35,6 +35,6 @@ gulp.task('serve', ['copy'], function() {
   browserSync.init({
       server: "./test/"
   });
-  gulp.watch(['src/scss/*.scss'], ['styles']).on('change', browserSync.reload);
+  gulp.watch(['src/scss/*.scss','src/scss/elements/*.scss'], ['styles']).on('change', browserSync.reload);
   gulp.watch("./test/*.html").on('change', browserSync.reload);
 });

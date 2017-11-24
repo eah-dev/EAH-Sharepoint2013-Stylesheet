@@ -1,0 +1,592 @@
+/* ============================================================================
+		Tiles  :: Start
+============================================================================ */
+
+/// Kachel mit einem sich aufklappenden Menu
+/// das Bild muss folgende Abmessungen haben: Breite 566 Pixel und eine Hoehe von 268 Pixel
+/// @author Carsten Hoelbing
+/// @example markup
+/// <div class="eahTile eahTile-gray-green">
+///   <img
+///      class="eahTile-bgImage"
+///      src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png"
+///      alt=""
+///   />
+///   <div class="eahTile-heading eahTile-triangel">
+///     <div class="eahTile-body overlay-triangel">
+///       <div class="eahTile-title">Bewerben</div>
+///       <ul class="eahTile-collapse-list">
+///         <li>
+///           <div class="tile-icon">
+///             <i class="ion ion-plus-round" aria-hidden="true"></i>
+///           </div>
+///         </li>
+///       </ul>
+///     </div>
+///   </div>
+///   <div class="eahTile-heading eahTile-list hidden">
+///     <div class="eahTile-body overlay-list">
+///       <div class="eahTile-title">Bewerben</div>
+///      <ul class="eahTile-collapse-list">
+///         <li>
+///           <a href="/de-de/studium/bewerbung/bachelor">Bachelor</a></li>
+///         <li>
+///           <a href="/de-de/studium/bewerbung/master">Master</a></li>
+///         <li>
+///           <a href="/de-de/studium/bewerbung/austausch">Austausch</a></li>
+///         <li>
+///           <a href="/de-de/studium/bewerbung/weiterbildung">Weiterbildung</a></li>
+///       </ul>
+///     </div>
+///   </div>
+/// </div>
+.eahTile,
+.eahTileLink {
+  margin: 2px;
+  width: auto;
+  position: relative;
+  // .eahTile-bgImage-container {
+  //  .eahTile-bgImage { }
+  // }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .eahTile-heading,
+  .eahTileLink-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    .overlay-triangel {
+      border-right-style: solid;
+      border-right-width: 300px;
+      border-top-style: solid;
+      border-top-width: 150px;
+    }
+    .overlay-list {
+      height: 100%;
+      width: 200px;
+      .content-title {
+        border-bottom-style: solid;
+        border-width: 2px;
+      }
+    }
+    .content-body {
+      font-family: $font-family-robotoLight;
+      font-size: $font-size-large;
+      top: 0;
+      left: 0;
+      list-style: none;
+      // .tile-header-text {}
+      .content-title {
+        padding: 10px;
+        padding-left: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-top: 10px;
+        list-style-type: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        li {
+          text-indent: 0 !important;
+          padding: 5px 0 5px 20px;
+          content: none;
+          font-family: $font-family-robotoLight;
+          font-size: $font-size-base;
+
+          @media screen and (min-width: $screen-md-min) {
+            font-size: $font-size-large;
+          }
+          .tile-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 20px;
+            position: absolute;
+            cursor: pointer;
+            i {
+              position: absolute;
+              top: 6px;
+            }
+          }
+          a,
+          a:hover {
+            text-decoration: none;
+          }
+          > &::before {
+            // symbol vor dem list-item entfernten
+            content: '' !important;
+          }
+        }
+        // &:hover {}
+      }
+    }
+  }
+  ul {
+    list-style-type: none;
+    li {
+      line-height: $line-height-base !important;
+    }
+  }
+  &:hover,
+  &:link {
+    text-decoration: none !important;
+  }
+}
+// spezielle Anpassungen
+.eahTile {
+  .tile-icon {
+    i {
+      left: 9px;
+    }
+  }
+}
+.eahTileLink {
+  .tile-icon {
+    i {
+      left: 15px;
+    }
+  }
+}
+// farbe fuer die kachel
+.eahTile-gray-green {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $green;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
+
+// bw
+.eahTile-fc-bw {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $faculties-color-bw;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
+// et
+.eahTile-fc-et {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $faculties-color-et;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
+// gl
+.eahTile-fc-gl {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $faculties-color-gl;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
+// gp
+.eahTile-fc-gp {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $faculties-color-gp;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
+// mb
+.eahTile-fc-mb {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $faculties-color-mb;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
+// mt
+.eahTile-fc-mt {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $faculties-color-mt;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
+// sc
+.eahTile-fc-sc {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $faculties-color-sc;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
+// sw
+.eahTile-fc-sw {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $faculties-color-sw;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
+// wi
+.eahTile-fc-wi {
+  .eahTile-heading {
+    .overlay-triangel {
+      border-right-color: transparent;
+      border-top-color: $transparent-blue-dark;
+      .content-collapse-list {
+        li {
+          .tile-icon,
+          .tile-icon a {
+            color: $white;
+            background-color: $faculties-color-wi;
+          }
+        }
+      }
+    }
+    .overlay-list {
+      color: $white;
+      background-color: $transparent-green-dark;
+      .content-title {
+        border-bottom-color: $white;
+      }
+
+      // die aufzaehlung innerhalb der Kachel
+      .content-collapse-list {
+        li {
+          &:hover {
+            background-color: $transparent-blue-dark;
+          }
+          a,
+          a:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+    .content-body {
+      .content-title {
+        color: $white;
+      }
+    }
+  }
+}
