@@ -222,11 +222,11 @@
     color: $white;
     .newsinfo-title {
       .text {
-        border-bottom-color: $faculties-color-gl;
+        border-bottom-color: $white; // $faculties-color-gl;
       }
     }
     .newsinfo-body {
-      border-top-color: $faculties-color-gl;
+      border-top-color: $white; //$faculties-color-gl;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {

@@ -227,6 +227,470 @@
   }
   .contact-details-wrapper {
     .contact-name {
+      color: $faculties-color-bw;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-bw;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/// bw (inverse)
+.contact-fc-bw-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-bw;
+    .spantitle {
+      border-bottom-color: $faculties-color-bw;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-bw;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-bw;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-bw;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+/// et
+.contact-fc-et {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $faculties-color-et;
+    .spantitle {
+      border-bottom-color: $faculties-color-et;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-et;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-et;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-et;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/// et (inverse)
+.contact-fc-et-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-et;
+    .spantitle {
+      border-bottom-color: $faculties-color-et;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-et;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-et;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-et;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+/// gl
+.contact-fc-gl {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $white;
+    .spantitle {
+      border-bottom-color: $white;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-gl;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-gl;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-gl;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/// gl (inverse)
+.contact-fc-gl-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-gl;
+    .spantitle {
+      border-bottom-color: $faculties-color-gl;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-gl;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-gl;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-gl;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+/// gp
+.contact-fc-gp {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $faculties-color-gp;
+    .spantitle {
+      border-bottom-color: $faculties-color-gp;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-gp;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-gp;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-gp;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+///gpbw (inverse)
+.contact-fc-gp-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-gp;
+    .spantitle {
+      border-bottom-color: $faculties-color-gp;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-gp;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      ccolor: $faculties-color-gp;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-gp;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+/// mb
+.contact-fc-mb {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $faculties-color-mb;
+    .spantitle {
+      border-bottom-color: $faculties-color-mb;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-mb;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-mb;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-mb;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/// mb (inverse)
+.contact-fc-mb-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-mb;
+    .spantitle {
+      border-bottom-color: $faculties-color-mb;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-mb;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
       color: $green;
     }
     .contact-institution,
@@ -259,27 +723,78 @@
     }
   }
 }
-
-/// bw (inverse)
-.contact-fc-bw-o {
-  background-color: $white;
-  color: $black;
+/// mt
+.contact-fc-mt {
+  background-color: $bg-color-blue;
+  color: $white;
   .title {
-    border-bottom-color: $faculties-color-bw;
+    border-bottom-color: $faculties-color-mt;
     .spantitle {
-      border-bottom-color: $faculties-color-bw;
+      border-bottom-color: $faculties-color-mt;
     }
   }
   .contact-picture-content {
     background-color: $white;
-    border-color: $faculties-color-bw;
+    border-color: $faculties-color-mt;
     .defaulticon {
       color: $bg-color-blue;
     }
   }
   .contact-details-wrapper {
     .contact-name {
-      color: $green;
+      color: $faculties-color-mt;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-mt;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/// mt (inverse)
+.contact-fc-mt-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-mt;
+    .spantitle {
+      border-bottom-color: $faculties-color-mt;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-mt;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-mt;
     }
     .contact-institution,
     .contact-jobtitle {
@@ -290,7 +805,316 @@
     .contact-email i,
     .contact-roomnumber i,
     .contact-servicetime i {
-      color: $green;
+      color: $faculties-color-mt;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+/// sc
+.contact-fc-sc {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $faculties-color-sc;
+    .spantitle {
+      border-bottom-color: $faculties-color-sc;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-sc;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-sc;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-sc;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/// sc (inverse)
+.contact-fc-sc-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-sc;
+    .spantitle {
+      border-bottom-color: $faculties-color-sc;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-sc;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-sc;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-sc;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+/// sw
+.contact-fc-sw {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $faculties-color-sw;
+    .spantitle {
+      border-bottom-color: $faculties-color-sw;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-sw;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-sw;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-sw;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/// sw (inverse)
+.contact-fc-sw-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-sw;
+    .spantitle {
+      border-bottom-color: $faculties-color-sw;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-sw;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-sw;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-sw;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $black;
+      a {
+        color: $black;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+/// wi
+.contact-fc-wi {
+  background-color: $bg-color-blue;
+  color: $white;
+  .title {
+    border-bottom-color: $faculties-color-wi;
+    .spantitle {
+      border-bottom-color: $faculties-color-wi;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-wi;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-wi;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $white;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-wi;
+    }
+    .contact-workphone .text,
+    .contact-workfax .text,
+    .contact-email .text,
+    .contact-roomnumber .text,
+    .contact-servicetime .text {
+      color: $white;
+      a {
+        color: $white;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/// wi (inverse)
+.contact-fc-wi-o {
+  background-color: $white;
+  color: $black;
+  .title {
+    border-bottom-color: $faculties-color-wi;
+    .spantitle {
+      border-bottom-color: $faculties-color-wi;
+    }
+  }
+  .contact-picture-content {
+    background-color: $white;
+    border-color: $faculties-color-wi;
+    .defaulticon {
+      color: $bg-color-blue;
+    }
+  }
+  .contact-details-wrapper {
+    .contact-name {
+      color: $faculties-color-wi;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $faculties-color-wi;
     }
     .contact-workphone .text,
     .contact-workfax .text,

@@ -133,7 +133,7 @@
 /// button in der Fachbereichsfarbe - Grundlagenwissenschaften
 .btn-fc-gl {
   background-color: $faculties-color-gl;
-  border-color: $faculties-color-gl; // $btn-color-white
+  border-color: $btn-color-white; //  $faculties-color-gl;
   color: $btn-color-white !important;
   &:hover {
     background-color: $btn-color-white;
