@@ -9,7 +9,7 @@ const inputStyle = './src/scss/eah-jena-style.scss';
 const inputdoc = './src/scss/**/*.scss';
 
 // Output - Folder
-const outputStyle = './build/css';
+const outputStyle = './build/layouts/eah-jena/css';
 const outputStyleTest = './test/_catalogs/masterpage/layouts/eah-jena/css';
 const reportOutputDir = 'build/reports/lint';
 

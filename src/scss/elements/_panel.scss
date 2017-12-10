@@ -60,8 +60,3 @@
 .panel-gray {
   @include panel-variant($bg-color-gray, $black, $bg-color-gray, $bg-color-gray);
 }
-
-// Panel Farbe - white
-.panel-white {
-  @include panel-variant($bg-color-white, $black, $bg-color-white, $bg-color-white);
-}

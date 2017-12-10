@@ -30,6 +30,8 @@
   margin-top: 30px;
   font-family: "Roboto";
   blockquote {
+    border-left-style: solid;
+    border-width: 5px;
     p {
       font-size: $blockquote-font-size;
     }
@@ -42,4 +44,80 @@
 .blockquote-gray {
   background: $gray-lighter;
   color: $black;
+  blockquote {
+    border-left-color: $green;
+  }
+}
+
+// bw
+.blockquote-fc-bw {
+  background: $gray-lighter;
+  color: $black;
+  blockquote {
+    border-left-color: $faculties-color-bw;
+  }
+}
+// et
+.blockquote-fc-et {
+  background: $gray-lighter;
+  color: $black;
+  blockquote {
+    border-left-color: $faculties-color-et;
+  }
+}
+// gl
+.blockquote-fc-gl {
+  background: $gray-lighter;
+  color: $black;
+  blockquote {
+    border-left-color: $faculties-color-gl;
+  }
+}
+// gp
+.blockquote-fc-gp {
+  background: $gray-lighter;
+  color: $black;
+  blockquote {
+    border-left-color: $faculties-color-gp;
+  }
+}
+// mb
+.blockquote-fc-mb {
+  background: $gray-lighter;
+  color: $black;
+  blockquote {
+    border-left-color: $faculties-color-mb;
+  }
+}
+// mt
+.blockquote-fc-mt {
+  background: $gray-lighter;
+  color: $black;
+  blockquote {
+    border-left-color: $faculties-color-bw;
+  }
+}
+// sc
+.blockquote-fc-sc {
+  background: $gray-lighter;
+  color: $black;
+  blockquote {
+    border-left-color: $faculties-color-sc;
+  }
+}
+// sw
+.blockquote-fc-sw {
+  background: $gray-lighter;
+  color: $black;
+  blockquote {
+    border-left-color: $faculties-color-sw;
+  }
+}
+// wi
+.blockquote-fc-wi {
+  background: $gray-lighter;
+  color: $black;
+  blockquote {
+    border-left-color: $faculties-color-wi;
+  }
 }

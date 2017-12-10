@@ -266,22 +266,22 @@
 .btn-fc-wi {
   background-color: $faculties-color-wi;
   border-color: $faculties-color-wi;
-  color: $btn-color-white !important;
+  color: $btn-color-black !important;
   &:hover {
     background-color: $btn-color-white;
     border-color: $faculties-color-wi;
-    color: $faculties-color-wi !important;
+    color: $btn-color-black !important; // $faculties-color-wi;
   }
 }
 // invert
 .btn-fc-wi-o {
   background-color: $btn-color-white;
   border-color: $faculties-color-wi;
-  color: $faculties-color-wi !important;
+  color: $btn-color-black !important; // $faculties-color-wi;
   &:hover {
     background-color: $faculties-color-wi;
     border-color: $faculties-color-wi;
-    color: $btn-color-white !important;
+    color: $btn-color-black !important; // $faculties-color-wi;
   }
 }
 

@@ -6,12 +6,12 @@ const spsave = require('gulp-spsave');
 const creds = require("../spsave-settings.js");
 
 // sharepoint server url
-const spsiteUrl = 'https://www.eah-jena.de';
+const spsiteUrl = 'https://redaktion.eah-jena.de';
 const spsiteUrlDev = 'http://redaktion-test.eah-jena.de';
 
 // lokale - Files / Folder
-const folderLocalCss = './build/css/*.css';
-const folderLocalJs = './build/js/*.js';
+const folderLocalCss = './build/layouts/eah-jena/css/*.css';
+const folderLocalJs = './build/layouts/eah-jena/js/*.js';
 
 // auf dem Sharpoint-Server - Files / Folder
 const folderServerCss = '_catalogs/masterpage/layouts/eah-jena/css/';

@@ -251,3 +251,155 @@ $LanguageSelector-font-color: $gray-lighter;
     }
   }
 }
+.header-sm-fc {
+  padding-left: 10px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  .header-sm-fc-block {
+    text-align: left;
+    padding: 2px 5px;
+  }
+  .header-sm-fc-title {
+    text-align: left;
+    font-weight: 800;
+    font-size: 18px;
+  }
+}
+.header-sm-fc-bw {
+  border-left-color: $faculties-color-bw;
+  .header-sm-fc-block {
+    background-color: $faculties-color-bw;
+  }
+}
+.header-sm-fc-et {
+  border-left-color: $faculties-color-et;
+  .header-sm-fc-block {
+    background-color: $faculties-color-et;
+  }
+}
+.header-sm-fc-gl {
+  border-left-color: $faculties-color-gl;
+  .header-sm-fc-block {
+    background-color: $faculties-color-gl;
+  }
+}
+.header-sm-fc-gp {
+  border-left-color: $faculties-color-gp;
+  .header-sm-fc-block {
+    background-color: $faculties-color-gp;
+  }
+}
+.header-sm-fc-mb {
+  border-left-color: $faculties-color-mb;
+  .header-sm-fc-block {
+    background-color: $faculties-color-mb;
+  }
+}
+.header-sm-fc-mt {
+  border-left-color: $faculties-color-mt;
+  .header-sm-fc-block {
+    background-color: $faculties-color-mt;
+  }
+}
+.header-sm-fc-sc {
+  border-left-color: $faculties-color-sc;
+  .header-sm-fc-block {
+    background-color: $faculties-color-sc;
+  }
+}
+.header-sm-fc-sw {
+  border-left-color: $faculties-color-sw;
+  .header-sm-fc-block {
+    background-color: $faculties-color-sw;
+  }
+}
+.header-sm-fc-wi {
+  border-left-color: $faculties-color-wi;
+  .header-sm-fc-block {
+    background-color: $faculties-color-wi;
+  }
+}
+// wird nur auf dem handy angezeigt
+.header-xs-fc {
+  .header-xs-fc-block {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+  }
+  .header-xs-fc-title {
+    text-align: center;
+  }
+}
+.header-xs-fc-bw {
+  .header-xs-fc-block {
+    background-color: $faculties-color-bw;
+  }
+  .header-xs-fc-title {
+    color: $faculties-color-bw;
+  }
+}
+.header-xs-fc-et {
+  .header-xs-fc-block {
+    background-color: $faculties-color-et;
+  }
+  .header-xs-fc-title {
+    color: $faculties-color-et;
+  }
+}
+.header-xs-fc-gl {
+  .header-xs-fc-block {
+    background-color: $faculties-color-gl;
+  }
+  .header-xs-fc-title {
+    color: $faculties-color-gl;
+  }
+}
+.header-xs-fc-gp {
+  .header-xs-fc-block {
+    background-color: $faculties-color-gp;
+  }
+  .header-xs-fc-title {
+    color: $faculties-color-gp;
+  }
+}
+.header-xs-fc-mb {
+  .header-xs-fc-block {
+    background-color: $faculties-color-mb;
+  }
+  .header-xs-fc-title {
+    color: $faculties-color-mb;
+  }
+}
+.header-xs-fc-mt {
+  .header-xs-fc-block {
+    background-color: $faculties-color-mt;
+  }
+  .header-xs-fc-title {
+    color: $faculties-color-mt;
+  }
+}
+.header-xs-fc-sc {
+  .header-xs-fc-block {
+    background-color: $faculties-color-sc;
+  }
+  .header-xs-fc-title {
+    color: $faculties-color-sc;
+  }
+}
+.header-xs-fc-sw {
+  .header-xs-fc-block {
+    background-color: $faculties-color-sw;
+  }
+  .header-xs-fc-title {
+    color: $faculties-color-sw;
+  }
+}
+.header-xs-fc-wi {
+  .header-xs-fc-block {
+    background-color: $faculties-color-wi;
+  }
+  .header-xs-fc-title {
+    color: $faculties-color-wi;
+  }
+}
