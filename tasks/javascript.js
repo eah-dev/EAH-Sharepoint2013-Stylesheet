@@ -8,7 +8,7 @@ const minify = require('gulp-minify');
 const inputJavaScript = './src/js/*';
 
 // Output - Folder
-const outputJavaScriptBuild = './build/js';
+const outputJavaScriptBuild = './build/layouts/eah-jena/js';
 const outputJavaScriptTest = './test/_catalogs/masterpage/layouts/eah-jena/js';
 //
 // ---- tasks

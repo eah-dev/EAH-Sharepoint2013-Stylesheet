@@ -21,7 +21,7 @@ gulp.task('watchDev', function () {
 // final step
 // gulp.task - 'prod'
 gulp.task('prod', ['lint-css'], function () {
-  gulp.start(['styles-min', 'sassdoc']); // starts only after 'lint-css'
+  gulp.start(['styles-min', 'copy', 'sassdoc']); // starts only after 'lint-css'
 });
 
 // copy all files to the sharepoint server

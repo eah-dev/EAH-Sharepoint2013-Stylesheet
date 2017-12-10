@@ -7,6 +7,9 @@
   .article-text {
     .title {
       font-size: $font-size-h2;
+      margin-top: 25px;
+      padding-bottom: 15px;
+      margin-bottom: 12.5px;
     }
     .content-text-left {
       text-align: left;
@@ -16,7 +19,8 @@
     }
   }
   .article-img {
-    .img-test {
+    img {
+      padding: 30px 0;
       max-width: 100%;
       height: auto;
       display: block;
@@ -30,7 +34,16 @@
   .title {
     color: $green;
   }
-  .content {
+  .article-content {
     color: $black;
+  }
+}
+.article-blue {
+  background-color: $bg-color-blue;
+  .title {
+    color: $white;
+  }
+  .article-content {
+    color: $white;
   }
 }
