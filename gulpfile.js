@@ -19,8 +19,8 @@ gulp.task('watchDev', function () {
 });
 
 // final step
-// gulp.task - 'prod'
-gulp.task('prod', ['lint-css'], function () {
+// gulp.task - 'build'
+gulp.task('build', ['lint-css'], function () {
   gulp.start(['styles-min', 'copy', 'sassdoc']); // starts only after 'lint-css'
 });
 
