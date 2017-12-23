@@ -15,6 +15,10 @@
 .no-padding-o {
   padding: 0 !important;
 }
+/// abstand oben(nur margin, !important) auf null setzten
+.no-margin-top {
+  margin-top: 0 !important;
+}
 /// Schrift dicke
 .font-bold {
   font-weight: bold;

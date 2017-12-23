@@ -1,0 +1,183 @@
+/* ============================================================================
+	Slide-Out-Navi :: Start
+  ============================================================================ */
+//
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+//
+.navbar-brand-logo img {
+  display: block;
+  margin: 7px auto 0;
+  width: 150px;
+}
+//
+#slide-nav {
+  background-image: none;
+  background-color: #d2f6a2;
+  .dropdown {
+    border-top: 1px solid #606060;
+  }
+  .dropdown-menu > li:last-child {
+    border-bottom: 1px solid #606060;
+  }
+  .dropdown-toggle span {
+    margin-top: 0;
+  }
+  .navbar-collapse {
+    padding-right: 0;
+  }
+}
+
+/* adjust body when menu is open */
+body.slide-active {
+  overflow-x: hidden;
+}
+
+/* wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
+#page-content {
+  position: relative;
+  padding-top: 0;
+  left: 0;
+  &.slide-active {
+    padding-top: 0;
+  }
+}
+
+/* put toggle bars on the left :: not using button */
+#slide-nav .navbar-toggle {
+  cursor: pointer;
+  position: relative;
+  line-height: 0;
+  float: left;
+  margin: 0;
+  width: 30px;
+  height: 40px;
+  padding: 10px 0 0;
+  border: 0;
+  background: transparent;
+  > .icon-bar {
+    width: 100%;
+    display: block;
+    height: 3px;
+    margin: 5px 0 0;
+  }
+  .icon-bar {
+    background: #009790;
+  }
+}
+
+/* icon bar prettyup - optional */
+.navbar-header,
+.navbar.navbar-fixed-top.slide-active {
+  position: relative;
+}
+
+/* un fix the navbar when active so that all the menu items are accessible */
+
+/* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
+@media (max-width: 767px) {
+  #main-navi-sm .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+  }
+  #slide-nav {
+    .navbar-header {
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    .navbar.slide-active {
+      position: absolute;
+      width: 80%;
+      top: -1px;
+      z-index: 1000;
+    }
+  }
+  #slide-nav {
+    border-top: 0;
+    #slidemenu {
+      background: #fff;
+      left: -100%;
+      width: 80%;
+      min-width: 0;
+      position: absolute;
+      padding-left: 0;
+      z-index: 2;
+      top: -8px;
+      margin: 0;
+      .navbar-nav {
+        min-width: 0;
+        width: 100%;
+        margin: 0;
+      }
+      .navbar-nav {
+        .open .dropdown-menu {
+          position: relative;
+          float: none;
+          width: auto;
+          margin-top: 0;
+          background-color: transparent;
+          border: 0;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+        }
+        .dropdown {
+          ul {
+            list-style: none;
+            padding: 0;
+          }
+          .dropdown-header {
+            padding: 0;
+            a {
+              font-size: 14px;
+            }
+          }
+          a {
+            color: #606060;
+            line-height: 30px;
+          }
+        }
+        .dropdown-menu {
+          li {
+            &.dropdown-header a {
+              padding-left: 0;
+            }
+            a {
+              min-width: 0;
+              width: 100%;
+              white-space: normal;
+              font-size: 12px;
+              padding-left: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls */
+  #navbar-height-col {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    bottom: 0;
+    width: 80%;
+    left: -80%;
+    background: #fff;
+  }
+  #slide-nav .navbar-form {
+    width: 100%;
+    margin: 8px 0 0;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: none;
+    .form-control {
+      text-align: center;
+    }
+    .btn {
+      width: 100%;
+    }
+  }
+}
