@@ -35,6 +35,8 @@ npm-debug.log
 testem.log
 package-lock.json
 # spsave-settings.js
+_site
+.jekyll-metadata
 
 # e2e
 /e2e/*.js
@@ -43,3 +45,4 @@ package-lock.json
 # System Files
 .DS_Store
 Thumbs.db
+
