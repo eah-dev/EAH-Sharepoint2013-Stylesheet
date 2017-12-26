@@ -5,6 +5,16 @@
 /test/_catalogs/masterpage/layouts/eah-jena/assets
 /test/_catalogs/masterpage/layouts/eah-jena/js
 
+# Ignore docs files
+_gh_pages
+_site
+
+# Ignore ruby files
+.ruby-version
+.bundle
+vendor/cache
+vendor/bundle
+
 # dependencies
 /node_modules
 

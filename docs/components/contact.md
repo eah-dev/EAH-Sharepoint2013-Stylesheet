@@ -1,0 +1,1192 @@
+---
+layout: default
+title: Ansprechpartner
+description: Documentation und Beispiele fuer Ansprechpartner
+group: components
+---
+
+<!-- eine Spalte - default -->
+<section>
+  <h1>Ansprechpartner</h1>
+  <section class="element-wrapper contact-color">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
+          <div class="contact-details-wrapper">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zwei Spalten - default -->
+<section>
+  <h1>Ansprechpartner - 2 Spalten</h1>
+  <section class="element-wrapper contact-color">
+    <div class="container">
+      <div class="row">
+        <div class="contacts-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihre Ansprechpartner</span>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="contact-wrapper">
+              <div class="contact-picture-wrapper">
+                <div class="col-xs-12 col-md-6">
+                  <div class="contact-picture-content">
+                    <div class="defaulticon"></div>
+                  </div>
+                </div>
+              </div>
+              <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
+              <div class="contact-details-wrapper">
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="contact-wrapper">
+              <div class="contact-picture-wrapper">
+                <div class="col-xs-12 col-md-6">
+                  <div class="contact-picture-content">
+                    <div class="defaulticon"></div>
+                  </div>
+                </div>
+              </div>
+              <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
+              <div class="contact-details-wrapper">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - bw -->
+<section>
+  <h1>Ansprechpartner - Betriebswirtschaft</h1>
+  <section class="element-wrapper contact-fc-bw">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - bw -->
+<section>
+  <h1>Ansprechpartner - Betriebswirtschaft (inverse)</h1>
+  <section class="element-wrapper contact-fc-bw-o">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - et -->
+<section>
+  <h1>Ansprechpartner - Elektrotechnik und Informationstechnik</h1>
+  <section class="element-wrapper contact-fc-et">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - et -->
+<section>
+  <h1>Ansprechpartner - Elektrotechnik und Informationstechnik (inverse)</h1>
+  <section class="element-wrapper contact-fc-et-o">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - gl -->
+<section>
+  <h1>Ansprechpartner - Grundlagenwissenschaften</h1>
+  <section class="element-wrapper contact-fc-gl">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - gl -->
+<section>
+  <h1>Ansprechpartner - Grundlagenwissenschaften (inverse)</h1>
+  <section class="element-wrapper contact-fc-gl-o">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - gp -->
+<section>
+  <h1>Ansprechpartner - Gesundheit und Pflege</h1>
+  <section class="element-wrapper contact-fc-gp">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - gp -->
+<section>
+  <h1>Ansprechpartner - Gesundheit und Pflege (inverse)</h1>
+  <section class="element-wrapper contact-fc-gp-o">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+  <!-- eine Spalte - mb -->
+<section>
+  <h1>Ansprechpartner - Maschinenbau</h1>
+  <section class="element-wrapper contact-fc-mb">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - mb -->
+<section>
+  <h1>Ansprechpartner - Maschinenbau (inverse)</h1>
+  <section class="element-wrapper contact-fc-mb-o">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - mt -->
+<section>
+  <h1>Ansprechpartner - Medizintechnik und Biotechnologie</h1>
+  <section class="element-wrapper contact-fc-mt">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - mt -->
+<section>
+  <h1>Ansprechpartner - Medizintechnik und Biotechnologie (inverse)</h1>
+  <section class="element-wrapper contact-fc-mt-o">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - sc -->
+<section>
+  <h1>Ansprechpartner - SciTec</h1>
+  <section class="element-wrapper contact-fc-sc">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - sc -->
+<section>
+  <h1>Ansprechpartner - SciTec (inverse)</h1>
+  <section class="element-wrapper contact-fc-sc-o">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - sw -->
+<section>
+  <h1>Ansprechpartner - Sozialwesen</h1>
+  <section class="element-wrapper contact-fc-sw">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - sw -->
+<section>
+  <h1>Ansprechpartner - Sozialwesen (inverse)</h1>
+  <section class="element-wrapper contact-fc-sw-o">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - wi -->
+<section>
+  <h1>Ansprechpartner - Wirtschaftsingenieurwesen</h1>
+  <section class="element-wrapper contact-fc-wi">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- eine Spalte - wi -->
+<section>
+  <h1>Ansprechpartner - Wirtschaftsingenieurwesen (inverse)</h1>
+  <section class="element-wrapper contact-fc-wi-o">
+    <div class="container">
+      <div class="row">
+        <div class="contact-wrapper">
+          <div class="title">
+            <span class="spantitle">Ihr Ansprechpartner</span>
+          </div>
+          <div class="contact-picture-wrapper">
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+              <div class="contact-picture-content">
+                <div class="defaulticon"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details-wrapper">
+            <div class="col-xs-12 col-md-6">
+              <div class="row">
+                <span class="contact-name">Prof. Dr. rer. nat. Vor Name</span>
+              </div>
+              <div class="row">
+                <span class="contact-institution">Abteilung</span>
+              </div>
+              <div class="row">
+                <span class="contact-jobtitle">WasIchHierMache</span>
+              </div>
+              <div class="row">
+                <span class="contact-workphone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-workfax">
+                  <i class="fa fa-fax" aria-hidden="true"></i>
+                  <span class="text">+49 3641 205 000</span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-email">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span class="text">
+                    <a href="mailto:feedback@eah-jena.de">feedback@eah-jena.de</a>
+                  </span>
+                </span>
+              </div>
+              <div class="row">
+                <span class="contact-roomnumber">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="text">00.00.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

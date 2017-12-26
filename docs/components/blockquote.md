@@ -1,0 +1,226 @@
+---
+layout: default
+title: zitat
+description: Documentation und Beispiele fuer zitat
+group: components
+---
+
+<!-- zitat -->
+<section>
+  <h1>Startseite: Zitat gruener Hintergrund</h1>
+  <section class="element-wrapper blockquote-gray">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zitat bw -->
+<section>
+  <h1>Fachbereich bw</h1>
+  <section class="element-wrapper blockquote-fc-bw">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zitat et -->
+<section>
+  <h1>Fachbereich et</h1>
+  <section class="element-wrapper blockquote-fc-et">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zitat gl -->
+<section>
+  <h1>Fachbereich gl</h1>
+  <section class="element-wrapper blockquote-fc-gl">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zitat gp -->
+<section>
+  <h1>Fachbereich gp</h1>
+  <section class="element-wrapper blockquote-fc-gp">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zitat mb -->
+<section>
+  <h1>Fachbereich mb</h1>
+  <section class="element-wrapper blockquote-fc-mb">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zitat mt -->
+<section>
+  <h1>Fachbereich mt</h1>
+  <section class="element-wrapper blockquote-fc-mt">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zitat sc -->
+<section>
+  <h1>Fachbereich sc</h1>
+  <section class="element-wrapper blockquote-fc-sc">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zitat sw -->
+<section>
+  <h1>Fachbereich sw</h1>
+  <section class="element-wrapper blockquote-fc-sw">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- zitat wi -->
+<section>
+  <h1>Fachbereich wi</h1>
+  <section class="element-wrapper blockquote-fc-wi">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-wrapper">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <footer>Donald Franz</footer>
+          </blockquote>
+          ​​​ </div>
+      </div>
+    </div>
+  </section>
+</section>

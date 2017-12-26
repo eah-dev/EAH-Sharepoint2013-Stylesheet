@@ -10,7 +10,7 @@
 ///   <div class="container">
 ///     <div class="row">
 ///       <div class="headingUnderline-wrapper">
-///         <span class="title">Studiengänge</span>
+///         <span class="title">&Uuml;berschrift</span>
 ///       </div>
 ///     </div>
 ///   </div>
@@ -34,6 +34,15 @@
 //
 // Farbanpassungen
 //
+// default eah green
+.headingUnderline-default {
+  .headingUnderline-wrapper {
+    border-bottom-color: $green;
+    .title {
+      border-bottom-color: $green;
+    }
+  }
+}
 // bw
 .headingUnderline-bw {
   .headingUnderline-wrapper {

@@ -30,6 +30,30 @@ theme: minima
 plugins:
   - jekyll-feed
 
+exclude:
+  - .git/
+  - .github/
+  - assets/scss/
+  - build/
+  - js/
+  - node_modules/
+  - nuget/
+  - scss/
+  - src/
+  - tasks/
+  - tmp/
+  - vendor/
+  - CODE_OF_CONDUCT.md
+  - composer.json
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - gulpfile.js
+  - spsave-settings.js
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
