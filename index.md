@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: EAH-Sharepoint2013-Stylesheet
 description: Documentation
 ---

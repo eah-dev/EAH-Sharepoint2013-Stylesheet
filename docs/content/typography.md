@@ -2,7 +2,7 @@
 layout: default
 title: Schriften
 description: Documentation und Beispiele fuer Schriften
-group: components
+group: content
 ---
 
 <!-- fonts -->

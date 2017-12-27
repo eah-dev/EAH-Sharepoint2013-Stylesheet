@@ -2,11 +2,12 @@
 layout: default
 title: Sprungpunkt
 description: Documentation und Beispiele fuer Sprungbix
-group: components
+group: content
 ---
 
 <section>
-  <h2>---</h2>
+  <h2>Startseite: alle Fachbereiche anzeigen</h2>
+  {% example html %}
   <section class="headingUnderlineFullWidth-wrapper headingUnderlineFullWidth-green">
     <span class="title">Unsere Fachbereiche</span>
   </section>
@@ -61,11 +62,14 @@ group: components
           </div>
         </div>
       </div>
+    </div>
   </section>
+  {% endexample %}
 </section>
 
 <section>
-  <h2>---</h2>
+  <h2>Startseite: Forschung und Entwicklung</h2>
+  {% example html %}
   <section class="headingUnderlineFullWidth-wrapper headingUnderlineFullWidth-green">
     <span class="title">Forschung und Entwicklung</span>
   </section>
@@ -104,4 +108,5 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>

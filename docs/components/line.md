@@ -8,6 +8,7 @@ group: components
 <!-- trennline -->
 <section>
   <h2>Startseite Trennline</h2>
+  {% example html %}
   <section class="element-wrapper line-default">
     <div class="container">
       <div class="row">
@@ -16,12 +17,14 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- Fachbereiche -->
  {% for color in site.data.fc-short %}
 <section>
   <h2>Fachbereich: {{ color.longname }}</h2>
+  {% example html %}
   <section class="element-wrapper line-fc-{{ color.shortname }}">
     <div class="container">
       <div class="row">
@@ -30,5 +33,6 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
  {% endfor %}

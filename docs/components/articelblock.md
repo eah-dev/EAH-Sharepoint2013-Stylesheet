@@ -8,7 +8,7 @@ group: components
 <!-- artikelblock -->
 <section>
   <h1>Artikelblock grüner Hintergrund</h1>
-
+  {% example html %}
   <section class="element-wrapper articelblock-green">
     <div class="container">
       <div class="row">
@@ -30,4 +30,5 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>

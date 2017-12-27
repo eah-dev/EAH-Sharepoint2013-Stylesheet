@@ -8,6 +8,7 @@ group: components
 <!-- Prozess-Start -->
 <section>
   <h1>Prozess-Start</h1>
+  {% example html %}
   <section class="element-wrapper processtask-default">
     <div class="container">
       <div class="row">
@@ -25,11 +26,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- Prozess-Folgend -->
 <section>
   <h1>Prozess-Folgend</h1>
+  {% example html %}
   <section class="element-wrapper processtask-default">
     <div class="container">
       <div class="row">
@@ -50,4 +53,5 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>

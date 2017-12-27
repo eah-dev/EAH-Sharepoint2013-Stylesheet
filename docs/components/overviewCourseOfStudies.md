@@ -7,6 +7,7 @@ group: components, fc
 
 <section>
   <h2>Wirtschaftsingenieurwesen</h2>
+  {% example html %}
   <section>
     <section class="element-wrapper headingUnderline-wi">
       <div class="container">
@@ -67,4 +68,5 @@ group: components, fc
       </section>
     </section>
   </section>
+  {% endexample %}
 </section>

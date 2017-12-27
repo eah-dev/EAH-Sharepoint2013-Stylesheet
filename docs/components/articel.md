@@ -8,6 +8,7 @@ group: components
 <!-- Artikel -->
 <section>
   <h1>Artikel mit Bild links</h1>
+  {% example html %}
   <section class="element-wrapper article-gray">
     <div class="container">
       <div class="row">
@@ -30,11 +31,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- Artikel -->
 <section>
   <h1>Artikel mit Bild rechts</h1>
+  {% example html %}
   <section class="element-wrapper article-gray">
     <div class="container">
       <div class="row">
@@ -57,11 +60,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- Artikel -->
 <section>
   <h1>Artikel mit Bild links (und Hindergrund Blau) und Button</h1>
+  {% example html %}
   <section class="element-wrapper article-blue">
     <div class="container">
       <div class="row">
@@ -89,11 +94,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- Artikel -->
 <section>
   <h1>Artikel mit Bild rechst (und Hindergrund Blau) und Button</h1>
+  {% example html %}
   <section class="element-wrapper article-blue">
     <div class="container">
       <div class="row">
@@ -121,4 +128,5 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>

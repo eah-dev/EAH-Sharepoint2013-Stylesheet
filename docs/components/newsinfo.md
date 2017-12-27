@@ -8,6 +8,7 @@ group: components
 <!-- Startseite -->
 <section>
   <h1>Startseite-News</h1>
+  {% example html %}
   <section class="element-wrapper background-blue">
     <div class="container">
       <div class="row">
@@ -39,12 +40,14 @@ group: components
         </div>
       </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- Fachbereiche -->
 {% for color in site.data.fc-short %}
 <section>
   <h1>Fachbereich: {{ color.longname }}</h1>
+  {% example html %}
   <section class="element-wrapper newsinfo-fc-{{ color.shortname }}">
     <div class="container">
       <div class="row">
@@ -76,5 +79,6 @@ group: components
         </div>
       </div>
   </section>
+  {% endexample %}
 </section>
 {% endfor %}

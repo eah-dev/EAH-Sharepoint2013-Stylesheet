@@ -8,6 +8,7 @@ group: components
 <!-- zitat -->
 <section>
   <h1>Startseite: Zitat gruener Hintergrund</h1>
+  {% example html %}
   <section class="element-wrapper blockquote-gray">
     <div class="container">
       <div class="row">
@@ -25,12 +26,14 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- Fachbereiche -->
 {% for color in site.data.fc-short %}
 <section>
   <h1>Fachbereich: {{ color.longname }}</h1>
+  {% example html %}
   <section class="element-wrapper blockquote-fc-{{ color.shortname }}">
     <div class="container">
       <div class="row">
@@ -48,5 +51,6 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 {% endfor %}

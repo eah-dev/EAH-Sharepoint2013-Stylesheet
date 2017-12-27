@@ -8,6 +8,7 @@ group: components
 <!-- Startseite -->
 <section>
   <h1>Startseite-Interessen Gruppen</h1>
+  {% example html %}
   <section class="element-wrapper">
     <div class="container">
       <div class="row">
@@ -76,11 +77,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- bw -->
 <section>
   <h1>Fachbereich - Betriebswirtschaft</h1>
+  {% example html %}
   <section class="element-wrapper interRestGroup-fc-bw">
     <div class="container">
       <div class="row">
@@ -149,11 +152,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- et -->
 <section>
   <h1>Fachbereich - Elektrotechnik und Informationstechnik</h1>
+  {% example html %}
   <section class="element-wrapper interRestGroup-fc-et">
     <div class="container">
       <div class="row">
@@ -222,11 +227,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- gl -->
 <section>
   <h1>Fachbereich - Grundlagenwissenschaften</h1>
+  {% example html %}
   <section class="element-wrapper interRestGroup-fc-gl">
     <div class="container">
       <div class="row">
@@ -295,11 +302,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- gp -->
 <section>
   <h1>Fachbereich - Gesundheit und Pflege</h1>
+  {% example html %}
   <section class="element-wrapper interRestGroup-fc-gp">
     <div class="container">
       <div class="row">
@@ -368,11 +377,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- mb -->
 <section>
   <h1>Fachbereich - Maschinenbau</h1>
+  {% example html %}
   <section class="element-wrapper interRestGroup-fc-mb">
     <div class="container">
       <div class="row">
@@ -441,11 +452,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- mt -->
 <section>
   <h1>Fachbereich - Medizintechnik und Biotechnologie</h1>
+  {% example html %}
   <section class="element-wrapper interRestGroup-fc-mt">
     <div class="container">
       <div class="row">
@@ -514,11 +527,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- sc -->
 <section>
   <h1>Fachbereich - SciTec</h1>
+  {% example html %}
   <section class="element-wrapper interRestGroup-fc-sc">
     <div class="container">
       <div class="row">
@@ -587,11 +602,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- sw -->
 <section>
   <h1>Fachbereich - Sozialwesen</h1>
+  {% example html %}
   <section class="element-wrapper interRestGroup-fc-sw">
     <div class="container">
       <div class="row">
@@ -660,12 +677,13 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>
 
 <!-- wi -->
 <section>
   <h1>Fachbereich - Wirtschaftsingenieurwesen</h1>
-  ​​​​
+  {% example html %}
   <section class="element-wrapper interRestGroup-fc-wi">
     <div class="container">
       <div class="row">
@@ -734,4 +752,5 @@ group: components
       </div>
     </div>
   </section>
+  {% endexample %}
 </section>

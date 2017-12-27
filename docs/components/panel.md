@@ -8,6 +8,7 @@ group: components
 <!-- panel -->
 <section>
   <h1>Panel blau</h1>
+  {% example html %}
   <div class="container">
     <div class="row">
       <div class="panel panel-blue">
@@ -26,11 +27,13 @@ group: components
       </div>
     </div>
   </div>
+  {% endexample %}
 </section>
 
 <!-- panel -->
 <section>
   <h1>Panel green</h1>
+  {% example html %}
   <div class="container">
     <div class="row">
       <div class="panel panel-green">
@@ -49,11 +52,13 @@ group: components
       </div>
     </div>
   </div>
+  {% endexample %}
 </section>
 
 <!-- panel -->
 <section>
   <h1>Panel gray</h1>
+  {% example html %}
   <div class="container">
     <div class="row">
       <div class="panel panel-gray">
@@ -72,11 +77,13 @@ group: components
       </div>
     </div>
   </div>
+  {% endexample %}
 </section>
 
 <!-- panel -->
 <section>
   <h1>Panel white</h1>
+  {% example html %}
   <div class="container">
     <div class="row">
       <div class="panel panel-white">
@@ -95,4 +102,5 @@ group: components
       </div>
     </div>
   </div>
+  {% endexample %}
 </section>
