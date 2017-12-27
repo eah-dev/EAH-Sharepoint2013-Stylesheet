@@ -37,7 +37,7 @@ group: components
   </section>
 </section>
 
-<!-- buttons -->
+<!-- Fachbereiche -->
 <section>
   <h1>Button - Nach Fachbereiche</h1>
   <section class="element-wrapper">
@@ -46,7 +46,7 @@ group: components
         {% for color in site.data.fc-full %}
         <div class="button-wrapper">
           <a role="button" class="btn btn-fc-{{ color.shortname }}" href="#">
-            {{ color.longname | capitalize }}
+            {{ color.longname }}
           </a>
         </div>
         {% endfor %}

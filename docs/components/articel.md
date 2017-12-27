@@ -13,7 +13,7 @@ group: components
       <div class="row">
         <div class="article-wrapper">
           <div class="col-xs-12 col-sm-6 article-img hidden-xs">
-            <img src="_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="" />
+            <img src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="" />
           </div>
           <div class="col-xs-12 col-sm-6 article-text">
             <div class="title">Überschrift</div>
@@ -51,7 +51,7 @@ group: components
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 article-img hidden-xs">
-            <img src="_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="" />
+            <img src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="" />
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ group: components
       <div class="row">
         <div class="article-wrapper">
           <div class="col-xs-12 col-sm-6 article-img hidden-xs">
-            <img src="_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="" />
+            <img src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="" />
           </div>
           <div class="col-xs-12 col-sm-6 article-text">
             <div class="title">Überschrift</div>
@@ -115,7 +115,7 @@ group: components
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 article-img hidden-xs">
-            <img src="_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="" />
+            <img src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="" />
           </div>
         </div>
       </div>

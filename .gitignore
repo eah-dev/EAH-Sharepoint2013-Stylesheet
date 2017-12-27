@@ -45,7 +45,7 @@ npm-debug.log
 testem.log
 package-lock.json
 # spsave-settings.js
-_site
+_catalogs
 .jekyll-metadata
 
 # e2e
