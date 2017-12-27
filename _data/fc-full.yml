@@ -1,0 +1,36 @@
+- shortname: bw
+  longname: Betriebswirtschaft
+- shortname: bw-o
+  longname: Betriebswirtschaft (inverse)
+- shortname: et
+  longname: Elektrotechnik und Informationstechnik
+- shortname: et-o
+  longname: Elektrotechnik und Informationstechnik (inverse)
+- shortname: gl
+  longname: Grundlagenwissenschaften
+- shortname: gl-o
+  longname: Grundlagenwissenschaften (inverse)
+- shortname: gp
+  longname: Gesundheit und Pflege
+- shortname: gp-o
+  longname: Gesundheit und Pflege (inverse)
+- shortname: mb
+  longname: Maschinenbau
+- shortname: mb-o
+  longname: Maschinenbau (inverse)
+- shortname: mt
+  longname: Medizintechnik und Biotechnologie
+- shortname: mt-o
+  longname: Medizintechnik und Biotechnologie (inverse)
+- shortname: sc
+  longname: SciTec
+- shortname: sc-o
+  longname: SciTec (inverse)
+- shortname: sw
+  longname: Sozialwesen
+- shortname: sw-o
+  longname: Sozialwesen (inverse)
+- shortname: wi
+  longname: Wirtschaftsingenieurwesen
+- shortname: wi-o
+  longname: Wirtschaftsingenieurwesen (inverse)

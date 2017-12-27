@@ -12,18 +12,17 @@
   "author": "Carsten Hoelbing",
   "license": "MIT",
   "dependencies": {
-    "bootstrap-colorpicker": "latest",
+    "bootstrap-colorpicker": "^2.5.2",
     "bootstrap-sass": "^3.3.7",
     "font-awesome": "^4.7.0",
-    "roboto-fontface": "^0.7.0",
-    "jquery": "^1.12.4",
     "ionicons": "^2.0.1",
-    "sassdoc": "^2.3.0"
+    "jquery": "^1.12.4",
+    "roboto-fontface": "^0.7.1",
+    "sassdoc": "^2.5.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "del": "^3.0.0",
-    "node-sass": "4.5.3",
     "require-dir": "^0.3.2",
     "gulp": "^3.9.1",
     "gulp-minify": "^1.0.0",

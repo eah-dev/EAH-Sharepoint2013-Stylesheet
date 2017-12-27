@@ -197,3 +197,94 @@
     padding: 15px 0;
   }
 }
+//
+.major-showAllFc-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: $font-size-large;
+  font-family: $font-family-robotoLight;
+
+  // elemente
+  .showAllFc-element {
+    a {
+      color: $eah-gray-light;
+      .title {
+        color: $eah-gray-light; // $green;
+      }
+      .title:hover {
+        border-bottom-style: solid;
+        border-bottom-width: 4px;
+      }
+    }
+    // FontAwesome icon: "chevron-right" (http://fontawesome.io/icon/chevron-right/)
+    //a::before {
+    //  content: '\f054';
+    //  font-family: $font-family-fontAwesome;
+    //  float: left;
+    //  width: 1.4em;
+    //}
+  }
+  // farbanpassung: bw
+  .showAllFc-fc-bw {
+    .title:hover {
+      color: $faculties-color-bw;
+      border-bottom-color: $faculties-color-bw;
+    }
+  }
+  // farbanpassung: et
+  .showAllFc-fc-et {
+    .title:hover {
+      color: $faculties-color-et;
+      border-bottom-color: $faculties-color-et;
+    }
+  }
+  // farbanpassung: gl
+  .showAllFc-fc-gl {
+    .title:hover {
+      color: $faculties-color-gl;
+      border-bottom-color: $faculties-color-gl;
+    }
+  }
+  // farbanpassung: gp
+  .showAllFc-fc-gp {
+    .title:hover {
+      color: $faculties-color-gp;
+      border-bottom-color: $faculties-color-gp;
+    }
+  }
+  // farbanpassung: mb
+  .showAllFc-fc-mb {
+    .title:hover {
+      color: $faculties-color-mb;
+      border-bottom-color: $faculties-color-mb;
+    }
+  }
+  // farbanpassung: mt
+  .showAllFc-fc-mt {
+    .title:hover {
+      color: $faculties-color-mt;
+      border-bottom-color: $faculties-color-mt;
+    }
+  }
+  // farbanpassung: sc
+  .showAllFc-fc-sc {
+    .title:hover {
+      color: $faculties-color-sc;
+      border-bottom-color: $faculties-color-sc;
+    }
+  }
+  // farbanpassung: sw
+  .showAllFc-fc-sw {
+    .title:hover {
+      color: $faculties-color-sw;
+      border-bottom-color: $faculties-color-sw;
+    }
+  }
+  // farbanpassung: wi
+  .showAllFc-fc-wi {
+    .title:hover {
+      color: $faculties-color-wi;
+      border-bottom-color: $faculties-color-wi;
+    }
+  }
+}

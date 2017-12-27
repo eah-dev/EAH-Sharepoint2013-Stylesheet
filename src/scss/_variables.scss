@@ -19,7 +19,7 @@ $blue-dark:         #3a6ce2; // Akzentblau
 // eah - color
 $green-light:       #cdece8;
 $green:             #00aaa0; // EAH gruen - rgb (0,170,160)
-$green-dark:        #2f4f4f;// #2f4f4f = DarkSlateGray
+$green-dark:        #2f4f4f; // #2f4f4f = DarkSlateGray
 
 // transparent
 // green -> #009A93 -> rgb (0, 154, 147)
@@ -32,9 +32,10 @@ $transparent-blue:        rgba(57, 74, 95, 0.5);
 $transparent-blue-dark:   rgba(57, 74, 95, 0.65);
 
 $eah-gray:              #efefef;
-$eah-gray-light:        rgba(57, 74, 95, 0.4);// (#394A5F mit 40% Deckkraft) ;// old #b0b7bf;
+$eah-gray-light:        #616e7f;
+$eah-gray-dark:         rgba(57, 74, 95, 0.4); // (#394A5F mit 40% Deckkraft)
 
-$search-form-color:     $blue;//#75818f;
+$search-form-color:     $blue; //#75818f;
 
 $eah-menu-close:        $white;
 

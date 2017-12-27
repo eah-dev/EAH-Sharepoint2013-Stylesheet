@@ -1,0 +1,18 @@
+- shortname: bw
+  longname: Betriebswirtschaft
+- shortname: et
+  longname: Elektrotechnik und Informationstechnik
+- shortname: gl
+  longname: Grundlagenwissenschaften
+- shortname: gp
+  longname: Gesundheit und Pflege
+- shortname: mb
+  longname: Maschinenbau
+- shortname: mt
+  longname: Medizintechnik und Biotechnologie
+- shortname: sc
+  longname: SciTec
+- shortname: sw
+  longname: Sozialwesen
+- shortname: wi
+  longname: Wirtschaftsingenieurwesen

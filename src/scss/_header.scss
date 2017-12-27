@@ -252,17 +252,24 @@ $LanguageSelector-font-color: $gray-lighter;
   }
 }
 .header-sm-fc {
+  // padding: 10px 0;
   padding-left: 10px;
   border-left-style: solid;
-  border-left-width: 10px;
+  border-left-width: 4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   .header-sm-fc-block {
     text-align: left;
     padding: 2px 5px;
+    text-transform: uppercase;
+    font-weight: 500;
   }
   .header-sm-fc-title {
     text-align: left;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 18px;
+    text-transform: uppercase;
+    //text-shadow: 1px 1px $faculties-color-wi; //black;
   }
 }
 .header-sm-fc-bw {
@@ -318,17 +325,27 @@ $LanguageSelector-font-color: $gray-lighter;
   .header-sm-fc-block {
     background-color: $faculties-color-wi;
   }
+  .header-sm-fc-title {
+    // text-shadow: 1px 1px $faculties-color-wi; //black;
+  }
 }
 // wird nur auf dem handy angezeigt
 .header-xs-fc {
   .header-xs-fc-block {
     width: 100%;
-    height: 30px;
+    height: 38px;
     text-align: center;
     padding: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
   }
   .header-xs-fc-title {
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 18px;
   }
 }
 .header-xs-fc-bw {
@@ -400,6 +417,7 @@ $LanguageSelector-font-color: $gray-lighter;
     background-color: $faculties-color-wi;
   }
   .header-xs-fc-title {
-    color: $faculties-color-wi;
+    color: $black;
+    // color: $faculties-color-wi;
   }
 }

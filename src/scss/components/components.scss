@@ -1,0 +1,64 @@
+/* ============================================================================
+		Reusable Elements  :: Start
+============================================================================ */
+
+/**
+Aufbau der einzelnen wiederverwendbaren Elemente
+-------------------------------------------------------
+<section class="element-wrapper XXXXX-color">
+    <div class="container">
+      <div class="row">
+        <div class="XXXXX-wrapper">
+        </div>
+      </div>
+  </div>
+</section>
+-------------------------------------------------------
+"XXXXX" wird durch einen eindeutigen namen ersetzt
+XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer aufbau wie XXXXX-wrapper klasse
+**/
+
+/// Aufbau der wiederverwendbaren Elemente
+/// @author Carsten Hoelbing
+/// @example markup
+/// <section class="element-wrapper XXXXX-color">
+///    <div class="container">
+///      <div class="row">
+///        <div class="XXXXX-wrapper">
+///        </div>
+///      </div>
+///  </div>
+/// </section>
+.element-wrapper {
+  // Allgemeine einstellungen fuer standart elemenete
+  font-family: $font-family-base;
+  padding: 10px;
+
+  // kein efekt bei den events -> kein unterstrich
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+// einbinden aller elemente
+@import 'anchorbox';
+@import 'articelblock';
+@import 'article';
+@import 'blockquote';
+@import 'button';
+@import 'carousel';
+@import 'contact';
+@import 'interRestGroup';
+@import 'line';
+@import 'headingUnderline';
+@import 'headingUnderlineFullWidth';
+@import 'newsinfo';
+@import 'panel';
+@import 'processtask';
+@import 'overviewCourseOfStudies';
+@import 'tiles';
