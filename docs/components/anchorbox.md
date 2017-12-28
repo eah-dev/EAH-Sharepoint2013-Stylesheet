@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sprungpunkt
-description: Documentation und Beispiele fuer Sprungbix
+description: Documentation und Beispiele fuer Sprungpunkte
 group: components
 ---
 
