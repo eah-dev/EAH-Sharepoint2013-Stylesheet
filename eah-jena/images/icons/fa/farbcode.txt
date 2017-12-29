@@ -1,0 +1,6 @@
+RGBA
+616e7fff
+#616e7f
+
+link for download (Font-Awesome as SVG)
+https://github.com/encharm/Font-Awesome-SVG-PNG/tree/master/black/svg

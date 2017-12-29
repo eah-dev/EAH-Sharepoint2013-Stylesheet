@@ -1,3 +1,7 @@
-<script src="{{ site.host }}/_catalogs/masterpage/layouts/eah-jena/assets/jquery/jquery.min.js"></script>
-<script src="{{ site.host }}/_catalogs/masterpage/layouts/eah-jena/assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="{{ site.host }}/_catalogs/masterpage/layouts/eah-jena/js/eah-jena-style.js"></script>
+<script src="{{ site.baseurl }}/assets/jquery/jquery.min.js"></script>
+
+{%- if site.github -%}
+  <script src="{{ site.baseurl }}/dist/js/eah-jena-style.min.js"></script>
+{%- else -%}
+  <script src="{{ site.baseurl }}/dist/js/eah-jena-style.js"></script>
+{%- endif -%}

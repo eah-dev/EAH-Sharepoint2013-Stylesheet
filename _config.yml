@@ -26,7 +26,7 @@ github:  https://github.com/eah-dev
 
 # Build settings
 markdown: kramdown
-theme: minima
+
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
@@ -54,7 +54,3 @@ exclude:
   - README.md
   - gulpfile.js
   - spsave-settings.js
-
-include:
-- _catalogs/
-- assets/
