@@ -35,7 +35,6 @@ plugins:
 exclude:
   - .git/
   - .github/
-  - assets/scss/
   - build/
   - js/
   - node_modules/
@@ -58,3 +57,4 @@ exclude:
 
 include:
 - _catalogs
+- assets
