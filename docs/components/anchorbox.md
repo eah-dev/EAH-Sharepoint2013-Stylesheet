@@ -8,7 +8,7 @@ group: components
 <!-- Sprungpunkte -->
 <section>
   <h1>Sprungpunkte - mit Bild (2-spaltig)</h1>
-  {% example html %}
+  {% highlight html %}
   <section class="element-wrapper anchorbox-blue">
     <div class="container">
       <div class="row">
