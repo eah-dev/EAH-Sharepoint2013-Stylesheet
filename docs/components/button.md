@@ -44,13 +44,18 @@ group: components
     <div class="container">
       <div class="row">
         {% for color in site.data.fc-full %}
-        {% example html %}
           <div class="button-wrapper">
             <a role="button" class="btn btn-fc-{{ color.shortname }}" href="#">
               {{ color.longname }}
             </a>
           </div>
-        {% endexample %}
+        {% highlight html %}
+          <div class="button-wrapper">
+            <a role="button" class="btn btn-fc-{{ color.shortname }}" href="#">
+              {{ color.longname }}
+            </a>
+          </div>
+        {% endhighlight %}
         {% endfor %}
       </div>
     </div>

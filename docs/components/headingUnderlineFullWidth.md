@@ -6,10 +6,15 @@ group: components
 ---
 
 <!-- eah green -->
-{% example html %}
 <section>
   <section class="headingUnderlineFullWidth-wrapper headingUnderlineFullWidth-green">
     <span class="title">Ueberschrift - EAH</span>
   </section>
 </section>
-{% endexample %}
+{% highlight html %}
+<section>
+  <section class="headingUnderlineFullWidth-wrapper headingUnderlineFullWidth-green">
+    <span class="title">Ueberschrift - EAH</span>
+  </section>
+</section>
+{% endhighlight %}
