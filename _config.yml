@@ -19,15 +19,17 @@ email: feedback@eah-jena.de
 description: >- # this means to ignore newlines until "baseurl:"
   Dies ist das Stylesheet (Sass) für das aktuelle Sharepoint-2013-Template der Ernst Abbe Hochschule Jena.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://eah-dev.github.io/EAH-Sharepoint2013-Stylesheet/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/EAH-Sharepoint2013-Stylesheet" # the subpath of your site, e.g. /blog
+url: "https://eah-dev.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github:  https://github.com/eah-dev
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc
 
 exclude:
   - .git/
