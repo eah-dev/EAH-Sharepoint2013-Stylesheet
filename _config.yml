@@ -56,5 +56,5 @@ exclude:
   - spsave-settings.js
 
 include:
-- _catalogs
-- assets
+- _catalogs/
+- assets/
