@@ -5,22 +5,6 @@ description: Documentation und Beispiele fuer andere Elemente
 group: components
 ---
 
-<!-- bild -->
-<section>
-  <h1>Bild mittig</h1>
-  <section class="element-wrapper">
-    <div class="container">
-      <div class="row">
-        <div class="img-center-wrapper">
-          <div class="col-xs-12">
-            <img class="img-responsive" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="blank" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</section>
-
 <!--- video -->
 <section>
   <h1>Eingebettetes Video (neu)</h1>

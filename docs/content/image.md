@@ -13,7 +13,7 @@ group: content
       <div class="row">
         <div class="img-center-wrapper">
           <div class="col-xs-12">
-            <img class="img-responsive" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="blank" />
+            <img class="img-responsive" src="/assets/eah-jena/images/blankslide400x400.png" alt="blank" />
           </div>
         </div>
       </div>

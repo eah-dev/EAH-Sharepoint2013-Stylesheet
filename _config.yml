@@ -20,13 +20,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   Dies ist das Stylesheet (Sass) für das aktuelle Sharepoint-2013-Template der Ernst Abbe Hochschule Jena.
 
 baseurl: "/EAH-Sharepoint2013-Stylesheet" # the subpath of your site, e.g. /blog
+
 url: "https://eah-dev.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-host: "https://eah-dev.github.io/EAH-Sharepoint2013-Stylesheet"
 
 togithub:  https://github.com/eah-dev/EAH-Sharepoint2013-Stylesheet
 
 # Build settings
 markdown: kramdown
+
+# Jekyll folder
+plugins_dir:     jekyll/_plugins
+layouts_dir:     jekyll/_layouts
+data_dir:        jekyll/_data
+includes_dir:    jekyll/_includes
+
+# scss / css settings
+sass:
+  sass_dir: src/scss
+  style: compressed
 
 plugins:
   - jekyll-redirect-from
@@ -55,3 +66,5 @@ exclude:
   - README.md
   - gulpfile.js
   - spsave-settings.js
+
+

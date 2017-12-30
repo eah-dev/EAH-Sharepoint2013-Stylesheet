@@ -1,8 +1,13 @@
+---
+---
 //
 //
 // Load configuration variables, Bootstrap styles, and core styles.
 //
 //
+
+// set charset
+@charset 'utf8';
 
 // application configuration variables
 @import 'variables';
@@ -11,9 +16,9 @@
 @import 'loadbootstrap';
 
 // Variables to modify font folders
-$fa-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts/";
-$roboto-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/roboto-fontface/fonts";
-$ionicons-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/ionicons/fonts";
+$fa-font-path: "/assets/font-awesome/fonts/";
+$roboto-font-path: "/assets/roboto-fontface/fonts";
+$ionicons-font-path: "/assets/ionicons/fonts";
 
 // load all external libs
 @import 'loadexternlibs';

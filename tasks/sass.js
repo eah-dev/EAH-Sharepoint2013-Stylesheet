@@ -6,11 +6,10 @@ const gulpStylelint = require('gulp-stylelint');
 
 // Input - Files / Folder
 const inputStyle = './src/scss/eah-jena-style.scss';
-const inputdoc = './src/scss/**/*.scss';
+const inputdoc = './src/scss/**/_*.scss';
 
 // Output - Folder
 const outputStyle = './dist/css';
-const outputStyleGP = './_catalogs/masterpage/layouts/eah-jena/css';
 const reportOutputDir = 'build/reports/lint';
 
 // set options
@@ -33,7 +32,6 @@ gulp.task('styles', function () {
   .pipe(sass(sassOptions).on('error', sass.logError))
   // .pipe(sourcemaps.write())
   .pipe(gulp.dest(outputStyle))
-  .pipe(gulp.dest(outputStyleGP))
 });
 
 gulp.task('styles-min', function () {
@@ -41,7 +39,6 @@ gulp.task('styles-min', function () {
     .src(inputStyle)
     .pipe(sass(sassOptionsmin).on('error', sass.logError))
     .pipe(gulp.dest(outputStyle))
-    .pipe(gulp.dest(outputStyleGP))
 });
 
 // lint-css

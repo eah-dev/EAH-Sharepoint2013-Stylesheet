@@ -9,7 +9,6 @@ const inputJavaScript = './src/js/*';
 
 // Output - Folder
 const outputJavaScriptBuild = './dist/js';
-const outputJavaScriptBuildGP = './_catalogs/masterpage/layouts/eah-jena/js';
 
 //
 // ---- tasks
@@ -27,5 +26,4 @@ gulp.task('JavaScriptCompress', function () {
       ignoreFiles: ['.min.js']
     }))
     .pipe(gulp.dest(outputJavaScriptBuild))
-    .pipe(gulp.dest(outputJavaScriptBuildGP))
 });

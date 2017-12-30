@@ -1,8 +1,14 @@
+---
+layout: home
+title: EAH-Sharepoint2013-Stylesheet
+description: Documentation
+---
+
 # Anleitung zum Mitmachen
 ## Einrichten der Entwicklungsumgebung (IDE)
 Es ist egal was fuer eine IDE sie benutzten.
 Empfehlung: [Visual Studio Code](https://code.visualstudio.com/) kurz VSC, gibt es fuer die verschiedensten OS und hat sehr grosse Auswahl von Plugins.
-Alternative: [ATOM] (]https://atom.io/)
+Alternative: [ATOM](https://atom.io/)
 
 Fuer Visual Studio Code sollten folgende Plugins installieren werden
 - EditorConfig for VS Code
@@ -10,19 +16,33 @@ Fuer Visual Studio Code sollten folgende Plugins installieren werden
 - stylint
 
 ## Mitmachen / Entwickeln
-1) Klonen des Projektes
+1) auf Github einlogen und das [orginal Projekt](https://eah-dev.github.io/EAH-Sharepoint2013-Stylesheet/) klonnen.
+
+2) zum eigen Klon weckseln und diesen anschliessend herrunterladen (Anmerkung: XXXXXXX durch den eigenen GitHub Account Namen ersetzen)
 ```bash
-git clone the repo
+git clone https://github.com/XXXXXXX/EAH-Sharepoint2013-Stylesheet.git
 cd EAH-Sharepoint2013-Stylesheet
 ```
-2) Erstellen Sie ein extra Branch fuer ihre Aenderung / Erweiterung.
+
+3) Abhaenigkeiten installieren
+```bash
+npm install
+```
+
+4) Erstellen Sie ein extra Branch fuer ihre Aenderung / Erweiterung.
 ```bash
 $ git checkout -b [name_of_your_new_branch]
 ```
-3) Nachdem Sie ihre Aenderung getestet haben, stellen Sie ein Merge-Requests.
+
+5) Dateien anpassen anschliessend eingeben
+```bash
+npm run build
+```
+
+6) Nachdem Sie ihre Aenderung getestet haben, stellen Sie ein Merge-Requests.
 Am einfachsten geschieht dies ueber die Graphische Oberflaesche von Github.
 
-4) Dieser Merge-Requests wird nach einer Uberpruefung, zugestimmt d.h er wird in den oeffentlichen Branch integriert.
+7) Dieser Merge-Requests wird nach einer Uberpruefung, zugestimmt d.h er wird in den oeffentlichen Branch integriert.
 
 ## Entwicklung
 

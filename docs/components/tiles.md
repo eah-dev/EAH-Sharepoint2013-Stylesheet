@@ -13,7 +13,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTileLink">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Studienangebote</div>
@@ -32,7 +32,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Bewerben</div>
@@ -68,7 +68,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Service &amp; Beratung</div>
@@ -101,7 +101,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Internationales</div>
@@ -142,7 +142,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
             <div class="eahTile">
-              <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+              <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
                   <div class="content-title">Schwerpunk</div>
@@ -175,7 +175,7 @@ group: components
           </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -208,7 +208,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -241,7 +241,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Sonstiges</div>
@@ -285,7 +285,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
             <div class="eahTile">
-              <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+              <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
                   <div class="content-title">Schwerpunk</div>
@@ -318,7 +318,7 @@ group: components
           </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -351,7 +351,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -384,7 +384,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Sonstiges</div>
@@ -428,7 +428,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
             <div class="eahTile">
-              <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+              <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
                   <div class="content-title">Schwerpunk</div>
@@ -461,7 +461,7 @@ group: components
           </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -494,7 +494,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -527,7 +527,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Sonstiges</div>
@@ -571,7 +571,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
             <div class="eahTile">
-              <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+              <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
                   <div class="content-title">Schwerpunk</div>
@@ -604,7 +604,7 @@ group: components
           </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -637,7 +637,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -670,7 +670,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Sonstiges</div>
@@ -714,7 +714,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
             <div class="eahTile">
-              <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+              <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
                   <div class="content-title">Schwerpunk</div>
@@ -747,7 +747,7 @@ group: components
           </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -780,7 +780,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -813,7 +813,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Sonstiges</div>
@@ -857,7 +857,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
             <div class="eahTile">
-              <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+              <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
                   <div class="content-title">Schwerpunk</div>
@@ -890,7 +890,7 @@ group: components
           </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -923,7 +923,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -956,7 +956,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Sonstiges</div>
@@ -1000,7 +1000,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
             <div class="eahTile">
-              <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+              <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
                   <div class="content-title">Schwerpunk</div>
@@ -1033,7 +1033,7 @@ group: components
           </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -1066,7 +1066,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -1099,7 +1099,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Sonstiges</div>
@@ -1143,7 +1143,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
             <div class="eahTile">
-              <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+              <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
                   <div class="content-title">Schwerpunk</div>
@@ -1176,7 +1176,7 @@ group: components
           </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -1209,7 +1209,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -1242,7 +1242,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Sonstiges</div>
@@ -1286,7 +1286,7 @@ group: components
       <div class="row">
         <div class="col-xs-12 col-sm-6 no-padding">
             <div class="eahTile">
-              <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+              <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
                   <div class="content-title">Schwerpunk</div>
@@ -1319,7 +1319,7 @@ group: components
           </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -1352,7 +1352,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Schwerpunk</div>
@@ -1385,7 +1385,7 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
                 <div class="content-title">Sonstiges</div>

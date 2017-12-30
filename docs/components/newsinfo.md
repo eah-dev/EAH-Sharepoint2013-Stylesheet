@@ -38,6 +38,7 @@ group: components
           </div>
         </div>
       </div>
+    </div>
   </section>
   {% highlight html %}
   <section class="element-wrapper background-blue">
@@ -70,6 +71,7 @@ group: components
           </div>
         </div>
       </div>
+    </div>
   </section>
   {% endhighlight %}
 </section>
@@ -98,7 +100,7 @@ group: components
               <div class="newsinfo-title" id="newsinfo-infos-title">
                 <span class="text">Veranstaltungen</span>
               </div>
-              <div class="newsinfo-body" id="newsinfo-infos-body" >
+              <div class="newsinfo-body" id="newsinfo-infos-body">
               </div>
               <div class="newsinfo-info-counter">
               </div>
@@ -107,6 +109,7 @@ group: components
           </div>
         </div>
       </div>
+    </div>
   </section>
   <h1>Fachbereich: {{ color.longname }}</h1>
   {% highlight html %}
@@ -140,6 +143,7 @@ group: components
           </div>
         </div>
       </div>
+    </div>
   </section>
   {% endhighlight %}
 </section>

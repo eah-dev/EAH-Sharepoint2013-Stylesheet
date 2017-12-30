@@ -12,7 +12,7 @@
 
 <title>EAH-Sharepoint2013-Stylesheet · Dies ist das Stylesheet (Sass) für das aktuelle Sharepoint-2013-Template der Ernst Abbe Hochschule Jena.</title>
 
-<link rel="stylesheet" href="/dist/css/eah-jena-style.css">
+<link rel="stylesheet" href="/assets/eah-jena/css/eah-jena-doc.css">
 
   </head>
   <body>
@@ -22,24 +22,34 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#eah-doku-navbar-collapse"
           aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/"><img src="/assets/icons/eah-jena-transparent.ico" id="navbar-img"></a><p class="navbar-text">EAH-Sharepoint2013-Stylesheet: </p>
+        <a class="navbar-brand" href="/"><img src="/assets/eah-jena/images/ico/eah-jena-transparent.ico" id="navbar-img"></a>
+        <span>
+          <a href="/" class="navbar-text h3">EAH-Sharepoint2013-Stylesheet</a>
+        </span>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="eah-doku-navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-            
-              <li>
-                <a href="/">Home</a>
-              </li>
-            
+
+          <li>
+            <a href="https://github.com/eah-dev/EAH-Sharepoint2013-Stylesheet/">
+              <img src="/assets/eah-jena/images/GitHub/GitHub-Mark-32px.png" id="navbar-img" title="GitHub" alt="GitHub">
+            </a>
+          </li>
+
+          
+            <li>
+              <a href="/">Home</a>
+            </li>
+          
 
           <li class="dropdown ">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Components
@@ -47,49 +57,49 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a href="/docs/components/contact/">Ansprechpartner</a>
+                <a href="/docs/components/contact">Ansprechpartner</a>
               </li>
               <li>
-                <a href="/docs/components/articel/">Artikel mit Bild</a>
+                <a href="/docs/components/articel">Artikel mit Bild</a>
               </li>
               <li>
-                <a href="/docs/components/articelblock/">Artikelblock</a>
+                <a href="/docs/components/articelblock">Artikelblock</a>
               </li>
               <li>
-                <a href="/docs/components/button/">Button</a>
+                <a href="/docs/components/button">Button</a>
               </li>
               <li>
-                <a href="/docs/components/interRestGroup/">InteressenGruppe</a>
+                <a href="/docs/components/interRestGroup">InteressenGruppe</a>
               </li>
               <li>
-                <a href="/docs/components/tiles/">Kacheln</a>
+                <a href="/docs/components/tiles">Kacheln</a>
               </li>
               <li>
-                <a href="/docs/components/newsinfo/">News-Info</a>
+                <a href="/docs/components/newsinfo">News-Info</a>
               </li>
               <li>
-                <a href="/docs/components/panel/">Panel</a>
+                <a href="/docs/components/panel">Panel</a>
               </li>
               <li>
-                <a href="/docs/components/processtask/">Prozess-Ablauf</a>
+                <a href="/docs/components/processtask">Prozess-Ablauf</a>
               </li>
               <li>
-                <a href="/docs/components/anchorbox/">Sprungbox</a>
+                <a href="/docs/components/anchorbox">Sprungbox</a>
               </li>
               <li>
-                <a href="/docs/components/line/">Trennline</a>
+                <a href="/docs/components/line">Trennline</a>
               </li>
               <li>
-                <a href="/docs/components/headingUnderline/">&Uuml;berschrift mit einer darunterliegenden Line (als Block)</a>
+                <a href="/docs/components/headingUnderline">&Uuml;berschrift mit einer darunterliegenden Line (als Block)</a>
               </li>
               <li>
-                <a href="/docs/components/headingUnderlineFullWidth/">&Uuml;berschrift mit einer darunterliegenden Line (volle Breite)</a>
+                <a href="/docs/components/headingUnderlineFullWidth">&Uuml;berschrift mit einer darunterliegenden Line (volle Breite)</a>
               </li>
               <li>
-                <a href="/docs/components/videolink/">VideoLink</a>
+                <a href="/docs/components/videolink">VideoLink</a>
               </li>
               <li>
-                <a href="/docs/components/blockquote/">Zitat</a>
+                <a href="/docs/components/blockquote">Zitat</a>
               </li>
             </ul>
           </li>
@@ -99,13 +109,13 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a href="/docs/content/typography/">Typography</a>
+                <a href="/docs/content/typography">Typography</a>
               </li>
               <li>
-                <a href="/docs/content/image/">Bilder</a>
+                <a href="/docs/content/image">Bilder</a>
               </li>
               <li>
-                <a href="/docs/content/startseiteMajor/">HauptSeite-Startseite</a>
+                <a href="/docs/content/startseiteMajor">HauptSeite-Startseite</a>
               </li>
             </ul>
           </li>
@@ -142,13 +152,15 @@
 
     </main>
 
-    <footer>
-
+    <footer class="doku-footer">
+  <div class="container-fluid">
+    <p>Designed and built with all the love in the world by <a href="http://hoelbing.net" target="_blank">@ch</a> and Katharina Sawatzki. Maintained by the <a href="https://github.com/orgs/eah-dev/people">core team</a> with the help of <a href="https://github.com/eah-dev/EAH-Sharepoint2013-Stylesheet/graphs/contributors">our contributors</a>.</p>
+    <p>Code licensed <a href="https://github.com/eah-dev/EAH-Sharepoint2013-Stylesheet/blob/master/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</p>
+  </div>
 </footer>
 
-    <script src="/_catalogs/masterpage/layouts/eah-jena/assets/jquery/jquery.min.js"></script>
-<script src="/_catalogs/masterpage/layouts/eah-jena/assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="/_catalogs/masterpage/layouts/eah-jena/js/eah-jena-style.js"></script>
-
+    <script src="/assets/jquery/jquery.min.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.min.js"></script><script src="/dist/js/eah-jena-style.js"></script>
   </body>
+  
 </html>

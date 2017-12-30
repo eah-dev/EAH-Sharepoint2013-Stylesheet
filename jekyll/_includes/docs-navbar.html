@@ -3,29 +3,26 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#eah-doku-navbar-collapse"
           aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/icons/eah-jena-transparent.ico" id="navbar-img"></a>
-        <p class="navbar-text">
-          <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-          {% if page.layout == "home" %}
-          {% else %} : {{ page.title }}
-          {% endif %}
-        </p>
+        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/eah-jena/images/ico/eah-jena-transparent.ico" id="navbar-img"></a>
+        <span>
+          <a href="{{ site.baseurl }}/" class="navbar-text h3">{{ site.title }}</a>
+        </span>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="eah-doku-navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
 
           <li>
             <a href="{{ site.togithub }}/">
-              <img src="{{ site.baseurl }}/assets/icons/GitHub/GitHub-Mark-32px.png" id="navbar-img" title="GitHub" alt="GitHub">
+              <img src="{{ site.baseurl }}/assets/eah-jena/images/GitHub/GitHub-Mark-32px.png" id="navbar-img" title="GitHub" alt="GitHub">
             </a>
           </li>
 
