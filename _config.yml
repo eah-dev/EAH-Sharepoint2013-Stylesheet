@@ -22,7 +22,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/EAH-Sharepoint2013-Stylesheet" # the subpath of your site, e.g. /blog
 url: "https://eah-dev.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 host: "https://eah-dev.github.io/EAH-Sharepoint2013-Stylesheet"
-github:  https://github.com/eah-dev
+
+togithub:  https://github.com/eah-dev/EAH-Sharepoint2013-Stylesheet
 
 # Build settings
 markdown: kramdown
