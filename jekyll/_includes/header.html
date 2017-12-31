@@ -15,4 +15,8 @@
   {%- endif -%}
 </title>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/eah-jena/css/eah-jena-doc.css">
+{% if site.github %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/eah-jena/css/eah-jena-docs.min.css">
+{% else %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/eah-jena/css/eah-jena-docs.css">
+{% endif %}
