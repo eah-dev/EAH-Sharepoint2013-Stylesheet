@@ -1,4 +1,6 @@
-// This file is a copy from  "eah-jena-style.scss". i change only the path to the external fonts/libs.
+// NOTE:
+// This file is a copy from "eah-jena-style.scss".
+// The path to the external fonts/libs is adjust.
 
 //
 // Load configuration variables, Bootstrap styles, and core styles.
@@ -15,7 +17,7 @@
 
 // Variables to modify font folders
 $fa-font-path: "/EAH-Sharepoint2013-Stylesheet/assets/font-awesome/fonts/";
-$roboto-font-path: "/EAH-Sharepoint2013-Stylesheet/assets/roboto-fontface/fonts";
+$roboto-font-path: "/EAH-Sharepoint2013-Stylesheet/assets/roboto-fontface/fonts/Roboto";
 $ionicons-font-path: "/EAH-Sharepoint2013-Stylesheet/assets/ionicons/fonts";
 
 // load all external libs
