@@ -34,11 +34,6 @@ layouts_dir:     jekyll/_layouts
 data_dir:        jekyll/_data
 includes_dir:    jekyll/_includes
 
-# scss / css settings
-sass:
-  sass_dir: src/scss
-  style: compressed
-
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
