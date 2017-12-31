@@ -19,7 +19,7 @@
     "css-minify": "npm-run-all --parallel css-minify-style css-minify-docs",
     "css-minify-style": "gulp css-minify-style",
     "css-minify-docs": "gulp css-minify-docs",
-    "docs": "npm-run-all --sequential docs-lint css-minify docs-compile",
+    "docs": "npm-run-all --sequential docs-lint css-minify-docs docs-compile",
     "docs-compile": "bundle exec jekyll build",
     "docs-lint": "gulp css-lint-docs"
   },
