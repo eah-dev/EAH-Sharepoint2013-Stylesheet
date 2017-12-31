@@ -37,8 +37,8 @@ gulp.task('copy:fontawesomefonts', function () {
 
 // gulp.task - 'copy:robotofontface'
 gulp.task('copy:robotofontface', function () {
-  return gulp.src('./node_modules/roboto-fontface/fonts/**')
-  .pipe(gulp.dest('./assets/roboto-fontface/fonts/'));
+  return gulp.src('./node_modules/roboto-fontface/fonts/Roboto/**')
+  .pipe(gulp.dest('./assets/roboto-fontface/fonts/roboto'));
 });
 
 // gulp.task - 'copy:ionicons'
@@ -53,8 +53,8 @@ gulp.task('copy:jquery', function () {
   .pipe(gulp.dest('./assets/jquery/'));
 });
 
-// gulp.task - 'copy:cssdoku'
-gulp.task('copy:cssdoku', function () {
+// gulp.task - 'copy:cssdocs'
+gulp.task('copy:cssdocs', function () {
   return gulp.src('./src/scss/eah-jena-doc.scss')
   .pipe(gulp.dest('./assets/eah-jena/css'));
 });
@@ -72,7 +72,7 @@ gulp.task('copy',['clean'], function () {
       'copy:robotofontface',
       'copy:ionicons',
       'copy:jquery',
-      'copy:cssdoku'
+      'copy:cssdocs'
     ]
   ); // starts only after 'clean'
 });
