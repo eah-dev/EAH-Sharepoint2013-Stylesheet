@@ -43,6 +43,7 @@ exclude:
   - .git/
   - .github/
   - build/
+  - dist/css/
   - js/
   - node_modules/
   - nuget/

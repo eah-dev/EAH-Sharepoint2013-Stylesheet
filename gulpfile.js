@@ -10,20 +10,14 @@ requireDir('./tasks');
 // ---- tasks
 //
 
-// Watch task
-gulp.task('watch', function () {
-  gulp.watch('./src/scss/**/*.scss', ['copyToSharePoint:css']);
-});
-gulp.task('watchDev', function () {
-  gulp.watch('./src/scss/**/*.scss', ['copyToSharePointDev:css']);
-});
-
 // final step
 // gulp.task - 'build'
-gulp.task('build', ['lint-css'], function () {
-  gulp.start(['styles-min', 'copy']); // starts only after 'lint-css'
+gulp.task('build', ['css-lint-style'], function () {
+  gulp.start(['css-compile-style', 'css-minify-style']); // starts only after 'css-lint-style'
 });
-
+gulp.task('build-docs', ['css-lint-docs'], function () {
+  gulp.start(['css-compile-docs', 'css-minify-docs', 'copy']);
+});
 // copy all files to the sharepoint server
 // gulp.task - 'copyToSharePoint'
 gulp.task('copyToSharePoint', ['copyToSharePoint:css']);
