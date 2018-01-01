@@ -1,9 +1,23 @@
 ---
 layout: default
-title: buttons
-description: Documentation und Beispiele fuer buttons
+title: Button
+description: Documentation und Beispiele fuer Button
 group: components
 ---
+
+## wiederverwenbares Element: Button
+### Eigenschaften
+* Weiterleitung zu anderer Seite
+
+### Anwendungsbereich
+* Platzierung auf Seitenanfang oder in anderen Bereichen der Seite
+* Mittels (Kurz)text sollte vorab auf Ziel des Buttons hingewiesen werden (z.B. Artikel, Artikelblock usw.)
+
+### Anpassungsmöglichkeiten
+* Farbauswahl, Linktext
+
+### Kombinationsmöglichkeiten
+* Kombinierbar mit Artikel, Artikelblock
 
 <!-- buttons -->
 <section>

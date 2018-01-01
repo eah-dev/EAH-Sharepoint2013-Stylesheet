@@ -5,6 +5,19 @@ description: Documentation und Beispiele fuer Prozess-Abfolge
 group: components
 ---
 
+## wiederverwenbares Element: Prozess-Abfolge
+### Eigenschaften
+*
+
+### Anwendungsbereich
+*
+
+### Anpassungsmöglichkeiten
+*
+
+### Kombinationsmöglichkeiten
+*
+
 <!-- Prozess-Start -->
 <section>
   <h1>Prozess-Start</h1>

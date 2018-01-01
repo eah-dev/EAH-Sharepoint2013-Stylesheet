@@ -1,9 +1,20 @@
 ---
 layout: default
-title: Other
-description: Documentation und Beispiele fuer andere Elemente
+title: Eingebettetes Video
+description: Documentation und Beispiele fuer Eingebettetes Video
 group: components
 ---
+
+## wiederverwenbares Element: Eingebettetes Video
+### Eigenschaften
+* Element zur multisensualen Informationsweitergabe
+
+### Anwendungsbereich
+* Verwendbar für zu bewerbende oder erklärende Inhalte (Veranstaltungen, Tutorials)
+* Sollte mit Kurztext zur Erklärung des Videoinhaltes verbunden sein
+
+### Kombinationsmöglichkeiten
+* Buttons oder Links können in Video eingebettet werden
 
 <!--- video -->
 <section>

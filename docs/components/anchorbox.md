@@ -1,9 +1,18 @@
 ---
 layout: default
-title: Sprungpunkt
-description: Documentation und Beispiele fuer Sprungpunkte
+title: Sprungpunkte Box
+description: Documentation und Beispiele fuer Sprungpunkte Box
 group: components
 ---
+
+## wiederverwenbares Element: Sprungpunkte Box
+### Eigenschaften
+* Element zur Direktnavigation zu Seitenabschnitt
+* Verbunden mit Abschnittsüberschriften
+
+### Anwendungsbereich
+* Platzierung am Seitenanfang
+* Anwendung bei Seiten mit großem Informationsgehalt und erhöhtem Navigationsbedarf
 
 <!-- Sprungpunkte -->
 <section>

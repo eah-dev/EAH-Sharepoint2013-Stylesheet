@@ -38,8 +38,22 @@
             </li>
           {% endif %}
 
+          <li class="dropdown {% if page.group == 'content' %}active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Corporate Design
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="{{ site.baseurl }}/docs/corporatedesign/typography">Typography</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/corporatedesign/color">Farben</a>
+              </li>
+            </ul>
+          </li>
+
           <li class="dropdown {% if page.group == 'components' %}active{% endif %}">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Components
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gestaltungselemte
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
@@ -95,9 +109,6 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li>
-                <a href="{{ site.baseurl }}/docs/content/typography">Typography</a>
-              </li>
               <li>
                 <a href="{{ site.baseurl }}/docs/content/image">Bilder</a>
               </li>

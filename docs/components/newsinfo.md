@@ -5,6 +5,17 @@ description: Documentation und Beispiele fuer Startseite-News
 group: components
 ---
 
+## wiederverwenbares Element: Startseite-News
+### Eigenschaften
+* Weiterleitungselement zu temporär existierenden Informationen (Veranstaltungen, News)
+
+### Anwendungsbereich
+* Platzierung am Seitenanfang
+* Nur einmalige Verwendung auf Seite
+
+### Anpassungsmöglichkeiten
+* Farbauswahl bei Button und Trennlinie (abhängig von bspw. dem Fachbereich)
+
 <!-- Startseite -->
 <section>
   <h1>Startseite-News</h1>

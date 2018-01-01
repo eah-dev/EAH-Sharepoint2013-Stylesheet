@@ -5,6 +5,20 @@ description: Documentation und Beispiele fuer Ansprechpartner
 group: components
 ---
 
+## wiederverwenbares Element: Ansprechpartner
+### Eigenschaften
+* Darstellung einer Kontaktperson zum entsprechenden Seiteninhalt
+* Angabe relevanter Kontaktinformationen (Name, Telefon, Mail, Raumnummer)
+
+### Anwendungsbereich
+* Platzierung auf rückfrageintensiven Seiten
+* Platzierung auf Seiten, die persönlichen Informationsaustausch zwischen User und Ansprechpartner fokussiert
+* Der Ansprechpartner sollte erst am Ende der Seite, nach Darstellung des relevanten Inhaltes, ausgegeben werden
+
+### Anpassungsmöglichkeiten
+* 2 - spaltige Ansprechpartner
+* Farbauswahl (abhängig von Fach-/ Hochschulbereich
+
 <!-- eine Spalte - default -->
 <section>
   <h1>Ansprechpartner</h1>

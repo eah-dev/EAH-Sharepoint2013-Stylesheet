@@ -5,6 +5,19 @@ description: Documentation und Beispiele fuer &Uuml;berschrift mit einer darunte
 group: components
 ---
 
+## wiederverwenbares Element: Überschrift mit einer darunterliegenden Line (volle Breite)
+### Eigenschaften
+*
+
+### Anwendungsbereich
+*
+
+### Anpassungsmöglichkeiten
+*
+
+### Kombinationsmöglichkeiten
+*
+
 <!-- eah green -->
 <section>
   <section class="headingUnderlineFullWidth-wrapper headingUnderlineFullWidth-green">

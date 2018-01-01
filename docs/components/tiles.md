@@ -5,6 +5,18 @@ description: Documentation und Beispiele fuer Kacheln
 group: components
 ---
 
+## wiederverwenbares Element: Kacheln
+### Eigenschaften
+* Navigationsalternative mit Bildelement
+* Unterscheidung nach allgemeiner und studienorientierter Kachelnavigation
+
+### Anwendungsbereich
+* Platzierung am Seitenanfang
+* (Nur für Hauptseiten geeignet)
+
+### Anpassungsmöglichkeiten
+* Farbauswahl (abhängig von bspw. dem Fachbereich)
+
 <!-- Startseite -->
 <section>
   <h1>Startseite-Kacheln</h1>

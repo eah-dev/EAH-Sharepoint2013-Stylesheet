@@ -1,9 +1,20 @@
 ---
 layout: default
-title: artikelblock
-description: Documentation und Beispiele fuer artikelblock
+title: Artikelblock grüner Hintergrund
+description: Documentation und Beispiele fuer Artikelblock grüner Hintergrund
 group: components
 ---
+
+## wiederverwenbares Element: Artikelblock grüner Hintergrund
+### Eigenschaften
+* Kurze Zusammenfassung / Überblick über Kerninhalt der Seite
+
+### Anwendungsbereich
+* Platzierung auf Seitenanfang
+* Kann als Weiterleitungselement  auf andere Seite verwendet werden (dann Platzierung auf Seite beliebig)
+
+### Kombinationsmöglichkeiten
+* Kombinierbar mit Button und Links
 
 <!-- artikelblock -->
 <section>

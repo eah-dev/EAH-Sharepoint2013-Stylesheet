@@ -1,9 +1,22 @@
 ---
 layout: default
-title: Sprungpunkt
-description: Documentation und Beispiele fuer Sprungbix
+title: Panel
+description: Documentation und Beispiele fuer Panel
 group: components
 ---
+
+## wiederverwenbares Element: Panel
+### Eigenschaften
+* Element mit Drop - Funktion zur Aufrufung weiterer Informationen
+
+### Anwendungsbereich
+* Kann überall auf der Seite platziert werden
+* Panel - Titel sollte eindeutig dem versteckten Informationsinhalt zuzuordnen sein
+* Anwendung bei Seiten mit großem Informationsgehalt
+
+
+### Anpassungsmöglichkeiten
+* Farbauswahl: Blau, Grün, Grau
 
 <!-- panel -->
 <section>

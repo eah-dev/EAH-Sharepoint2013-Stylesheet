@@ -1,9 +1,23 @@
 ---
 layout: default
-title: zitat
-description: Documentation und Beispiele fuer zitat
+title: Zitat mit vertikaler Trennlinie
+description: Documentation und Beispiele fuer Zitat mit vertikaler Trennlinie
 group: components
 ---
+
+## wiederverwenbares Element: Zitat mit vertikaler Trennlinie
+### Eigenschaften
+* Element zur Seitengestaltung (bspw. Zitat berühmter Wissenschaftler) oder Rezitation (Erfahrungsbericht, Meinung, ...)
+
+### Anwendungsbereich
+* Kann in allen Bereichen der Seite verwendet werden
+* Übermäßige Nutzung vermeiden
+
+### Anpassungsmöglichkeiten
+* Farbauswahl bei Trennlinie (abhängig von bspw. dem Fachbereich)
+
+### Kombinationsmöglichkeiten
+* Link oder Button (nach Rezitationsende)
 
 <!-- zitat -->
 <section>

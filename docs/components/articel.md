@@ -1,9 +1,28 @@
 ---
 layout: default
-title: Artikel
-description: Documentation und Beispiele fuer Artikel
+title: Artikel mit Bild links/ rechts
+description: Documentation und Beispiele fuer Artikel mit Bild links/ rechts
 group: components
 ---
+
+## wiederverwenbares Element: Artikel mit Bild links/ rechts
+### Eigenschaften
+* Informationsbereitstellung mit Bildelement
+* Bildinhalt kann informativer oder visuell unterstützender Natur sein
+
+### Anwendungsbereich
+* Platzierung bei dauerhaft bestehenden Informationen
+* Sollte im Anfangsbereich der Seite platziert sein
+* Bild sollte mit ausreichend Text verbunden sein
+* Bild links / rechts sollte abwechselnd verwendet werden
+
+
+### Anpassungsmöglichkeiten
+* Hintergrund grau oder blau
+* Bildelement links, mittig oder rechts
+
+### Kombinationsmöglichkeiten
+* Kombinierbar mit Button und Links
 
 <!-- Artikel -->
 <section>

@@ -5,6 +5,18 @@ description: Documentation und Beispiele fuer Startseite-Interessen Gruppen
 group: components
 ---
 
+## wiederverwenbares Element: Startseite-Interessen Gruppen
+### Eigenschaften
+* Element zur Weiterleitung auf für den User relevante Seiten
+* Unterscheidung zwischen allgemeinorientierter und studienorientierter Navigation
+
+### Anwendungsbereich
+* Platzierung am Seitenanfang und nur auf den (Fachbereichs-) Hauptseiten
+
+### Anpassungsmöglichkeiten
+* Farblicher Hover - Effekt
+* Farbanpassung: Fachbereichsfarben
+
 <!-- Startseite -->
 <section>
   <h1>Startseite-Interessen Gruppen</h1>

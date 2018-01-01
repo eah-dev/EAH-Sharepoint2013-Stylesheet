@@ -2,8 +2,21 @@
 layout: default
 title: Schnelleinstieg Studiengänge
 description: Documentation und Beispiele fuer Schnelleinstieg Studiengänge
-group: components, fc
+group: components
 ---
+
+## wiederverwenbares Element: Schnelleinstieg Studiengänge
+### Eigenschaften
+*
+
+### Anwendungsbereich
+*
+
+### Anpassungsmöglichkeiten
+*
+
+### Kombinationsmöglichkeiten
+*
 
 <section>
   <h2>Wirtschaftsingenieurwesen</h2>

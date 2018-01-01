@@ -5,6 +5,17 @@ description: Documentation und Beispiele fuer Trennline
 group: components
 ---
 
+## wiederverwenbares Element: Trennline
+### Eigenschaften
+* Element zur Abtrennung unterschiedlich inhaltlicher Seitenelemente
+
+### Anwendungsbereich
+* Kann überall auf der Seite platziert werden
+* Übermäßige Nutzung von Trennlinien vermeiden
+
+### Anpassungsmöglichkeiten
+* Farbauswahl (eah-grün, Fachbereichsfarben)
+
 <!-- trennline -->
 <section>
   <h2>Startseite Trennline</h2>
