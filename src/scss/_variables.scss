@@ -32,7 +32,7 @@ $transparent-blue:        rgba(57, 74, 95, 0.5);
 $transparent-blue-dark:   rgba(57, 74, 95, 0.65);
 
 $eah-gray:              #efefef;
-$eah-gray-light:        #616e7f;
+$eah-gray-light:        #616e7f; // rgb (97, 110, 127)
 $eah-gray-dark:         rgba(57, 74, 95, 0.4); // (#394A5F mit 40% Deckkraft)
 
 $search-form-color:     $blue; //#75818f;
@@ -51,7 +51,7 @@ $btn-color-black:       $black;
 
 //## Gray and brand colors for use across Bootstrap.
 $gray-base:              $black;
-$gray-darker:            lighten($gray-base, 13.5%); // #222
+$gray-darker:            lighten($gray-base, 13.5%); // #222 rgb(34, 34, 34)
 $gray-dark:              lighten($gray-base, 20%);   // #333
 $gray:                   lighten($gray-base, 33.5%); // #555
 $gray-light:             lighten($gray-base, 46.7%); // #777

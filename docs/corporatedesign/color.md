@@ -1,106 +1,135 @@
 ---
 layout: default
-title: farben
-description: Documentation und Beispiele fuer Schriften
+title: Farben
+description: Documentation und Beispiele fuer Farben
 group: corporatedesign
 ---
 
 <section>
-  <h1>Schrift-Farben</h1>
+  <h1>Allgemeine Farben</h1>
+  <section>
+    <div class="container">
+        <div class="row">
+          <div class="col-xs-3 font-bold">Farbe</div>
+          <div class="col-xs-3 font-bold">Hintergrundfarbe</div>
+          <div class="col-xs-3 font-bold">RGB-Code</div>
+          <div class="col-xs-3 font-bold">Hex-Code</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3 font-bold">green</div>
+          <div class="col-xs-3 background-green">&nbsp;</div>
+          <div class="col-xs-3">rgb (0,170,160)</div>
+          <div class="col-xs-3">#00aaa0</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3 font-bold">blue</div>
+          <div class="col-xs-3 background-blue">&nbsp;</div>
+          <div class="col-xs-3">rgb (57,74,95)</div>
+          <div class="col-xs-3">#394a5f</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3 font-bold">gray</div>
+          <div class="col-xs-3 background-gray">&nbsp;</div>
+          <div class="col-xs-3">rgb (97, 110, 127)</div>
+          <div class="col-xs-3">#616e7f</div>
+        </div>
+      </div>
+  </section>
+</section>
+
+<section>
+  <h1>Fachbereichsfarben</h1>
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-xs-3 font-bold">
-          Fachbereich
-        </div>
-        <div class="col-xs-3 font-bold">
-          FB-Text-Farbe auf Weiss
-        </div>
-        <div class="col-xs-3 font-bold">
-          Hintergrundfarbe
-        </div>
+        <div class="col-xs-3 font-bold">Fachbereich</div>
+        <div class="col-xs-2 font-bold">Hintergrundfarbe</div>
+        <div class="col-xs-2 font-bold">RGBA Color</div>
+        <div class="col-xs-2 font-bold">Hintergrundfarbe 50 %</div>
+        <div class="col-xs-3 font-bold">RGBA Color</div>
       </div>
       <div class="row">
         <div class="col-xs-3">
-          bw
+          Betriebswirtschaft
         </div>
-        <div class="col-xs-3 text-color-fc-bw">
-          css klasse: text-color-fc-bw
-        </div>
-        <div class="col-xs-3 background-color-fc-bw">&nbsp;</div>
+        <div class="col-xs-2 background-color-fc-bw">&nbsp;</div>
+        <div class="col-xs-2">rgba(222, 154, 39, 1)</div>
+        <div class="col-xs-2 background-color-fc-bw-overlay">&nbsp;</div>
+        <div class="col-xs-3">rgba(222, 154, 39, 0.5)</div>
       </div>
       <div class="row">
         <div class="col-xs-3">
-          et
+          Elektrotechnik und Informationstechnik
         </div>
-        <div class="col-xs-3 text-color-fc-et">
-          css klasse: text-color-fc-etbw
-        </div>
-        <div class="col-xs-3 background-color-fc-et">&nbsp;</div>
+        <div class="col-xs-2 background-color-fc-et">&nbsp;</div>
+        <div class="col-xs-2">rgba(160, 49, 57, 1)</div>
+        <div class="col-xs-2 background-color-fc-et-overlay">&nbsp;</div>
+        <div class="col-xs-3">rgba(160, 49, 57, 0.5)</div>
       </div>
       <div class="row">
         <div class="col-xs-3">
-          gl
+          Grundlagenwissenschaften
         </div>
-        <div class="col-xs-3 text-color-fc-gl">
-          css klasse: text-color-fc-gl
-        </div>
-        <div class="col-xs-3 background-color-fc-gl ">&nbsp;</div>
+        <div class="col-xs-2 background-color-fc-gl">&nbsp;</div>
+        <div class="col-xs-2">rgba(44, 59, 89, 1)</div>
+        <div class="col-xs-2 background-color-fc-gl-overlay">&nbsp;</div>
+        <div class="col-xs-3">rgba(44, 59, 89, 0.5)</div>
       </div>
       <div class="row">
         <div class="col-xs-3">
-          gp
+          Gesundheit und Pflege
         </div>
-        <div class="col-xs-3 text-color-fc-gp">
-          css klasse: text-color-fc-gp
-        </div>
-        <div class="col-xs-3 background-color-fc-gp">&nbsp;</div>
+        <div class="col-xs-2 background-color-fc-gp">&nbsp;</div>
+        <div class="col-xs-2">rgba(128, 33, 126, 1)</div>
+        <div class="col-xs-2 background-color-fc-gp-overlay">&nbsp;</div>
+        <div class="col-xs-3">rgba(128, 33, 126, 0.5)</div>
       </div>
       <div class="row">
         <div class="col-xs-3">
-          mb
+          Maschinenbau
         </div>
-        <div class="col-xs-3 text-color-fc-mb">
-          css klasse: text-color-fc-mb
-        </div>
-        <div class="col-xs-3 background-color-fc-mb">&nbsp;</div>
+        <div class="col-xs-2 background-color-fc-mb">&nbsp;</div>
+        <div class="col-xs-2">rgba(240, 202, 32, 1)</div>
+        <div class="col-xs-2 background-color-fc-mb-overlay">&nbsp;</div>
+        <div class="col-xs-3">rgba(240, 202, 32, 0.5)</div>
       </div>
       <div class="row">
         <div class="col-xs-3">
-          mt
+          Medizintechnik und Biotechnologie
         </div>
-        <div class="col-xs-3 text-color-fc-mt">
-          css klasse: text-color-fc-mt
-        </div>
-        <div class="col-xs-3 background-color-fc-mt">&nbsp;</div>
+        <div class="col-xs-2 background-color-fc-mt">&nbsp;</div>
+        <div class="col-xs-2">rgba(6, 139, 3, 1)</div>
+        <div class="col-xs-2 background-color-fc-mt-overlay">&nbsp;</div>
+        <div class="col-xs-3">rgba(6, 139, 3, 0.5)</div>
       </div>
       <div class="row">
         <div class="col-xs-3">
-          sc
+          SciTec
         </div>
-        <div class="col-xs-3 text-color-fc-sc">
-          css klasse: text-color-fc-sc
-        </div>
-        <div class="col-xs-3 background-color-fc-sc">&nbsp;</div>
+        <div class="col-xs-2 background-color-fc-sc">&nbsp;</div>
+        <div class="col-xs-2">rgba(124, 192, 231, 1)</div>
+        <div class="col-xs-2 background-color-fc-sc-overlay">&nbsp;</div>
+        <div class="col-xs-3">rgba(124, 192, 231, 0.5)</div>
       </div>
       <div class="row">
         <div class="col-xs-3">
-          sw
+          Sozialwesen
         </div>
-        <div class="col-xs-3 text-color-fc-sw">
-          css klasse: text-color-fc-sw
-        </div>
-        <div class="col-xs-3 background-color-fc-sw">&nbsp;</div>
+        <div class="col-xs-2 background-color-fc-sw">&nbsp;</div>
+        <div class="col-xs-2">rgba(201, 68, 44, 1)</div>
+        <div class="col-xs-2 background-color-fc-sw-overlay">&nbsp;</div>
+        <div class="col-xs-3">rgba(201, 68, 44, 0.5)</div>
       </div>
       <div class="row">
         <div class="col-xs-3">
-          wi
+          Wirtschaftsingenieurwesen
         </div>
-        <div class="col-xs-3 text-color-fc-wi">
-          css klasse: text-color-fc-wi
-        </div>
-        <div class="col-xs-3 background-color-fc-wi">&nbsp;</div>
+        <div class="col-xs-2 background-color-fc-wi">&nbsp;</div>
+        <div class="col-xs-2">rgba(116, 245, 1, 1)</div>
+        <div class="col-xs-2 background-color-fc-wi-overlay">&nbsp;</div>
+        <div class="col-xs-3">rgba(116, 245, 1, 0.5)</div>
       </div>
     </div>
   </section>
 </section>
+

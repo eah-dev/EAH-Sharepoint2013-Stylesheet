@@ -5384,8 +5384,8 @@ button.close {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts//fontawesome-webfont.eot?v=4.7.0");
-  src: url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts//fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts//fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts//fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts//fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts//fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -11162,29 +11162,56 @@ ul.three-up {
 .background-color-fc-bw {
   background-color: #de9a27; }
 
+.background-color-fc-bw-overlay {
+  background-color: rgba(222, 154, 39, 0.5); }
+
 .background-color-fc-et {
   background-color: #a03139; }
+
+.background-color-fc-et-overlay {
+  background-color: rgba(160, 49, 57, 0.5); }
 
 .background-color-fc-gl {
   background-color: #2c3b59; }
 
+.background-color-fc-gl-overlay {
+  background-color: rgba(44, 59, 89, 0.5); }
+
 .background-color-fc-gp {
   background-color: #80217e; }
+
+.background-color-fc-gp-overlay {
+  background-color: rgba(128, 33, 126, 0.5); }
 
 .background-color-fc-mb {
   background-color: #f0ca20; }
 
+.background-color-fc-mb-overlay {
+  background-color: rgba(240, 202, 32, 0.5); }
+
 .background-color-fc-mt {
   background-color: #068b03; }
+
+.background-color-fc-mt-overlay {
+  background-color: rgba(6, 139, 3, 0.5); }
 
 .background-color-fc-sc {
   background-color: #7cc0e7; }
 
+.background-color-fc-sc-overlay {
+  background-color: rgba(124, 192, 231, 0.5); }
+
 .background-color-fc-sw {
   background-color: #c9442c; }
 
+.background-color-fc-sw-overlay {
+  background-color: rgba(201, 68, 44, 0.5); }
+
 .background-color-fc-wi {
   background-color: #74f501; }
+
+.background-color-fc-wi-overlay {
+  background-color: rgba(116, 245, 1, 0.5); }
 
 .text-color-green {
   color: #00aaa0; }
