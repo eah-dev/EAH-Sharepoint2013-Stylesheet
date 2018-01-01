@@ -38,7 +38,7 @@ gulp.task('copy:fontawesomefonts', function () {
 // gulp.task - 'copy:robotofontface'
 gulp.task('copy:robotofontface', function () {
   return gulp.src('./node_modules/roboto-fontface/fonts/Roboto/**')
-  .pipe(gulp.dest('./assets/roboto-fontface/fonts/roboto'));
+  .pipe(gulp.dest('./assets/roboto-fontface/fonts/Roboto'));
 });
 
 // gulp.task - 'copy:ionicons'
