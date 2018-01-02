@@ -1,25 +1,20 @@
 ---
-layout: default
-title: Other
-description: Documentation und Beispiele fuer andere Elemente
+layout: docs
+title: Eingebettetes Video
+description: Documentation und Beispiele fuer Eingebettetes Video
 group: components
 ---
 
-<!-- bild -->
-<section>
-  <h1>Bild mittig</h1>
-  <section class="element-wrapper">
-    <div class="container">
-      <div class="row">
-        <div class="img-center-wrapper">
-          <div class="col-xs-12">
-            <img class="img-responsive" src="/_catalogs/masterpage/layouts/eah-jena/images/blankslide400x400.png" alt="blank" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</section>
+## wiederverwenbares Element: Eingebettetes Video
+### Eigenschaften
+* Element zur multisensualen Informationsweitergabe
+
+### Anwendungsbereich
+* Verwendbar für zu bewerbende oder erklärende Inhalte (Veranstaltungen, Tutorials)
+* Sollte mit Kurztext zur Erklärung des Videoinhaltes verbunden sein
+
+### Kombinationsmöglichkeiten
+* Buttons oder Links können in Video eingebettet werden
 
 <!--- video -->
 <section>

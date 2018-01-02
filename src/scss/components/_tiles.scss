@@ -124,10 +124,10 @@
           a:hover {
             text-decoration: none;
           }
-          > &::before {
-            // symbol vor dem list-item entfernten
-            content: '' !important;
-          }
+          //> &::before {
+          // symbol vor dem list-item entfernten
+          //  content: '' !important;
+          // }
         }
         // &:hover {}
       }

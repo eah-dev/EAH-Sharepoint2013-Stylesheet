@@ -1,9 +1,23 @@
 ---
-layout: default
-title: buttons
-description: Documentation und Beispiele fuer buttons
+layout: docs
+title: Button
+description: Documentation und Beispiele fuer Button
 group: components
 ---
+
+## wiederverwenbares Element: Button
+### Eigenschaften
+* Weiterleitung zu anderer Seite
+
+### Anwendungsbereich
+* Platzierung auf Seitenanfang oder in anderen Bereichen der Seite
+* Mittels (Kurz)text sollte vorab auf Ziel des Buttons hingewiesen werden (z.B. Artikel, Artikelblock usw.)
+
+### Anpassungsmöglichkeiten
+* Farbauswahl, Linktext
+
+### Kombinationsmöglichkeiten
+* Kombinierbar mit Artikel, Artikelblock
 
 <!-- buttons -->
 <section>
@@ -44,13 +58,18 @@ group: components
     <div class="container">
       <div class="row">
         {% for color in site.data.fc-full %}
-        {% example html %}
           <div class="button-wrapper">
             <a role="button" class="btn btn-fc-{{ color.shortname }}" href="#">
               {{ color.longname }}
             </a>
           </div>
-        {% endexample %}
+        {% highlight html %}
+          <div class="button-wrapper">
+            <a role="button" class="btn btn-fc-{{ color.shortname }}" href="#">
+              {{ color.longname }}
+            </a>
+          </div>
+        {% endhighlight %}
         {% endfor %}
       </div>
     </div>

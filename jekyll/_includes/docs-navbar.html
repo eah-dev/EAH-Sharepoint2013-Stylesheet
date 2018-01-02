@@ -1,0 +1,137 @@
+<header>
+  <nav class="navbar navbar-default docs-navbar">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#eah-doku-navbar-collapse"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/eah-jena/images/ico/eah-jena-transparent.ico" id="navbar-img"></a>
+        <span class="docs-navbar-text">
+          <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+        </span>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="eah-doku-navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+
+          <li>
+            <a href="{{ site.togithub }}/">
+              <img src="{{ site.baseurl }}/assets/eah-jena/images/GitHub/GitHub-Mark-32px.png" id="navbar-img" title="GitHub" alt="GitHub">
+            </a>
+          </li>
+
+          {% if page.group == "home" %}
+            <li class="active">
+              <a href="{{ site.baseurl }}/">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          {% else %}
+            <li>
+              <a href="{{ site.baseurl }}/">Home</a>
+            </li>
+          {% endif %}
+
+          <li class="dropdown {% if page.group == 'getting-started' %}active{% endif %}">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting-started
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="{{ site.baseurl }}/docs/getting-started/overview">Übersicht</a>
+                </li>
+              </ul>
+            </li>
+
+          <li class="dropdown {% if page.group == 'corporatedesign' %}active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Corporate Design
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="{{ site.baseurl }}/docs/corporatedesign/typography">Typography</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/corporatedesign/color">Farben</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown {% if page.group == 'components' %}active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gestaltungselemente
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/contact">Ansprechpartner</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/articel">Artikel mit Bild</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/articelblock">Artikelblock</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/button">Button</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/interRestGroup">InteressenGruppe</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/tiles">Kacheln</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/newsinfo">News-Info</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/panel">Panel</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/processtask">Prozess-Ablauf</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/anchorbox">Sprungbox</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/line">Trennline</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/headingUnderline">&Uuml;berschrift mit einer darunterliegenden Line (als Block)</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/headingUnderlineFullWidth">&Uuml;berschrift mit einer darunterliegenden Line (volle Breite)</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/videolink">VideoLink</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/components/blockquote">Zitat</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown {% if page.group == 'content' %}active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Content
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="{{ site.baseurl }}/docs/content/image">Bilder</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/content/startseiteMajor">HauptSeite-Startseite</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+</header>

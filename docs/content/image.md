@@ -1,6 +1,6 @@
 ---
 layout: default
-title: images
+title: Bilder
 description: Documentation und Beispiele fuer die Positionierung von Bildern
 group: content
 ---
@@ -8,7 +8,18 @@ group: content
 <!-- bild center -->
 <section>
   <h1>Bild mittig</h1>
-  {% example html %}
+  <section class="element-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="img-center-wrapper">
+          <div class="col-xs-12">
+            <img class="img-responsive" src="{{ site.baseurl }}/assets/eah-jena/images/blankslide400x400.png" alt="blank" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% highlight html %}
   <section class="element-wrapper">
     <div class="container">
       <div class="row">
@@ -20,5 +31,5 @@ group: content
       </div>
     </div>
   </section>
-  {% endexample %}
+  {% endhighlight %}
 </section>

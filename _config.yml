@@ -13,27 +13,37 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: EAH-Sharepoint2013-Stylesheet
+title: EAH-Sharepoint2013-Stylesheet / Styleguide
 email: feedback@eah-jena.de
 
 description: >- # this means to ignore newlines until "baseurl:"
   Dies ist das Stylesheet (Sass) für das aktuelle Sharepoint-2013-Template der Ernst Abbe Hochschule Jena.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github:  https://github.com/eah-dev
+baseurl: "/EAH-Sharepoint2013-Stylesheet" # the subpath of your site, e.g. /blog
+
+url: "https://eah-dev.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+togithub:  https://github.com/eah-dev/EAH-Sharepoint2013-Stylesheet
 
 # Build settings
 markdown: kramdown
-theme: minima
+
+# Jekyll folder
+plugins_dir:     jekyll/_plugins
+layouts_dir:     jekyll/_layouts
+data_dir:        jekyll/_data
+includes_dir:    jekyll/_includes
+
 plugins:
-  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc
 
 exclude:
   - .git/
   - .github/
-  - assets/scss/
   - build/
+  - dist/css/
   - js/
   - node_modules/
   - nuget/
@@ -53,5 +63,4 @@ exclude:
   - gulpfile.js
   - spsave-settings.js
 
-include:
-- _catalogs
+
