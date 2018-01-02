@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default docs-navbar">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -11,8 +11,8 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/eah-jena/images/ico/eah-jena-transparent.ico" id="navbar-img"></a>
-        <span>
-          <a href="{{ site.baseurl }}/" class="navbar-text h3">{{ site.title }}</a>
+        <span class="docs-navbar-text">
+          <a href="{{ site.baseurl }}/">{{ site.title }}</a>
         </span>
       </div>
 
@@ -26,7 +26,7 @@
             </a>
           </li>
 
-          {% if page.layout == "home" %}
+          {% if page.group == "home" %}
             <li class="active">
               <a href="{{ site.baseurl }}/">Home
                 <span class="sr-only">(current)</span>
@@ -38,7 +38,18 @@
             </li>
           {% endif %}
 
-          <li class="dropdown {% if page.group == 'content' %}active{% endif %}">
+          <li class="dropdown {% if page.group == 'getting-started' %}active{% endif %}">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting-started
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="{{ site.baseurl }}/docs/getting-started/overview">Übersicht</a>
+                </li>
+              </ul>
+            </li>
+
+          <li class="dropdown {% if page.group == 'corporatedesign' %}active{% endif %}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Corporate Design
               <span class="caret"></span>
             </a>

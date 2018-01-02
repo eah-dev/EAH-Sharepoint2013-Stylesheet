@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Startseite-Interessen Gruppen
 description: Documentation und Beispiele fuer Startseite-Interessen Gruppen
 group: components
@@ -28,7 +28,7 @@ group: components
             <div class="major-interRestGroup">
               <a href="http://www.gostudy.eah-jena.de">
                 <div class="major-interRestGroup-img">
-                  <img src="/assets/eah-jena/images/svg/icon-schueler.svg" alt="icon-schueler" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-schueler.svg" alt="icon-schueler" />
                 </div>
                 <div class="major-interRestGroup-text"> Schüler </div>
               </a>
@@ -38,7 +38,7 @@ group: components
             <div class="major-interRestGroup">
               <a href="https://www.beta.eah-jena.de/de-de/studieninteressierte">
                 <div class="major-interRestGroup-img">
-                  <img src="/assets/eah-jena/images/svg/icon-lampe.svg" alt="icon-studien-interessierte" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-lampe.svg" alt="icon-studien-interessierte" />
                 </div>
                 <div class="major-interRestGroup-text"> Studieninteressierte </div>
               </a>
@@ -48,7 +48,7 @@ group: components
             <div class="major-interRestGroup">
               <a href="https://www.beta.eah-jena.de/de-de/studierende">
                 <div class="major-interRestGroup-img">
-                  <img src="/assets/eah-jena/images/svg/icon-studierende.svg" alt="icon-studierende" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-studierende.svg" alt="icon-studierende" />
                 </div>
                 <div class="major-interRestGroup-text"> Studierende </div>
               </a>
@@ -58,7 +58,7 @@ group: components
             <div class="major-interRestGroup">
               <a href="https://www.beta.eah-jena.de/de-de/alumni">
                 <div class="major-interRestGroup-img">
-                  <img src="/assets/eah-jena/images/svg/icon-hochschulhut.svg" alt="icon-alumni" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-hochschulhut.svg" alt="icon-alumni" />
                 </div>
                 <div class="major-interRestGroup-text"> Alumni </div>
               </a>
@@ -68,7 +68,7 @@ group: components
             <div class="major-interRestGroup">
               <a href="https://www.beta.eah-jena.de/de-de/unternehmen">
                 <div class="major-interRestGroup-img">
-                  <img src="/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                 </div>
                 <div class="major-interRestGroup-text"> Unternehmen </div>
               </a>
@@ -78,7 +78,7 @@ group: components
             <div class="major-interRestGroup">
               <a href="https://campusnet.eah-jena.de">
                 <div class="major-interRestGroup-img">
-                  <img src="/assets/eah-jena/images/svg/icon-visitenkarte.svg" alt="icon-mitarbeiter" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-visitenkarte.svg" alt="icon-mitarbeiter" />
                 </div>
                 <div class="major-interRestGroup-text"> Mitarbeiter </div>
               </a>
@@ -171,7 +171,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://owa.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
                 </div>
                 <div class="interRestGroup-icon-text">Webmail</div>
               </a>
@@ -181,7 +181,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://selfservice.stud.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
                 </div>
                 <div class="interRestGroup-icon-text">Selfservice</div>
               </a>
@@ -191,7 +191,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://stundenplanung.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
                 </div>
                 <div class="interRestGroup-icon-text">Stundenplanung</div>
               </a>
@@ -201,7 +201,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/alumni">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
                 </div>
                 <div class="interRestGroup-icon-text"> Alumni </div>
               </a>
@@ -211,7 +211,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/unternehmen">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                 </div>
                 <div class="interRestGroup-icon-text"> Unternehmen </div>
               </a>
@@ -221,7 +221,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://campusnet.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
                 </div>
                 <div class="interRestGroup-icon-text"> Intern </div>
               </a>
@@ -314,7 +314,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://owa.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
                 </div>
                 <div class="interRestGroup-icon-text">Webmail</div>
               </a>
@@ -324,7 +324,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://selfservice.stud.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
                 </div>
                 <div class="interRestGroup-icon-text">Selfservice</div>
               </a>
@@ -334,7 +334,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://stundenplanung.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
                 </div>
                 <div class="interRestGroup-icon-text">Stundenplanung</div>
               </a>
@@ -344,7 +344,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/alumni">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
                 </div>
                 <div class="interRestGroup-icon-text"> Alumni </div>
               </a>
@@ -354,7 +354,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/unternehmen">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                 </div>
                 <div class="interRestGroup-icon-text"> Unternehmen </div>
               </a>
@@ -364,7 +364,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://campusnet.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
                 </div>
                 <div class="interRestGroup-icon-text"> Intern </div>
               </a>
@@ -457,7 +457,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://owa.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
                 </div>
                 <div class="interRestGroup-icon-text">Webmail</div>
               </a>
@@ -467,7 +467,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://selfservice.stud.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
                 </div>
                 <div class="interRestGroup-icon-text">Selfservice</div>
               </a>
@@ -477,7 +477,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://stundenplanung.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
                 </div>
                 <div class="interRestGroup-icon-text">Stundenplanung</div>
               </a>
@@ -487,7 +487,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/alumni">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
                 </div>
                 <div class="interRestGroup-icon-text"> Alumni </div>
               </a>
@@ -497,7 +497,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/unternehmen">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                 </div>
                 <div class="interRestGroup-icon-text"> Unternehmen </div>
               </a>
@@ -507,7 +507,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://campusnet.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
                 </div>
                 <div class="interRestGroup-icon-text"> Intern </div>
               </a>
@@ -600,7 +600,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://owa.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
                 </div>
                 <div class="interRestGroup-icon-text">Webmail</div>
               </a>
@@ -610,7 +610,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://selfservice.stud.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
                 </div>
                 <div class="interRestGroup-icon-text">Selfservice</div>
               </a>
@@ -620,7 +620,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://stundenplanung.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
                 </div>
                 <div class="interRestGroup-icon-text">Stundenplanung</div>
               </a>
@@ -630,7 +630,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/alumni">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
                 </div>
                 <div class="interRestGroup-icon-text"> Alumni </div>
               </a>
@@ -640,7 +640,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/unternehmen">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                 </div>
                 <div class="interRestGroup-icon-text"> Unternehmen </div>
               </a>
@@ -650,7 +650,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://campusnet.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
                 </div>
                 <div class="interRestGroup-icon-text"> Intern </div>
               </a>
@@ -743,7 +743,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://owa.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
                 </div>
                 <div class="interRestGroup-icon-text">Webmail</div>
               </a>
@@ -753,7 +753,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://selfservice.stud.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
                 </div>
                 <div class="interRestGroup-icon-text">Selfservice</div>
               </a>
@@ -763,7 +763,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://stundenplanung.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
                 </div>
                 <div class="interRestGroup-icon-text">Stundenplanung</div>
               </a>
@@ -773,7 +773,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/alumni">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
                 </div>
                 <div class="interRestGroup-icon-text"> Alumni </div>
               </a>
@@ -783,7 +783,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/unternehmen">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                 </div>
                 <div class="interRestGroup-icon-text"> Unternehmen </div>
               </a>
@@ -793,7 +793,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://campusnet.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
                 </div>
                 <div class="interRestGroup-icon-text"> Intern </div>
               </a>
@@ -886,7 +886,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://owa.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
                 </div>
                 <div class="interRestGroup-icon-text">Webmail</div>
               </a>
@@ -896,7 +896,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://selfservice.stud.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
                 </div>
                 <div class="interRestGroup-icon-text">Selfservice</div>
               </a>
@@ -906,7 +906,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://stundenplanung.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
                 </div>
                 <div class="interRestGroup-icon-text">Stundenplanung</div>
               </a>
@@ -916,7 +916,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/alumni">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
                 </div>
                 <div class="interRestGroup-icon-text"> Alumni </div>
               </a>
@@ -926,7 +926,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/unternehmen">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                 </div>
                 <div class="interRestGroup-icon-text"> Unternehmen </div>
               </a>
@@ -936,7 +936,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://campusnet.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
                 </div>
                 <div class="interRestGroup-icon-text"> Intern </div>
               </a>
@@ -1029,7 +1029,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://owa.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
                 </div>
                 <div class="interRestGroup-icon-text">Webmail</div>
               </a>
@@ -1039,7 +1039,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://selfservice.stud.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
                 </div>
                 <div class="interRestGroup-icon-text">Selfservice</div>
               </a>
@@ -1049,7 +1049,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://stundenplanung.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
                 </div>
                 <div class="interRestGroup-icon-text">Stundenplanung</div>
               </a>
@@ -1059,7 +1059,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/alumni">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
                 </div>
                 <div class="interRestGroup-icon-text"> Alumni </div>
               </a>
@@ -1069,7 +1069,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/unternehmen">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                 </div>
                 <div class="interRestGroup-icon-text"> Unternehmen </div>
               </a>
@@ -1079,7 +1079,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://campusnet.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
                 </div>
                 <div class="interRestGroup-icon-text"> Intern </div>
               </a>
@@ -1172,7 +1172,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://owa.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
                 </div>
                 <div class="interRestGroup-icon-text">Webmail</div>
               </a>
@@ -1182,7 +1182,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://selfservice.stud.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
                 </div>
                 <div class="interRestGroup-icon-text">Selfservice</div>
               </a>
@@ -1192,7 +1192,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://stundenplanung.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
                 </div>
                 <div class="interRestGroup-icon-text">Stundenplanung</div>
               </a>
@@ -1202,7 +1202,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/alumni">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/graduation-cap.svg" alt="Alumni" />
                 </div>
                 <div class="interRestGroup-icon-text"> Alumni </div>
               </a>
@@ -1212,7 +1212,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://www.eah-jena.de/de-de/unternehmen">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                 </div>
                 <div class="interRestGroup-icon-text"> Unternehmen </div>
               </a>
@@ -1222,7 +1222,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="https://campusnet.eah-jena.de">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="icon-mitarbeiter" />
                 </div>
                 <div class="interRestGroup-icon-text"> Intern </div>
               </a>
@@ -1315,7 +1315,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://owa.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/envelope-o.svg" alt="Webmail" />
                 </div>
                 <div class="interRestGroup-icon-text">Webmail</div>
               </a>
@@ -1325,7 +1325,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://selfservice.stud.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/th.svg" alt="Selfservice" />
                 </div>
                 <div class="interRestGroup-icon-text">Selfservice</div>
               </a>
@@ -1335,7 +1335,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="http://stundenplanung.eah-jena.de/">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/book.svg" alt="Stundenplanung" />
                 </div>
                 <div class="interRestGroup-icon-text">Stundenplanung</div>
               </a>
@@ -1345,7 +1345,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="/de-de/wirtschaftsingenieurwesen/Seiten/downloads.aspx">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/info.svg" alt="informationen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/info.svg" alt="informationen" />
                 </div>
                 <div class="interRestGroup-icon-text">Information</div>
               </a>
@@ -1355,7 +1355,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="/de-de/wirtschaftsingenieurwesen/Seiten/personen.aspx">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/users.svg" alt="personen" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/users.svg" alt="personen" />
                 </div>
                 <div class="interRestGroup-icon-text">Personen</div>
               </a>
@@ -1365,7 +1365,7 @@ group: components
             <div class="interRestGroup-icon">
               <a href="/de-de/wirtschaftsingenieurwesen/Seiten/studiengaenge.aspx">
                 <div class="interRestGroup-icon-img">
-                  <img src="/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="Studiengänge" />
+                  <img src="{{ site.baseurl }}/assets/eah-jena/images/svg/fa/address-card-o.svg" alt="Studiengänge" />
                 </div>
                 <div class="interRestGroup-icon-text">Studiengänge</div>
               </a>

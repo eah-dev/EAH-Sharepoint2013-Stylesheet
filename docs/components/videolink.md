@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Eingebettetes Video
 description: Documentation und Beispiele fuer Eingebettetes Video
 group: components

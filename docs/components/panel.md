@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Panel
 description: Documentation und Beispiele fuer Panel
 group: components

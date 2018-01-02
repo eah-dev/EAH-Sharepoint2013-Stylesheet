@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Artikel mit Bild links/ rechts
 description: Documentation und Beispiele fuer Artikel mit Bild links/ rechts
 group: components
@@ -32,7 +32,7 @@ group: components
       <div class="row">
         <div class="article-wrapper">
           <div class="col-xs-12 col-sm-6 article-img hidden-xs">
-            <img src="/assets/eah-jena/images/blankslide400x400.png" alt="" />
+            <img src="{{ site.baseurl }}/assets/eah-jena/images/blankslide400x400.png" alt="" />
           </div>
           <div class="col-xs-12 col-sm-6 article-text">
             <div class="title">Überschrift</div>
@@ -94,7 +94,7 @@ group: components
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 article-img hidden-xs">
-            <img src="/assets/eah-jena/images/blankslide400x400.png" alt="" />
+            <img src="{{ site.baseurl }}/assets/eah-jena/images/blankslide400x400.png" alt="" />
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@ group: components
       <div class="row">
         <div class="article-wrapper">
           <div class="col-xs-12 col-sm-6 article-img hidden-xs">
-            <img src="/assets/eah-jena/images/blankslide400x400.png" alt="" />
+            <img src="{{ site.baseurl }}/assets/eah-jena/images/blankslide400x400.png" alt="" />
           </div>
           <div class="col-xs-12 col-sm-6 article-text">
             <div class="title">Überschrift</div>
@@ -211,7 +211,7 @@ group: components
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 article-img hidden-xs">
-            <img src="/assets/eah-jena/images/blankslide400x400.png" alt="" />
+            <img src="{{ site.baseurl }}/assets/eah-jena/images/blankslide400x400.png" alt="" />
           </div>
         </div>
       </div>

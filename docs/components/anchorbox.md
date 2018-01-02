@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Sprungpunkte Box
 description: Documentation und Beispiele fuer Sprungpunkte Box
 group: components
@@ -33,9 +33,9 @@ group: components
               <div class="body-content">
                 <ul>
                   <li>Überschrift</li>
-                  <li>Überschrift</li>
-                  <li>Überschrift</li>
-                  <li>Überschrift</li>
+                  <li>ÜberschriftÜberschrift</li>
+                  <li>ÜberschriftÜberschriftÜberschrift</li>
+                  <li>ÜberschriftÜberschriftÜberschriftÜberschrift</li>
                 </ul>
               </div>
             </div>
@@ -43,9 +43,9 @@ group: components
               <div class="body-content">
                 <ul>
                   <li>Überschrift</li>
-                  <li>Überschrift</li>
-                  <li>Überschrift</li>
-                  <li>Überschrift</li>
+                  <li>ÜberschriftÜberschrift</li>
+                  <li>ÜberschriftÜberschriftÜberschrift</li>
+                  <li>ÜberschriftÜberschriftÜberschriftÜberschrift</li>
                 </ul>
               </div>
             </div>
@@ -95,42 +95,3 @@ group: components
   {% endhighlight %}
 </section>
 
-<!-- Sprungpunkte -->
-<section>
-  <h1>Sprungpunkte - Box grün (3-spaltig) (*)</h1>
-  <section class="element-wrapper anchorbox-green">
-    <div class="container">
-      <div class="row">
-        <div class="anchorbox-wrapper">
-          <div class="col-xs-12">
-            <h1>Haupt-Überschrift</h1>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <ul>
-                <li>Überschrift</li>
-                <li>Überschrift</li>
-                <li>Überschrift</li>
-                <li>Überschrift</li>
-              </ul>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <ul>
-                <li>Überschrift</li>
-                <li>Überschrift</li>
-                <li>Überschrift</li>
-                <li>Überschrift</li>
-              </ul>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <ul>
-                <li>Überschrift</li>
-                <li>Überschrift</li>
-                <li>Überschrift</li>
-                <li>Überschrift</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</section>

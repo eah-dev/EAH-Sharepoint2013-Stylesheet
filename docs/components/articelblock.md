@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Artikelblock grüner Hintergrund
 description: Documentation und Beispiele fuer Artikelblock grüner Hintergrund
 group: components

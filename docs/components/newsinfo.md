@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Startseite-News
 description: Documentation und Beispiele fuer Startseite-News
 group: components

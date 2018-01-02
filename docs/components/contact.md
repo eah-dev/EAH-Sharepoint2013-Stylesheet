@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Ansprechpartner
 description: Documentation und Beispiele fuer Ansprechpartner
 group: components

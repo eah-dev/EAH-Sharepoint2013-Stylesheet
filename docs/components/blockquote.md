@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Zitat mit vertikaler Trennlinie
 description: Documentation und Beispiele fuer Zitat mit vertikaler Trennlinie
 group: components

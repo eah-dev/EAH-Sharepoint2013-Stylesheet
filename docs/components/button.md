@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Button
 description: Documentation und Beispiele fuer Button
 group: components

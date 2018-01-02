@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Schnelleinstieg Studiengänge
 description: Documentation und Beispiele fuer Schnelleinstieg Studiengänge
 group: components

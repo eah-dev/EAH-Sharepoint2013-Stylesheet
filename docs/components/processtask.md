@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title:  Prozess-Abfolge
 description: Documentation und Beispiele fuer Prozess-Abfolge
 group: components

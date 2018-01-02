@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Überschrift mit einer darunterliegenden Line (als Block)
 description: Documentation und Beispiele fuer &Uuml;berschrift mit einer darunterliegenden Line (als Block)
 group: components

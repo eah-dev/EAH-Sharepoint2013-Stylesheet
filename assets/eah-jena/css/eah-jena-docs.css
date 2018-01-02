@@ -11147,6 +11147,51 @@ ul.three-up {
   -webkit-animation: spin 1s infinite linear;
   animation: spin 1s infinite linear; }
 
+.img-center-wrapper img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* ============================================================================
+		Color Picker :: Start
+============================================================================ */
+.colorpicker-2x .colorpicker-saturation {
+  width: 200px;
+  height: 200px; }
+
+.colorpicker-2x .colorpicker-hue,
+.colorpicker-2x .colorpicker-alpha {
+  width: 30px;
+  height: 200px; }
+
+.colorpicker-2x .colorpicker-color {
+  height: 30px; }
+  .colorpicker-2x .colorpicker-color div {
+    height: 30px; }
+
+.row.color-picker {
+  display: block; }
+
+#eah-jena-section-color-picker .input-group-addon {
+  padding-left: 22px; }
+
+/* ============================================================================
+		Cookie information :: Start
+============================================================================ */
+.cc-grower {
+  /*
+  .cc-window {
+    .cc_message {}
+
+    .cc-compliance {}
+  }
+  */ }
+  .cc-grower .cc-banner {
+    padding: 5px; }
+
+/* ============================================================================
+		Color :: Start
+============================================================================ */
 .background-green {
   background-color: #00aaa0; }
 
@@ -11251,48 +11296,6 @@ ul.three-up {
 
 .text-color-fc-wi {
   color: #74f501; }
-
-.img-center-wrapper img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-/* ============================================================================
-		Color Picker :: Start
-============================================================================ */
-.colorpicker-2x .colorpicker-saturation {
-  width: 200px;
-  height: 200px; }
-
-.colorpicker-2x .colorpicker-hue,
-.colorpicker-2x .colorpicker-alpha {
-  width: 30px;
-  height: 200px; }
-
-.colorpicker-2x .colorpicker-color {
-  height: 30px; }
-  .colorpicker-2x .colorpicker-color div {
-    height: 30px; }
-
-.row.color-picker {
-  display: block; }
-
-#eah-jena-section-color-picker .input-group-addon {
-  padding-left: 22px; }
-
-/* ============================================================================
-		Cookie information :: Start
-============================================================================ */
-.cc-grower {
-  /*
-  .cc-window {
-    .cc_message {}
-
-    .cc-compliance {}
-  }
-  */ }
-  .cc-grower .cc-banner {
-    padding: 5px; }
 
 /* ============================================================================
 		editor  :: Start
@@ -18183,3 +18186,12 @@ div.table {
       }
     }
   } */ }
+
+.docs-footer {
+  padding-top: 20px;
+  font-size: 12px;
+  text-align: center; }
+
+header .docs-navbar .docs-navbar-text {
+  padding-top: 15px;
+  float: left; }

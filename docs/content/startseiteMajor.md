@@ -134,7 +134,7 @@ group: content
         <div class="major-ResearchDevelop-wrapper">
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="major-ResearchDevelop-logo">
-              <img title="icon-praezisionssysteme" alt="icon-praezisionssysteme" src="/assets/eah-jena/images/svg/icon-praezisionssysteme.svg"> &nbsp; </div>
+              <img title="icon-praezisionssysteme" alt="icon-praezisionssysteme" src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-praezisionssysteme.svg"> &nbsp; </div>
             <div class="title">Präzisionssysteme</div>
             <div class="description">Die Entwicklung und effiziente Gestaltung dieser Systeme mit Blick auf konkrete Anwendungen stehen im Zentrum
               des Forschungsschwerpunktes. Das Spektrum reicht von der Mikrosystemtechnik über die Informations- und Kommunikationstechnik
@@ -143,7 +143,7 @@ group: content
           </div>
           <div class="eah-major col-xs-12 col-sm-6 col-md-4">
             <div class="major-ResearchDevelop-logo">
-              <img title="icon-technologie" alt="icon-technologie" src="/assets/eah-jena/images/svg/icon-technologie.svg"> &nbsp; </div>
+              <img title="icon-technologie" alt="icon-technologie" src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-technologie.svg"> &nbsp; </div>
             <div class="title">Technologien &amp; Werkstoffe</div>
             <div class="description">Im Fokus dieses Schwerpunktes stehen innovative Verfahren für die Fertigung, neue Optiktechnologien, die Nano-
               und Mikrotechnologien sowie additiv-generative Verfahren . Dabei ist die Entwicklung neuer, anwendungsspezifischer
@@ -152,7 +152,7 @@ group: content
           </div>
           <div class="eah-major col-xs-12 col-sm-6 col-md-4">
             <div class="major-ResearchDevelop-logo">
-              <img title="icon-schueler" alt="icon-schueler" src="/assets/eah-jena/images/svg/icon-gesundheit.svg"> &nbsp; </div>
+              <img title="icon-schueler" alt="icon-schueler" src="{{ site.baseurl }}/assets/eah-jena/images/svg/icon-gesundheit.svg"> &nbsp; </div>
             <div class="title">Gesundheit &amp; Nachhaltigkeit</div>
             <div class="description">Der Mensch und die Gesellschaft stehen im Mittelpunkt dieses Forschungsschwerpunktes. Die Themen reichen vom
               Erhalt der Gesundheit über das Verstehen sozialer und ökonomischer Prozesse bis hin zu innovativen ingenieurtechnischen

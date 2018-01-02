@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Trennline
 description: Documentation und Beispiele fuer Trennline
 group: components
