@@ -1301,7 +1301,7 @@ group: components
               <img class="eahTile-bgImage" src="{{ site.baseurl }}/assets/eah-jena/images/blankslide350x120.png" alt="" />
               <div class="eahTile-heading eahTile-triangel">
                 <div class="content-body overlay-triangel">
-                  <div class="content-title">Schwerpunk</div>
+                  <div class="content-title">​​Industrie</div>
                   <ul class="content-collapse-list">
                     <li>
                       <div class="tile-icon">
@@ -1313,16 +1313,16 @@ group: components
               </div>
               <div class="eahTile-heading eahTile-list hidden">
                 <div class="content-body overlay-list">
-                  <div class="content-title">Schwerpunk</div>
+                  <div class="content-title">​​Industrie</div>
                   <ul class="content-collapse-list">
                     <li>
-                      <a href="#">AAAA</a>
+                      <a href="/de-de/wirtschaftsingenieurwesen/Seiten/studiengang_ba_wi_ind.aspx">WI Industrie (B.SC.)</a>
                     </li>
                     <li>
-                      <a href="#">BBBB</a>
+                      <a href="/de-de/wirtschaftsingenieurwesen/Seiten/studiengang_ma_wi.aspx">Wirtschafts­ingenieur­wesen (M.SC.)</a>
                     </li>
                     <li>
-                      <a href="#">CCCC</a>
+                      <a href="/de-de/wirtschaftsingenieurwesen/Seiten/studiengang_ma_wi_berufsbegleitend.aspx">Wirtschafts­ingenieur­wesen berufsbegleitend (M.SC.)</a>
                     </li>
                   </ul>
                 </div>
@@ -1334,7 +1334,7 @@ group: components
             <img class="eahTile-bgImage" src="{{ site.baseurl }}/assets/eah-jena/images/blankslide350x120.png" alt="" />
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
-                <div class="content-title">Schwerpunk</div>
+                <div class="content-title">Umwelt</div>
                 <ul class="content-collapse-list">
                   <li>
                     <div class="tile-icon">
@@ -1346,16 +1346,13 @@ group: components
             </div>
             <div class="eahTile-heading eahTile-list hidden">
               <div class="content-body overlay-list">
-                <div class="content-title">Schwerpunk</div>
+                <div class="content-title">Umwelt</div>
                 <ul class="content-collapse-list">
                   <li>
-                    <a href="#">AAAA</a>
+                    <a href="/de-de/wirtschaftsingenieurwesen/Seiten/studiengang_ba_ut_ute.aspx">Umwelttechnik (B.SC.)</a>
                   </li>
                   <li>
-                    <a href="#">BBBB</a>
-                  </li>
-                  <li>
-                    <a href="#">CCCC</a>
+                    <a href="/de-de/wirtschaftsingenieurwesen/Seiten/studiengang_ba_ut_ute.aspx">Umwelttechnik und Entwicklung (B.SC.)</a>
                   </li>
                 </ul>
               </div>
@@ -1364,10 +1361,10 @@ group: components
         </div>
         <div class="col-xs-12 col-sm-6 no-padding">
           <div class="eahTile">
-            <img class="eahTile-bgImage" src="{{ site.baseurl }}/assets/eah-jena/images/blankslide350x120.png" alt="" />
+            <img class="eahTile-bgImage" src="{{ site.baseurl }}/assets/eah-jena/images/blankslide350x120.png" alt=""/>
             <div class="eahTile-heading eahTile-triangel">
               <div class="content-body overlay-triangel">
-                <div class="content-title">Schwerpunk</div>
+                <div class="content-title">Digitalisierung</div>
                 <ul class="content-collapse-list">
                   <li>
                     <div class="tile-icon">
@@ -1379,16 +1376,13 @@ group: components
             </div>
             <div class="eahTile-heading eahTile-list hidden">
               <div class="content-body overlay-list">
-                <div class="content-title">Schwerpunk</div>
+                <div class="content-title">Digitalisierung</div>
                 <ul class="content-collapse-list">
                   <li>
-                    <a href="#">AAAA</a>
+                    <a href="/de-de/wirtschaftsingenieurwesen/Seiten/studiengang_ba_wi_it.aspx">WI Informations­technik (B.SC.)</a>
                   </li>
                   <li>
-                    <a href="#">BBBB</a>
-                  </li>
-                  <li>
-                    <a href="#">CCCC</a>
+                    <a href="/de-de/wirtschaftsingenieurwesen/Seiten/studiengang_ba_ec.aspx">E-Commerce (B.SC.)</a>
                   </li>
                 </ul>
               </div>
@@ -1415,13 +1409,19 @@ group: components
                 <div class="content-title">Sonstiges</div>
                 <ul class="content-collapse-list">
                   <li>
-                    <a href="#">AAAA</a>
+                    <a href="/de-de/wirtschaftsingenieurwesen/Seiten/ansprechpartner.aspx">Ansprechpartner</a>
                   </li>
                   <li>
-                    <a href="#">BBBB</a>
+                    <a href="/de-de/wirtschaftsingenieurwesen/Seiten/studiengaenge.aspx">Studiengänge</a>
                   </li>
                   <li>
-                    <a href="#">CCCC</a>
+                    <a href="/de-de/wirtschaftsingenieurwesen/Seiten/downloads.aspx">Downloads</a>
+                  </li>
+                  <li>
+                    <a href="/de-de/wirtschaftsingenieurwesen/Seiten/pruefungsamt.aspx">Prüfungsamt</a>
+                  </li>
+                  <li>
+                    <a href="/de-de/wirtschaftsingenieurwesen/Seiten/personen.aspx">Personen</a>
                   </li>
                 </ul>
               </div>

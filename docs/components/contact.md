@@ -17,7 +17,7 @@ group: components
 
 ### Anpassungsmöglichkeiten
 * 2 - spaltige Ansprechpartner
-* Farbauswahl (abhängig von Fach-/ Hochschulbereich
+* Farbauswahl (abhängig von Fach-/ Hochschulbereich)
 
 <!-- eine Spalte - default -->
 <section>

@@ -20,8 +20,8 @@ Es gibt verschiedene Bereiche:
 * ***[Getting-started](docs/getting-started/overview)***
   * hier wird beschrieben, wie man aktiv mitmachen kann
 * ***[Corporate Design](docs/corporatedesign/typography)***
-  * alles was beschrieben zum Thema 'Corporate Design' in bezug auf dies Seite
+  * alles was beschrieben wird zum Thema 'Corporate Design' in Bezug auf dies Seite
 * ***[Gestaltungselemente](docs/components/overview)***
-  * hier befinden sie alle wiederverwendbaren Elemente mit jeweiligen Info-Angaben und deren Sourcecode
+  * hier befinden sie alle wiederverwendbaren Elemente mit den jeweiligen Info-Angaben und deren Sourcecode
 * ***[Content](docs/content/image)***
   * hier finden sich praktische Beispiele

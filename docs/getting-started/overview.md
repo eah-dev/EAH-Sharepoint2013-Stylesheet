@@ -20,7 +20,7 @@ Bitte [Meldungen und Verbesserungen hier schreiben](https://github.com/eah-dev/E
 * Git ([Link zum download](https://git-scm.com/downloads)
 * Node.js ([Info-Link](https://de.wikipedia.org/wiki/Node.js)) (minimum Version: v7.2.0) ([Link zum download](https://nodejs.org/en/download/))
 * * Node.js mit npm package manager muss auf dieser Maschine installiert sein.
-* * Gulp muss global installiert sein (nur fuer Entwickler) -> Befehl: "npm install gulp -g"
+* * Gulp muss global installiert sein (nur für Entwickler) -> Befehl: "npm install gulp -g"
 * Einen eigenen GitHub Account
 
 ## Stylsheet bearbeiten
@@ -30,7 +30,7 @@ Bitte [Meldungen und Verbesserungen hier schreiben](https://github.com/eah-dev/E
 Die Dokumentation wird mit [Jekyll](https://jekyllrb.com/) erstellt.
 Zum Bearbeiten der Dokumentation wird [Ruby](https://www.ruby-lang.org/en/downloads/) benoetigt.
 
-Anmerkung: Fuer Windows [rubyinstaller](https://rubyinstaller.org/) verwenden und mit allen Optionen installieren. Anschliessend ueberpruefen ob der Pfad (default: 'c:\Ruby24-x64') in der Windows Systemvariable drin steht (Start-> 'systemumgebungsvariablen bearbeiten' eingeben -> [Umgebungsvariablen] -> 'Systemvariable' -> 'Path' anklicken und [Bearbeiten] druecken), falls nicht dann hinzufuegen.
+Anmerkung: Fuer Windows [rubyinstaller](https://rubyinstaller.org/) verwenden und mit allen Optionen installieren. Anschliessend überprüfen ob der Pfad (default: 'c:\Ruby24-x64') in der Windows Systemvariable drin steht (Start-> 'systemumgebungsvariablen bearbeiten' eingeben -> [Umgebungsvariablen] -> 'Systemvariable' -> 'Path' anklicken und [Bearbeiten] drücken), falls nicht dann hinzufügen.
 
 Wichtige Jekyll-Links:
 * [Jekyll Doku](https://jekyllrb.com/docs/home/)
