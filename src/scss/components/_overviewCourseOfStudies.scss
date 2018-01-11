@@ -4,20 +4,43 @@
 
 /// fachbereichselement - uebersicht studiengaenge
 .overviewCourseOfStudies-wrapper {
-  padding: 15px 0;
-  .overviewCourseOfStudies-element {
-    margin-bottom: 10px;
-    border-left-style: solid;
-    border-left-width: 2px;
-    .name {
-      font-weight: 600;
+  .overviewCourseOfStudies-header-wrapper {
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .title {
+      border-bottom-style: solid;
+      border-bottom-width: 4px;
+      padding-bottom: 10px;
+      font-size: $font-size-large;
+      font-family: $font-family-roboto;
     }
-    .graduation {
-      font-weight: 500;
+  }
+  .overviewCourseOfStudies-body-wrapper {
+    padding: 15px 0;
+    .overviewCourseOfStudies-element {
+      margin-bottom: 10px;
+      border-left-style: solid;
+      border-left-width: 2px;
+      .name {
+        font-weight: 600;
+      }
+      .graduation {
+        font-weight: 500;
+      }
     }
   }
 }
 .overviewCourseOfStudies-wi {
+  .overviewCourseOfStudies-header-wrapper {
+    border-bottom-color: $faculties-color-wi;
+    .title {
+      border-bottom-color: $faculties-color-wi;
+    }
+  }
   .overviewCourseOfStudies-element {
     border-left-color: $eah-gray-light;
     .name {
