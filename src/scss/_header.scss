@@ -253,19 +253,20 @@ $LanguageSelector-font-color: $gray-lighter;
 }
 .header-sm-fc {
   // padding: 10px 0;
-  padding-left: 10px;
-  border-left-style: solid;
-  border-left-width: 4px;
+  padding-right: 10px;
+  border-right-style: solid;
+  border-right-width: 4px;
   margin-top: 10px;
   margin-bottom: 20px;
+  text-align: right;
   .header-sm-fc-block {
-    text-align: left;
+    text-align: right;
     padding: 2px 5px;
     text-transform: uppercase;
     font-weight: 500;
   }
   .header-sm-fc-title {
-    text-align: left;
+    text-align: right;
     font-weight: 600;
     font-size: 18px;
     text-transform: uppercase;
@@ -273,55 +274,55 @@ $LanguageSelector-font-color: $gray-lighter;
   }
 }
 .header-sm-fc-bw {
-  border-left-color: $faculties-color-bw;
+  border-right-color: $faculties-color-bw;
   .header-sm-fc-block {
     background-color: $faculties-color-bw;
   }
 }
 .header-sm-fc-et {
-  border-left-color: $faculties-color-et;
+  border-right-color: $faculties-color-et;
   .header-sm-fc-block {
     background-color: $faculties-color-et;
   }
 }
 .header-sm-fc-gl {
-  border-left-color: $faculties-color-gl;
+  border-right-color: $faculties-color-gl;
   .header-sm-fc-block {
     background-color: $faculties-color-gl;
   }
 }
 .header-sm-fc-gp {
-  border-left-color: $faculties-color-gp;
+  border-right-color: $faculties-color-gp;
   .header-sm-fc-block {
     background-color: $faculties-color-gp;
   }
 }
 .header-sm-fc-mb {
-  border-left-color: $faculties-color-mb;
+  border-right-color: $faculties-color-mb;
   .header-sm-fc-block {
     background-color: $faculties-color-mb;
   }
 }
 .header-sm-fc-mt {
-  border-left-color: $faculties-color-mt;
+  border-right-color: $faculties-color-mt;
   .header-sm-fc-block {
     background-color: $faculties-color-mt;
   }
 }
 .header-sm-fc-sc {
-  border-left-color: $faculties-color-sc;
+  border-right-color: $faculties-color-sc;
   .header-sm-fc-block {
     background-color: $faculties-color-sc;
   }
 }
 .header-sm-fc-sw {
-  border-left-color: $faculties-color-sw;
+  border-right-color: $faculties-color-sw;
   .header-sm-fc-block {
     background-color: $faculties-color-sw;
   }
 }
 .header-sm-fc-wi {
-  border-left-color: $faculties-color-wi;
+  border-right-color: $faculties-color-wi;
   .header-sm-fc-block {
     background-color: $faculties-color-wi;
   }

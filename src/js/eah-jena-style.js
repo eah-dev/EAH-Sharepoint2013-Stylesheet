@@ -1,6 +1,6 @@
 ﻿
 // click on the main menu
-$('#showGlobalSideMainMenu').on('click', function (event) {
+jQuery('#showGlobalSideMainMenu').on('click', function (event) {
   $('#gloabl-side-menu-wrapper').css({ 'display': 'block' });
   $('#gloabl-side-menu-wrapper').css({ 'right': '0' });
   //$('#s4-workspace').css({ 'left': '-320px' });
@@ -10,7 +10,7 @@ $('#showGlobalSideMainMenu').on('click', function (event) {
   $('.eah-menu-overlay').css({ 'height': '100%' });
 });
 // close menu
-$('#closeGlobalSideMainMenu').on('click', function (event) {
+jQuery('#closeGlobalSideMainMenu').on('click', function (event) {
   $('#gloabl-side-menu-wrapper').css({ 'display': 'none' });
   $('#gloabl-side-menu-wrapper').css({ 'right': '-320px' });
   $('.eah-menu-overlay').css({ 'opacity': '0' });
@@ -19,7 +19,7 @@ $('#closeGlobalSideMainMenu').on('click', function (event) {
   $('.eah-menu-overlay').css({ 'height': '0' });
 });
 // click on the overlay
-$('.eah-menu-overlay').on('click', function (event) {
+jQuery('.eah-menu-overlay').on('click', function (event) {
   $('#gloabl-side-menu-wrapper').css({ 'display': 'none' });
   $('#gloabl-side-menu-wrapper').css({ 'right': '-320px' });
   $('.eah-menu-overlay').css({ 'opacity': '0' });
@@ -29,8 +29,8 @@ $('.eah-menu-overlay').on('click', function (event) {
 });
 
 // kachel
-$(document).on('click', '.eahTile', function (e) {
-  var $this = $(this);
+jQuery(document).on('click', '.eahTile', function (e) {
+  var $this = jQuery(this);
   if (!$this.find('.eahTile-triangel').hasClass('hidden')) {
     $this.find('.eahTile-triangel').addClass('hidden');
     $this.find('.eahTile-list').removeClass('hidden');
@@ -41,8 +41,8 @@ $(document).on('click', '.eahTile', function (e) {
 });
 
 // collapse element
-$(document).on('click', '.panel-heading', function (e) {
-  var $this = $(this);
+jQuery(document).on('click', '.panel-heading', function (e) {
+  var $this = jQuery(this);
   if (!$this.hasClass('panel-collapsed')) {
     $this.parents('.panel').find('.panel-body').slideUp();
     $this.addClass('panel-collapsed');
@@ -54,8 +54,8 @@ $(document).on('click', '.panel-heading', function (e) {
   }
 });
 
-$(document).on('click', '#showhideSearchbar', function (e) {
-  var $this = $('#eahSearchbarWrapper');
+jQuery(document).on('click', '#showhideSearchbar', function (e) {
+  var $this = jQuery('#eahSearchbarWrapper');
   if (!$this.hasClass('collapsed')) {
     $this.slideUp();
     $this.addClass('collapsed');
