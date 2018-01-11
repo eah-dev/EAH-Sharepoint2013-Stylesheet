@@ -14978,16 +14978,35 @@ button[disabled][disabled] {
 /* ============================================================================
 		overviewCourseOfStudies :: Start
 ============================================================================ */
-.overviewCourseOfStudies-wrapper {
+.overviewCourseOfStudies-wrapper .overviewCourseOfStudies-header-wrapper {
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .overviewCourseOfStudies-wrapper .overviewCourseOfStudies-header-wrapper .title {
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-family: "Roboto"; }
+
+.overviewCourseOfStudies-wrapper .overviewCourseOfStudies-body-wrapper {
   padding: 15px 0; }
-  .overviewCourseOfStudies-wrapper .overviewCourseOfStudies-element {
+  .overviewCourseOfStudies-wrapper .overviewCourseOfStudies-body-wrapper .overviewCourseOfStudies-element {
     margin-bottom: 10px;
     border-left-style: solid;
     border-left-width: 2px; }
-    .overviewCourseOfStudies-wrapper .overviewCourseOfStudies-element .name {
+    .overviewCourseOfStudies-wrapper .overviewCourseOfStudies-body-wrapper .overviewCourseOfStudies-element .name {
       font-weight: 600; }
-    .overviewCourseOfStudies-wrapper .overviewCourseOfStudies-element .graduation {
+    .overviewCourseOfStudies-wrapper .overviewCourseOfStudies-body-wrapper .overviewCourseOfStudies-element .graduation {
       font-weight: 500; }
+
+.overviewCourseOfStudies-wi .overviewCourseOfStudies-header-wrapper {
+  border-bottom-color: #74f501; }
+  .overviewCourseOfStudies-wi .overviewCourseOfStudies-header-wrapper .title {
+    border-bottom-color: #74f501; }
 
 .overviewCourseOfStudies-wi .overviewCourseOfStudies-element {
   border-left-color: #616e7f; }
@@ -16008,64 +16027,65 @@ button[disabled][disabled] {
       text-decoration: none; }
 
 .header-sm-fc {
-  padding-left: 10px;
-  border-left-style: solid;
-  border-left-width: 4px;
+  padding-right: 10px;
+  border-right-style: solid;
+  border-right-width: 4px;
   margin-top: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-align: right; }
   .header-sm-fc .header-sm-fc-block {
-    text-align: left;
+    text-align: right;
     padding: 2px 5px;
     text-transform: uppercase;
     font-weight: 500; }
   .header-sm-fc .header-sm-fc-title {
-    text-align: left;
+    text-align: right;
     font-weight: 600;
     font-size: 18px;
     text-transform: uppercase; }
 
 .header-sm-fc-bw {
-  border-left-color: #de9a27; }
+  border-right-color: #de9a27; }
   .header-sm-fc-bw .header-sm-fc-block {
     background-color: #de9a27; }
 
 .header-sm-fc-et {
-  border-left-color: #a03139; }
+  border-right-color: #a03139; }
   .header-sm-fc-et .header-sm-fc-block {
     background-color: #a03139; }
 
 .header-sm-fc-gl {
-  border-left-color: #2c3b59; }
+  border-right-color: #2c3b59; }
   .header-sm-fc-gl .header-sm-fc-block {
     background-color: #2c3b59; }
 
 .header-sm-fc-gp {
-  border-left-color: #80217e; }
+  border-right-color: #80217e; }
   .header-sm-fc-gp .header-sm-fc-block {
     background-color: #80217e; }
 
 .header-sm-fc-mb {
-  border-left-color: #f0ca20; }
+  border-right-color: #f0ca20; }
   .header-sm-fc-mb .header-sm-fc-block {
     background-color: #f0ca20; }
 
 .header-sm-fc-mt {
-  border-left-color: #068b03; }
+  border-right-color: #068b03; }
   .header-sm-fc-mt .header-sm-fc-block {
     background-color: #068b03; }
 
 .header-sm-fc-sc {
-  border-left-color: #7cc0e7; }
+  border-right-color: #7cc0e7; }
   .header-sm-fc-sc .header-sm-fc-block {
     background-color: #7cc0e7; }
 
 .header-sm-fc-sw {
-  border-left-color: #c9442c; }
+  border-right-color: #c9442c; }
   .header-sm-fc-sw .header-sm-fc-block {
     background-color: #c9442c; }
 
 .header-sm-fc-wi {
-  border-left-color: #74f501; }
+  border-right-color: #74f501; }
   .header-sm-fc-wi .header-sm-fc-block {
     background-color: #74f501; }
 
