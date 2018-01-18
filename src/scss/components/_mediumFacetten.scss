@@ -14,7 +14,6 @@
       padding-top: 10px;
       margin-bottom: 1px;
       border-style: solid;
-      border-color: $gray;
       border-width: 1px;
 
       @include make-row();
@@ -96,5 +95,10 @@
 // default farbe
 // es sollte eogentlich auch keine andere Farbe-Klasse verwendet werden.
 .mediumFacetten-default {
-  //
+  .mediumFacetten-header,
+  .mediumFacetten-body {
+    .entry {
+      border-color: $gray;
+    }
+  }
 }
