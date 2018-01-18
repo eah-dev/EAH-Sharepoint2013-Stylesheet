@@ -15,10 +15,16 @@ group: components
 ### Anpassungsmöglichkeiten
 *
 
-### Kombinationsmöglichkeiten
-*
+### Technische Informationen
+* Die Informationen kommen aus einer Sharepoint-Liste und werden per JavaScript ausgelesen und anschliessend angezeigt.
+* Es werden folgende Spalten ausgegeben: Name, Typ, Abschluss des Studiengangs
+
+<br/>
+
+<section class="container">
+  <h2>Beispiel: Wirtschaftsingenieurwesen</h2>
+</section>
 <section>
-  <h2>Wirtschaftsingenieurwesen</h2>
   <section class="overviewCourseOfStudies-wrapper overviewCourseOfStudies-wi" data-faculty="wi" >
 
     <!-- 1 durchlauf-->
@@ -99,8 +105,13 @@ group: components
     </section>
 
   </section>
-  {% highlight html %}
-  <section class="overviewCourseOfStudies-wrapper overviewCourseOfStudies-wi" data-faculty="wi" >
+
+  <br/>
+
+  <section class="container">
+    {% highlight html %}
+    <section class="overviewCourseOfStudies-wrapper overviewCourseOfStudies-wi" data-faculty="wi" >
+    </section>
+    {% endhighlight %}
   </section>
-  {% endhighlight %}
 </section>

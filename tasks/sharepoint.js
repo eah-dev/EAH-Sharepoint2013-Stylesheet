@@ -23,7 +23,7 @@ const folderServerJs = '_catalogs/masterpage/layouts/eah-jena/js/';
 
 // prod
 // gulp.task - 'copyToSharePoint:css'
-gulp.task('copyToSharePoint:css', ['styles-min'], function(){
+gulp.task('copyToSharePoint:css', ['css-minify-style'], function(){
   return gulp.src(folderLocalCss)
     .pipe(spsave({
         siteUrl: spsiteUrl,
@@ -43,7 +43,7 @@ gulp.task('copyToSharePoint:js', ['JavaScriptCompress'], function(){
 
 // dev
 // gulp.task - 'copyToSharePointDev:css'
-gulp.task('copyToSharePointDev:css', ['styles'], function(){
+gulp.task('copyToSharePointDev:css', ['css-style'], function(){
   return gulp.src(folderLocalCss)
     .pipe(spsave({
         siteUrl: spsiteUrlDev,

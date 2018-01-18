@@ -18,6 +18,8 @@ group: components
 ### Kombinationsmöglichkeiten
 *
 
+<br/>
+
 <!-- eah green -->
 <section>
   <section class="element-wrapper headingUnderline-default">
@@ -30,19 +32,24 @@ group: components
     </div>
   </section>
 </section>
-{% highlight html %}
-<section>
-  <section class="element-wrapper headingUnderline-default">
-    <div class="container">
-      <div class="row">
-        <div class="headingUnderline-wrapper">
-          <span class="title">Heading - EAH</span>
+
+<br/>
+
+<section class="container">
+  {% highlight html %}
+  <section>
+    <section class="element-wrapper headingUnderline-default">
+      <div class="container">
+        <div class="row">
+          <div class="headingUnderline-wrapper">
+            <span class="title">Heading - EAH</span>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </section>
+  {% endhighlight %}
 </section>
-{% endhighlight %}
 
 <!-- Fachbereiche -->
 {% for color in site.data.fc-short %}
@@ -57,17 +64,23 @@ group: components
     </div>
   </section>
 </section>
-{% highlight html %}
-<section>
-  <section class="element-wrapper headingUnderline-{{ color.shortname }}">
-    <div class="container">
-      <div class="row">
-        <div class="headingUnderline-wrapper">
-          <span class="title">Heading - {{ color.longname }}</span>
+
+<br/>
+
+<section class="container">
+  {% highlight html %}
+  <section>
+    <section class="element-wrapper headingUnderline-{{ color.shortname }}">
+      <div class="container">
+        <div class="row">
+          <div class="headingUnderline-wrapper">
+            <span class="title">Heading - {{ color.longname }}</span>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </section>
+  {% endhighlight %}
 </section>
-{% endhighlight %}
+
 {% endfor %}

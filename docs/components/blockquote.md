@@ -19,9 +19,13 @@ group: components
 ### Kombinationsmöglichkeiten
 * Link oder Button (nach Rezitationsende)
 
+<br/>
+
 <!-- zitat -->
+<section class="container">
+  <h1>Startseite: Zitat grüner Hintergrund</h1>
+</section>
 <section>
-  <h1>Startseite: Zitat gruener Hintergrund</h1>
   <section class="element-wrapper blockquote-gray">
     <div class="container">
       <div class="row">
@@ -39,31 +43,38 @@ group: components
       </div>
     </div>
   </section>
-  {% highlight html %}
-  <section class="element-wrapper blockquote-gray">
-    <div class="container">
-      <div class="row">
-        <div class="blockquote-wrapper">
-          <blockquote>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-            <footer>Donald Franz</footer>
-          </blockquote>
-          ​​​ </div>
+
+  <br/>
+
+  <section class="container">
+    {% highlight html %}
+    <section class="element-wrapper blockquote-gray">
+      <div class="container">
+        <div class="row">
+          <div class="blockquote-wrapper">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              <footer>Donald Franz</footer>
+            </blockquote>
+            ​​​ </div>
+        </div>
       </div>
-    </div>
+    </section>
+    {% endhighlight %}
   </section>
-  {% endhighlight %}
 </section>
 
 <!-- Fachbereiche -->
 {% for color in site.data.fc-short %}
-<section>
+<section class="container">
   <h1>Fachbereich: {{ color.longname }}</h1>
+</section>
+<section>
   <section class="element-wrapper blockquote-fc-{{ color.shortname }}">
     <div class="container">
       <div class="row">
@@ -81,24 +92,30 @@ group: components
       </div>
     </div>
   </section>
-  {% highlight html %}
-  <section class="element-wrapper blockquote-fc-{{ color.shortname }}">
-    <div class="container">
-      <div class="row">
-        <div class="blockquote-wrapper">
-          <blockquote>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-            <footer>Donald Franz</footer>
-          </blockquote>
-          ​​​ </div>
+
+  <br/>
+
+  <section class="container">
+    {% highlight html %}
+    <section class="element-wrapper blockquote-fc-{{ color.shortname }}">
+      <div class="container">
+        <div class="row">
+          <div class="blockquote-wrapper">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              <footer>Donald Franz</footer>
+            </blockquote>
+            ​​​ </div>
+        </div>
       </div>
-    </div>
+    </section>
+    {% endhighlight %}
   </section>
-  {% endhighlight %}
+
 </section>
 {% endfor %}
