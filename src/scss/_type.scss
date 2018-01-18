@@ -8,6 +8,7 @@ body {
   height: 100%;
   background-color: $white;
   font-size: $font-size-base !important;
+  -webkit-overflow-scrolling: touch;
 }
 
 // Links

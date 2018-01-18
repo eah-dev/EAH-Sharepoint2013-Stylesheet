@@ -18,16 +18,23 @@ group: components
 ### Kombinationsmöglichkeiten
 *
 
+<br/>
+
 <!-- eah green -->
 <section>
   <section class="headingUnderlineFullWidth-wrapper headingUnderlineFullWidth-green">
     <span class="title">Überschrift - EAH</span>
   </section>
 </section>
-{% highlight html %}
-<section>
-  <section class="headingUnderlineFullWidth-wrapper headingUnderlineFullWidth-green">
-    <span class="title">Heading - EAH</span>
+
+<br/>
+
+<section class="container">
+  {% highlight html %}
+  <section>
+    <section class="headingUnderlineFullWidth-wrapper headingUnderlineFullWidth-green">
+      <span class="title">Heading - EAH</span>
+    </section>
   </section>
+  {% endhighlight %}
 </section>
-{% endhighlight %}

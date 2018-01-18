@@ -16,6 +16,8 @@ group: components
 ### Kombinationsmöglichkeiten
 * Buttons oder Links können in Video eingebettet werden
 
+<br/>
+
 <!--- video -->
 <section>
   <h1>Eingebettetes Video (neu)</h1>

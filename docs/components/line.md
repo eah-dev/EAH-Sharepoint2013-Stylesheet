@@ -16,9 +16,13 @@ group: components
 ### Anpassungsmöglichkeiten
 * Farbauswahl (eah-grün, Fachbereichsfarben)
 
+<br/>
+
 <!-- trennline -->
-<section>
+<section class="container">
   <h2>Startseite Trennline</h2>
+</section>
+<section>
   <section class="element-wrapper line-default">
     <div class="container">
       <div class="row">
@@ -27,22 +31,29 @@ group: components
       </div>
     </div>
   </section>
-  {% highlight html %}
-  <section class="element-wrapper line-default">
-    <div class="container">
-      <div class="row">
-        <div class="line-wrapper">
+
+  <br/>
+
+  <section class="container">
+    {% highlight html %}
+    <section class="element-wrapper line-default">
+      <div class="container">
+        <div class="row">
+          <div class="line-wrapper">
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    {% endhighlight %}
   </section>
-  {% endhighlight %}
 </section>
 
 <!-- Fachbereiche -->
  {% for color in site.data.fc-short %}
+ <section class="container">
+  <h1>Fachbereich: {{ color.longname }}</h1>
+</section>
 <section>
-  <h2>Fachbereich: {{ color.longname }}</h2>
   <section class="element-wrapper line-fc-{{ color.shortname }}">
     <div class="container">
       <div class="row">

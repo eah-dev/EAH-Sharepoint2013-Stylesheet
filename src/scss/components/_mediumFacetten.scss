@@ -1,0 +1,104 @@
+/* ============================================================================
+		mediumFacetten :: Start
+============================================================================ */
+//
+.mediumFacetten-wrapper {
+
+  // angaben fuer beide elemente
+  .mediumFacetten-header,
+  .mediumFacetten-body {
+
+    //
+    .entry {
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-bottom: 1px;
+      border-style: solid;
+      border-width: 1px;
+
+      @include make-row();
+      //
+      .number {
+        text-align: center;
+        //
+        @include make-xs-column(2);
+        @include make-sm-column(1);
+      }
+      .year {
+        text-align: center;
+        //
+        @include make-xs-column(2);
+        @include make-sm-column(1);
+      }
+      .month {
+        text-align: center;
+        //
+        @include make-xs-column(2);
+        @include make-sm-column(2);
+      }
+      .topics {
+        @include make-xs-column(12);
+        @include make-sm-column(6);
+      }
+      .dllink {
+        text-align: center;
+        //
+        @include make-xs-column(12);
+        @include make-sm-column(2);
+      }
+    }
+  }
+  .mediumFacetten-header {
+    //
+    .entry {
+      //
+      .number {
+        font-weight: 700;
+      }
+      .year {
+        font-weight: 700;
+      }
+      .month {
+        font-weight: 700;
+      }
+      .topics {
+        font-weight: 700;
+      }
+      .dllink {
+        font-weight: 700;
+      }
+    }
+  }
+  .mediumFacetten-body {
+    //
+    .entry {
+      //
+      .number {
+        //
+      }
+      .year {
+        //
+      }
+      .month {
+        //
+      }
+      .topics {
+        //
+      }
+      .dllink {
+        //
+      }
+    }
+  }
+}
+
+// default farbe
+// es sollte eogentlich auch keine andere Farbe-Klasse verwendet werden.
+.mediumFacetten-default {
+  .mediumFacetten-header,
+  .mediumFacetten-body {
+    .entry {
+      border-color: $gray;
+    }
+  }
+}

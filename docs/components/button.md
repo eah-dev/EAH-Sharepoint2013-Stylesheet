@@ -19,9 +19,13 @@ group: components
 ### Kombinationsmöglichkeiten
 * Kombinierbar mit Artikel, Artikelblock
 
+<br/>
+
 <!-- buttons -->
-<section>
+<section class="container">
   <h1>Buttons - blau - Mehr Erfahren</h1>
+</section>
+<section>
   <section class="element-wrapper">
     <div class="container">
       <div class="row">
@@ -36,8 +40,10 @@ group: components
 </section>
 
 <!-- buttons -->
-<section>
+<section class="container">
   <h1>Buttons - weiss-blau - Mehr Erfahren</h1>
+</section>
+<section>
   <section class="element-wrapper">
     <div class="container">
       <div class="row">
@@ -51,9 +57,13 @@ group: components
   </section>
 </section>
 
+<br/>
+
 <!-- Fachbereiche -->
-<section>
+<section class="container">
   <h1>Button - Nach Fachbereiche</h1>
+</section>
+<section>
   <section class="element-wrapper">
     <div class="container">
       <div class="row">

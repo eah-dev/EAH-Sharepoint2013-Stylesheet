@@ -17,11 +17,15 @@ group: components
 
 ### Anpassungsmöglichkeiten
 * 2 - spaltige Ansprechpartner
-* Farbauswahl (abhängig von Fach-/ Hochschulbereich
+* Farbauswahl (abhängig von Fach-/ Hochschulbereich)
+
+<br/>
 
 <!-- eine Spalte - default -->
-<section>
+<section class="container">
   <h1>Ansprechpartner</h1>
+</section>
+<section>
   <section class="element-wrapper contact-color">
     <div class="container">
       <div class="row">
@@ -43,34 +47,41 @@ group: components
       </div>
     </div>
   </section>
-  {% highlight html %}
-  <section class="element-wrapper contact-color">
-    <div class="container">
-      <div class="row">
-        <div class="contact-wrapper">
-          <div class="title">
-            <span class="spantitle">Ihr Ansprechpartner</span>
-          </div>
-          <div class="contact-picture-wrapper">
-            <div class="col-xs-12 col-md-3 col-md-offset-3">
-              <div class="contact-picture-content">
-                <div class="defaulticon"></div>
+
+  <br/>
+
+  <section class="container">
+    {% highlight html %}
+    <section class="element-wrapper contact-color">
+      <div class="container">
+        <div class="row">
+          <div class="contact-wrapper">
+            <div class="title">
+              <span class="spantitle">Ihr Ansprechpartner</span>
+            </div>
+            <div class="contact-picture-wrapper">
+              <div class="col-xs-12 col-md-3 col-md-offset-3">
+                <div class="contact-picture-content">
+                  <div class="defaulticon"></div>
+                </div>
               </div>
             </div>
-          </div>
-          <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
-          <div class="contact-details-wrapper">
+            <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
+            <div class="contact-details-wrapper">
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    {% endhighlight %}
   </section>
-  {% endhighlight %}
 </section>
 
 <!-- zwei Spalten - default -->
-<section>
+<section class="container">
   <h1>Ansprechpartner - 2 Spalten</h1>
+</section>
+<section>
   <section class="element-wrapper contact-color">
     <div class="container">
       <div class="row">
@@ -110,53 +121,60 @@ group: components
       </div>
     </div>
   </section>
-  {% highlight html %}
-  <section class="element-wrapper contact-color">
-    <div class="container">
-      <div class="row">
-        <div class="contacts-wrapper">
-          <div class="title">
-            <span class="spantitle">Ihre Ansprechpartner</span>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <div class="contact-wrapper">
-              <div class="contact-picture-wrapper">
-                <div class="col-xs-12 col-md-6">
-                  <div class="contact-picture-content">
-                    <div class="defaulticon"></div>
+
+  <br/>
+
+  <section class="container">
+    {% highlight html %}
+    <section class="element-wrapper contact-color">
+      <div class="container">
+        <div class="row">
+          <div class="contacts-wrapper">
+            <div class="title">
+              <span class="spantitle">Ihre Ansprechpartner</span>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <div class="contact-wrapper">
+                <div class="contact-picture-wrapper">
+                  <div class="col-xs-12 col-md-6">
+                    <div class="contact-picture-content">
+                      <div class="defaulticon"></div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
-              <div class="contact-details-wrapper">
+                <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
+                <div class="contact-details-wrapper">
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <div class="contact-wrapper">
-              <div class="contact-picture-wrapper">
-                <div class="col-xs-12 col-md-6">
-                  <div class="contact-picture-content">
-                    <div class="defaulticon"></div>
+            <div class="col-xs-12 col-sm-6">
+              <div class="contact-wrapper">
+                <div class="contact-picture-wrapper">
+                  <div class="col-xs-12 col-md-6">
+                    <div class="contact-picture-content">
+                      <div class="defaulticon"></div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
-              <div class="contact-details-wrapper">
+                <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
+                <div class="contact-details-wrapper">
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    {% endhighlight %}
   </section>
-  {% endhighlight %}
 </section>
 
 <!-- Fachbereiche -->
 {% for color in site.data.fc-full %}
-<section>
+<section class="container">
   <h1>Fachbereich: {{ color.longname }}</h1>
+</section>
+<section>
   <section class="element-wrapper contact-fc-{{ color.shortname }}">
     <div class="container">
       <div class="row">
@@ -214,28 +232,33 @@ group: components
       </div>
     </div>
   </section>
-  {% highlight html %}
-  <section class="element-wrapper contact-fc-{{ color.shortname }}">
-    <div class="container">
-      <div class="row">
-        <div class="contact-wrapper">
-          <div class="title">
-            <span class="spantitle">Ihr Ansprechpartner</span>
-          </div>
-          <div class="contact-picture-wrapper">
-            <div class="col-xs-12 col-md-3 col-md-offset-3">
-              <div class="contact-picture-content">
-                <div class="defaulticon"></div>
+
+  <br/>
+
+  <section class="container">
+    {% highlight html %}
+    <section class="element-wrapper contact-fc-{{ color.shortname }}">
+      <div class="container">
+        <div class="row">
+          <div class="contact-wrapper">
+            <div class="title">
+              <span class="spantitle">Ihr Ansprechpartner</span>
+            </div>
+            <div class="contact-picture-wrapper">
+              <div class="col-xs-12 col-md-3 col-md-offset-3">
+                <div class="contact-picture-content">
+                  <div class="defaulticon"></div>
+                </div>
               </div>
             </div>
-          </div>
-          <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
-          <div class="contact-details-wrapper">
+            <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
+            <div class="contact-details-wrapper">
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    {% endhighlight %}
   </section>
-  {% endhighlight %}
 </section>
 {% endfor %}
