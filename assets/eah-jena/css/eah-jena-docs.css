@@ -10827,7 +10827,8 @@ button.close {
 body {
   height: 100%;
   background-color: #fff;
-  font-size: 15px !important; }
+  font-size: 15px !important;
+  -webkit-overflow-scrolling: touch; }
 
 a, .eah-language-selector > a:hover, .eah-language-selector > a:active, .eah-language-selector > a:focus, .eah-language-selector > a.active, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span {
   color: #00aaa0; }
@@ -14577,6 +14578,132 @@ button[disabled][disabled] {
   border-bottom-color: #00aaa0; }
   .headingUnderlineFullWidth-green .title {
     border-bottom-color: #00aaa0; }
+
+/* ============================================================================
+		mediumFacetten :: Start
+============================================================================ */
+.mediumFacetten-wrapper .mediumFacetten-header .entry,
+.mediumFacetten-wrapper .mediumFacetten-body .entry {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 1px;
+  border-style: solid;
+  border-color: #555555;
+  border-width: 1px;
+  margin-left: -15px;
+  margin-right: -15px; }
+  .mediumFacetten-wrapper .mediumFacetten-header .entry:before, .mediumFacetten-wrapper .mediumFacetten-header .entry:after,
+  .mediumFacetten-wrapper .mediumFacetten-body .entry:before,
+  .mediumFacetten-wrapper .mediumFacetten-body .entry:after {
+    content: " ";
+    display: table; }
+  .mediumFacetten-wrapper .mediumFacetten-header .entry:after,
+  .mediumFacetten-wrapper .mediumFacetten-body .entry:after {
+    clear: both; }
+  .mediumFacetten-wrapper .mediumFacetten-header .entry .number,
+  .mediumFacetten-wrapper .mediumFacetten-body .entry .number {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .mediumFacetten-wrapper .mediumFacetten-header .entry .number,
+      .mediumFacetten-wrapper .mediumFacetten-body .entry .number {
+        float: left;
+        width: 8.33333%; } }
+  .mediumFacetten-wrapper .mediumFacetten-header .entry .year,
+  .mediumFacetten-wrapper .mediumFacetten-body .entry .year {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .mediumFacetten-wrapper .mediumFacetten-header .entry .year,
+      .mediumFacetten-wrapper .mediumFacetten-body .entry .year {
+        float: left;
+        width: 8.33333%; } }
+  .mediumFacetten-wrapper .mediumFacetten-header .entry .month,
+  .mediumFacetten-wrapper .mediumFacetten-body .entry .month {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .mediumFacetten-wrapper .mediumFacetten-header .entry .month,
+      .mediumFacetten-wrapper .mediumFacetten-body .entry .month {
+        float: left;
+        width: 16.66667%; } }
+  .mediumFacetten-wrapper .mediumFacetten-header .entry .topics,
+  .mediumFacetten-wrapper .mediumFacetten-body .entry .topics {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .mediumFacetten-wrapper .mediumFacetten-header .entry .topics,
+      .mediumFacetten-wrapper .mediumFacetten-body .entry .topics {
+        float: left;
+        width: 50%; } }
+  .mediumFacetten-wrapper .mediumFacetten-header .entry .dllink,
+  .mediumFacetten-wrapper .mediumFacetten-body .entry .dllink {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .mediumFacetten-wrapper .mediumFacetten-header .entry .dllink,
+      .mediumFacetten-wrapper .mediumFacetten-body .entry .dllink {
+        float: left;
+        width: 16.66667%; } }
+
+.mediumFacetten-wrapper .mediumFacetten-header .entry .number {
+  font-weight: 700; }
+
+.mediumFacetten-wrapper .mediumFacetten-header .entry .year {
+  font-weight: 700; }
+
+.mediumFacetten-wrapper .mediumFacetten-header .entry .month {
+  font-weight: 700; }
+
+.mediumFacetten-wrapper .mediumFacetten-header .entry .topics {
+  font-weight: 700; }
+
+.mediumFacetten-wrapper .mediumFacetten-header .entry .dllink {
+  font-weight: 700; }
 
 /* ============================================================================
 		newsinfo :: Start
