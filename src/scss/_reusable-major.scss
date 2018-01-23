@@ -150,13 +150,13 @@
 /// @author Carsten Hoelbing
 .major-ResearchDevelop-Header-wrapper {
   width: 100%;
-  border-bottom: 2px solid $green;
+  border-bottom: $borderBottomWidthHeadingMainUnderline solid $green;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: $spacerHeadingMainUnderline;
   .title {
-    border-bottom: 4px solid $green;
-    padding-bottom: 10px;
+    border-bottom: $borderBottomWidthTitleUnterline solid $green;
+    padding-bottom: $spacerHeadingTitleUnterline;
     font-size: $font-size-large;
     font-family: $font-family-roboto;
   }

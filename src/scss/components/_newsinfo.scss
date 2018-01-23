@@ -11,18 +11,19 @@
     padding-top: 20px;
     padding-bottom: 20px;
     .newsinfo-title {
-      padding-bottom: 10px;
-      .text {
-        font-size: $font-size-large;
-        padding-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: $spacerHeadingMainUnderline;
+      border-bottom-style: solid;
+      border-bottom-width: $borderBottomWidthHeadingMainUnderline;
+      .text,
+      .title {
+        padding-bottom: $spacerHeadingTitleUnterline;
         border-bottom-style: solid;
-        border-width: 4px;
+        border-bottom-width: $borderBottomWidthTitleUnterline;
+        font-size: $font-size-large;
       }
     }
     .newsinfo-body {
-      border-top-style: solid;
-      border-width: 2px;
-      padding: 10px 0;
       height: 125px;
       .major-news-items,
       .major-infos-items {
@@ -89,12 +90,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $green;
       .text {
         border-bottom-color: $green;
       }
     }
     .newsinfo-body {
-      border-top-color: $green;
       .major-news-items,
       .major-infos-items {
         //
@@ -141,12 +142,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $faculties-color-bw;
       .text {
         border-bottom-color: $faculties-color-bw;
       }
     }
     .newsinfo-body {
-      border-top-color: $faculties-color-bw;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {
@@ -181,12 +182,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $faculties-color-et;
       .text {
         border-bottom-color: $faculties-color-et;
       }
     }
     .newsinfo-body {
-      border-top-color: $faculties-color-et;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {
@@ -221,12 +222,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $white; // $faculties-color-gl;
       .text {
         border-bottom-color: $white; // $faculties-color-gl;
       }
     }
     .newsinfo-body {
-      border-top-color: $white; //$faculties-color-gl;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {
@@ -261,12 +262,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $faculties-color-gp;
       .text {
         border-bottom-color: $faculties-color-gp;
       }
     }
     .newsinfo-body {
-      border-top-color: $faculties-color-gp;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {
@@ -301,12 +302,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $faculties-color-mb;
       .text {
         border-bottom-color: $faculties-color-mb;
       }
     }
     .newsinfo-body {
-      border-top-color: $faculties-color-mb;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {
@@ -341,12 +342,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $faculties-color-mt;
       .text {
         border-bottom-color: $faculties-color-mt;
       }
     }
     .newsinfo-body {
-      border-top-color: $faculties-color-mt;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {
@@ -381,12 +382,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $faculties-color-sc;
       .text {
         border-bottom-color: $faculties-color-sc;
       }
     }
     .newsinfo-body {
-      border-top-color: $faculties-color-sc;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {
@@ -421,12 +422,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $faculties-color-sw;
       .text {
         border-bottom-color: $faculties-color-sw;
       }
     }
     .newsinfo-body {
-      border-top-color: $faculties-color-sw;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {
@@ -461,12 +462,12 @@
   .newsinfo-infos-wrapper {
     color: $white;
     .newsinfo-title {
+      border-bottom-color: $faculties-color-wi;
       .text {
         border-bottom-color: $faculties-color-wi;
       }
     }
     .newsinfo-body {
-      border-top-color: $faculties-color-wi;
       .major-news-body-content,
       .major-infos-body-content {
         @media screen and (max-width: $screen-sm) {

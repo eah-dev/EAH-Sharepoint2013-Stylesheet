@@ -11391,23 +11391,38 @@ XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer auf
 .anchorbox-body-single-wrapper {
   padding: 20px;
   border-radius: 1px; }
-  .anchorbox-body-wrapper .header-title h2,
-  .anchorbox-body-single-wrapper .header-title h2 {
+  .anchorbox-body-wrapper .header-title,
+  .anchorbox-body-single-wrapper .header-title {
+    padding-bottom: 3px;
     border-bottom-style: solid;
-    border-width: 1px; }
-    .anchorbox-body-wrapper .header-title h2 .spantitle,
-    .anchorbox-body-single-wrapper .header-title h2 .spantitle {
-      border-bottom-style: solid;
-      border-width: 1px; }
-  .anchorbox-body-wrapper .body-content .content-title h2,
-  .anchorbox-body-single-wrapper .body-content .content-title h2 {
-    text-align: left;
+    border-bottom-width: 2px; }
+    .anchorbox-body-wrapper .header-title h2,
+    .anchorbox-body-single-wrapper .header-title h2 {
+      padding: 0;
+      margin: 0;
+      font-size: 19px !important;
+      line-height: 1.7 !important; }
+      .anchorbox-body-wrapper .header-title h2 .spantitle,
+      .anchorbox-body-single-wrapper .header-title h2 .spantitle {
+        padding-bottom: 4px;
+        border-bottom-style: solid;
+        border-bottom-width: 4px; }
+  .anchorbox-body-wrapper .body-content .content-title,
+  .anchorbox-body-single-wrapper .body-content .content-title {
+    padding-bottom: 3px;
     border-bottom-style: solid;
-    border-width: 1px; }
-    .anchorbox-body-wrapper .body-content .content-title h2 .spantitle,
-    .anchorbox-body-single-wrapper .body-content .content-title h2 .spantitle {
-      border-bottom-style: solid;
-      border-width: 1px; }
+    border-bottom-width: 2px; }
+    .anchorbox-body-wrapper .body-content .content-title h2,
+    .anchorbox-body-single-wrapper .body-content .content-title h2 {
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      font-size: 19px; }
+      .anchorbox-body-wrapper .body-content .content-title h2 .spantitle,
+      .anchorbox-body-single-wrapper .body-content .content-title h2 .spantitle {
+        padding-bottom: 4px;
+        border-bottom-style: solid;
+        border-bottom-width: 4px; }
   .anchorbox-body-wrapper .body-content ul,
   .anchorbox-body-single-wrapper .body-content ul {
     margin-bottom: 10px;
@@ -11434,28 +11449,32 @@ XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer auf
 .anchorbox-blue .anchorbox-body-single-wrapper {
   background: #fff;
   box-shadow: 2px 2px 5px #394a5f; }
-  .anchorbox-blue .anchorbox-body-wrapper .header-title h2,
-  .anchorbox-blue .anchorbox-body-single-wrapper .header-title h2 {
-    border-bottom-color: #00aaa0;
-    color: #394a5f; }
-    .anchorbox-blue .anchorbox-body-wrapper .header-title h2 .spantitle,
-    .anchorbox-blue .anchorbox-body-single-wrapper .header-title h2 .spantitle {
-      border-bottom-color: #00aaa0; }
-  .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title h2,
-  .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title h2 {
-    border-bottom-color: #00aaa0;
-    color: #394a5f; }
-    .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title h2 .spantitle,
-    .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title h2 .spantitle {
-      border-bottom-color: #00aaa0; }
-  .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title ul li,
-  .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title ul li {
-    color: #394a5f; }
-    .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title ul li a:hover, .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title ul #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title ul li > span:hover,
-    .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title ul li a:hover,
-    .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title ul #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-    .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title ul li > span:hover {
-      color: #00aaa0; }
+  .anchorbox-blue .anchorbox-body-wrapper .header-title,
+  .anchorbox-blue .anchorbox-body-single-wrapper .header-title {
+    border-bottom-color: #00aaa0; }
+    .anchorbox-blue .anchorbox-body-wrapper .header-title h2,
+    .anchorbox-blue .anchorbox-body-single-wrapper .header-title h2 {
+      color: #394a5f; }
+      .anchorbox-blue .anchorbox-body-wrapper .header-title h2 .spantitle,
+      .anchorbox-blue .anchorbox-body-single-wrapper .header-title h2 .spantitle {
+        border-bottom-color: #00aaa0; }
+  .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title,
+  .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title {
+    border-bottom-color: #00aaa0; }
+    .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title h2,
+    .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title h2 {
+      color: #394a5f; }
+      .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title h2 .spantitle,
+      .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title h2 .spantitle {
+        border-bottom-color: #00aaa0; }
+    .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title ul li,
+    .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title ul li {
+      color: #394a5f; }
+      .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title ul li a:hover, .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title ul #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .anchorbox-blue .anchorbox-body-wrapper .body-content .content-title ul li > span:hover,
+      .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title ul li a:hover,
+      .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title ul #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .anchorbox-blue .anchorbox-body-single-wrapper .body-content .content-title ul li > span:hover {
+        color: #00aaa0; }
 
 /* ============================================================================
 		articelblock :: Start
@@ -12072,35 +12091,35 @@ button[disabled][disabled] {
 ============================================================================ */
 .contacts-wrapper .title {
   margin: 0 0 40px;
+  padding-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: left;
-  padding-bottom: 3px;
-  font-size: 22px;
-  border-bottom-style: solid;
-  border-width: 1px; }
+  font-size: 22px; }
   .contacts-wrapper .title .spantitle {
-    padding-bottom: 6px;
+    padding-bottom: 4px;
     border-bottom-style: solid;
-    border-width: 2px; }
+    border-bottom-width: 4px; }
 
 .contact-wrapper {
   padding: 30px 0; }
   .contact-wrapper .title {
     margin: 0 0 40px;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     text-align: left;
-    padding-bottom: 3px;
-    font-size: 22px;
-    border-bottom-style: solid;
-    border-width: 1px; }
+    font-size: 22px; }
     .contact-wrapper .title .spantitle {
-      padding-bottom: 6px;
+      padding-bottom: 4px;
       border-bottom-style: solid;
-      border-width: 2px; }
+      border-bottom-width: 4px; }
   .contact-wrapper .contact-picture-content {
     width: 170px;
     height: 170px;
@@ -14495,15 +14514,15 @@ button[disabled][disabled] {
 ============================================================================ */
 .headingUnderline-wrapper {
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 3px;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  text-align: center; }
   .headingUnderline-wrapper .title {
+    padding-bottom: 4px;
     border-bottom-style: solid;
     border-bottom-width: 4px;
-    padding-bottom: 10px;
     font-size: 19px;
     font-family: "Roboto"; }
 
@@ -14562,15 +14581,15 @@ button[disabled][disabled] {
 ============================================================================ */
 .headingUnderlineFullWidth-wrapper {
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 3px;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  text-align: center; }
   .headingUnderlineFullWidth-wrapper .title {
+    padding-bottom: 4px;
     border-bottom-style: solid;
     border-bottom-width: 4px;
-    padding-bottom: 10px;
     font-size: 19px;
     font-family: "Roboto"; }
 
@@ -14588,7 +14607,6 @@ button[disabled][disabled] {
   padding-top: 10px;
   margin-bottom: 1px;
   border-style: solid;
-  border-color: #555555;
   border-width: 1px;
   margin-left: -15px;
   margin-right: -15px; }
@@ -14705,6 +14723,10 @@ button[disabled][disabled] {
 .mediumFacetten-wrapper .mediumFacetten-header .entry .dllink {
   font-weight: 700; }
 
+.mediumFacetten-default .mediumFacetten-header .entry,
+.mediumFacetten-default .mediumFacetten-body .entry {
+  border-color: #555555; }
+
 /* ============================================================================
 		newsinfo :: Start
 ============================================================================ */
@@ -14714,18 +14736,20 @@ button[disabled][disabled] {
   padding-bottom: 20px; }
   .newsinfo-wrapper .newsinfo-news-wrapper .newsinfo-title,
   .newsinfo-wrapper .newsinfo-infos-wrapper .newsinfo-title {
-    padding-bottom: 10px; }
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px; }
     .newsinfo-wrapper .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-wrapper .newsinfo-infos-wrapper .newsinfo-title .text {
-      font-size: 19px;
-      padding-bottom: 10px;
+    .newsinfo-wrapper .newsinfo-news-wrapper .newsinfo-title .title,
+    .newsinfo-wrapper .newsinfo-infos-wrapper .newsinfo-title .text,
+    .newsinfo-wrapper .newsinfo-infos-wrapper .newsinfo-title .title {
+      padding-bottom: 4px;
       border-bottom-style: solid;
-      border-width: 4px; }
+      border-bottom-width: 4px;
+      font-size: 19px; }
   .newsinfo-wrapper .newsinfo-news-wrapper .newsinfo-body,
   .newsinfo-wrapper .newsinfo-infos-wrapper .newsinfo-body {
-    border-top-style: solid;
-    border-width: 2px;
-    padding: 10px 0;
     height: 125px; }
     .newsinfo-wrapper .newsinfo-news-wrapper .newsinfo-body .major-news-items,
     .newsinfo-wrapper .newsinfo-news-wrapper .newsinfo-body .major-infos-items,
@@ -14784,12 +14808,12 @@ button[disabled][disabled] {
   .newsinfo-wrapper-default .newsinfo-news-wrapper,
   .newsinfo-wrapper-default .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-wrapper-default .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-wrapper-default .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-wrapper-default .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-wrapper-default .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #00aaa0; }
-    .newsinfo-wrapper-default .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-wrapper-default .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #00aaa0; }
+      .newsinfo-wrapper-default .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-wrapper-default .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #00aaa0; }
     .newsinfo-wrapper-default .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-wrapper-default .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -14808,12 +14832,12 @@ button[disabled][disabled] {
   .newsinfo-fc-bw .newsinfo-news-wrapper,
   .newsinfo-fc-bw .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-fc-bw .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-fc-bw .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-fc-bw .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-fc-bw .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #de9a27; }
-    .newsinfo-fc-bw .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-fc-bw .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #de9a27; }
+      .newsinfo-fc-bw .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-fc-bw .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #de9a27; }
     .newsinfo-fc-bw .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-fc-bw .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -14832,12 +14856,12 @@ button[disabled][disabled] {
   .newsinfo-fc-et .newsinfo-news-wrapper,
   .newsinfo-fc-et .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-fc-et .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-fc-et .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-fc-et .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-fc-et .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #a03139; }
-    .newsinfo-fc-et .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-fc-et .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #a03139; }
+      .newsinfo-fc-et .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-fc-et .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #a03139; }
     .newsinfo-fc-et .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-fc-et .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -14856,12 +14880,12 @@ button[disabled][disabled] {
   .newsinfo-fc-gl .newsinfo-news-wrapper,
   .newsinfo-fc-gl .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-fc-gl .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-fc-gl .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-fc-gl .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-fc-gl .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #fff; }
-    .newsinfo-fc-gl .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-fc-gl .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #fff; }
+      .newsinfo-fc-gl .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-fc-gl .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #fff; }
     .newsinfo-fc-gl .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-fc-gl .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -14880,12 +14904,12 @@ button[disabled][disabled] {
   .newsinfo-fc-gp .newsinfo-news-wrapper,
   .newsinfo-fc-gp .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-fc-gp .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-fc-gp .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-fc-gp .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-fc-gp .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #80217e; }
-    .newsinfo-fc-gp .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-fc-gp .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #80217e; }
+      .newsinfo-fc-gp .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-fc-gp .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #80217e; }
     .newsinfo-fc-gp .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-fc-gp .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -14904,12 +14928,12 @@ button[disabled][disabled] {
   .newsinfo-fc-mb .newsinfo-news-wrapper,
   .newsinfo-fc-mb .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-fc-mb .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-fc-mb .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-fc-mb .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-fc-mb .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #f0ca20; }
-    .newsinfo-fc-mb .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-fc-mb .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #f0ca20; }
+      .newsinfo-fc-mb .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-fc-mb .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #f0ca20; }
     .newsinfo-fc-mb .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-fc-mb .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -14928,12 +14952,12 @@ button[disabled][disabled] {
   .newsinfo-fc-mt .newsinfo-news-wrapper,
   .newsinfo-fc-mt .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-fc-mt .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-fc-mt .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-fc-mt .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-fc-mt .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #068b03; }
-    .newsinfo-fc-mt .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-fc-mt .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #068b03; }
+      .newsinfo-fc-mt .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-fc-mt .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #068b03; }
     .newsinfo-fc-mt .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-fc-mt .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -14952,12 +14976,12 @@ button[disabled][disabled] {
   .newsinfo-fc-sc .newsinfo-news-wrapper,
   .newsinfo-fc-sc .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-fc-sc .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-fc-sc .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-fc-sc .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-fc-sc .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #7cc0e7; }
-    .newsinfo-fc-sc .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-fc-sc .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #7cc0e7; }
+      .newsinfo-fc-sc .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-fc-sc .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #7cc0e7; }
     .newsinfo-fc-sc .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-fc-sc .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -14976,12 +15000,12 @@ button[disabled][disabled] {
   .newsinfo-fc-sw .newsinfo-news-wrapper,
   .newsinfo-fc-sw .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-fc-sw .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-fc-sw .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-fc-sw .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-fc-sw .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #c9442c; }
-    .newsinfo-fc-sw .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-fc-sw .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #c9442c; }
+      .newsinfo-fc-sw .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-fc-sw .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #c9442c; }
     .newsinfo-fc-sw .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-fc-sw .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -15000,12 +15024,12 @@ button[disabled][disabled] {
   .newsinfo-fc-wi .newsinfo-news-wrapper,
   .newsinfo-fc-wi .newsinfo-infos-wrapper {
     color: #fff; }
-    .newsinfo-fc-wi .newsinfo-news-wrapper .newsinfo-title .text,
-    .newsinfo-fc-wi .newsinfo-infos-wrapper .newsinfo-title .text {
+    .newsinfo-fc-wi .newsinfo-news-wrapper .newsinfo-title,
+    .newsinfo-fc-wi .newsinfo-infos-wrapper .newsinfo-title {
       border-bottom-color: #74f501; }
-    .newsinfo-fc-wi .newsinfo-news-wrapper .newsinfo-body,
-    .newsinfo-fc-wi .newsinfo-infos-wrapper .newsinfo-body {
-      border-top-color: #74f501; }
+      .newsinfo-fc-wi .newsinfo-news-wrapper .newsinfo-title .text,
+      .newsinfo-fc-wi .newsinfo-infos-wrapper .newsinfo-title .text {
+        border-bottom-color: #74f501; }
     .newsinfo-fc-wi .newsinfo-news-wrapper .major-counter .major-count-block,
     .newsinfo-fc-wi .newsinfo-infos-wrapper .major-counter .major-count-block {
       background-color: #fff; }
@@ -17825,10 +17849,10 @@ div[id^='ctl00_PlaceHolderMain'][id$='RichHtmlField_displayContent'] > * {
   border-bottom: 2px solid #00aaa0;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 3px; }
   .major-ResearchDevelop-Header-wrapper .title {
     border-bottom: 4px solid #00aaa0;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
     font-size: 19px;
     font-family: "Roboto"; }
 
