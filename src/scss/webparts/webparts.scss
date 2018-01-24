@@ -1,0 +1,57 @@
+/* ============================================================================
+		webparts  :: Start
+============================================================================ */
+
+@import 'googlemaps';
+@import 'studiefilter';
+
+// Seite - Veranstaltungen
+#WebPartWPQ3 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 7px;
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: $container-md - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg - $grid-gutter-width;
+  }
+}
+// page-content
+#page-content header {
+  height: 60%;
+  .ms-webpart-cell-vertical {
+    display: block;
+    width: 100%;
+  }
+  .ms-webpart-zone,
+  .ms-webpart-chrome,
+  .s4-wpcell-plain.ms-webpartzone-cell {
+    display: block;
+    height: 100%;
+  }
+  .ms-WPBody:not(.editor) {
+    display: block;
+    height: 100%;
+    > div {
+      display: block;
+      height: 100%;
+      > div {
+        display: block;
+        height: 100%;
+      }
+    }
+  }
+}
+#topnavwebpart {
+  display: block;
+  .ms-WPAddButton {
+    display: none !important;
+  }
+}
