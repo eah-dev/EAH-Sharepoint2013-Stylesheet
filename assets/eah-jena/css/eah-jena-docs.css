@@ -11639,8 +11639,8 @@ XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer auf
 		Button :: Start
 ============================================================================ */
 .button-wrapper {
-  margin-bottom: 33px;
-  margin-top: 33px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   padding: 8px;
   text-align: center; }
   .button-wrapper .title {
@@ -14472,7 +14472,7 @@ button[disabled][disabled] {
   border-bottom-color: #eeeeee;
   border-bottom-style: solid;
   border-width: 2px;
-  margin: 0 0 20px; }
+  margin: 0; }
 
 .line-wrapper {
   margin: 0 0 20px;
@@ -17207,7 +17207,7 @@ Page-Layout :: Start
 #DeltaPlaceHolderMain > div > .container > h2,
 .ms-siteSettings-root > h2,
 .ms-siteSettings-root > div > .container > h2 {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
   font-size: 28px !important;
   font-weight: 400;
@@ -18176,31 +18176,6 @@ div.table {
 /* ============================================================================
 		webparts  :: Start
 ============================================================================ */
-#page-content header {
-  height: 60%; }
-  #page-content header .ms-webpart-cell-vertical {
-    display: block;
-    width: 100%; }
-  #page-content header .ms-webpart-zone,
-  #page-content header .ms-webpart-chrome,
-  #page-content header .s4-wpcell-plain.ms-webpartzone-cell {
-    display: block;
-    height: 100%; }
-  #page-content header .ms-WPBody:not(.editor) {
-    display: block;
-    height: 100%; }
-    #page-content header .ms-WPBody:not(.editor) > div {
-      display: block;
-      height: 100%; }
-      #page-content header .ms-WPBody:not(.editor) > div > div {
-        display: block;
-        height: 100%; }
-
-#topnavwebpart {
-  display: block; }
-  #topnavwebpart .ms-WPAddButton {
-    display: none !important; }
-
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -18314,49 +18289,30 @@ div.table {
     #WebPartWPQ3 {
       width: 1140px; } }
 
-#WebPartWPQ2 {
-  /*  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 7px;
+#page-content header {
+  height: 60%; }
+  #page-content header .ms-webpart-cell-vertical {
+    display: block;
+    width: 100%; }
+  #page-content header .ms-webpart-zone,
+  #page-content header .ms-webpart-chrome,
+  #page-content header .s4-wpcell-plain.ms-webpartzone-cell {
+    display: block;
+    height: 100%; }
+  #page-content header .ms-WPBody:not(.editor) {
+    display: block;
+    height: 100%; }
+    #page-content header .ms-WPBody:not(.editor) > div {
+      display: block;
+      height: 100%; }
+      #page-content header .ms-WPBody:not(.editor) > div > div {
+        display: block;
+        height: 100%; }
 
-  @media (min-width: $screen-sm-min) {
-    width: $container-sm - $grid-gutter-width;
-  }
-
-  @media (min-width: $screen-md-min) {
-    width: $container-md - $grid-gutter-width;
-  }
-
-  @media (min-width: $screen-lg-min) {
-    width: $container-lg - $grid-gutter-width;
-  }
-
-  // cbq-layout-main
-  .cbq-layout-main {
-    .dfwp-item {
-      .item {
-        padding: 0;
-      }
-      .eah-event-title-de {
-        font-size: $font-size-h4;
-      }
-      .eah-event-title-en {
-        //
-      }
-      .eah-event-description {
-        padding: 7px 0;
-        font-size: $font-size-base;
-      }
-      .eah-event-eventdate {
-        .eah-event-date {
-          padding-right: 5px;
-        }
-        .eah-event-time {
-          //
-        }
-      }
-    }
-  } */ }
+#topnavwebpart {
+  display: block; }
+  #topnavwebpart .ms-WPAddButton {
+    display: none !important; }
 
 .docs-footer {
   padding-top: 20px;
