@@ -10848,125 +10848,6 @@ textarea {
   resize: vertical; }
 
 /* ============================================================================
-		Faculties :: Start
-============================================================================ */
-/*
-folgende Elemente wurde mit unterschiedlichen (Fachbereichs-) Farben angepasst
-- button
-*/
-.faculties .col-md-2 {
-  padding-left: 0;
-  padding-right: 0; }
-
-.faculties .col-md-6 {
-  padding-left: 0;
-  padding-right: 0; }
-  .faculties .col-md-6 .row {
-    margin: 0; }
-
-.faculty {
-  padding: 50px 15px;
-  text-align: center;
-  height: 220px; }
-  .faculty.fc-quicklinks {
-    padding: 10px 15px 0;
-    text-align: center;
-    height: 70px;
-    color: #fff !important; }
-  .faculty.fc-quicklinks-icons {
-    padding: 10px 15px 0;
-    text-align: center;
-    height: 150px;
-    color: #fff !important; }
-  .faculty a, .faculty .eah-language-selector > a:hover, .faculty .eah-language-selector > a:active, .faculty .eah-language-selector > a:focus, .faculty .eah-language-selector > a.active, .faculty #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .faculty li > span {
-    color: #fff !important;
-    font-size: 17px;
-    font-weight: 300; }
-  .faculty.fc-quicklinks-icons a, .faculty.fc-quicklinks-icons #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .faculty.fc-quicklinks-icons li > span {
-    font-size: 13px; }
-
-.fc-icon {
-  background: #fff none repeat scroll 0 0;
-  border-radius: 50%;
-  display: block;
-  height: 60px;
-  margin: 2px auto 10px;
-  text-align: center;
-  -moz-transition: all 0.3s linear 0s;
-  -o-transition: all 0.3s linear 0s;
-  -webkit-transition: all 0.3s linear 0s;
-  transition: all 0.3s linear 0s;
-  width: 60px; }
-  .fc-icon i {
-    font-size: 28px;
-    padding: 16px 0; }
-
-.fc-quicklinks-icons,
-.fc-quicklinks {
-  background: #009790; }
-
-.fc-quicklinks-icons .fc-icon {
-  height: 40px;
-  width: 40px; }
-  .fc-quicklinks-icons .fc-icon i {
-    font-size: 18px;
-    padding: 12px 0; }
-
-.fc-bw {
-  background: #de9a27; }
-
-.icon-bw {
-  color: #de9a27; }
-
-.fc-et {
-  background: #a03139; }
-
-.icon-et {
-  color: #a03139; }
-
-.fc-gl {
-  background: #2c3b59; }
-
-.icon-gl {
-  color: #2c3b59; }
-
-.fc-mb {
-  background: #f0ca20; }
-
-.icon-mb {
-  color: #f0ca20; }
-
-.fc-mt {
-  background: #068b03; }
-
-.icon-mt {
-  color: #068b03; }
-
-.fc-gp {
-  background: #80217e; }
-
-.icon-gp {
-  color: #80217e; }
-
-.fc-sc {
-  background: #7cc0e7; }
-
-.icon-sc {
-  color: #7cc0e7; }
-
-.fc-sw {
-  background: #c9442c; }
-
-.icon-sw {
-  color: #c9442c; }
-
-.fc-wi {
-  background: #74f501; }
-
-.icon-wi {
-  color: #74f501; }
-
-/* ============================================================================
 		Sharepoint 2013 Vorlagen  :: Start
 ============================================================================ */
 .ms-rteImage-Responsive {
@@ -15130,16 +15011,16 @@ button[disabled][disabled] {
 		overviewCourseOfStudies :: Start
 ============================================================================ */
 .overviewCourseOfStudies-wrapper .overviewCourseOfStudies-header-wrapper {
-  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 3px;
   border-bottom-style: solid;
   border-bottom-width: 2px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  width: 100%; }
   .overviewCourseOfStudies-wrapper .overviewCourseOfStudies-header-wrapper .title {
+    padding-bottom: 4px;
     border-bottom-style: solid;
     border-bottom-width: 4px;
-    padding-bottom: 10px;
     font-size: 19px;
     font-family: "Roboto"; }
 
