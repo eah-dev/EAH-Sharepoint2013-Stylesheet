@@ -29,14 +29,7 @@
 ///   BUTTON-TEXT
 /// </a>
 .btn-white {
-  background-color: $btn-color-white;
-  border-color: $btn-color-green;
-  color: $btn-color-green;
-  &:hover {
-    background-color: $btn-color-green;
-    border-color: $btn-color-white;
-    color: $btn-color-white;
-  }
+  @include style-button-color($btn-color-white, $btn-color-green, $btn-color-green, $btn-color-green, $btn-color-white, $btn-color-white);
 }
 
 /// Ein Button mit der Farbe 'Weiss' welcher beim Mouse-Hover 'Blau' wird.
@@ -45,14 +38,7 @@
 ///   BUTTON-TEXT
 /// </a>
 .btn-white-blue {
-  background-color: $btn-color-white;
-  border-color: $btn-color-blue;
-  color: $btn-color-blue !important;
-  &:hover {
-    background-color: $btn-color-blue;
-    border-color: $btn-color-white;
-    color: $btn-color-white !important;
-  }
+  @include style-button-color($btn-color-white, $btn-color-blue, $btn-color-blue, $btn-color-blue, $btn-color-white, $btn-color-white);
 }
 
 /// Ein Button mit der Farbe 'Blau' welcher beim Mouse-Hover 'Weiss' wird.
@@ -61,14 +47,7 @@
 ///   BUTTON-TEXT
 /// </a>
 .btn-blue {
-  background-color: $btn-color-blue;
-  border-color: $btn-color-blue;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $btn-color-blue;
-    color: $btn-color-blue !important;
-  }
+  @include style-button-color($btn-color-blue, $btn-color-blue, $btn-color-white, $btn-color-white, $btn-color-blue, $btn-color-blue);
 }
 
 /// Ein Button mit der Farbe 'Gruen' welcher beim Mouse-Hover 'Weiss' wird.
@@ -77,212 +56,79 @@
 ///   BUTTON-TEXT
 /// </a>
 .btn-green {
-  background-color: $btn-color-green;
-  border-color: $btn-color-white;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $btn-color-green;
-    color: $btn-color-green !important;
-  }
+  @include style-button-color($btn-color-green, $btn-color-white, $btn-color-white, $btn-color-white, $btn-color-green, $btn-color-green);
 }
 /// button in der Fachbereichsfarbe - Betriebswirtschaft
 .btn-fc-bw {
-  background-color: $faculties-color-bw;
-  border-color: $faculties-color-bw;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $faculties-color-bw;
-    color: $faculties-color-bw !important;
-  }
+  @include style-button-color($faculties-color-bw, $faculties-color-bw, $btn-color-white, $btn-color-white, $faculties-color-bw, $faculties-color-bw);
 }
 // invert
 .btn-fc-bw-o {
-  background-color: $btn-color-white;
-  border-color: $faculties-color-bw;
-  color: $faculties-color-bw !important;
-  &:hover {
-    background-color: $faculties-color-bw;
-    border-color: $faculties-color-bw;
-    color: $btn-color-white !important;
-  }
+  @include style-button-color($btn-color-white, $faculties-color-bw, $faculties-color-bw, $faculties-color-bw, $faculties-color-bw, $btn-color-white);
 }
 /// button in der Fachbereichsfarbe - Elektrotechnik und Informationstechnik
 .btn-fc-et {
-  background-color: $faculties-color-et;
-  border-color: $faculties-color-et;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $faculties-color-et;
-    color: $faculties-color-et !important;
-  }
+  @include style-button-color($faculties-color-et, $faculties-color-et, $btn-color-white, $btn-color-white, $faculties-color-et, $faculties-color-et);
 }
 // invert
 .btn-fc-et-o {
-  background-color: $btn-color-white;
-  border-color: $faculties-color-et;
-  color: $faculties-color-et !important;
-  &:hover {
-    background-color: $faculties-color-et;
-    border-color: $faculties-color-et;
-    color: $btn-color-white !important;
-  }
+  @include style-button-color($btn-color-white, $faculties-color-et, $faculties-color-et, $faculties-color-et, $faculties-color-et, $btn-color-white);
 }
 /// button in der Fachbereichsfarbe - Grundlagenwissenschaften
 .btn-fc-gl {
-  background-color: $faculties-color-gl;
-  border-color: $btn-color-white; //  $faculties-color-gl;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $faculties-color-gl;
-    color: $faculties-color-gl !important;
-  }
+  @include style-button-color($faculties-color-gl, $btn-color-white, $btn-color-white, $btn-color-white, $faculties-color-gl, $faculties-color-gl);
 }
 // invert
 .btn-fc-gl-o {
-  background-color: $btn-color-white;
-  border-color: $faculties-color-gl;
-  color: $faculties-color-gl !important;
-  &:hover {
-    background-color: $faculties-color-gl;
-    border-color: $faculties-color-gl; // $btn-color-white
-    color: $btn-color-white !important;
-  }
+  @include style-button-color($btn-color-white, $faculties-color-gl, $faculties-color-gl, $faculties-color-gl, $faculties-color-gl, $btn-color-white);
 }
 /// button in der Fachbereichsfarbe - Gesundheit und Pflege
 .btn-fc-gp {
-  background-color: $faculties-color-gp;
-  border-color: $faculties-color-gp;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $faculties-color-gp;
-    color: $faculties-color-gp !important;
-  }
+  @include style-button-color($faculties-color-gp, $faculties-color-gp, $btn-color-white, $btn-color-white, $faculties-color-gp, $faculties-color-gp);
 }
 // invert
 .btn-fc-gp-o {
-  background-color: $btn-color-white;
-  border-color: $faculties-color-gp;
-  color: $faculties-color-gp !important;
-  &:hover {
-    background-color: $faculties-color-gp;
-    border-color: $faculties-color-gp;
-    color: $btn-color-white !important;
-  }
+  @include style-button-color($btn-color-white, $faculties-color-gp, $faculties-color-gp, $faculties-color-gp, $faculties-color-gp, $btn-color-white);
 }
 /// button in der Fachbereichsfarbe - Maschinenbau
 .btn-fc-mb {
-  background-color: $faculties-color-mb;
-  border-color: $faculties-color-mb;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $faculties-color-mb;
-    color: $faculties-color-mb !important;
-  }
+  @include style-button-color($faculties-color-mb, $faculties-color-mb, $btn-color-white, $btn-color-white, $faculties-color-mb, $faculties-color-mb);
 }
 // invert
 .btn-fc-mb-o {
-  background-color: $btn-color-white;
-  border-color: $faculties-color-mb;
-  color: $faculties-color-mb !important;
-  &:hover {
-    background-color: $faculties-color-mb;
-    border-color: $faculties-color-mb;
-    color: $btn-color-white !important;
-  }
+  @include style-button-color($btn-color-white, $faculties-color-mb, $faculties-color-mb, $faculties-color-mb, $faculties-color-mb, $btn-color-white);
 }
 /// button in der Fachbereichsfarbe - Medizintechnik und Biotechnologie
 .btn-fc-mt {
-  background-color: $faculties-color-mt;
-  border-color: $faculties-color-mt;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $faculties-color-mt;
-    color: $faculties-color-mt !important;
-  }
+  @include style-button-color($faculties-color-mt, $faculties-color-mt, $btn-color-white, $btn-color-white, $faculties-color-mt, $faculties-color-mt);
 }
 // invert
 .btn-fc-mt-o {
-  background-color: $btn-color-white;
-  border-color: $faculties-color-mt;
-  color: $faculties-color-mt !important;
-  &:hover {
-    background-color: $faculties-color-mt;
-    border-color: $faculties-color-mt;
-    color: $btn-color-white !important;
-  }
+  @include style-button-color($btn-color-white, $faculties-color-mt, $faculties-color-mt, $faculties-color-mt, $faculties-color-mt, $btn-color-white);
 }
 /// button in der Fachbereichsfarbe - SciTec
 .btn-fc-sc {
-  background-color: $faculties-color-sc;
-  border-color: $faculties-color-sc;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $faculties-color-sc;
-    color: $faculties-color-sc !important;
-  }
+  @include style-button-color($faculties-color-sc, $faculties-color-sc, $btn-color-white, $btn-color-white, $faculties-color-sc, $faculties-color-sc);
 }
 // invert
 .btn-fc-sc-o {
-  background-color: $btn-color-white;
-  border-color: $faculties-color-sc;
-  color: $faculties-color-sc !important;
-  &:hover {
-    background-color: $faculties-color-sc;
-    border-color: $faculties-color-sc;
-    color: $btn-color-white !important;
-  }
+  @include style-button-color($btn-color-white, $faculties-color-sc, $faculties-color-sc, $faculties-color-sc, $faculties-color-sc, $btn-color-white);
 }
 /// button in der Fachbereichsfarbe - Sozialwesen
 .btn-fc-sw {
-  background-color: $faculties-color-sw;
-  border-color: $faculties-color-sw;
-  color: $btn-color-white !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $faculties-color-sw;
-    color: $faculties-color-sw !important;
-  }
+  @include style-button-color($faculties-color-sw, $faculties-color-sw, $btn-color-white, $btn-color-white, $faculties-color-sw, $faculties-color-sw);
 }
 // invert
 .btn-fc-sw-o {
-  background-color: $btn-color-white;
-  border-color: $faculties-color-sw;
-  color: $faculties-color-sw !important;
-  &:hover {
-    background-color: $faculties-color-sw;
-    border-color: $faculties-color-sw;
-    color: $btn-color-white !important;
-  }
+  @include style-button-color($btn-color-white, $faculties-color-sw, $faculties-color-sw, $faculties-color-sw, $faculties-color-sw, $btn-color-white);
 }
 /// button in der Fachbereichsfarbe - Wirtschaftsingenieurwesen
 .btn-fc-wi {
-  background-color: $faculties-color-wi;
-  border-color: $faculties-color-wi;
-  color: $btn-color-black !important;
-  &:hover {
-    background-color: $btn-color-white;
-    border-color: $faculties-color-wi;
-    color: $btn-color-black !important; // $faculties-color-wi;
-  }
+  @include style-button-color($faculties-color-wi, $faculties-color-wi, $btn-color-black, $btn-color-white, $faculties-color-wi, $faculties-color-wi);
 }
 // invert
 .btn-fc-wi-o {
-  background-color: $btn-color-white;
-  border-color: $faculties-color-wi;
-  color: $btn-color-black !important; // $faculties-color-wi;
-  &:hover {
-    background-color: $faculties-color-wi;
-    border-color: $faculties-color-wi;
-    color: $btn-color-black !important; // $faculties-color-wi;
-  }
+  @include style-button-color($btn-color-white, $faculties-color-wi, $btn-color-black, $faculties-color-wi, $faculties-color-wi, $btn-color-black);
 }
 
 /// Eine Klasse um ein Button mittig/zentriert anzuzeigen.

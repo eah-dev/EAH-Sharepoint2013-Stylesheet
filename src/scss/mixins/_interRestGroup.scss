@@ -1,0 +1,36 @@
+@mixin button-color($hover-background-color, $border-top-color) {
+  .interRestGroup-wrapper {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+
+    // rand nur wenn mindestens (>=) sm
+    @media screen and (min-width: $screen-sm-min) {
+      box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      //
+    }
+    .interRestGroup-icon {
+      background-color: $white;
+      img {
+        //
+      }
+      a {
+        //
+      }
+      a:hover {
+        //
+      }
+      .interRestGroup-icon-img {
+        color: $gray;
+      }
+      .interRestGroup-icon-text {
+        color: $gray;
+      }
+      &:hover {
+        background-color: $hover-background-color;
+        border-top-color: $border-top-color;
+      }
+    }
+  }
+}

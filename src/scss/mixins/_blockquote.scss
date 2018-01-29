@@ -1,0 +1,7 @@
+@mixin blockquote-color($background, $color, $border-left-color) {
+  background: $background;
+  color: $color;
+  blockquote {
+    border-left-color: $border-left-color;
+  }
+}

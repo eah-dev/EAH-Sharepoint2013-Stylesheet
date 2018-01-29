@@ -11496,7 +11496,7 @@ XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer auf
   background: #eeeeee;
   color: #000; }
   .blockquote-fc-mt blockquote {
-    border-left-color: #de9a27; }
+    border-left-color: #068b03; }
 
 .blockquote-fc-sc {
   background: #eeeeee;
@@ -11532,11 +11532,11 @@ XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer auf
 .btn-white {
   background-color: #fff;
   border-color: #00aaa0;
-  color: #00aaa0; }
+  color: #00aaa0 !important; }
   .btn-white:hover {
     background-color: #00aaa0;
     border-color: #fff;
-    color: #fff; }
+    color: #fff !important; }
 
 .btn-white-blue {
   background-color: #fff;
@@ -11716,7 +11716,7 @@ XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer auf
   .btn-fc-wi:hover {
     background-color: #fff;
     border-color: #74f501;
-    color: #000 !important; }
+    color: #74f501 !important; }
 
 .btn-fc-wi-o {
   background-color: #fff;
@@ -14209,7 +14209,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-color .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: #cdece8;
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 .interRestGroup-fc-bw .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
@@ -14224,7 +14224,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-fc-bw .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: rgba(222, 154, 39, 0.5);
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 .interRestGroup-fc-et .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
@@ -14239,7 +14239,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-fc-et .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: rgba(160, 49, 57, 0.5);
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 .interRestGroup-fc-gl .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
@@ -14254,7 +14254,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-fc-gl .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: rgba(44, 59, 89, 0.5);
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 .interRestGroup-fc-gp .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
@@ -14269,7 +14269,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-fc-gp .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: rgba(128, 33, 126, 0.5);
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 .interRestGroup-fc-mb .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
@@ -14284,7 +14284,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-fc-mb .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: rgba(240, 202, 32, 0.5);
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 .interRestGroup-fc-mt .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
@@ -14299,7 +14299,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-fc-mt .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: rgba(6, 139, 3, 0.5);
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 .interRestGroup-fc-sc .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
@@ -14314,7 +14314,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-fc-sc .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: rgba(124, 192, 231, 0.5);
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 .interRestGroup-fc-sw .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
@@ -14329,7 +14329,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-fc-sw .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: rgba(201, 68, 44, 0.5);
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 .interRestGroup-fc-wi .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
@@ -14344,7 +14344,7 @@ button[disabled][disabled] {
       color: #555555; }
     .interRestGroup-fc-wi .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: rgba(116, 245, 1, 0.5);
-      border-top: #00aaa0; }
+      border-top-color: #00aaa0; }
 
 /* ============================================================================
 		line :: Start
@@ -14700,7 +14700,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-wrapper-default .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-wrapper-default .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-wrapper-default .newsinfo-news-wrapper {
       border-right-color: #fff; } }
@@ -14724,7 +14724,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-fc-bw .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-fc-bw .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-fc-bw .newsinfo-news-wrapper {
       border-right-color: #fff; } }
@@ -14748,7 +14748,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-fc-et .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-fc-et .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-fc-et .newsinfo-news-wrapper {
       border-right-color: #fff; } }
@@ -14772,7 +14772,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-fc-gl .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-fc-gl .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-fc-gl .newsinfo-news-wrapper {
       border-right-color: #fff; } }
@@ -14796,7 +14796,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-fc-gp .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-fc-gp .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-fc-gp .newsinfo-news-wrapper {
       border-right-color: #fff; } }
@@ -14820,7 +14820,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-fc-mb .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-fc-mb .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-fc-mb .newsinfo-news-wrapper {
       border-right-color: #fff; } }
@@ -14844,7 +14844,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-fc-mt .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-fc-mt .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-fc-mt .newsinfo-news-wrapper {
       border-right-color: #fff; } }
@@ -14868,7 +14868,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-fc-sc .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-fc-sc .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-fc-sc .newsinfo-news-wrapper {
       border-right-color: #fff; } }
@@ -14892,7 +14892,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-fc-sw .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-fc-sw .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-fc-sw .newsinfo-news-wrapper {
       border-right-color: #fff; } }
@@ -14916,7 +14916,7 @@ button[disabled][disabled] {
       background-color: #fff; }
       .newsinfo-fc-wi .newsinfo-news-wrapper .major-counter .major-count-block.active,
       .newsinfo-fc-wi .newsinfo-infos-wrapper .major-counter .major-count-block.active {
-        background: #3a6ce2; }
+        background-color: #3a6ce2; }
   @media screen and (min-width: 991px) {
     .newsinfo-fc-wi .newsinfo-news-wrapper {
       border-right-color: #fff; } }

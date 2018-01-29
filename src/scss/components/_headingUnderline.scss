@@ -5,16 +5,6 @@
 /// Hauptklasse Ueberschrift mit Line (als Block)
 ///
 /// Werte fuer die Farben: headingUnderline-default, headingUnderline-bw, .. , headingUnderline-wi
-/// @example markup - HTML-Aufbau des Panels; Hinweis: 'headingUnderline-default' durch eine Farbe ersetzen
-/// <section class="element-wrapper headingUnderline-default">
-///   <div class="container">
-///     <div class="row">
-///       <div class="headingUnderline-wrapper">
-///         <span class="title">&Uuml;berschrift</span>
-///       </div>
-///     </div>
-///   </div>
-/// </section>
 /// @author Carsten Hoelbing
 .headingUnderline-wrapper {
   width: 100%;
@@ -45,82 +35,37 @@
 }
 // bw
 .headingUnderline-bw {
-  .headingUnderline-wrapper {
-    border-bottom-color: $faculties-color-bw;
-    .title {
-      border-bottom-color: $faculties-color-bw;
-    }
-  }
+  @include headingUnderline-color( $faculties-color-bw, $faculties-color-bw);
 }
 // et
 .headingUnderline-et {
-  .headingUnderline-wrapper {
-    border-bottom-color: $faculties-color-et;
-    .title {
-      border-bottom-color: $faculties-color-et;
-    }
-  }
+  @include headingUnderline-color( $faculties-color-et, $faculties-color-et);
 }
 // gl
 .headingUnderline-gl {
-  .headingUnderline-wrapper {
-    border-bottom-color: $faculties-color-gl;
-    .title {
-      border-bottom-color: $faculties-color-gl;
-    }
-  }
+  @include headingUnderline-color( $faculties-color-gl, $faculties-color-gl);
 }
 // gp
 .headingUnderline-gp {
-  .headingUnderline-wrapper {
-    border-bottom-color: $faculties-color-gp;
-    .title {
-      border-bottom-color: $faculties-color-gp;
-    }
-  }
+  @include headingUnderline-color( $faculties-color-gp, $faculties-color-gp);
 }
 // mb
 .headingUnderline-mb {
-  .headingUnderline-wrapper {
-    border-bottom-color: $faculties-color-mb;
-    .title {
-      border-bottom-color: $faculties-color-mb;
-    }
-  }
+  @include headingUnderline-color( $faculties-color-mb, $faculties-color-mb);
 }
 // mt
 .headingUnderline-mt {
-  .headingUnderline-wrapper {
-    border-bottom-color: $faculties-color-mt;
-    .title {
-      border-bottom-color: $faculties-color-mt;
-    }
-  }
+  @include headingUnderline-color( $faculties-color-mt, $faculties-color-mt);
 }
 // sc
 .headingUnderline-sc {
-  .headingUnderline-wrapper {
-    border-bottom-color: $faculties-color-sc;
-    .title {
-      border-bottom-color: $faculties-color-sc;
-    }
-  }
+  @include headingUnderline-color( $faculties-color-sc, $faculties-color-sc);
 }
 // sw
 .headingUnderline-sw {
-  .headingUnderline-wrapper {
-    border-bottom-color: $faculties-color-sw;
-    .title {
-      border-bottom-color: $faculties-color-sw;
-    }
-  }
+  @include headingUnderline-color( $faculties-color-sw, $faculties-color-sw);
 }
 // wi
 .headingUnderline-wi {
-  .headingUnderline-wrapper {
-    border-bottom-color: $faculties-color-wi;
-    .title {
-      border-bottom-color: $faculties-color-wi;
-    }
-  }
+  @include headingUnderline-color( $faculties-color-wi, $faculties-color-wi);
 }

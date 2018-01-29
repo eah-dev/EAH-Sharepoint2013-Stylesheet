@@ -1,0 +1,8 @@
+@mixin headingUnderline-color( $border-bottom-color, $border-bottom-color-title) {
+  .headingUnderline-wrapper {
+    border-bottom-color: $border-bottom-color;
+    .title {
+      border-bottom-color: $border-bottom-color-title;
+    }
+  }
+}
