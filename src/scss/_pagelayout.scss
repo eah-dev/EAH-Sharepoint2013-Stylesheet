@@ -161,10 +161,13 @@ Page-Layout :: Start
   }
 }
 #page-content {
-  > #ctl00_PlaceHolderMain_ctl01__ControlWrapper_RichImageField {
+  // name der id welche die Bezeichnung ... enthaelt
+  // > [id*='headRollupImage'] {
+  > #ctl00_PlaceHolderMain_headRollupImage__ControlWrapper_RichImageField {
     img {
       margin: 0 !important;
       max-width: 100% !important;
+      min-width: 100% !important;
       width: 100% !important;
       height: auto !important;
       display: block !important;
