@@ -16,13 +16,10 @@ group: components
 * Bild sollte mit ausreichend Text verbunden sein
 * Bild links / rechts sollte abwechselnd verwendet werden
 
-
 ### Anpassungsmöglichkeiten
-* Hintergrund grau oder blau
-* Bildelement links, mittig oder rechts
+* Hintergrund grau
+* Bildelement links oder rechts
 
-### Kombinationsmöglichkeiten
-* Kombinierbar mit Button und Links
 
 <br/>
 
