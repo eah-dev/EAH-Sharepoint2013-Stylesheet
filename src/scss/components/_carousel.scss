@@ -51,29 +51,6 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
 }
 */
 #carousel-home {
-  &.carousel {
-
-    // Verschiedene Viewport - Ansichten
-    @media screen and (max-width: 1555px) {
-      height: 540px;
-    }
-
-    @media screen and (max-width: $screen-md) {
-      height: 440px;
-    }
-
-    @media screen and (max-width: $screen-sm) {
-      height: 340px;
-    }
-
-    @media screen and (max-width: $screen-xs) {
-      height: 240px;
-    }
-
-    @media screen and (max-width: 350px) {
-      height: 140px;
-    }
-  }
   .carousel-indicators {
     z-index: 2;
     //bottom: -5px;
