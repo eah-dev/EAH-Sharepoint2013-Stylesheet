@@ -1,4 +1,8 @@
-﻿
+﻿jQuery(document).ready(function(){
+  $("#carousel-home").carousel({
+      interval : 3000
+  });
+})
 // click on the main menu
 jQuery('#showGlobalSideMainMenu').on('click', function (event) {
   $('#gloabl-side-menu-wrapper').css({ 'display': 'block' });

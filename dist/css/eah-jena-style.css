@@ -11847,21 +11847,6 @@ button[disabled][disabled] {
     -o-background-size: cover;
   }
   */ }
-  @media screen and (max-width: 1555px) {
-    #carousel-home.carousel {
-      height: 540px; } }
-  @media screen and (max-width: 992px) {
-    #carousel-home.carousel {
-      height: 440px; } }
-  @media screen and (max-width: 768px) {
-    #carousel-home.carousel {
-      height: 340px; } }
-  @media screen and (max-width: 480px) {
-    #carousel-home.carousel {
-      height: 240px; } }
-  @media screen and (max-width: 350px) {
-    #carousel-home.carousel {
-      height: 140px; } }
   #carousel-home .carousel-indicators {
     z-index: 2;
     margin-left: -30% !important; }
@@ -14961,6 +14946,10 @@ button[disabled][disabled] {
 ============================================================================ */
 .panel .panel-heading .clickable {
   cursor: pointer; }
+
+.panel .panel-body p,
+.panel .panel-body div {
+  max-width: 100%; }
 
 .panel .panel-collapse .panel-body ul,
 .panel .panel-collapse .panel-body p {
