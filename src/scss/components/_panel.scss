@@ -27,6 +27,10 @@
   }
   // hier steht der text
   .panel-body {
+    p,
+    div {
+      max-width: 100%;
+    }
     //
   }
   .panel-footer {
