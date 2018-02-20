@@ -1,8 +1,18 @@
 ﻿jQuery(document).ready(function(){
   $("#carousel-home").carousel({
-      interval : 3000
+      interval : 2000
   });
 })
+$('.carousel').swipe({
+	swipeLeft:function(event, direction, distance, duration, fingerCount) {
+		$(this).carousel('next');
+	},
+	swipeRight:function(event, direction, distance, duration, fingerCount) {
+		$(this).carousel('prev');
+	},
+	threshold:0
+});
+
 // click on the main menu
 jQuery('#showGlobalSideMainMenu').on('click', function (event) {
   $('#gloabl-side-menu-wrapper').css({ 'display': 'block' });
