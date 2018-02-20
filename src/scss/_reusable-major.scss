@@ -12,17 +12,17 @@
 .major-interRestGroup-wrapper {
   text-align: center;
   margin-top: -37px;
-  height: 354px;
+  height: 366px;
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
 
   // rand nur wenn mindestens (>=) sm
   @media screen and (min-width: $screen-sm-min) {
     box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
-    height: 236px;
+    height: 244px;
   }
 
   @media screen and (min-width: $screen-md-min) {
-    height: 118px;
+    height: 122px;
   }
   .major-interRestGroup {
     width: 100%;
@@ -202,14 +202,14 @@
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: $font-size-large;
-  font-family: $font-family-robotoLight;
+  font-family: $font-family-roboto;
 
   // elemente
   .showAllFc-element {
     a {
-      color: $eah-gray-light;
+      color: $gray;
       .title {
-        color: $eah-gray-light; // $green;
+        color: $gray; // $green;
       }
       .title:hover {
         border-bottom-style: solid;

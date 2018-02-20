@@ -9,16 +9,17 @@
 .interRestGroup-wrapper {
   text-align: center;
   // margin-top: -37px;
-  height: 354px;
+  height: 366px;
 
   // rand nur wenn mindestens (>=) sm
   @media screen and (min-width: $screen-sm-min) {
-    height: 236px;
+    height: 244px;
   }
 
   @media screen and (min-width: $screen-md-min) {
-    height: 118px;
+    height: 122px;
   }
+  //
   .interRestGroup-icon {
     width: 100%;
     margin: 0;

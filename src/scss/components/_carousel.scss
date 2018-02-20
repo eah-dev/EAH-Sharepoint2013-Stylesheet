@@ -120,6 +120,13 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
           font-family: $carousel-font-subheadline-family;
           text-align: left;
           color: $white !important;
+          p,
+          div {
+            color: $white !important;
+            text-align: left;
+            font-size: $carousel-font-subheadline-size;
+            font-family: $carousel-font-subheadline-family;
+          }
         }
         .btn {
           margin-top: 20px;
@@ -127,21 +134,88 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
       }
     }
   }
-
-  // Bestimmt die Groesse des Inhaltes des Carousels
-
-  /*
-  .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  // sollen nicht mehr sichtbar sein
+  .carousel-control {
+    display: none;
+    //&:focus,
+    //&:hover {
+    //  opacity: 0.9;
+    //}
   }
-  */
+}
+//
+.carousel-newsinfo {
+  height: 100%;
+  .carousel-indicators {
+    margin: 0;
+    width: 100%;
+    height: 35px;
+    text-align: left;
+    position: relative;
+    left: 0;
+    top: 0;
+    li {
+      margin-right: 10px;
+      width: 30px;
+      height: 1.5px;
+      position: relative;
+      display: inline-block;
+    }
+    .active {
+      border: 2px solid $btn-color-blue;
+    }
+  }
+  .carousel-inner {
+    width: 100%;
+    height: 125px;
+    .item {
+      height: 100%;
+      width: 100%;
+      //Beschreibungsleiste im Carousel
+      .carousel-caption {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        top: 0;
 
+        /* margin-bottom: 20px;
+        font-size: $font-size-small;
+        z-index: 1;
+        // blur efekt
+        background-color: $eah-overlay-50; */
+        a {
+          &:hover,
+          &:active {
+            text-decoration: none;
+          }
+        }
+        // headline
+        .title {
+          padding-top: 10px;
+          padding-bottom: $spacerHeadingMainUnderline;
+          font-size: $font-size-base;
+          // margin: 0 0 10px;
+          color: $white !important;
+          text-align: left;
+          font-weight: 600;
+        }
+
+        // subheadline
+        .topic {
+          margin: 0;
+          padding: 0;
+          padding-bottom: $spacerHeadingTitleUnterline;
+          font-size: $font-size-base;
+          text-align: left;
+          color: $white !important;
+        }
+      }
+    }
+    .modal {
+      color: $black;
+    }
+  }
   // sollen nicht mehr sichtbar sein
   .carousel-control {
     display: none;
