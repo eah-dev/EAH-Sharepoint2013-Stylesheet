@@ -13,7 +13,7 @@ const outputFileDocsMin = './assets/eah-jena/css/eah-jena-docs.min.css';
 // gulp.task - 'clean'
 gulp.task('clean', function () {
   return del([
-    './build',
+    './dist',
     './_site',
     './assets/bootstrap',
     './assets/bootstrap-colorpicker',

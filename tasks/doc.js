@@ -7,7 +7,7 @@ const inputdoc = './src/scss/**/*.scss';
 
 // set options
 const sassdocOptions = {
-  dest: './build/sassdoc'
+  dest: './dist/sassdoc'
 };
 
 //
