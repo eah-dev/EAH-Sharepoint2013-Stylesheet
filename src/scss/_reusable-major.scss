@@ -204,8 +204,12 @@
   font-size: $font-size-large;
   font-family: $font-family-roboto;
 
+  @include make-row();
   // elemente
   .showAllFc-element {
+    @include make-xs-column(12);
+    @include make-sm-column(6);
+    @include make-md-column(4);
     a {
       color: $gray;
       .title {
