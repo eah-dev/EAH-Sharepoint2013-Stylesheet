@@ -3,7 +3,7 @@
       interval : 2000
   });
 })
-$('.carousel').swipe({
+jQuery('.carousel').swipe({
 	swipeLeft:function(event, direction, distance, duration, fingerCount) {
 		$(this).carousel('next');
 	},
@@ -15,6 +15,7 @@ $('.carousel').swipe({
 
 // click on the main menu
 jQuery('#showGlobalSideMainMenu').on('click', function (event) {
+  console.log("showGlobalSideMainMenu");
   $('#gloabl-side-menu-wrapper').css({ 'display': 'block' });
   $('#gloabl-side-menu-wrapper').css({ 'right': '0' });
   //$('#s4-workspace').css({ 'left': '-320px' });
