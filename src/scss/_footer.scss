@@ -1,6 +1,181 @@
 /* ============================================================================
 		Footer :: Start
 ============================================================================ */
+//
+#footer-zentral {
+
+  // width: 100%;
+  &.footer-bottom {
+    // background-color: transparent;
+    padding-top: 25px;
+  }
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+  .footer-content {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: $footer-zentral-bg-color;
+    color: $white; // Text-Farbe
+    .row {
+      margin: 0;
+    }
+    // Spalten Anzahl insgesamt: 4
+    .footer-row-width-x4 {
+      .title {
+        font-size: $footer-font-headline-size;
+      }
+      .footer-list {
+        font-size: $footer-font-links-size;
+      }
+      // view points
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+      @include make-md-column(4);
+      @include make-lg-column(3);
+    }
+    // Spalten Anzahl insgesamt: 5
+    .footer-row-width-x5 {
+      .title {
+        font-size: $footer-font-headline-size;
+      }
+      .footer-list {
+        font-size: $footer-font-links-size;
+      }
+      // view points
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+      @include make-md-column(4);
+      @include make-lg-column(3);
+    }
+    .footer-row {
+      .title {
+        color: $footer-zentral-font-color;
+        font-family: $footer-font-headline-family;
+        font-weight: $footer-font-headline-weight;
+        //font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .footer-list {
+        font-family: $footer-font-links-family;
+        list-style: none;
+        line-height: 24px;
+        padding: 0;
+        a {
+          &:link,
+          &:visited {
+            color: $footer-zentral-font-color;
+          }
+          &:hover,
+          &:active {
+            color: black;
+          }
+        }
+        .uni-title {
+          font-weight: $footer-font-headline-weight;
+        }
+      }
+    }
+
+    /* Social links */
+    .social-icon-wrapper {
+      ul {
+        display: flex; /* li nebeneinander anzeigen */
+        list-style-type: none; /* ohne Aufzählungspunkte */
+        padding: 0;
+        margin: 0;
+        li {
+          background-color: $footer-zentral-bg-color;
+          // color: $white;
+          font-size: 30px;
+          height: 40px;
+          width: 40px;
+          line-height: 40px;
+          margin: 0 10px 0 0;
+          padding: 0;
+          text-align: center;
+          cursor: pointer;
+          a {
+            i {
+              margin: 0 0 0 1px;
+              color: $white;
+            }
+          }
+          &.fb:hover i {
+            color: rgb(75, 110, 168) !important;
+          }
+          &.tw:hover i {
+            color: rgb(79, 213, 248) !important;
+          }
+          &.gp:hover i {
+            color: rgb(221, 75, 57) !important;
+          }
+          &.yt:hover i {
+            color: rgb(204, 24, 30) !important;
+          }
+          &.ig:hover i {
+            color: rgb(233, 89, 80) !important;
+          } // https://brand.linkedin.com/visual-identity/color-palettes
+          &.in:hover i {
+            color: rgb(0, 119, 181) !important;
+          }
+          &.xi:hover i {
+            color: rgb(18, 101, 103) !important;
+          }
+        }
+      }
+    }
+
+    /* Footer links */
+    .footer-links {
+      // feedback, presse ,...
+      padding: 0;
+      padding-left: 5px;
+      line-height: 24px;
+      // @TODO
+      @media screen and (min-width: $screen-xs) {
+        padding-left: 15px;
+        line-height: $line-height-base;
+      }
+      li {
+        text-align: left;
+        display: block;
+
+        @media screen and (min-width: $screen-sm) {
+          display: inline;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+        a {
+          color: $gray;
+          text-transform: none;
+          font-size: $font-size-base;
+        }
+      }
+    }
+  }
+  .footer-logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ul {
+      display: inline-block;
+      // display: flex; /* li nebeneinander anzeigen */
+      list-style-type: none; /* ohne Aufzählungspunkte */
+      li {
+        display: inline-block;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+    }
+  }
+  // unterhalb - evtl farbe weiss
+}
+
+//
 #footer {
   .row {
     li a,
@@ -197,7 +372,7 @@
       .footer-campus-header {
         color: $footer-font-color;
         font-size: $footer-font-headline-size;
-        font-family: $footer-font-headline-style;
+        font-family: $footer-font-headline-family;
         //font-weight: bold;
         text-transform: uppercase;
         text-align: left;
@@ -206,7 +381,7 @@
       }
       .footer-campus-list {
         font-size: $footer-font-links-size;
-        font-family: $footer-font-links-style;
+        font-family: $footer-font-links-family;
         list-style: none;
         line-height: 24px;
         padding: 0;
@@ -227,7 +402,7 @@
       .footer-faculties-header {
         color: $footer-font-color;
         font-size: $footer-font-headline-size;
-        font-family: $footer-font-headline-style;
+        font-family: $footer-font-headline-family;
         //font-weight: bold;
         text-transform: uppercase;
         text-align: left;
@@ -236,7 +411,7 @@
       }
       .footer-faculties-list {
         font-size: $footer-font-links-size;
-        font-family: $footer-font-links-style;
+        font-family: $footer-font-links-family;
         list-style: none;
         line-height: 24px;
         padding: 0;
@@ -282,7 +457,7 @@
       .contact-header {
         color: $footer-font-color;
         font-size: $footer-font-headline-size;
-        font-family: $footer-font-headline-style;
+        font-family: $footer-font-headline-family;
         text-transform: uppercase;
         text-align: left;
         padding-top: 20px;
@@ -291,7 +466,7 @@
       .contact-adress {
         ul {
           font-size: $footer-font-links-size;
-          font-family: $footer-font-links-style;
+          font-family: $footer-font-links-family;
           list-style: none;
           line-height: 24px;
           padding: 0;
@@ -451,7 +626,7 @@
   .eah-footer-bottom-links {
     background-color: $bg-color-blue;
     font-size: $footer-font-links-size;
-    font-family: $footer-font-links-style;
+    font-family: $footer-font-links-family;
     padding-top: 5px;
     padding-bottom: 6px;
     ul {

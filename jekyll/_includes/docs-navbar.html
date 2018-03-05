@@ -38,22 +38,33 @@
             </li>
           {% endif %}
 
+          <li class="dropdown {% if page.group == 'dev' %}active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">In Entwicklung
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="{{ site.baseurl }}/docs/dev/footerZentral">Footer</a>
+              </li>
+            </ul>
+          </li>
+
           <li class="dropdown {% if page.group == 'getting-started' %}active{% endif %}">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting-started
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="{{ site.baseurl }}/docs/getting-started/overview">Übersicht</a>
-                </li>
-                <li>
-                  <a href="{{ site.baseurl }}/docs/getting-started/devdocs">Entwicklung Dokumentation</a>
-                </li>
-                <li>
-                  <a href="{{ site.baseurl }}/docs/getting-started/devstyle">Entwicklung Stylesheet</a>
-                </li>
-              </ul>
-            </li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting-started
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="{{ site.baseurl }}/docs/getting-started/overview">Übersicht</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/getting-started/devdocs">Entwicklung Dokumentation</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/getting-started/devstyle">Entwicklung Stylesheet</a>
+              </li>
+            </ul>
+          </li>
 
           <li class="dropdown {% if page.group == 'corporatedesign' %}active{% endif %}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Corporate Design
@@ -137,6 +148,9 @@
               </li>
               <li>
                 <a href="{{ site.baseurl }}/docs/content/startseiteMajor">HauptSeite-Startseite</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/docs/content/footerZentral">HauptSeite-Footer</a>
               </li>
             </ul>
           </li>
