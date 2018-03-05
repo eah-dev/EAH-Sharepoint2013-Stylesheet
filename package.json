@@ -37,13 +37,13 @@
     "popper.js": "^1.12.9"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.1",
+    "browser-sync": "^2.23.6",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-minify": "^1.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.2",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-spsave": "^3.1.0",
     "gulp-stylelint": "^4.0.0",
     "npm-run-all": "^4.1.2",
