@@ -1,0 +1,46 @@
+/* ============================================================================
+		Seite - Oeffentliche Ausschreibungen :: Start
+============================================================================ */
+/// Panel-Element in welchen die Ausschreibungen dargstellt werden
+/// Der Inahlt wird aus einer Sharepoint Liste, mitteles Javascript gelesen und anschliessend dargestellt.
+/// @example markup
+/// <div id="oeffentlicheAusschreibungen-wrapper"></div>
+#oeffentlicheAusschreibungen-wrapper {
+  .panel {
+    padding-bottom: 10px;
+    .panel-heading {
+      .panel-title {
+        font-weight: 500;
+      }
+    }
+    .panel-body {
+      .item {
+        width: 100%;
+        display: inline-block;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: $eah-gray;
+        }
+      }
+      .subtitle {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .title {
+        text-align: left;
+        //
+        @include make-xs-column(12);
+        @include make-sm-column(4);
+      }
+      .value {
+        text-align: left;
+        //
+        @include make-xs-column(12);
+        @include make-sm-column(8);
+      }
+    }
+  }
+}

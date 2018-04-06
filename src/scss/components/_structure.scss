@@ -1,0 +1,149 @@
+/* ============================================================================
+		Seite - structure :: Start
+============================================================================ */
+/// diese Element dient zum anzeigen des structure
+/// @example markup
+/// <div id="structure-wrapper"></div>
+#structure-wrapper {
+  // general setting
+  .title {
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 18px;
+    //
+    @include make-xs-column(12);
+  }
+  .entry {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    height: 80px;
+  }
+  .entry2 {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    height: 40px;
+  }
+  .rowx1 {
+    line-height: 60px;
+  }
+  .rowx2 {
+    line-height: 30px;
+  }
+  .rowx3 {
+    line-height: 20px;
+  }
+  // jede Zeile extra anpassungen
+  .gremien {
+    // @include make-row();
+    @include make-xs-column(12);
+    .hochschule {
+      @include make-xs-column(12);
+      @include make-sm-column(4);
+    }
+    .senat {
+      @include make-xs-column(12);
+      @include make-sm-column(8);
+      .entry2 {
+        text-align: center;
+        margin: 10px 0;
+        padding: 10px;
+        height: 40px;
+        line-height: 20px;
+      }
+    }
+    .hochschule,
+    .senat {
+      .entry {
+        text-align: center;
+        margin: 10px 0;
+        padding: 10px;
+        height: 80px;
+        line-height: 60px;
+      }
+    }
+  }
+  .rektorat {
+    // @include make-row();
+    @include make-xs-column(12);
+    .spacer {
+      @include make-xs-column(12);
+      @include make-sm-column(3);
+    }
+  }
+  .fachbereiche,
+  .others {
+    // @include make-row();
+    @include make-xs-column(12);
+    .spacer {
+      @include make-xs-column(12);
+      @include make-sm-column(4);
+    }
+  }
+  .stabstellen,
+  .servicebereiche,
+  .referate {
+    @include make-xs-column(12);
+    @include make-sm-column(4);
+    .spacer {
+      @include make-xs-column(12);
+    }
+  }
+  .line {
+    margin: 15px 0;
+    border-bottom-style: solid;
+    border-width: 2px;
+    //
+    // @include make-row();
+    @include make-xs-column(12);
+  }
+}
+// farbliche Anpassung
+.structure-default {
+  .gremien {
+    .entry {
+      a {
+        color: $white;
+      }
+    }
+    .entry {
+      background-color: $bg-color-blue;
+      &:hover {
+        background-color: $bg-color-gray;
+        color: $white;
+      }
+    }
+    .entry2 {
+      background-color: $bg-color-gray;
+      &:hover {
+        background-color: $bg-color-blue;
+        color: $white;
+      }
+    }
+  }
+  .fachbereiche {
+    a {
+      color: $white;
+    }
+  }
+  .line {
+    border-bottom-color: $gray-lighter;
+  }
+  .rektorat,
+  .stabstellen,
+  .servicebereiche,
+  .referate,
+  .others {
+    .entry {
+      background-color: $bg-color-gray;
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $bg-color-blue;
+        color: $white;
+      }
+    }
+    //
+  }
+}
