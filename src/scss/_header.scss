@@ -233,11 +233,12 @@ $LanguageSelector-font-color: $gray-lighter;
       height: $font-size-h3;
       line-height: $font-size-h3;
     }
-    > .ms-srch-sb-searchLink {
+    .ms-srch-sb-searchLink {
       height: 33px;
       width: 33px;
       float: right;
       color: $search-form-color;
+      font-size: 20px;
       .ms-srch-sb-searchImg {
         display: none;
       }

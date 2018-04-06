@@ -12,6 +12,12 @@
 .background-green {
   background-color: $bg-color-green;
 }
+.background-green-dark {
+  background-color: $green-dark;
+}
+.background-green-light {
+  background-color: $green-light;
+}
 /// Hintergrund-Farbe - white
 /// @example markup
 /// <span class="background-white">TEXT mit Hintergrundfarbe</span>

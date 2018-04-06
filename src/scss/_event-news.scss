@@ -5,37 +5,7 @@
 /// Veranstaltungs-Seite anpassen
 /// root/Style Library/XSL Style Sheets/ItemStyle.xsl
 /// @author Carsten Hoelbing
-/// @example markup
-/// <xsl:template name="EventItemsNew" match="Row[@Style='EventItemsNew']" mode="itemstyle">
-/// <xsl:variable name="date" select="@Anfangszeit" />
-///   <article class="eventitem eventitem-link">
-///         <header>
-///           <div>
-///             <div class="col-xs-12 col-sm-2 event-date">
-///               <div class="eah-event-date">
-///                   <xsl:value-of select="substring-before($date,' ')" />
-///               </div>
-///               <div class="eah-event-time">
-///                   <xsl:value-of select="substring-after($date,' ')" />
-///               </div>
-///             </div>
-///             <div class="col-xs-12 col-sm-10 eah-event-title">
-///               <span  class="eah-event-title-de">
-///                 <xsl:value-of select="@Titel" />
-///               </span>
-///               <span class="eah-event-title-en">
-///                 <xsl:value-of select="@TitelEnglisch" />
-///               </span>
-///             </div>
-///           </div>
-///       </header>
-///       <section>
-///         <div class="col-xs-12 eah-event-description">
-///           <xsl:value-of select="@Description" disable-output-escaping="yes" />
-///         </div>
-///       </section>
-///    </article>
-/// </xsl:template>
+/// EAH-Sharepoint2013-Basic/src/xsl/
 .eventitem {
   // padding-bottom: 25px;
   // background-color: $bg-color-gray;
