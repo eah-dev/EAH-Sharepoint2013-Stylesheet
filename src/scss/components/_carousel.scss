@@ -7,49 +7,7 @@ $carousel-font-headline-size:   22px;
 $carousel-font-headline-family:  "Roboto-Medium";
 $carousel-font-subheadline-size:      15px;
 $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-serif;
-
-/*
-.carousel-placeholder button {
-  cursor: pointer;
-}
-
-.carousel-nav-container {
-  ul.list-group {
-    box-shadow: none;
-    li {
-      border: 1px solid $gray-light;
-      border-bottom-width: 0;
-      background-color: transparent;
-      h4 {
-        color: #303030;
-      }
-      &:last-child {
-        border: 1px solid $gray-light;
-        border-bottom-width: 1px;
-      }
-      &.active {
-        h4 {
-          color: $white !important;
-        }
-      }
-    }
-    li.list-group-item.active {
-      background: none;
-      background-color: $green !important;
-      h4 {
-        color: $white;
-      }
-    }
-  }
-  .list-group-item.active {
-    border-color: $gray-light;
-    &:focus,
-    &:hover {
-      border-color: $gray-light;
-    }
-  }
-}
-*/
+//
 #carousel-home {
   .carousel-indicators {
     z-index: 2;
@@ -141,6 +99,125 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
     //&:hover {
     //  opacity: 0.9;
     //}
+  }
+}
+// carousel - element with a sidbar
+#carousel-home-sidebar-wrapper {
+  @include transition(all 0.5s linear 0s);
+  @include container-fixed;
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: $container-md;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg;
+  }
+  #carousel-home-content {
+    @include make-xs-column(12);
+    @include make-sm-column(9);
+    .carousel-indicators {
+      z-index: 2;
+      //bottom: -5px;
+      margin-left: -30% !important;
+      li {
+        margin: 0 9px !important;
+        width: 30px !important;
+        height: 2px !important;
+      }
+      .active {
+        border: 1px solid $btn-color-blue;
+      }
+    }
+    .carousel-inner {
+      height: 100%;
+      .item {
+        .carousel-bgimg {
+          .carousel-bgimg-img {
+            width: 100%;
+            height: 450px;
+          }
+        }
+        //Beschreibungsleiste im Carousel
+        .carousel-caption {
+          margin: 0 10px 20px;
+          padding: 10px;
+          font-size: $font-size-small;
+          z-index: 1;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          // blur efekt
+          background-color: $eah-overlay-50;
+          a {
+            &:hover,
+            &:active {
+              text-decoration: none;
+            }
+          }
+          // headline
+          .title {
+            font-size: $carousel-font-headline-size;
+            font-family: $carousel-font-headline-family;
+            margin: 0 0 10px;
+            color: $white !important;
+            text-align: left;
+          }
+
+          // subheadline
+          .topic {
+            margin: 0;
+            padding: 0;
+            font-size: $carousel-font-subheadline-size;
+            font-family: $carousel-font-subheadline-family;
+            text-align: left;
+            color: $white !important;
+            p,
+            div {
+              color: $white !important;
+              text-align: left;
+              font-size: $carousel-font-subheadline-size;
+              font-family: $carousel-font-subheadline-family;
+            }
+          }
+          .btn {
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+    // sollen nicht mehr sichtbar sein
+    .carousel-control {
+      display: none;
+    }
+  }
+  #carousel-home-sidbar {
+    @include make-xs-column(12);
+    @include make-sm-column(3);
+    .entry {
+      width: 100%;
+      margin-bottom: 13px;
+      text-align: center;
+      line-height: 80px;
+      font-size: 19px;
+    }
+  }
+}
+.maincarouselSidebar-default {
+  #carousel-home-sidbar {
+    .entry {
+      background-color: $bg-color-gray;
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $bg-color-blue;
+        color: $white;
+      }
+    }
   }
 }
 //
