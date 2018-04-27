@@ -50,7 +50,7 @@ group: corporatedesign
       </div>
       <div class="servicebereiche">
         <div class="title">Servicebereiche</div>
-        <div class="spacer"><a href="/de-de/servicebereiche/aaa"><div class="entry rowx1">Akademisches Auslandsamt</div></div></a>
+        <div class="spacer"><a href="/de-de/servicebereiche/aaa"><div class="entry rowx1">International Office</div></div></a>
         <div class="spacer"><a href="/de-de/servicebereiche/szi"><div class="entry rowx1">ServiceZentrum Informatik</div></div></a>
         <div class="spacer"><a href="/de-de/forschung/%C3%BCbersicht"><div class="entry rowx1">ServiceZentrum Forschung und Transfer</div></div></a>
         <div class="spacer"><a href="/de-de/servicebereiche/studium-studienberatung"><div class="entry rowx2">ServiceZentrum Studium und Studienberatung</div></div></a>

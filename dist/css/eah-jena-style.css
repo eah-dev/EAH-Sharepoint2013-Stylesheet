@@ -10824,6 +10824,21 @@ button.close {
 /* ============================================================================
 		default html tags  :: Start
 ============================================================================ */
+h1 {
+  font-size: 2em !important; }
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 1.7em; }
+  h2 {
+    font-size: 1.4em; } }
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2em !important; }
+  h2 {
+    font-size: 1.7em; } }
+
 body {
   height: 100%;
   background-color: #fff;
@@ -11875,7 +11890,9 @@ button[disabled][disabled] {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0; }
   #carousel-home-sidebar-wrapper:before, #carousel-home-sidebar-wrapper:after {
     content: " ";
     display: table; }
@@ -11901,10 +11918,13 @@ button[disabled][disabled] {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       #carousel-home-sidebar-wrapper #carousel-home-content {
         float: left;
-        width: 75%; } }
+        width: 83.33333%; } }
+    @media (min-width: 992px) {
+      #carousel-home-sidebar-wrapper #carousel-home-content {
+        padding-left: 0; } }
     #carousel-home-sidebar-wrapper #carousel-home-content .carousel-indicators {
       z-index: 2;
       margin-left: -30% !important; }
@@ -11953,7 +11973,12 @@ button[disabled][disabled] {
           margin-top: 20px; }
     #carousel-home-sidebar-wrapper #carousel-home-content .carousel-control {
       display: none; }
-  #carousel-home-sidebar-wrapper #carousel-home-sidbar {
+  #carousel-home-sidebar-wrapper .carousel-home-sidebar {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
     position: relative;
     float: left;
     width: 100%;
@@ -11964,22 +11989,54 @@ button[disabled][disabled] {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
-    @media (min-width: 768px) {
-      #carousel-home-sidebar-wrapper #carousel-home-sidbar {
+    @media (min-width: 992px) {
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar {
         float: left;
-        width: 25%; } }
-    #carousel-home-sidebar-wrapper #carousel-home-sidbar .entry {
-      width: 100%;
-      margin-bottom: 13px;
-      text-align: center;
-      line-height: 80px;
-      font-size: 19px; }
+        width: 16.66667%; } }
+    @media (min-width: 992px) {
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar {
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0; } }
+    #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry {
+      position: relative;
+      float: left;
+      width: 33.33333%;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding: 0;
+      height: 150px; }
+      @media (min-width: 992px) {
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry {
+          float: left;
+          width: 100%; } }
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry .sidebar-img, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .sidebar-img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry .sidebar-img {
+        text-align: center;
+        padding-top: 30px; }
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry img, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry img {
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px; }
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry .title, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry .title {
+        padding-top: 10px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 19px; }
 
-.maincarouselSidebar-default #carousel-home-sidbar .entry {
-  background-color: #eeeeee; }
-  .maincarouselSidebar-default #carousel-home-sidbar .entry:hover, .maincarouselSidebar-default #carousel-home-sidbar .entry:active, .maincarouselSidebar-default #carousel-home-sidbar .entry:focus {
-    background-color: #394a5f;
-    color: #fff; }
+.maincarouselSidebar-default .carousel-home-sidebar a .entry:hover, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:hover, .maincarouselSidebar-default .carousel-home-sidebar a .entry:active, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:active, .maincarouselSidebar-default .carousel-home-sidebar a .entry:focus, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:focus {
+  background-color: #cdece8; }
+
+.maincarouselSidebar-default .carousel-home-sidebar a .entry .sidebar-img, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .sidebar-img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry .sidebar-img {
+  color: #555555; }
+
+.maincarouselSidebar-default .carousel-home-sidebar a .entry .title, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry .title {
+  color: #555555; }
 
 .carousel-newsinfo {
   height: 100%; }
@@ -15472,6 +15529,118 @@ button[disabled][disabled] {
       background-color: #000; }
   .panel-gray > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #eeeeee; }
+
+/* ============================================================================
+		gazette :: Start
+============================================================================ */
+#gazette-wrapper .gazette-header .entry,
+#gazette-wrapper .gazette-body .entry {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 1px;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: -15px;
+  margin-right: -15px; }
+  #gazette-wrapper .gazette-header .entry:before, #gazette-wrapper .gazette-header .entry:after,
+  #gazette-wrapper .gazette-body .entry:before,
+  #gazette-wrapper .gazette-body .entry:after {
+    content: " ";
+    display: table; }
+  #gazette-wrapper .gazette-header .entry:after,
+  #gazette-wrapper .gazette-body .entry:after {
+    clear: both; }
+  #gazette-wrapper .gazette-header .entry .number,
+  #gazette-wrapper .gazette-body .entry .number {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      #gazette-wrapper .gazette-header .entry .number,
+      #gazette-wrapper .gazette-body .entry .number {
+        float: left;
+        width: 8.33333%; } }
+  #gazette-wrapper .gazette-header .entry .year,
+  #gazette-wrapper .gazette-body .entry .year {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      #gazette-wrapper .gazette-header .entry .year,
+      #gazette-wrapper .gazette-body .entry .year {
+        float: left;
+        width: 8.33333%; } }
+  #gazette-wrapper .gazette-header .entry .month,
+  #gazette-wrapper .gazette-body .entry .month {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      #gazette-wrapper .gazette-header .entry .month,
+      #gazette-wrapper .gazette-body .entry .month {
+        float: left;
+        width: 16.66667%; } }
+  #gazette-wrapper .gazette-header .entry .dllink,
+  #gazette-wrapper .gazette-body .entry .dllink {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      #gazette-wrapper .gazette-header .entry .dllink,
+      #gazette-wrapper .gazette-body .entry .dllink {
+        float: left;
+        width: 66.66667%; } }
+
+#gazette-wrapper .gazette-header .entry .number {
+  font-weight: 700; }
+
+#gazette-wrapper .gazette-header .entry .year {
+  font-weight: 700; }
+
+#gazette-wrapper .gazette-header .entry .month {
+  font-weight: 700; }
+
+#gazette-wrapper .gazette-header .entry .topics {
+  font-weight: 700; }
+
+#gazette-wrapper .gazette-header .entry .dllink {
+  font-weight: 700; }
+
+.gazette-default .gazette-header .entry,
+.gazette-default .gazette-body .entry {
+  border-color: #555555; }
 
 /* ============================================================================
 		Seite - Oeffentliche Ausschreibungen :: Start

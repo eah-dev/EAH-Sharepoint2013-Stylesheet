@@ -3,7 +3,27 @@
 ============================================================================ */
 
 // Body text
-// -------------------------
+h1 {
+  font-size: $font-size-h1;
+}
+// viewpoint: handy
+@media (min-width: $screen-xs-min) {
+  h1 {
+    font-size: $font-size-h2;
+  }
+  h2 {
+    font-size: $font-size-h3;
+  }
+}
+// viewpoint: desktop
+@media (min-width: $screen-sm-min) {
+  h1 {
+    font-size: $font-size-h1;
+  }
+  h2 {
+    font-size: $font-size-h2;
+  }
+}
 body {
   height: 100%;
   background-color: $white;

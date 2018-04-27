@@ -105,6 +105,9 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
 #carousel-home-sidebar-wrapper {
   @include transition(all 0.5s linear 0s);
   @include container-fixed;
+  //
+  padding-left: 0;
+  padding-right: 0;
 
   @media (min-width: $screen-sm-min) {
     width: $container-sm;
@@ -119,7 +122,14 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
   }
   #carousel-home-content {
     @include make-xs-column(12);
-    @include make-sm-column(9);
+    @include make-md-column(10);
+    //
+    // padding-left: 15px;
+    // padding-right: 15px;
+    //
+    @media (min-width: $screen-md-min) {
+      padding-left: 0;
+    }
     .carousel-indicators {
       z-index: 2;
       //bottom: -5px;
@@ -195,27 +205,65 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
       display: none;
     }
   }
-  #carousel-home-sidbar {
+  // Sidebar
+  .carousel-home-sidebar {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
+    // viewports
     @include make-xs-column(12);
-    @include make-sm-column(3);
-    .entry {
-      width: 100%;
-      margin-bottom: 13px;
-      text-align: center;
-      line-height: 80px;
-      font-size: 19px;
+    @include make-md-column(2);
+    //
+    @media (min-width: $screen-md-min) {
+      margin-top: 0;
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    a {
+      .entry {
+        @include make-xs-column(4);
+        @include make-md-column(12);
+
+        padding: 0;
+        height: 150px;
+        .sidebar-img {
+          text-align: center;
+          padding-top: 30px;
+        }
+        img {
+          margin-left: auto;
+          margin-right: auto;
+          height: 50px;
+        }
+        .title {
+          padding-top: 10px;
+          vertical-align: middle;
+          text-align: center;
+          font-size: 19px;
+          //
+        }
+      }
     }
   }
 }
 .maincarouselSidebar-default {
-  #carousel-home-sidbar {
-    .entry {
-      background-color: $bg-color-gray;
-      &:hover,
-      &:active,
-      &:focus {
-        background-color: $bg-color-blue;
-        color: $white;
+  .carousel-home-sidebar {
+    a {
+      .entry {
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: $green-light;
+        }
+        .sidebar-img {
+          color: $gray;
+        }
+        .title {
+          color: $gray;
+        }
       }
     }
   }
