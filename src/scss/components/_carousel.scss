@@ -103,24 +103,7 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
 }
 // carousel - element with a sidbar
 #carousel-home-sidebar-wrapper {
-  @include transition(all 0.5s linear 0s);
-  @include container-fixed;
-  //
-  padding-left: 0;
-  padding-right: 0;
-
-  @media (min-width: $screen-sm-min) {
-    width: $container-sm;
-  }
-
-  @media (min-width: $screen-md-min) {
-    width: $container-md;
-  }
-
-  @media (min-width: $screen-lg-min) {
-    width: $container-lg;
-  }
-  #carousel-home-content {
+  .carousel-home-content {
     @include make-xs-column(12);
     @include make-md-column(10);
     //
@@ -144,7 +127,7 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
       }
     }
     .carousel-inner {
-      height: 100%;
+      height: 450px;
       .item {
         .carousel-bgimg {
           .carousel-bgimg-img {
