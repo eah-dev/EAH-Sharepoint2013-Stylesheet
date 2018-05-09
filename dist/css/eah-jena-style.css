@@ -11884,30 +11884,9 @@ button[disabled][disabled] {
   display: none; }
 
 #carousel-home-sidebar-wrapper {
-  -webkit-transition: all 0.5s linear 0s;
-  -o-transition: all 0.5s linear 0s;
-  transition: all 0.5s linear 0s;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-left: 0;
-  padding-right: 0; }
-  #carousel-home-sidebar-wrapper:before, #carousel-home-sidebar-wrapper:after {
-    content: " ";
-    display: table; }
-  #carousel-home-sidebar-wrapper:after {
-    clear: both; }
-  @media (min-width: 768px) {
-    #carousel-home-sidebar-wrapper {
-      width: 750px; } }
-  @media (min-width: 992px) {
-    #carousel-home-sidebar-wrapper {
-      width: 970px; } }
-  @media (min-width: 1200px) {
-    #carousel-home-sidebar-wrapper {
-      width: 1170px; } }
-  #carousel-home-sidebar-wrapper #carousel-home-content {
+  margin-left: -15px;
+  margin-right: -15px; }
+  #carousel-home-sidebar-wrapper .carousel-home-content {
     position: relative;
     float: left;
     width: 100%;
@@ -11919,27 +11898,31 @@ button[disabled][disabled] {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 992px) {
-      #carousel-home-sidebar-wrapper #carousel-home-content {
+      #carousel-home-sidebar-wrapper .carousel-home-content {
         float: left;
         width: 83.33333%; } }
     @media (min-width: 992px) {
-      #carousel-home-sidebar-wrapper #carousel-home-content {
+      #carousel-home-sidebar-wrapper .carousel-home-content {
         padding-left: 0; } }
-    #carousel-home-sidebar-wrapper #carousel-home-content .carousel-indicators {
+    #carousel-home-sidebar-wrapper .carousel-home-content .carousel-indicators {
       z-index: 2;
+      bottom: 0;
       margin-left: -30% !important; }
-      #carousel-home-sidebar-wrapper #carousel-home-content .carousel-indicators li {
+      #carousel-home-sidebar-wrapper .carousel-home-content .carousel-indicators li {
         margin: 0 9px !important;
         width: 30px !important;
-        height: 2px !important; }
-      #carousel-home-sidebar-wrapper #carousel-home-content .carousel-indicators .active {
-        border: 1px solid #3a6ce2; }
-    #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner {
-      height: 100%; }
-      #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-bgimg .carousel-bgimg-img {
-        width: 100%;
-        height: 450px; }
-      #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption {
+        height: 2px !important;
+        display: inline;
+        border-radius: 5px; }
+      #carousel-home-sidebar-wrapper .carousel-home-content .carousel-indicators .active {
+        border: 5px solid #00aaa0;
+        background-color: #00aaa0;
+        color: #fff; }
+    #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner {
+      height: 450px; }
+      #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-bgimg .carousel-bgimg-img {
+        height: 400px; }
+      #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption {
         margin: 0 10px 20px;
         padding: 10px;
         font-size: 13px;
@@ -11948,36 +11931,35 @@ button[disabled][disabled] {
         left: 0;
         right: 0;
         background-color: rgba(0, 0, 0, 0.5); }
-        #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption a:hover, #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption li > span:hover, #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption a:active, #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption li > span:active {
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption a:hover, #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption li > span:hover, #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption a:active, #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption li > span:active {
           text-decoration: none; }
-        #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption .title {
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .title {
           font-size: 22px;
           font-family: "Roboto-Medium";
           margin: 0 0 10px;
           color: #fff !important;
           text-align: left; }
-        #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption .topic {
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .topic {
           margin: 0;
           padding: 0;
           font-size: 15px;
           font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
           text-align: left;
           color: #fff !important; }
-          #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption .topic p,
-          #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption .topic div {
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .topic p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .topic div {
             color: #fff !important;
             text-align: left;
             font-size: 15px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
-        #carousel-home-sidebar-wrapper #carousel-home-content .carousel-inner .item .carousel-caption .btn {
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .btn {
           margin-top: 20px; }
-    #carousel-home-sidebar-wrapper #carousel-home-content .carousel-control {
+    #carousel-home-sidebar-wrapper .carousel-home-content .carousel-control {
       display: none; }
   #carousel-home-sidebar-wrapper .carousel-home-sidebar {
     margin-top: 15px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 0;
+    float: left;
     box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
     position: relative;
     float: left;
@@ -12000,6 +11982,8 @@ button[disabled][disabled] {
         padding-left: 0;
         padding-right: 0; } }
     #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry {
+      height: 150px;
+      color: #555555;
       position: relative;
       float: left;
       width: 33.33333%;
@@ -12009,9 +11993,7 @@ button[disabled][disabled] {
       position: relative;
       min-height: 1px;
       padding-left: 15px;
-      padding-right: 15px;
-      padding: 0;
-      height: 150px; }
+      padding-right: 15px; }
       @media (min-width: 992px) {
         #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry {
           float: left;
@@ -12022,15 +12004,23 @@ button[disabled][disabled] {
       #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry img, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry img {
         margin-left: auto;
         margin-right: auto;
-        height: 50px; }
+        height: 40px;
+        width: 40px; }
       #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry .title, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry .title {
         padding-top: 10px;
         vertical-align: middle;
         text-align: center;
-        font-size: 19px; }
+        font-size: 17px; }
+      @media screen and (min-width: 992px) {
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry:hover, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry:hover {
+          padding-left: 11px;
+          border-left-style: solid;
+          border-left-width: 4px;
+          text-decoration: none; } }
 
 .maincarouselSidebar-default .carousel-home-sidebar a .entry:hover, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:hover, .maincarouselSidebar-default .carousel-home-sidebar a .entry:active, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:active, .maincarouselSidebar-default .carousel-home-sidebar a .entry:focus, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:focus {
-  background-color: #cdece8; }
+  background-color: #cdece8;
+  border-left-color: #00aaa0; }
 
 .maincarouselSidebar-default .carousel-home-sidebar a .entry .sidebar-img, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .sidebar-img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry .sidebar-img {
   color: #555555; }
@@ -14357,7 +14347,7 @@ button[disabled][disabled] {
     .interRestGroup-wrapper .interRestGroup-icon a, .interRestGroup-wrapper .interRestGroup-icon #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .interRestGroup-wrapper .interRestGroup-icon li > span {
       vertical-align: middle;
       text-align: center;
-      font-size: 19px; }
+      font-size: 17px; }
     .interRestGroup-wrapper .interRestGroup-icon a:hover, .interRestGroup-wrapper .interRestGroup-icon #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .interRestGroup-wrapper .interRestGroup-icon li > span:hover {
       text-decoration: none; }
     .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-img {
@@ -14374,18 +14364,24 @@ button[disabled][disabled] {
       margin-top: -4px;
       padding-top: 24px; }
 
-.interRestGroup-color .interRestGroup-wrapper {
+.interRestGroup-color .interRestGroup-wrapper,
+.interRestGroup-default .interRestGroup-wrapper {
   box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; }
   @media screen and (min-width: 768px) {
-    .interRestGroup-color .interRestGroup-wrapper {
+    .interRestGroup-color .interRestGroup-wrapper,
+    .interRestGroup-default .interRestGroup-wrapper {
       box-shadow: 1px 1px 5px grey, -1px 1px 5px grey; } }
-  .interRestGroup-color .interRestGroup-wrapper .interRestGroup-icon {
+  .interRestGroup-color .interRestGroup-wrapper .interRestGroup-icon,
+  .interRestGroup-default .interRestGroup-wrapper .interRestGroup-icon {
     background-color: #fff; }
-    .interRestGroup-color .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-img {
+    .interRestGroup-color .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-img,
+    .interRestGroup-default .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-img {
       color: #555555; }
-    .interRestGroup-color .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
+    .interRestGroup-color .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text,
+    .interRestGroup-default .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
-    .interRestGroup-color .interRestGroup-wrapper .interRestGroup-icon:hover {
+    .interRestGroup-color .interRestGroup-wrapper .interRestGroup-icon:hover,
+    .interRestGroup-default .interRestGroup-wrapper .interRestGroup-icon:hover {
       background-color: #cdece8;
       border-top-color: #00aaa0; }
 
@@ -14401,7 +14397,7 @@ button[disabled][disabled] {
     .interRestGroup-fc-bw .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
     .interRestGroup-fc-bw .interRestGroup-wrapper .interRestGroup-icon:hover {
-      background-color: rgba(222, 154, 39, 0.5);
+      background-color: #cdece8;
       border-top-color: #00aaa0; }
 
 .interRestGroup-fc-et .interRestGroup-wrapper {
@@ -14416,7 +14412,7 @@ button[disabled][disabled] {
     .interRestGroup-fc-et .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
     .interRestGroup-fc-et .interRestGroup-wrapper .interRestGroup-icon:hover {
-      background-color: rgba(160, 49, 57, 0.5);
+      background-color: #cdece8;
       border-top-color: #00aaa0; }
 
 .interRestGroup-fc-gl .interRestGroup-wrapper {
@@ -14431,7 +14427,7 @@ button[disabled][disabled] {
     .interRestGroup-fc-gl .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
     .interRestGroup-fc-gl .interRestGroup-wrapper .interRestGroup-icon:hover {
-      background-color: rgba(44, 59, 89, 0.5);
+      background-color: #cdece8;
       border-top-color: #00aaa0; }
 
 .interRestGroup-fc-gp .interRestGroup-wrapper {
@@ -14446,7 +14442,7 @@ button[disabled][disabled] {
     .interRestGroup-fc-gp .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
     .interRestGroup-fc-gp .interRestGroup-wrapper .interRestGroup-icon:hover {
-      background-color: rgba(128, 33, 126, 0.5);
+      background-color: #cdece8;
       border-top-color: #00aaa0; }
 
 .interRestGroup-fc-mb .interRestGroup-wrapper {
@@ -14461,7 +14457,7 @@ button[disabled][disabled] {
     .interRestGroup-fc-mb .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
     .interRestGroup-fc-mb .interRestGroup-wrapper .interRestGroup-icon:hover {
-      background-color: rgba(240, 202, 32, 0.5);
+      background-color: #cdece8;
       border-top-color: #00aaa0; }
 
 .interRestGroup-fc-mt .interRestGroup-wrapper {
@@ -14476,7 +14472,7 @@ button[disabled][disabled] {
     .interRestGroup-fc-mt .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
     .interRestGroup-fc-mt .interRestGroup-wrapper .interRestGroup-icon:hover {
-      background-color: rgba(6, 139, 3, 0.5);
+      background-color: #cdece8;
       border-top-color: #00aaa0; }
 
 .interRestGroup-fc-sc .interRestGroup-wrapper {
@@ -14491,7 +14487,7 @@ button[disabled][disabled] {
     .interRestGroup-fc-sc .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
     .interRestGroup-fc-sc .interRestGroup-wrapper .interRestGroup-icon:hover {
-      background-color: rgba(124, 192, 231, 0.5);
+      background-color: #cdece8;
       border-top-color: #00aaa0; }
 
 .interRestGroup-fc-sw .interRestGroup-wrapper {
@@ -14506,7 +14502,7 @@ button[disabled][disabled] {
     .interRestGroup-fc-sw .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
     .interRestGroup-fc-sw .interRestGroup-wrapper .interRestGroup-icon:hover {
-      background-color: rgba(201, 68, 44, 0.5);
+      background-color: #cdece8;
       border-top-color: #00aaa0; }
 
 .interRestGroup-fc-wi .interRestGroup-wrapper {
@@ -14521,7 +14517,7 @@ button[disabled][disabled] {
     .interRestGroup-fc-wi .interRestGroup-wrapper .interRestGroup-icon .interRestGroup-icon-text {
       color: #555555; }
     .interRestGroup-fc-wi .interRestGroup-wrapper .interRestGroup-icon:hover {
-      background-color: rgba(116, 245, 1, 0.5);
+      background-color: #cdece8;
       border-top-color: #00aaa0; }
 
 /* ============================================================================
@@ -14783,8 +14779,8 @@ button[disabled][disabled] {
 /* ============================================================================
 		mediumFacetten :: Start
 ============================================================================ */
-.mediumFacetten-wrapper .mediumFacetten-header .entry,
-.mediumFacetten-wrapper .mediumFacetten-body .entry {
+#mediumFacetten-wrapper .mediumFacetten-header .entry,
+#mediumFacetten-wrapper .mediumFacetten-body .entry {
   padding-bottom: 10px;
   padding-top: 10px;
   margin-bottom: 1px;
@@ -14792,16 +14788,16 @@ button[disabled][disabled] {
   border-width: 1px;
   margin-left: -15px;
   margin-right: -15px; }
-  .mediumFacetten-wrapper .mediumFacetten-header .entry:before, .mediumFacetten-wrapper .mediumFacetten-header .entry:after,
-  .mediumFacetten-wrapper .mediumFacetten-body .entry:before,
-  .mediumFacetten-wrapper .mediumFacetten-body .entry:after {
+  #mediumFacetten-wrapper .mediumFacetten-header .entry:before, #mediumFacetten-wrapper .mediumFacetten-header .entry:after,
+  #mediumFacetten-wrapper .mediumFacetten-body .entry:before,
+  #mediumFacetten-wrapper .mediumFacetten-body .entry:after {
     content: " ";
     display: table; }
-  .mediumFacetten-wrapper .mediumFacetten-header .entry:after,
-  .mediumFacetten-wrapper .mediumFacetten-body .entry:after {
+  #mediumFacetten-wrapper .mediumFacetten-header .entry:after,
+  #mediumFacetten-wrapper .mediumFacetten-body .entry:after {
     clear: both; }
-  .mediumFacetten-wrapper .mediumFacetten-header .entry .number,
-  .mediumFacetten-wrapper .mediumFacetten-body .entry .number {
+  #mediumFacetten-wrapper .mediumFacetten-header .entry .number,
+  #mediumFacetten-wrapper .mediumFacetten-body .entry .number {
     text-align: center;
     position: relative;
     float: left;
@@ -14814,12 +14810,12 @@ button[disabled][disabled] {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      .mediumFacetten-wrapper .mediumFacetten-header .entry .number,
-      .mediumFacetten-wrapper .mediumFacetten-body .entry .number {
+      #mediumFacetten-wrapper .mediumFacetten-header .entry .number,
+      #mediumFacetten-wrapper .mediumFacetten-body .entry .number {
         float: left;
         width: 8.33333%; } }
-  .mediumFacetten-wrapper .mediumFacetten-header .entry .year,
-  .mediumFacetten-wrapper .mediumFacetten-body .entry .year {
+  #mediumFacetten-wrapper .mediumFacetten-header .entry .year,
+  #mediumFacetten-wrapper .mediumFacetten-body .entry .year {
     text-align: center;
     position: relative;
     float: left;
@@ -14832,12 +14828,12 @@ button[disabled][disabled] {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      .mediumFacetten-wrapper .mediumFacetten-header .entry .year,
-      .mediumFacetten-wrapper .mediumFacetten-body .entry .year {
+      #mediumFacetten-wrapper .mediumFacetten-header .entry .year,
+      #mediumFacetten-wrapper .mediumFacetten-body .entry .year {
         float: left;
         width: 8.33333%; } }
-  .mediumFacetten-wrapper .mediumFacetten-header .entry .month,
-  .mediumFacetten-wrapper .mediumFacetten-body .entry .month {
+  #mediumFacetten-wrapper .mediumFacetten-header .entry .month,
+  #mediumFacetten-wrapper .mediumFacetten-body .entry .month {
     text-align: center;
     position: relative;
     float: left;
@@ -14850,12 +14846,12 @@ button[disabled][disabled] {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      .mediumFacetten-wrapper .mediumFacetten-header .entry .month,
-      .mediumFacetten-wrapper .mediumFacetten-body .entry .month {
+      #mediumFacetten-wrapper .mediumFacetten-header .entry .month,
+      #mediumFacetten-wrapper .mediumFacetten-body .entry .month {
         float: left;
         width: 16.66667%; } }
-  .mediumFacetten-wrapper .mediumFacetten-header .entry .topics,
-  .mediumFacetten-wrapper .mediumFacetten-body .entry .topics {
+  #mediumFacetten-wrapper .mediumFacetten-header .entry .topics,
+  #mediumFacetten-wrapper .mediumFacetten-body .entry .topics {
     position: relative;
     float: left;
     width: 100%;
@@ -14867,12 +14863,12 @@ button[disabled][disabled] {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      .mediumFacetten-wrapper .mediumFacetten-header .entry .topics,
-      .mediumFacetten-wrapper .mediumFacetten-body .entry .topics {
+      #mediumFacetten-wrapper .mediumFacetten-header .entry .topics,
+      #mediumFacetten-wrapper .mediumFacetten-body .entry .topics {
         float: left;
         width: 50%; } }
-  .mediumFacetten-wrapper .mediumFacetten-header .entry .dllink,
-  .mediumFacetten-wrapper .mediumFacetten-body .entry .dllink {
+  #mediumFacetten-wrapper .mediumFacetten-header .entry .dllink,
+  #mediumFacetten-wrapper .mediumFacetten-body .entry .dllink {
     text-align: center;
     position: relative;
     float: left;
@@ -14885,24 +14881,24 @@ button[disabled][disabled] {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      .mediumFacetten-wrapper .mediumFacetten-header .entry .dllink,
-      .mediumFacetten-wrapper .mediumFacetten-body .entry .dllink {
+      #mediumFacetten-wrapper .mediumFacetten-header .entry .dllink,
+      #mediumFacetten-wrapper .mediumFacetten-body .entry .dllink {
         float: left;
         width: 16.66667%; } }
 
-.mediumFacetten-wrapper .mediumFacetten-header .entry .number {
+#mediumFacetten-wrapper .mediumFacetten-header .entry .number {
   font-weight: 700; }
 
-.mediumFacetten-wrapper .mediumFacetten-header .entry .year {
+#mediumFacetten-wrapper .mediumFacetten-header .entry .year {
   font-weight: 700; }
 
-.mediumFacetten-wrapper .mediumFacetten-header .entry .month {
+#mediumFacetten-wrapper .mediumFacetten-header .entry .month {
   font-weight: 700; }
 
-.mediumFacetten-wrapper .mediumFacetten-header .entry .topics {
+#mediumFacetten-wrapper .mediumFacetten-header .entry .topics {
   font-weight: 700; }
 
-.mediumFacetten-wrapper .mediumFacetten-header .entry .dllink {
+#mediumFacetten-wrapper .mediumFacetten-header .entry .dllink {
   font-weight: 700; }
 
 .mediumFacetten-default .mediumFacetten-header .entry,
@@ -15501,6 +15497,11 @@ button[disabled][disabled] {
   .panel-blue > .panel-footer + .panel-collapse > .panel-body,
   .panel-default > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #394a5f; }
+  .panel-blue .panel-title a, .panel-blue .panel-title #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .panel-blue .panel-title li > span,
+  .panel-default .panel-title a,
+  .panel-default .panel-title #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+  .panel-default .panel-title li > span {
+    color: #fff; }
 
 .panel-green {
   border-color: #00aaa0; }
@@ -15643,6 +15644,93 @@ button[disabled][disabled] {
   border-color: #555555; }
 
 /* ============================================================================
+		gazette :: Start
+============================================================================ */
+#studiengaengepage-wrapper {
+  padding-top: 15px; }
+  #studiengaengepage-wrapper .mainTitle {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-weight: 500; }
+  #studiengaengepage-wrapper .subTitle {
+    margin: 0;
+    padding: 10px 0; }
+  #studiengaengepage-wrapper .content .panel ul,
+  #studiengaengepage-wrapper .sidebar .panel ul {
+    padding-left: 15px; }
+    #studiengaengepage-wrapper .content .panel ul li,
+    #studiengaengepage-wrapper .sidebar .panel ul li {
+      line-height: 25px; }
+  #studiengaengepage-wrapper .content {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      #studiengaengepage-wrapper .content {
+        float: left;
+        width: 66.66667%; } }
+  #studiengaengepage-wrapper .sidebar {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      #studiengaengepage-wrapper .sidebar {
+        float: left;
+        width: 33.33333%; } }
+    #studiengaengepage-wrapper .sidebar .entry {
+      border-style: solid;
+      border-width: 1px;
+      margin-bottom: 10px;
+      border-radius: 5px; }
+    #studiengaengepage-wrapper .sidebar .sidebarcontactprimary,
+    #studiengaengepage-wrapper .sidebar .sidebarcontactprimarytitle,
+    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondary,
+    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondarytitle {
+      text-align: left;
+      padding: 10px;
+      line-height: 25px; }
+    #studiengaengepage-wrapper .sidebar .sidebarcontactprimary .contact-name,
+    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondary .contact-name {
+      font-weight: bold;
+      font-size: 19px; }
+    #studiengaengepage-wrapper .sidebar .sidebarcontactprimary .text,
+    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondary .text {
+      padding-left: 5px; }
+    #studiengaengepage-wrapper .sidebar .sidebarcontactprimary i,
+    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondary i {
+      width: 30px;
+      text-align: center; }
+
+.studiengaengepage-default .content h1 {
+  color: #00aaa0; }
+
+.studiengaengepage-default .content h2 {
+  color: #394a5f; }
+
+.studiengaengepage-default .sidebar .entry {
+  border-color: #555555; }
+
+.studiengaengepage-default .sidebar .sidebarcontactprimarytitle,
+.studiengaengepage-default .sidebar .sidebarcontactsecondarytitle {
+  background-color: #394a5f;
+  color: #fff; }
+
+/* ============================================================================
 		Seite - Oeffentliche Ausschreibungen :: Start
 ============================================================================ */
 #oeffentlicheAusschreibungen-wrapper .panel {
@@ -15691,6 +15779,9 @@ button[disabled][disabled] {
       #oeffentlicheAusschreibungen-wrapper .panel .panel-body .value {
         float: left;
         width: 66.66667%; } }
+
+#showcourses-wrapper .panel .panel-body ul li {
+  line-height: 25px; }
 
 /* ============================================================================
 		Button :: Start
@@ -17190,314 +17281,32 @@ Main-Navigation :: Start
     #news-ticker .carousel-control.left, #news-ticker .carousel-control.right {
       background-image: none; }
 
-/* ============================================================================
-Page-Layout :: Start
-============================================================================ */
-#HochschulABCPage > div > .container > .row > .panel,
-#HochschulABCPage > p,
-#HochschulABCPage > h1,
-#HochschulABCPage > h2,
-#HochschulABCPage > h3,
-#HochschulABCPage > h4,
-#HochschulABCPage > h5,
-#HochschulABCPage > ul,
-#HochschulABCPage > ol,
-#HochschulABCPage > table,
-#HochschulABCPage .searchresults,
-#StudiFilterPage > div > .container > .row > .panel,
-#StudiFilterPage > p,
-#StudiFilterPage > h1,
-#StudiFilterPage > h2,
-#StudiFilterPage > h3,
-#StudiFilterPage > h4,
-#StudiFilterPage > h5,
-#StudiFilterPage > ul,
-#StudiFilterPage > ol,
-#StudiFilterPage > table,
-#StudiFilterPage .searchresults,
-.ms-rtestate-field > div > .container > .row > .panel,
-.ms-rtestate-field > p,
-.ms-rtestate-field > h1,
-.ms-rtestate-field > h2,
-.ms-rtestate-field > h3,
-.ms-rtestate-field > h4,
-.ms-rtestate-field > h5,
-.ms-rtestate-field > ul,
-.ms-rtestate-field > ol,
-.ms-rtestate-field > table,
-.ms-rtestate-field .searchresults,
-#DeltaPlaceHolderMain > div > .container > .row > .panel,
-#DeltaPlaceHolderMain > p,
-#DeltaPlaceHolderMain > h1,
-#DeltaPlaceHolderMain > h2,
-#DeltaPlaceHolderMain > h3,
-#DeltaPlaceHolderMain > h4,
-#DeltaPlaceHolderMain > h5,
-#DeltaPlaceHolderMain > ul,
-#DeltaPlaceHolderMain > ol,
-#DeltaPlaceHolderMain > table,
-#DeltaPlaceHolderMain .searchresults,
-.ms-siteSettings-root > div > .container > .row > .panel,
-.ms-siteSettings-root > p,
-.ms-siteSettings-root > h1,
-.ms-siteSettings-root > h2,
-.ms-siteSettings-root > h3,
-.ms-siteSettings-root > h4,
-.ms-siteSettings-root > h5,
-.ms-siteSettings-root > ul,
-.ms-siteSettings-root > ol,
-.ms-siteSettings-root > table,
-.ms-siteSettings-root .searchresults {
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 7px; }
-  @media screen and (min-width: 768px) {
-    #HochschulABCPage > div > .container > .row > .panel,
-    #HochschulABCPage > p,
-    #HochschulABCPage > h1,
-    #HochschulABCPage > h2,
-    #HochschulABCPage > h3,
-    #HochschulABCPage > h4,
-    #HochschulABCPage > h5,
-    #HochschulABCPage > ul,
-    #HochschulABCPage > ol,
-    #HochschulABCPage > table,
-    #HochschulABCPage .searchresults,
-    #StudiFilterPage > div > .container > .row > .panel,
-    #StudiFilterPage > p,
-    #StudiFilterPage > h1,
-    #StudiFilterPage > h2,
-    #StudiFilterPage > h3,
-    #StudiFilterPage > h4,
-    #StudiFilterPage > h5,
-    #StudiFilterPage > ul,
-    #StudiFilterPage > ol,
-    #StudiFilterPage > table,
-    #StudiFilterPage .searchresults,
-    .ms-rtestate-field > div > .container > .row > .panel,
-    .ms-rtestate-field > p,
-    .ms-rtestate-field > h1,
-    .ms-rtestate-field > h2,
-    .ms-rtestate-field > h3,
-    .ms-rtestate-field > h4,
-    .ms-rtestate-field > h5,
-    .ms-rtestate-field > ul,
-    .ms-rtestate-field > ol,
-    .ms-rtestate-field > table,
-    .ms-rtestate-field .searchresults,
-    #DeltaPlaceHolderMain > div > .container > .row > .panel,
-    #DeltaPlaceHolderMain > p,
-    #DeltaPlaceHolderMain > h1,
-    #DeltaPlaceHolderMain > h2,
-    #DeltaPlaceHolderMain > h3,
-    #DeltaPlaceHolderMain > h4,
-    #DeltaPlaceHolderMain > h5,
-    #DeltaPlaceHolderMain > ul,
-    #DeltaPlaceHolderMain > ol,
-    #DeltaPlaceHolderMain > table,
-    #DeltaPlaceHolderMain .searchresults,
-    .ms-siteSettings-root > div > .container > .row > .panel,
-    .ms-siteSettings-root > p,
-    .ms-siteSettings-root > h1,
-    .ms-siteSettings-root > h2,
-    .ms-siteSettings-root > h3,
-    .ms-siteSettings-root > h4,
-    .ms-siteSettings-root > h5,
-    .ms-siteSettings-root > ul,
-    .ms-siteSettings-root > ol,
-    .ms-siteSettings-root > table,
-    .ms-siteSettings-root .searchresults {
-      margin-right: auto !important;
-      margin-left: auto !important; } }
-  @media (min-width: 768px) {
-    #HochschulABCPage > div > .container > .row > .panel,
-    #HochschulABCPage > p,
-    #HochschulABCPage > h1,
-    #HochschulABCPage > h2,
-    #HochschulABCPage > h3,
-    #HochschulABCPage > h4,
-    #HochschulABCPage > h5,
-    #HochschulABCPage > ul,
-    #HochschulABCPage > ol,
-    #HochschulABCPage > table,
-    #HochschulABCPage .searchresults,
-    #StudiFilterPage > div > .container > .row > .panel,
-    #StudiFilterPage > p,
-    #StudiFilterPage > h1,
-    #StudiFilterPage > h2,
-    #StudiFilterPage > h3,
-    #StudiFilterPage > h4,
-    #StudiFilterPage > h5,
-    #StudiFilterPage > ul,
-    #StudiFilterPage > ol,
-    #StudiFilterPage > table,
-    #StudiFilterPage .searchresults,
-    .ms-rtestate-field > div > .container > .row > .panel,
-    .ms-rtestate-field > p,
-    .ms-rtestate-field > h1,
-    .ms-rtestate-field > h2,
-    .ms-rtestate-field > h3,
-    .ms-rtestate-field > h4,
-    .ms-rtestate-field > h5,
-    .ms-rtestate-field > ul,
-    .ms-rtestate-field > ol,
-    .ms-rtestate-field > table,
-    .ms-rtestate-field .searchresults,
-    #DeltaPlaceHolderMain > div > .container > .row > .panel,
-    #DeltaPlaceHolderMain > p,
-    #DeltaPlaceHolderMain > h1,
-    #DeltaPlaceHolderMain > h2,
-    #DeltaPlaceHolderMain > h3,
-    #DeltaPlaceHolderMain > h4,
-    #DeltaPlaceHolderMain > h5,
-    #DeltaPlaceHolderMain > ul,
-    #DeltaPlaceHolderMain > ol,
-    #DeltaPlaceHolderMain > table,
-    #DeltaPlaceHolderMain .searchresults,
-    .ms-siteSettings-root > div > .container > .row > .panel,
-    .ms-siteSettings-root > p,
-    .ms-siteSettings-root > h1,
-    .ms-siteSettings-root > h2,
-    .ms-siteSettings-root > h3,
-    .ms-siteSettings-root > h4,
-    .ms-siteSettings-root > h5,
-    .ms-siteSettings-root > ul,
-    .ms-siteSettings-root > ol,
-    .ms-siteSettings-root > table,
-    .ms-siteSettings-root .searchresults {
-      width: 720px; } }
-  @media (min-width: 992px) {
-    #HochschulABCPage > div > .container > .row > .panel,
-    #HochschulABCPage > p,
-    #HochschulABCPage > h1,
-    #HochschulABCPage > h2,
-    #HochschulABCPage > h3,
-    #HochschulABCPage > h4,
-    #HochschulABCPage > h5,
-    #HochschulABCPage > ul,
-    #HochschulABCPage > ol,
-    #HochschulABCPage > table,
-    #HochschulABCPage .searchresults,
-    #StudiFilterPage > div > .container > .row > .panel,
-    #StudiFilterPage > p,
-    #StudiFilterPage > h1,
-    #StudiFilterPage > h2,
-    #StudiFilterPage > h3,
-    #StudiFilterPage > h4,
-    #StudiFilterPage > h5,
-    #StudiFilterPage > ul,
-    #StudiFilterPage > ol,
-    #StudiFilterPage > table,
-    #StudiFilterPage .searchresults,
-    .ms-rtestate-field > div > .container > .row > .panel,
-    .ms-rtestate-field > p,
-    .ms-rtestate-field > h1,
-    .ms-rtestate-field > h2,
-    .ms-rtestate-field > h3,
-    .ms-rtestate-field > h4,
-    .ms-rtestate-field > h5,
-    .ms-rtestate-field > ul,
-    .ms-rtestate-field > ol,
-    .ms-rtestate-field > table,
-    .ms-rtestate-field .searchresults,
-    #DeltaPlaceHolderMain > div > .container > .row > .panel,
-    #DeltaPlaceHolderMain > p,
-    #DeltaPlaceHolderMain > h1,
-    #DeltaPlaceHolderMain > h2,
-    #DeltaPlaceHolderMain > h3,
-    #DeltaPlaceHolderMain > h4,
-    #DeltaPlaceHolderMain > h5,
-    #DeltaPlaceHolderMain > ul,
-    #DeltaPlaceHolderMain > ol,
-    #DeltaPlaceHolderMain > table,
-    #DeltaPlaceHolderMain .searchresults,
-    .ms-siteSettings-root > div > .container > .row > .panel,
-    .ms-siteSettings-root > p,
-    .ms-siteSettings-root > h1,
-    .ms-siteSettings-root > h2,
-    .ms-siteSettings-root > h3,
-    .ms-siteSettings-root > h4,
-    .ms-siteSettings-root > h5,
-    .ms-siteSettings-root > ul,
-    .ms-siteSettings-root > ol,
-    .ms-siteSettings-root > table,
-    .ms-siteSettings-root .searchresults {
-      width: 940px; } }
-  @media (min-width: 1200px) {
-    #HochschulABCPage > div > .container > .row > .panel,
-    #HochschulABCPage > p,
-    #HochschulABCPage > h1,
-    #HochschulABCPage > h2,
-    #HochschulABCPage > h3,
-    #HochschulABCPage > h4,
-    #HochschulABCPage > h5,
-    #HochschulABCPage > ul,
-    #HochschulABCPage > ol,
-    #HochschulABCPage > table,
-    #HochschulABCPage .searchresults,
-    #StudiFilterPage > div > .container > .row > .panel,
-    #StudiFilterPage > p,
-    #StudiFilterPage > h1,
-    #StudiFilterPage > h2,
-    #StudiFilterPage > h3,
-    #StudiFilterPage > h4,
-    #StudiFilterPage > h5,
-    #StudiFilterPage > ul,
-    #StudiFilterPage > ol,
-    #StudiFilterPage > table,
-    #StudiFilterPage .searchresults,
-    .ms-rtestate-field > div > .container > .row > .panel,
-    .ms-rtestate-field > p,
-    .ms-rtestate-field > h1,
-    .ms-rtestate-field > h2,
-    .ms-rtestate-field > h3,
-    .ms-rtestate-field > h4,
-    .ms-rtestate-field > h5,
-    .ms-rtestate-field > ul,
-    .ms-rtestate-field > ol,
-    .ms-rtestate-field > table,
-    .ms-rtestate-field .searchresults,
-    #DeltaPlaceHolderMain > div > .container > .row > .panel,
-    #DeltaPlaceHolderMain > p,
-    #DeltaPlaceHolderMain > h1,
-    #DeltaPlaceHolderMain > h2,
-    #DeltaPlaceHolderMain > h3,
-    #DeltaPlaceHolderMain > h4,
-    #DeltaPlaceHolderMain > h5,
-    #DeltaPlaceHolderMain > ul,
-    #DeltaPlaceHolderMain > ol,
-    #DeltaPlaceHolderMain > table,
-    #DeltaPlaceHolderMain .searchresults,
-    .ms-siteSettings-root > div > .container > .row > .panel,
-    .ms-siteSettings-root > p,
-    .ms-siteSettings-root > h1,
-    .ms-siteSettings-root > h2,
-    .ms-siteSettings-root > h3,
-    .ms-siteSettings-root > h4,
-    .ms-siteSettings-root > h5,
-    .ms-siteSettings-root > ul,
-    .ms-siteSettings-root > ol,
-    .ms-siteSettings-root > table,
-    .ms-siteSettings-root .searchresults {
-      width: 1140px; } }
-
 #HochschulABCPage > div > .container > .row > .panel,
 #StudiFilterPage > div > .container > .row > .panel,
-.ms-rtestate-field > div > .container > .row > .panel,
-#DeltaPlaceHolderMain > div > .container > .row > .panel,
-.ms-siteSettings-root > div > .container > .row > .panel {
+#pageWithSidebar > div > .container > .row > .panel,
+#page-content > .ms-rtestate-field > div > .container > .row > .panel,
+#page-content > .ms-siteSettings-root > div > .container > .row > .panel,
+#DeltaPlaceHolderMain > div > .container > .row > .panel {
   padding-bottom: 0; }
 
+#HochschulABCPage h1,
 #HochschulABCPage > h1,
 #HochschulABCPage > div > .container > h1,
+#StudiFilterPage h1,
 #StudiFilterPage > h1,
 #StudiFilterPage > div > .container > h1,
-.ms-rtestate-field > h1,
-.ms-rtestate-field > div > .container > h1,
+#pageWithSidebar h1,
+#pageWithSidebar > h1,
+#pageWithSidebar > div > .container > h1,
+#page-content > .ms-rtestate-field h1,
+#page-content > .ms-rtestate-field > h1,
+#page-content > .ms-rtestate-field > div > .container > h1,
+#page-content > .ms-siteSettings-root h1,
+#page-content > .ms-siteSettings-root > h1,
+#page-content > .ms-siteSettings-root > div > .container > h1,
+#DeltaPlaceHolderMain h1,
 #DeltaPlaceHolderMain > h1,
-#DeltaPlaceHolderMain > div > .container > h1,
-.ms-siteSettings-root > h1,
-.ms-siteSettings-root > div > .container > h1 {
+#DeltaPlaceHolderMain > div > .container > h1 {
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 400;
@@ -17507,51 +17316,57 @@ Page-Layout :: Start
 #StudiFilterPage > h1 a:hover,
 #StudiFilterPage > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #StudiFilterPage > h1 li > span:hover,
-.ms-rtestate-field > h1 a:hover,
-.ms-rtestate-field > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-rtestate-field > h1 li > span:hover,
+#pageWithSidebar > h1 a:hover,
+#pageWithSidebar > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#pageWithSidebar > h1 li > span:hover,
+#page-content > .ms-rtestate-field > h1 a:hover,
+#page-content > .ms-rtestate-field > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-rtestate-field > h1 li > span:hover,
+#page-content > .ms-siteSettings-root > h1 a:hover,
+#page-content > .ms-siteSettings-root > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-siteSettings-root > h1 li > span:hover,
 #DeltaPlaceHolderMain > h1 a:hover,
 #DeltaPlaceHolderMain > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-#DeltaPlaceHolderMain > h1 li > span:hover,
-.ms-siteSettings-root > h1 a:hover,
-.ms-siteSettings-root > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-siteSettings-root > h1 li > span:hover {
+#DeltaPlaceHolderMain > h1 li > span:hover {
   color: #00aaa0; }
 
 #HochschulABCPage > h1 a, #HochschulABCPage > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #HochschulABCPage > h1 li > span,
 #StudiFilterPage > h1 a,
 #StudiFilterPage > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #StudiFilterPage > h1 li > span,
-.ms-rtestate-field > h1 a,
-.ms-rtestate-field > h1 .eah-language-selector > a:hover,
-.ms-rtestate-field > h1 .eah-language-selector > a:active,
-.ms-rtestate-field > h1 .eah-language-selector > a:focus,
-.ms-rtestate-field > h1 .eah-language-selector > a.active,
-.ms-rtestate-field > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-rtestate-field > h1 li > span,
+#pageWithSidebar > h1 a,
+#pageWithSidebar > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#pageWithSidebar > h1 li > span,
+#page-content > .ms-rtestate-field > h1 a,
+#page-content > .ms-rtestate-field > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-rtestate-field > h1 li > span,
+#page-content > .ms-siteSettings-root > h1 a,
+#page-content > .ms-siteSettings-root > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-siteSettings-root > h1 li > span,
 #DeltaPlaceHolderMain > h1 a,
 #DeltaPlaceHolderMain > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-#DeltaPlaceHolderMain > h1 li > span,
-.ms-siteSettings-root > h1 a,
-.ms-siteSettings-root > h1 .eah-language-selector > a:hover,
-.ms-siteSettings-root > h1 .eah-language-selector > a:active,
-.ms-siteSettings-root > h1 .eah-language-selector > a:focus,
-.ms-siteSettings-root > h1 .eah-language-selector > a.active,
-.ms-siteSettings-root > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-siteSettings-root > h1 li > span {
+#DeltaPlaceHolderMain > h1 li > span {
   color: #00aaa0;
   text-decoration: none; }
 
+#HochschulABCPage h2,
 #HochschulABCPage > h2,
 #HochschulABCPage > div > .container > h2,
+#StudiFilterPage h2,
 #StudiFilterPage > h2,
 #StudiFilterPage > div > .container > h2,
-.ms-rtestate-field > h2,
-.ms-rtestate-field > div > .container > h2,
+#pageWithSidebar h2,
+#pageWithSidebar > h2,
+#pageWithSidebar > div > .container > h2,
+#page-content > .ms-rtestate-field h2,
+#page-content > .ms-rtestate-field > h2,
+#page-content > .ms-rtestate-field > div > .container > h2,
+#page-content > .ms-siteSettings-root h2,
+#page-content > .ms-siteSettings-root > h2,
+#page-content > .ms-siteSettings-root > div > .container > h2,
+#DeltaPlaceHolderMain h2,
 #DeltaPlaceHolderMain > h2,
-#DeltaPlaceHolderMain > div > .container > h2,
-.ms-siteSettings-root > h2,
-.ms-siteSettings-root > div > .container > h2 {
+#DeltaPlaceHolderMain > div > .container > h2 {
   padding-top: 5px;
   padding-bottom: 10px;
   font-size: 1.7em;
@@ -17562,61 +17377,75 @@ Page-Layout :: Start
 #StudiFilterPage > h2 a:hover,
 #StudiFilterPage > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #StudiFilterPage > h2 li > span:hover,
-.ms-rtestate-field > h2 a:hover,
-.ms-rtestate-field > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-rtestate-field > h2 li > span:hover,
+#pageWithSidebar > h2 a:hover,
+#pageWithSidebar > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#pageWithSidebar > h2 li > span:hover,
+#page-content > .ms-rtestate-field > h2 a:hover,
+#page-content > .ms-rtestate-field > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-rtestate-field > h2 li > span:hover,
+#page-content > .ms-siteSettings-root > h2 a:hover,
+#page-content > .ms-siteSettings-root > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-siteSettings-root > h2 li > span:hover,
 #DeltaPlaceHolderMain > h2 a:hover,
 #DeltaPlaceHolderMain > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-#DeltaPlaceHolderMain > h2 li > span:hover,
-.ms-siteSettings-root > h2 a:hover,
-.ms-siteSettings-root > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-siteSettings-root > h2 li > span:hover {
+#DeltaPlaceHolderMain > h2 li > span:hover {
   color: #394a5f; }
 
 #HochschulABCPage > h2 a, #HochschulABCPage > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #HochschulABCPage > h2 li > span,
 #StudiFilterPage > h2 a,
 #StudiFilterPage > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #StudiFilterPage > h2 li > span,
-.ms-rtestate-field > h2 a,
-.ms-rtestate-field > h2 .eah-language-selector > a:hover,
-.ms-rtestate-field > h2 .eah-language-selector > a:active,
-.ms-rtestate-field > h2 .eah-language-selector > a:focus,
-.ms-rtestate-field > h2 .eah-language-selector > a.active,
-.ms-rtestate-field > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-rtestate-field > h2 li > span,
+#pageWithSidebar > h2 a,
+#pageWithSidebar > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#pageWithSidebar > h2 li > span,
+#page-content > .ms-rtestate-field > h2 a,
+#page-content > .ms-rtestate-field > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-rtestate-field > h2 li > span,
+#page-content > .ms-siteSettings-root > h2 a,
+#page-content > .ms-siteSettings-root > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-siteSettings-root > h2 li > span,
 #DeltaPlaceHolderMain > h2 a,
 #DeltaPlaceHolderMain > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-#DeltaPlaceHolderMain > h2 li > span,
-.ms-siteSettings-root > h2 a,
-.ms-siteSettings-root > h2 .eah-language-selector > a:hover,
-.ms-siteSettings-root > h2 .eah-language-selector > a:active,
-.ms-siteSettings-root > h2 .eah-language-selector > a:focus,
-.ms-siteSettings-root > h2 .eah-language-selector > a.active,
-.ms-siteSettings-root > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-siteSettings-root > h2 li > span {
+#DeltaPlaceHolderMain > h2 li > span {
   color: #394a5f;
   text-decoration: none; }
 
+#HochschulABCPage h3,
 #HochschulABCPage > h3,
 #HochschulABCPage > div > .container > h3,
+#HochschulABCPage h4,
 #HochschulABCPage > h4,
 #HochschulABCPage > div > .container > h4,
+#StudiFilterPage h3,
 #StudiFilterPage > h3,
 #StudiFilterPage > div > .container > h3,
+#StudiFilterPage h4,
 #StudiFilterPage > h4,
 #StudiFilterPage > div > .container > h4,
-.ms-rtestate-field > h3,
-.ms-rtestate-field > div > .container > h3,
-.ms-rtestate-field > h4,
-.ms-rtestate-field > div > .container > h4,
+#pageWithSidebar h3,
+#pageWithSidebar > h3,
+#pageWithSidebar > div > .container > h3,
+#pageWithSidebar h4,
+#pageWithSidebar > h4,
+#pageWithSidebar > div > .container > h4,
+#page-content > .ms-rtestate-field h3,
+#page-content > .ms-rtestate-field > h3,
+#page-content > .ms-rtestate-field > div > .container > h3,
+#page-content > .ms-rtestate-field h4,
+#page-content > .ms-rtestate-field > h4,
+#page-content > .ms-rtestate-field > div > .container > h4,
+#page-content > .ms-siteSettings-root h3,
+#page-content > .ms-siteSettings-root > h3,
+#page-content > .ms-siteSettings-root > div > .container > h3,
+#page-content > .ms-siteSettings-root h4,
+#page-content > .ms-siteSettings-root > h4,
+#page-content > .ms-siteSettings-root > div > .container > h4,
+#DeltaPlaceHolderMain h3,
 #DeltaPlaceHolderMain > h3,
 #DeltaPlaceHolderMain > div > .container > h3,
+#DeltaPlaceHolderMain h4,
 #DeltaPlaceHolderMain > h4,
-#DeltaPlaceHolderMain > div > .container > h4,
-.ms-siteSettings-root > h3,
-.ms-siteSettings-root > div > .container > h3,
-.ms-siteSettings-root > h4,
-.ms-siteSettings-root > div > .container > h4 {
+#DeltaPlaceHolderMain > div > .container > h4 {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.4em;
@@ -17633,24 +17462,30 @@ Page-Layout :: Start
 #StudiFilterPage > h4 a:hover,
 #StudiFilterPage > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #StudiFilterPage > h4 li > span:hover,
-.ms-rtestate-field > h3 a:hover,
-.ms-rtestate-field > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-rtestate-field > h3 li > span:hover,
-.ms-rtestate-field > h4 a:hover,
-.ms-rtestate-field > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-rtestate-field > h4 li > span:hover,
+#pageWithSidebar > h3 a:hover,
+#pageWithSidebar > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#pageWithSidebar > h3 li > span:hover,
+#pageWithSidebar > h4 a:hover,
+#pageWithSidebar > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#pageWithSidebar > h4 li > span:hover,
+#page-content > .ms-rtestate-field > h3 a:hover,
+#page-content > .ms-rtestate-field > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-rtestate-field > h3 li > span:hover,
+#page-content > .ms-rtestate-field > h4 a:hover,
+#page-content > .ms-rtestate-field > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-rtestate-field > h4 li > span:hover,
+#page-content > .ms-siteSettings-root > h3 a:hover,
+#page-content > .ms-siteSettings-root > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-siteSettings-root > h3 li > span:hover,
+#page-content > .ms-siteSettings-root > h4 a:hover,
+#page-content > .ms-siteSettings-root > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-siteSettings-root > h4 li > span:hover,
 #DeltaPlaceHolderMain > h3 a:hover,
 #DeltaPlaceHolderMain > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #DeltaPlaceHolderMain > h3 li > span:hover,
 #DeltaPlaceHolderMain > h4 a:hover,
 #DeltaPlaceHolderMain > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-#DeltaPlaceHolderMain > h4 li > span:hover,
-.ms-siteSettings-root > h3 a:hover,
-.ms-siteSettings-root > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-siteSettings-root > h3 li > span:hover,
-.ms-siteSettings-root > h4 a:hover,
-.ms-siteSettings-root > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-siteSettings-root > h4 li > span:hover {
+#DeltaPlaceHolderMain > h4 li > span:hover {
   color: #394a5f; }
 
 #HochschulABCPage > h3 a, #HochschulABCPage > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #HochschulABCPage > h3 li > span,
@@ -17663,40 +17498,30 @@ Page-Layout :: Start
 #StudiFilterPage > h4 a,
 #StudiFilterPage > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #StudiFilterPage > h4 li > span,
-.ms-rtestate-field > h3 a,
-.ms-rtestate-field > h3 .eah-language-selector > a:hover,
-.ms-rtestate-field > h3 .eah-language-selector > a:active,
-.ms-rtestate-field > h3 .eah-language-selector > a:focus,
-.ms-rtestate-field > h3 .eah-language-selector > a.active,
-.ms-rtestate-field > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-rtestate-field > h3 li > span,
-.ms-rtestate-field > h4 a,
-.ms-rtestate-field > h4 .eah-language-selector > a:hover,
-.ms-rtestate-field > h4 .eah-language-selector > a:active,
-.ms-rtestate-field > h4 .eah-language-selector > a:focus,
-.ms-rtestate-field > h4 .eah-language-selector > a.active,
-.ms-rtestate-field > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-rtestate-field > h4 li > span,
+#pageWithSidebar > h3 a,
+#pageWithSidebar > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#pageWithSidebar > h3 li > span,
+#pageWithSidebar > h4 a,
+#pageWithSidebar > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#pageWithSidebar > h4 li > span,
+#page-content > .ms-rtestate-field > h3 a,
+#page-content > .ms-rtestate-field > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-rtestate-field > h3 li > span,
+#page-content > .ms-rtestate-field > h4 a,
+#page-content > .ms-rtestate-field > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-rtestate-field > h4 li > span,
+#page-content > .ms-siteSettings-root > h3 a,
+#page-content > .ms-siteSettings-root > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-siteSettings-root > h3 li > span,
+#page-content > .ms-siteSettings-root > h4 a,
+#page-content > .ms-siteSettings-root > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-siteSettings-root > h4 li > span,
 #DeltaPlaceHolderMain > h3 a,
 #DeltaPlaceHolderMain > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #DeltaPlaceHolderMain > h3 li > span,
 #DeltaPlaceHolderMain > h4 a,
 #DeltaPlaceHolderMain > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-#DeltaPlaceHolderMain > h4 li > span,
-.ms-siteSettings-root > h3 a,
-.ms-siteSettings-root > h3 .eah-language-selector > a:hover,
-.ms-siteSettings-root > h3 .eah-language-selector > a:active,
-.ms-siteSettings-root > h3 .eah-language-selector > a:focus,
-.ms-siteSettings-root > h3 .eah-language-selector > a.active,
-.ms-siteSettings-root > h3 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-siteSettings-root > h3 li > span,
-.ms-siteSettings-root > h4 a,
-.ms-siteSettings-root > h4 .eah-language-selector > a:hover,
-.ms-siteSettings-root > h4 .eah-language-selector > a:active,
-.ms-siteSettings-root > h4 .eah-language-selector > a:focus,
-.ms-siteSettings-root > h4 .eah-language-selector > a.active,
-.ms-siteSettings-root > h4 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-siteSettings-root > h4 li > span {
+#DeltaPlaceHolderMain > h4 li > span {
   color: #394a5f;
   text-decoration: none; }
 
@@ -17724,22 +17549,42 @@ Page-Layout :: Start
 #StudiFilterPage #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #StudiFilterPage li > span,
 #StudiFilterPage input,
-.ms-rtestate-field h1,
-.ms-rtestate-field h2,
-.ms-rtestate-field h3,
-.ms-rtestate-field h4,
-.ms-rtestate-field h5,
-.ms-rtestate-field h6,
-.ms-rtestate-field p,
-.ms-rtestate-field span,
-.ms-rtestate-field a,
-.ms-rtestate-field .eah-language-selector > a:hover,
-.ms-rtestate-field .eah-language-selector > a:active,
-.ms-rtestate-field .eah-language-selector > a:focus,
-.ms-rtestate-field .eah-language-selector > a.active,
-.ms-rtestate-field #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-rtestate-field li > span,
-.ms-rtestate-field input,
+#pageWithSidebar h1,
+#pageWithSidebar h2,
+#pageWithSidebar h3,
+#pageWithSidebar h4,
+#pageWithSidebar h5,
+#pageWithSidebar h6,
+#pageWithSidebar p,
+#pageWithSidebar span,
+#pageWithSidebar a,
+#pageWithSidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#pageWithSidebar li > span,
+#pageWithSidebar input,
+#page-content > .ms-rtestate-field h1,
+#page-content > .ms-rtestate-field h2,
+#page-content > .ms-rtestate-field h3,
+#page-content > .ms-rtestate-field h4,
+#page-content > .ms-rtestate-field h5,
+#page-content > .ms-rtestate-field h6,
+#page-content > .ms-rtestate-field p,
+#page-content > .ms-rtestate-field span,
+#page-content > .ms-rtestate-field a,
+#page-content > .ms-rtestate-field #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-rtestate-field li > span,
+#page-content > .ms-rtestate-field input,
+#page-content > .ms-siteSettings-root h1,
+#page-content > .ms-siteSettings-root h2,
+#page-content > .ms-siteSettings-root h3,
+#page-content > .ms-siteSettings-root h4,
+#page-content > .ms-siteSettings-root h5,
+#page-content > .ms-siteSettings-root h6,
+#page-content > .ms-siteSettings-root p,
+#page-content > .ms-siteSettings-root span,
+#page-content > .ms-siteSettings-root a,
+#page-content > .ms-siteSettings-root #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+#page-content > .ms-siteSettings-root li > span,
+#page-content > .ms-siteSettings-root input,
 #DeltaPlaceHolderMain h1,
 #DeltaPlaceHolderMain h2,
 #DeltaPlaceHolderMain h3,
@@ -17751,30 +17596,15 @@ Page-Layout :: Start
 #DeltaPlaceHolderMain a,
 #DeltaPlaceHolderMain #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
 #DeltaPlaceHolderMain li > span,
-#DeltaPlaceHolderMain input,
-.ms-siteSettings-root h1,
-.ms-siteSettings-root h2,
-.ms-siteSettings-root h3,
-.ms-siteSettings-root h4,
-.ms-siteSettings-root h5,
-.ms-siteSettings-root h6,
-.ms-siteSettings-root p,
-.ms-siteSettings-root span,
-.ms-siteSettings-root a,
-.ms-siteSettings-root .eah-language-selector > a:hover,
-.ms-siteSettings-root .eah-language-selector > a:active,
-.ms-siteSettings-root .eah-language-selector > a:focus,
-.ms-siteSettings-root .eah-language-selector > a.active,
-.ms-siteSettings-root #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
-.ms-siteSettings-root li > span,
-.ms-siteSettings-root input {
+#DeltaPlaceHolderMain input {
   font-family: "Roboto", Arial, "Helvetica Neue", Helvetica, sans-serif !important !important; }
 
 #HochschulABCPage h1,
 #StudiFilterPage h1,
-.ms-rtestate-field h1,
-#DeltaPlaceHolderMain h1,
-.ms-siteSettings-root h1 {
+#pageWithSidebar h1,
+#page-content > .ms-rtestate-field h1,
+#page-content > .ms-siteSettings-root h1,
+#DeltaPlaceHolderMain h1 {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -17785,25 +17615,396 @@ Page-Layout :: Start
 #HochschulABCPage h3,
 #StudiFilterPage h2,
 #StudiFilterPage h3,
-.ms-rtestate-field h2,
-.ms-rtestate-field h3,
+#pageWithSidebar h2,
+#pageWithSidebar h3,
+#page-content > .ms-rtestate-field h2,
+#page-content > .ms-rtestate-field h3,
+#page-content > .ms-siteSettings-root h2,
+#page-content > .ms-siteSettings-root h3,
 #DeltaPlaceHolderMain h2,
-#DeltaPlaceHolderMain h3,
-.ms-siteSettings-root h2,
-.ms-siteSettings-root h3 {
+#DeltaPlaceHolderMain h3 {
   font-weight: 400; }
 
 #HochschulABCPage p,
 #HochschulABCPage ul,
 #StudiFilterPage p,
 #StudiFilterPage ul,
-.ms-rtestate-field p,
-.ms-rtestate-field ul,
+#pageWithSidebar p,
+#pageWithSidebar ul,
+#page-content > .ms-rtestate-field p,
+#page-content > .ms-rtestate-field ul,
+#page-content > .ms-siteSettings-root p,
+#page-content > .ms-siteSettings-root ul,
 #DeltaPlaceHolderMain p,
-#DeltaPlaceHolderMain ul,
-.ms-siteSettings-root p,
-.ms-siteSettings-root ul {
+#DeltaPlaceHolderMain ul {
   font-size: 15px; }
+
+#HochschulABCPage > div > .container > .row > .panel,
+#HochschulABCPage > p,
+#HochschulABCPage > h1,
+#HochschulABCPage > h2,
+#HochschulABCPage > h3,
+#HochschulABCPage > h4,
+#HochschulABCPage > h5,
+#HochschulABCPage > ul,
+#HochschulABCPage > ol,
+#HochschulABCPage > table,
+#HochschulABCPage .searchresults,
+#StudiFilterPage > div > .container > .row > .panel,
+#StudiFilterPage > p,
+#StudiFilterPage > h1,
+#StudiFilterPage > h2,
+#StudiFilterPage > h3,
+#StudiFilterPage > h4,
+#StudiFilterPage > h5,
+#StudiFilterPage > ul,
+#StudiFilterPage > ol,
+#StudiFilterPage > table,
+#StudiFilterPage .searchresults,
+#page-content > .ms-rtestate-field > div > .container > .row > .panel,
+#page-content > .ms-rtestate-field > p,
+#page-content > .ms-rtestate-field > h1,
+#page-content > .ms-rtestate-field > h2,
+#page-content > .ms-rtestate-field > h3,
+#page-content > .ms-rtestate-field > h4,
+#page-content > .ms-rtestate-field > h5,
+#page-content > .ms-rtestate-field > ul,
+#page-content > .ms-rtestate-field > ol,
+#page-content > .ms-rtestate-field > table,
+#page-content > .ms-rtestate-field .searchresults,
+#page-content > .ms-siteSettings-root > div > .container > .row > .panel,
+#page-content > .ms-siteSettings-root > p,
+#page-content > .ms-siteSettings-root > h1,
+#page-content > .ms-siteSettings-root > h2,
+#page-content > .ms-siteSettings-root > h3,
+#page-content > .ms-siteSettings-root > h4,
+#page-content > .ms-siteSettings-root > h5,
+#page-content > .ms-siteSettings-root > ul,
+#page-content > .ms-siteSettings-root > ol,
+#page-content > .ms-siteSettings-root > table,
+#page-content > .ms-siteSettings-root .searchresults,
+#DeltaPlaceHolderMain > div > .container > .row > .panel,
+#DeltaPlaceHolderMain > p,
+#DeltaPlaceHolderMain > h1,
+#DeltaPlaceHolderMain > h2,
+#DeltaPlaceHolderMain > h3,
+#DeltaPlaceHolderMain > h4,
+#DeltaPlaceHolderMain > h5,
+#DeltaPlaceHolderMain > ul,
+#DeltaPlaceHolderMain > ol,
+#DeltaPlaceHolderMain > table,
+#DeltaPlaceHolderMain .searchresults {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 7px; }
+  @media screen and (min-width: 768px) {
+    #HochschulABCPage > div > .container > .row > .panel,
+    #HochschulABCPage > p,
+    #HochschulABCPage > h1,
+    #HochschulABCPage > h2,
+    #HochschulABCPage > h3,
+    #HochschulABCPage > h4,
+    #HochschulABCPage > h5,
+    #HochschulABCPage > ul,
+    #HochschulABCPage > ol,
+    #HochschulABCPage > table,
+    #HochschulABCPage .searchresults,
+    #StudiFilterPage > div > .container > .row > .panel,
+    #StudiFilterPage > p,
+    #StudiFilterPage > h1,
+    #StudiFilterPage > h2,
+    #StudiFilterPage > h3,
+    #StudiFilterPage > h4,
+    #StudiFilterPage > h5,
+    #StudiFilterPage > ul,
+    #StudiFilterPage > ol,
+    #StudiFilterPage > table,
+    #StudiFilterPage .searchresults,
+    #page-content > .ms-rtestate-field > div > .container > .row > .panel,
+    #page-content > .ms-rtestate-field > p,
+    #page-content > .ms-rtestate-field > h1,
+    #page-content > .ms-rtestate-field > h2,
+    #page-content > .ms-rtestate-field > h3,
+    #page-content > .ms-rtestate-field > h4,
+    #page-content > .ms-rtestate-field > h5,
+    #page-content > .ms-rtestate-field > ul,
+    #page-content > .ms-rtestate-field > ol,
+    #page-content > .ms-rtestate-field > table,
+    #page-content > .ms-rtestate-field .searchresults,
+    #page-content > .ms-siteSettings-root > div > .container > .row > .panel,
+    #page-content > .ms-siteSettings-root > p,
+    #page-content > .ms-siteSettings-root > h1,
+    #page-content > .ms-siteSettings-root > h2,
+    #page-content > .ms-siteSettings-root > h3,
+    #page-content > .ms-siteSettings-root > h4,
+    #page-content > .ms-siteSettings-root > h5,
+    #page-content > .ms-siteSettings-root > ul,
+    #page-content > .ms-siteSettings-root > ol,
+    #page-content > .ms-siteSettings-root > table,
+    #page-content > .ms-siteSettings-root .searchresults,
+    #DeltaPlaceHolderMain > div > .container > .row > .panel,
+    #DeltaPlaceHolderMain > p,
+    #DeltaPlaceHolderMain > h1,
+    #DeltaPlaceHolderMain > h2,
+    #DeltaPlaceHolderMain > h3,
+    #DeltaPlaceHolderMain > h4,
+    #DeltaPlaceHolderMain > h5,
+    #DeltaPlaceHolderMain > ul,
+    #DeltaPlaceHolderMain > ol,
+    #DeltaPlaceHolderMain > table,
+    #DeltaPlaceHolderMain .searchresults {
+      margin-right: auto !important;
+      margin-left: auto !important; } }
+  @media (min-width: 768px) {
+    #HochschulABCPage > div > .container > .row > .panel,
+    #HochschulABCPage > p,
+    #HochschulABCPage > h1,
+    #HochschulABCPage > h2,
+    #HochschulABCPage > h3,
+    #HochschulABCPage > h4,
+    #HochschulABCPage > h5,
+    #HochschulABCPage > ul,
+    #HochschulABCPage > ol,
+    #HochschulABCPage > table,
+    #HochschulABCPage .searchresults,
+    #StudiFilterPage > div > .container > .row > .panel,
+    #StudiFilterPage > p,
+    #StudiFilterPage > h1,
+    #StudiFilterPage > h2,
+    #StudiFilterPage > h3,
+    #StudiFilterPage > h4,
+    #StudiFilterPage > h5,
+    #StudiFilterPage > ul,
+    #StudiFilterPage > ol,
+    #StudiFilterPage > table,
+    #StudiFilterPage .searchresults,
+    #page-content > .ms-rtestate-field > div > .container > .row > .panel,
+    #page-content > .ms-rtestate-field > p,
+    #page-content > .ms-rtestate-field > h1,
+    #page-content > .ms-rtestate-field > h2,
+    #page-content > .ms-rtestate-field > h3,
+    #page-content > .ms-rtestate-field > h4,
+    #page-content > .ms-rtestate-field > h5,
+    #page-content > .ms-rtestate-field > ul,
+    #page-content > .ms-rtestate-field > ol,
+    #page-content > .ms-rtestate-field > table,
+    #page-content > .ms-rtestate-field .searchresults,
+    #page-content > .ms-siteSettings-root > div > .container > .row > .panel,
+    #page-content > .ms-siteSettings-root > p,
+    #page-content > .ms-siteSettings-root > h1,
+    #page-content > .ms-siteSettings-root > h2,
+    #page-content > .ms-siteSettings-root > h3,
+    #page-content > .ms-siteSettings-root > h4,
+    #page-content > .ms-siteSettings-root > h5,
+    #page-content > .ms-siteSettings-root > ul,
+    #page-content > .ms-siteSettings-root > ol,
+    #page-content > .ms-siteSettings-root > table,
+    #page-content > .ms-siteSettings-root .searchresults,
+    #DeltaPlaceHolderMain > div > .container > .row > .panel,
+    #DeltaPlaceHolderMain > p,
+    #DeltaPlaceHolderMain > h1,
+    #DeltaPlaceHolderMain > h2,
+    #DeltaPlaceHolderMain > h3,
+    #DeltaPlaceHolderMain > h4,
+    #DeltaPlaceHolderMain > h5,
+    #DeltaPlaceHolderMain > ul,
+    #DeltaPlaceHolderMain > ol,
+    #DeltaPlaceHolderMain > table,
+    #DeltaPlaceHolderMain .searchresults {
+      width: 720px; } }
+  @media (min-width: 992px) {
+    #HochschulABCPage > div > .container > .row > .panel,
+    #HochschulABCPage > p,
+    #HochschulABCPage > h1,
+    #HochschulABCPage > h2,
+    #HochschulABCPage > h3,
+    #HochschulABCPage > h4,
+    #HochschulABCPage > h5,
+    #HochschulABCPage > ul,
+    #HochschulABCPage > ol,
+    #HochschulABCPage > table,
+    #HochschulABCPage .searchresults,
+    #StudiFilterPage > div > .container > .row > .panel,
+    #StudiFilterPage > p,
+    #StudiFilterPage > h1,
+    #StudiFilterPage > h2,
+    #StudiFilterPage > h3,
+    #StudiFilterPage > h4,
+    #StudiFilterPage > h5,
+    #StudiFilterPage > ul,
+    #StudiFilterPage > ol,
+    #StudiFilterPage > table,
+    #StudiFilterPage .searchresults,
+    #page-content > .ms-rtestate-field > div > .container > .row > .panel,
+    #page-content > .ms-rtestate-field > p,
+    #page-content > .ms-rtestate-field > h1,
+    #page-content > .ms-rtestate-field > h2,
+    #page-content > .ms-rtestate-field > h3,
+    #page-content > .ms-rtestate-field > h4,
+    #page-content > .ms-rtestate-field > h5,
+    #page-content > .ms-rtestate-field > ul,
+    #page-content > .ms-rtestate-field > ol,
+    #page-content > .ms-rtestate-field > table,
+    #page-content > .ms-rtestate-field .searchresults,
+    #page-content > .ms-siteSettings-root > div > .container > .row > .panel,
+    #page-content > .ms-siteSettings-root > p,
+    #page-content > .ms-siteSettings-root > h1,
+    #page-content > .ms-siteSettings-root > h2,
+    #page-content > .ms-siteSettings-root > h3,
+    #page-content > .ms-siteSettings-root > h4,
+    #page-content > .ms-siteSettings-root > h5,
+    #page-content > .ms-siteSettings-root > ul,
+    #page-content > .ms-siteSettings-root > ol,
+    #page-content > .ms-siteSettings-root > table,
+    #page-content > .ms-siteSettings-root .searchresults,
+    #DeltaPlaceHolderMain > div > .container > .row > .panel,
+    #DeltaPlaceHolderMain > p,
+    #DeltaPlaceHolderMain > h1,
+    #DeltaPlaceHolderMain > h2,
+    #DeltaPlaceHolderMain > h3,
+    #DeltaPlaceHolderMain > h4,
+    #DeltaPlaceHolderMain > h5,
+    #DeltaPlaceHolderMain > ul,
+    #DeltaPlaceHolderMain > ol,
+    #DeltaPlaceHolderMain > table,
+    #DeltaPlaceHolderMain .searchresults {
+      width: 940px; } }
+  @media (min-width: 1200px) {
+    #HochschulABCPage > div > .container > .row > .panel,
+    #HochschulABCPage > p,
+    #HochschulABCPage > h1,
+    #HochschulABCPage > h2,
+    #HochschulABCPage > h3,
+    #HochschulABCPage > h4,
+    #HochschulABCPage > h5,
+    #HochschulABCPage > ul,
+    #HochschulABCPage > ol,
+    #HochschulABCPage > table,
+    #HochschulABCPage .searchresults,
+    #StudiFilterPage > div > .container > .row > .panel,
+    #StudiFilterPage > p,
+    #StudiFilterPage > h1,
+    #StudiFilterPage > h2,
+    #StudiFilterPage > h3,
+    #StudiFilterPage > h4,
+    #StudiFilterPage > h5,
+    #StudiFilterPage > ul,
+    #StudiFilterPage > ol,
+    #StudiFilterPage > table,
+    #StudiFilterPage .searchresults,
+    #page-content > .ms-rtestate-field > div > .container > .row > .panel,
+    #page-content > .ms-rtestate-field > p,
+    #page-content > .ms-rtestate-field > h1,
+    #page-content > .ms-rtestate-field > h2,
+    #page-content > .ms-rtestate-field > h3,
+    #page-content > .ms-rtestate-field > h4,
+    #page-content > .ms-rtestate-field > h5,
+    #page-content > .ms-rtestate-field > ul,
+    #page-content > .ms-rtestate-field > ol,
+    #page-content > .ms-rtestate-field > table,
+    #page-content > .ms-rtestate-field .searchresults,
+    #page-content > .ms-siteSettings-root > div > .container > .row > .panel,
+    #page-content > .ms-siteSettings-root > p,
+    #page-content > .ms-siteSettings-root > h1,
+    #page-content > .ms-siteSettings-root > h2,
+    #page-content > .ms-siteSettings-root > h3,
+    #page-content > .ms-siteSettings-root > h4,
+    #page-content > .ms-siteSettings-root > h5,
+    #page-content > .ms-siteSettings-root > ul,
+    #page-content > .ms-siteSettings-root > ol,
+    #page-content > .ms-siteSettings-root > table,
+    #page-content > .ms-siteSettings-root .searchresults,
+    #DeltaPlaceHolderMain > div > .container > .row > .panel,
+    #DeltaPlaceHolderMain > p,
+    #DeltaPlaceHolderMain > h1,
+    #DeltaPlaceHolderMain > h2,
+    #DeltaPlaceHolderMain > h3,
+    #DeltaPlaceHolderMain > h4,
+    #DeltaPlaceHolderMain > h5,
+    #DeltaPlaceHolderMain > ul,
+    #DeltaPlaceHolderMain > ol,
+    #DeltaPlaceHolderMain > table,
+    #DeltaPlaceHolderMain .searchresults {
+      width: 1140px; } }
+
+#page-content > #ctl00_PlaceHolderMain_headRollupImage__ControlWrapper_RichImageField img {
+  margin: 0 !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  width: 100% !important;
+  height: auto !important;
+  display: block !important; }
+
+#MSO_ContentTable .ms-blog-MainArea {
+  min-width: 100%;
+  max-width: 100%; }
+
+#pageWithSidebar .mainContent {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    #pageWithSidebar .mainContent {
+      float: left;
+      width: 66.66667%; } }
+  #pageWithSidebar .mainContent h1 {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: #00aaa0; }
+
+#pageWithSidebar .sidebarContent {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    #pageWithSidebar .sidebarContent {
+      float: left;
+      width: 33.33333%; } }
+  #pageWithSidebar .sidebarContent .entry {
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 10px;
+    border-radius: 5px; }
+  #pageWithSidebar .sidebarContent .sidebarcontactprimary,
+  #pageWithSidebar .sidebarContent .sidebarcontactprimarytitle,
+  #pageWithSidebar .sidebarContent .sidebarcontactsecondary,
+  #pageWithSidebar .sidebarContent .sidebarcontactsecondarytitle {
+    text-align: left;
+    padding: 10px;
+    line-height: 25px; }
+  #pageWithSidebar .sidebarContent .sidebarcontactprimary .contact-name,
+  #pageWithSidebar .sidebarContent .sidebarcontactsecondary .contact-name {
+    font-weight: bold;
+    font-size: 19px; }
+  #pageWithSidebar .sidebarContent .sidebarcontactprimary .text,
+  #pageWithSidebar .sidebarContent .sidebarcontactsecondary .text {
+    padding-left: 5px; }
+  #pageWithSidebar .sidebarContent .sidebarcontactprimary i,
+  #pageWithSidebar .sidebarContent .sidebarcontactsecondary i {
+    width: 30px;
+    text-align: center; }
+  #pageWithSidebar .sidebarContent .entry {
+    border-color: #555555; }
+  #pageWithSidebar .sidebarContent .sidebarcontactprimarytitle,
+  #pageWithSidebar .sidebarContent .sidebarcontactsecondarytitle {
+    background-color: #394a5f;
+    color: #fff; }
 
 #StudiFilterPage img {
   margin: 0 !important;
@@ -17841,17 +18042,9 @@ Page-Layout :: Start
     border-color: #3a6ce2;
     color: #3a6ce2 !important; }
 
-#page-content > #ctl00_PlaceHolderMain_headRollupImage__ControlWrapper_RichImageField img {
-  margin: 0 !important;
-  max-width: 100% !important;
-  min-width: 100% !important;
-  width: 100% !important;
-  height: auto !important;
-  display: block !important; }
-
-#MSO_ContentTable .ms-blog-MainArea {
-  min-width: 100%;
-  max-width: 100%; }
+#StudiFilterPage #studiFilterPageContent h1 {
+  text-align: left;
+  font-weight: 500; }
 
 /* ============================================================================
 		Reusable Content  :: Start
@@ -18129,7 +18322,7 @@ div[id^='ctl00_PlaceHolderMain'][id$='RichHtmlField_displayContent'] > * {
     .major-NewsInfo-wrapper .major-news-wrapper .header-title .title,
     .major-NewsInfo-wrapper .major-infos-wrapper .header-title .title {
       border-bottom: 4px solid #00aaa0;
-      font-size: 19px;
+      font-size: 17px;
       padding-bottom: 10px; }
   .major-NewsInfo-wrapper .major-news-wrapper .body,
   .major-NewsInfo-wrapper .major-infos-wrapper .body {
