@@ -32,7 +32,7 @@
     a {
       vertical-align: middle;
       text-align: center;
-      font-size: $font-size-large;
+      font-size: 17px;
     }
     a:hover {
       text-decoration: none;
@@ -56,7 +56,8 @@
   }
 }
 //
-.interRestGroup-color {
+.interRestGroup-color,
+.interRestGroup-default {
   @include button-color( $green-light, $green);
 }
 .interRestGroup-fc-bw {

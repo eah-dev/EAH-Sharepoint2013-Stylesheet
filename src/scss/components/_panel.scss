@@ -53,6 +53,9 @@
 .panel-blue,
 .panel-default {
   @include panel-variant($bg-color-blue, $white, $bg-color-blue, $bg-color-blue);
+  .panel-title a {
+    color: $white;
+  }
 }
 
 // Panel Farbe - green

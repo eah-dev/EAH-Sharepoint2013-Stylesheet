@@ -97,67 +97,67 @@ group: components
 
   <section class="container">
     {% highlight html %}
-    <section class="element-wrapper">
+    <section class="element-wrapper interRestGroup-default">
       <div class="container">
         <div class="row">
-          <div class="major-interRestGroup-wrapper">
+          <div class="interRestGroup-wrapper">
             <div class="col-xs-6 col-sm-4 col-md-2 no-padding">
-              <div class="major-interRestGroup">
+              <div class="interRestGroup-icon">
                 <a href="http://www.gostudy.eah-jena.de">
-                  <div class="major-interRestGroup-img">
-                    <img src="/_catalogs/masterpage/layouts/eah-jena/images/icons/icon-schueler.svg" alt="icon-schueler" />
+                  <div class="interRestGroup-icon-img">
+                    <img src="/Style%20Library/eah-jena/images/svg/icon-schueler.svg" alt="icon-schueler" />
                   </div>
-                  <div class="major-interRestGroup-text"> Schüler </div>
+                  <div class="interRestGroup-icon-text"> Schüler </div>
                 </a>
               </div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-2 no-padding">
-              <div class="major-interRestGroup">
-                <a href="https://www.beta.eah-jena.de/de-de/studieninteressierte">
-                  <div class="major-interRestGroup-img">
-                    <img src="/_catalogs/masterpage/layouts/eah-jena/images/icons/icon-lampe.svg" alt="icon-studien-interessierte" />
+              <div class="interRestGroup-icon">
+                <a href="https://www.eah-jena.de/de-de/studieninteressierte">
+                  <div class="interRestGroup-icon-img">
+                    <img src="/Style%20Library/eah-jena/images/svg/icon-lampe.svg" alt="icon-studien-interessierte" />
                   </div>
-                  <div class="major-interRestGroup-text"> Studieninteressierte </div>
+                  <div class="interRestGroup-icon-text"> Studieninteressierte </div>
                 </a>
               </div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-2 no-padding">
-              <div class="major-interRestGroup">
-                <a href="https://www.beta.eah-jena.de/de-de/studierende">
-                  <div class="major-interRestGroup-img">
-                    <img src="/_catalogs/masterpage/layouts/eah-jena/images/icons/icon-studierende.svg" alt="icon-studierende" />
+              <div class="interRestGroup-icon">
+                <a href="https://www.eah-jena.de/de-de/studierende">
+                  <div class="interRestGroup-icon-img">
+                    <img src="/Style%20Library/eah-jena/images/svg/icon-studierende.svg" alt="icon-studierende" />
                   </div>
-                  <div class="major-interRestGroup-text"> Studierende </div>
+                  <div class="interRestGroup-icon-text"> Studierende </div>
                 </a>
               </div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-2 no-padding">
-              <div class="major-interRestGroup">
-                <a href="https://www.beta.eah-jena.de/de-de/alumni">
-                  <div class="major-interRestGroup-img">
-                    <img src="/_catalogs/masterpage/layouts/eah-jena/images/icons/icon-hochschulhut.svg" alt="icon-alumni" />
+              <div class="interRestGroup-icon">
+                <a href="https://www.eah-jena.de/de-de/alumni">
+                  <div class="interRestGroup-icon-img">
+                    <img src="/Style%20Library/eah-jena/images/svg/icon-hochschulhut.svg" alt="icon-alumni" />
                   </div>
-                  <div class="major-interRestGroup-text"> Alumni </div>
+                  <div class="interRestGroup-icon-text"> Alumni </div>
                 </a>
               </div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-2 no-padding">
-              <div class="major-interRestGroup">
-                <a href="https://www.beta.eah-jena.de/de-de/unternehmen">
-                  <div class="major-interRestGroup-img">
-                    <img src="/_catalogs/masterpage/layouts/eah-jena/images/icons/icon-unternehmen.svg" alt="icon-unternehmen" />
+              <div class="interRestGroup-icon">
+                <a href="https://www.eah-jena.de/de-de/unternehmen">
+                  <div class="interRestGroup-icon-img">
+                    <img src="/Style%20Library/eah-jena/images/svg/icon-unternehmen.svg" alt="icon-unternehmen" />
                   </div>
-                  <div class="major-interRestGroup-text"> Unternehmen </div>
+                  <div class="interRestGroup-icon-text"> Unternehmen </div>
                 </a>
               </div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-2 no-padding">
-              <div class="major-interRestGroup">
+              <div class="interRestGroup-icon">
                 <a href="https://campusnet.eah-jena.de">
-                  <div class="major-interRestGroup-img">
-                    <img src="/_catalogs/masterpage/layouts/eah-jena/images/icons/icon-visitenkarte.svg" alt="icon-mitarbeiter" />
+                  <div class="interRestGroup-icon-img">
+                    <img src="/Style%20Library/eah-jena/images/svg/icon-visitenkarte.svg" alt="icon-mitarbeiter" />
                   </div>
-                  <div class="major-interRestGroup-text"> Mitarbeiter </div>
+                  <div class="interRestGroup-icon-text"> Mitarbeiter </div>
                 </a>
               </div>
             </div>
