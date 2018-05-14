@@ -9,10 +9,13 @@
     margin: 0;
     text-align: left;
     font-weight: 500;
+    font-size: 1.3em;
   }
   .subTitle {
     margin: 0;
     padding: 10px 0;
+    font-size: 1.3em;
+    font-weight: 400;
   }
 
   // angaben fuer beide elemente
@@ -38,34 +41,6 @@
     @include make-xs-column(12);
     @include make-md-column(4);
     //
-    .entry {
-      border-style: solid;
-      border-width: 1px;
-      margin-bottom: 10px;
-      border-radius: 5px;
-    }
-    .sidebarcontactprimary,
-    .sidebarcontactprimarytitle,
-    .sidebarcontactsecondary,
-    .sidebarcontactsecondarytitle {
-      text-align: left;
-      padding: 10px;
-      line-height: 25px;
-    }
-    .sidebarcontactprimary,
-    .sidebarcontactsecondary {
-      .contact-name {
-        font-weight: bold;
-        font-size: 19px;
-      }
-      .text {
-        padding-left: 5px;
-      }
-      i {
-        width: 30px;
-        text-align: center;
-      }
-    }
   }
 }
 
@@ -81,13 +56,6 @@
     }
   }
   .sidebar {
-    .entry {
-      border-color: $gray;
-    }
-    .sidebarcontactprimarytitle,
-    .sidebarcontactsecondarytitle {
-      background-color: $blue;
-      color: $white;
-    }
+    //
   }
 }
