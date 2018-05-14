@@ -400,13 +400,13 @@ h6, .h6 {
     font-size: 75%; }
 
 h1, .h1 {
-  font-size: 2em !important; }
+  font-size: 1.5em !important; }
 
 h2, .h2 {
-  font-size: 1.7em; }
+  font-size: 1.4em; }
 
 h3, .h3 {
-  font-size: 1.4em; }
+  font-size: 1.3em; }
 
 h4, .h4 {
   font-size: 18px; }
@@ -10825,19 +10825,19 @@ button.close {
 		default html tags  :: Start
 ============================================================================ */
 h1 {
-  font-size: 2em !important; }
+  font-size: 1.5em !important; }
 
 @media (min-width: 480px) {
   h1 {
-    font-size: 1.7em; }
+    font-size: 1.4em; }
   h2 {
-    font-size: 1.4em; } }
+    font-size: 1.3em; } }
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 2em !important; }
+    font-size: 1.5em !important; }
   h2 {
-    font-size: 1.7em; } }
+    font-size: 1.4em; } }
 
 body {
   height: 100%;
@@ -11026,7 +11026,7 @@ ul.three-up {
   position: absolute;
   z-index: 3;
   text-align: center;
-  font-size: 1.7em; }
+  font-size: 1.4em; }
 
 /*
 // fa-external-link
@@ -11387,7 +11387,7 @@ XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer auf
   .articelblock-wrapper h2,
   .articelblock-wrapper .title {
     padding-bottom: 15px;
-    font-size: 1.7em; }
+    font-size: 1.4em; }
   .articelblock-wrapper p {
     text-align: left; }
 
@@ -11428,7 +11428,7 @@ XXXXX-color in dieser klasse stehen nur farbwerte ansonsten fast idendischer auf
 		article :: Start
 ============================================================================ */
 .article-wrapper .article-text .title {
-  font-size: 1.7em;
+  font-size: 1.4em;
   margin-top: 25px;
   padding-bottom: 15px;
   margin-bottom: 12.5px; }
@@ -11884,44 +11884,39 @@ button[disabled][disabled] {
   display: none; }
 
 #carousel-home-sidebar-wrapper {
-  margin-left: -15px;
-  margin-right: -15px; }
+  margin-left: 0; }
+  @media (min-width: 992px) {
+    #carousel-home-sidebar-wrapper {
+      margin-left: -15px;
+      margin-right: -15px; } }
   #carousel-home-sidebar-wrapper .carousel-home-content {
+    padding: 0 !important;
     position: relative;
     float: left;
     width: 100%;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
+    padding-left: 7.5;
+    padding-right: 7.5; }
     @media (min-width: 992px) {
       #carousel-home-sidebar-wrapper .carousel-home-content {
         float: left;
         width: 83.33333%; } }
     @media (min-width: 992px) {
       #carousel-home-sidebar-wrapper .carousel-home-content {
-        padding-left: 0; } }
-    #carousel-home-sidebar-wrapper .carousel-home-content .carousel-indicators {
-      z-index: 2;
-      bottom: 0;
-      margin-left: -30% !important; }
-      #carousel-home-sidebar-wrapper .carousel-home-content .carousel-indicators li {
-        margin: 0 9px !important;
-        width: 30px !important;
-        height: 2px !important;
-        display: inline;
-        border-radius: 5px; }
-      #carousel-home-sidebar-wrapper .carousel-home-content .carousel-indicators .active {
-        border: 5px solid #00aaa0;
-        background-color: #00aaa0;
-        color: #fff; }
+        padding-left: 0 !important;
+        padding-right: 15px !important; } }
     #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner {
-      height: 450px; }
-      #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-bgimg .carousel-bgimg-img {
-        height: 400px; }
+      /*
+      @media (min-width: $screen-md-min) {
+        height: 450px;
+      } */ }
+      @media (min-width: 992px) {
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-bgimg .carousel-bgimg-img {
+          height: 380px; } }
       #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption {
         margin: 0 10px 20px;
         padding: 10px;
@@ -11952,12 +11947,25 @@ button[disabled][disabled] {
             text-align: left;
             font-size: 15px;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
-        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .btn {
-          margin-top: 20px; }
+    #carousel-home-sidebar-wrapper .carousel-home-content .carousel-indicators {
+      z-index: 2;
+      bottom: 0;
+      position: static;
+      margin-left: 20%;
+      padding-top: 20px; }
+      #carousel-home-sidebar-wrapper .carousel-home-content .carousel-indicators li {
+        margin: 0 9px !important;
+        width: 30px !important;
+        height: 2px !important;
+        display: inline;
+        border-radius: 5px; }
+      #carousel-home-sidebar-wrapper .carousel-home-content .carousel-indicators .active {
+        border: 5px solid #00aaa0;
+        background-color: #00aaa0;
+        color: #fff; }
     #carousel-home-sidebar-wrapper .carousel-home-content .carousel-control {
       display: none; }
   #carousel-home-sidebar-wrapper .carousel-home-sidebar {
-    margin-top: 15px;
     padding-top: 0;
     float: left;
     box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
@@ -11965,54 +11973,131 @@ button[disabled][disabled] {
     float: left;
     width: 100%;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
+    padding-left: 0;
+    padding-right: 0; }
     @media (min-width: 992px) {
       #carousel-home-sidebar-wrapper .carousel-home-sidebar {
         float: left;
         width: 16.66667%; } }
     @media (min-width: 992px) {
       #carousel-home-sidebar-wrapper .carousel-home-sidebar {
-        margin-top: 0;
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0; } }
-    #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry {
-      height: 150px;
-      color: #555555;
+        margin: 0;
+        padding-top: 0; } }
+    #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width {
+      padding-top: 15px;
+      padding-bottom: 10px;
       position: relative;
       float: left;
-      width: 33.33333%;
+      width: 100%;
       min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 0;
+      padding-right: 0;
+      position: relative;
+      min-height: 1px;
+      padding-left: 0;
+      padding-right: 0;
       position: relative;
       min-height: 1px;
       padding-left: 15px;
       padding-right: 15px; }
+      @media (min-width: 768px) {
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width {
+          float: left;
+          width: 33.33333%; } }
+      @media (min-width: 992px) {
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width {
+          float: left;
+          width: 100%; } }
+    #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry {
+      padding-top: 10px;
+      padding-bottom: 15px;
+      position: relative;
+      float: left;
+      width: 50%;
+      min-height: 1px;
+      padding-left: 0;
+      padding-right: 0;
+      position: relative;
+      min-height: 1px;
+      padding-left: 0;
+      padding-right: 0;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      @media (min-width: 768px) {
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry {
+          float: left;
+          width: 33.33333%; } }
       @media (min-width: 992px) {
         #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry {
           float: left;
           width: 100%; } }
-      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry .sidebar-img, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .sidebar-img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry .sidebar-img {
-        text-align: center;
-        padding-top: 30px; }
-      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry img, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry img {
+    #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry,
+    #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width,
+    #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+    #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width {
+      color: #555555;
+      height: 80px; }
+      @media (min-width: 480px) {
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry,
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width,
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width {
+          height: 110px;
+          padding-top: 20px;
+          padding-bottom: 20px; } }
+      @media (min-width: 768px) {
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry,
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width,
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width {
+          height: 140px;
+          padding-top: 30px;
+          padding-bottom: 30px; } }
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry .sidebar-img, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .sidebar-img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry .sidebar-img,
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width .sidebar-img,
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width .sidebar-img, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width .sidebar-img {
+        text-align: center; }
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry img, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry img,
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width img,
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width img, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width img {
         margin-left: auto;
         margin-right: auto;
-        height: 40px;
-        width: 40px; }
-      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry .title, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry .title {
+        height: 25px;
+        width: 25px; }
+        @media (min-width: 480px) {
+          #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry img, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry img,
+          #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width img,
+          #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width img, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+          #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width img {
+            height: 40px;
+            width: 40px; } }
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry .title, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry .title,
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width .title,
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width .title {
         padding-top: 10px;
         vertical-align: middle;
         text-align: center;
-        font-size: 17px; }
+        font-size: 1em; }
+        @media (min-width: 480px) {
+          #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry .title, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry .title,
+          #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width .title,
+          #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+          #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width .title {
+            font-size: 1.2em; } }
       @media screen and (min-width: 992px) {
-        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry:hover, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry:hover {
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry:hover, #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry:hover,
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar a .entry-width:hover,
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+        #carousel-home-sidebar-wrapper .carousel-home-sidebar li > span .entry-width:hover {
           padding-left: 11px;
           border-left-style: solid;
           border-left-width: 4px;
@@ -12147,7 +12232,7 @@ button[disabled][disabled] {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: left;
-  font-size: 1.4em; }
+  font-size: 1.3em; }
   .contacts-wrapper .title .spantitle {
     padding-bottom: 4px;
     border-bottom-style: solid;
@@ -12164,7 +12249,7 @@ button[disabled][disabled] {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     text-align: left;
-    font-size: 1.4em; }
+    font-size: 1.3em; }
     .contact-wrapper .title .spantitle {
       padding-bottom: 4px;
       border-bottom-style: solid;
@@ -14325,6 +14410,132 @@ button[disabled][disabled] {
         color: #000; }
 
 /* ============================================================================
+		contact :: Start
+============================================================================ */
+.contactSidebar-wrapper {
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px; }
+  .contactSidebar-wrapper .contactSidebarTitle {
+    padding: 10px;
+    text-align: left;
+    line-height: 25px; }
+  .contactSidebar-wrapper .contactSidebarContent {
+    padding: 10px;
+    text-align: left;
+    line-height: 25px; }
+    .contactSidebar-wrapper .contactSidebarContent i {
+      width: 30px;
+      text-align: center; }
+    .contactSidebar-wrapper .contactSidebarContent .contact-img {
+      margin-bottom: 10px; }
+    .contactSidebar-wrapper .contactSidebarContent .contact-name {
+      font-weight: bold;
+      font-size: 19px; }
+    .contactSidebar-wrapper .contactSidebarContent a:link, .contactSidebar-wrapper .contactSidebarContent #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:link, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-wrapper .contactSidebarContent li > span:link, .contactSidebar-wrapper .contactSidebarContent a:visited, .contactSidebar-wrapper .contactSidebarContent #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:visited, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-wrapper .contactSidebarContent li > span:visited, .contactSidebar-wrapper .contactSidebarContent a:hover, .contactSidebar-wrapper .contactSidebarContent #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-wrapper .contactSidebarContent li > span:hover, .contactSidebar-wrapper .contactSidebarContent a:focus, .contactSidebar-wrapper .contactSidebarContent #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-wrapper .contactSidebarContent li > span:focus, .contactSidebar-wrapper .contactSidebarContent a:active, .contactSidebar-wrapper .contactSidebarContent #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-wrapper .contactSidebarContent li > span:active {
+      text-decoration: none; }
+
+.contactSidebar-default {
+  border-color: #555555; }
+  .contactSidebar-default .contactSidebarTitle {
+    background-color: #394a5f;
+    color: #fff; }
+  .contactSidebar-default .contactSidebarContent .contact-name {
+    color: #000; }
+  .contactSidebar-default .contactSidebarContent .contact-institution,
+  .contactSidebar-default .contactSidebarContent .contact-jobtitle {
+    color: #000; }
+  .contactSidebar-default .contactSidebarContent .contact-workphone i,
+  .contactSidebar-default .contactSidebarContent .contact-workfax i,
+  .contactSidebar-default .contactSidebarContent .contact-email i,
+  .contactSidebar-default .contactSidebarContent .contact-roomnumber i,
+  .contactSidebar-default .contactSidebarContent .contact-servicetime i {
+    color: #000; }
+  .contactSidebar-default .contactSidebarContent .contact-workphone .value,
+  .contactSidebar-default .contactSidebarContent .contact-workfax .value,
+  .contactSidebar-default .contactSidebarContent .contact-email .value,
+  .contactSidebar-default .contactSidebarContent .contact-roomnumber .value,
+  .contactSidebar-default .contactSidebarContent .contact-servicetime .value {
+    color: #000; }
+    .contactSidebar-default .contactSidebarContent .contact-workphone .value a, .contactSidebar-default .contactSidebarContent .contact-workphone .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-default .contactSidebarContent .contact-workphone .value li > span,
+    .contactSidebar-default .contactSidebarContent .contact-workfax .value a,
+    .contactSidebar-default .contactSidebarContent .contact-workfax .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+    .contactSidebar-default .contactSidebarContent .contact-workfax .value li > span,
+    .contactSidebar-default .contactSidebarContent .contact-email .value a,
+    .contactSidebar-default .contactSidebarContent .contact-email .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+    .contactSidebar-default .contactSidebarContent .contact-email .value li > span,
+    .contactSidebar-default .contactSidebarContent .contact-roomnumber .value a,
+    .contactSidebar-default .contactSidebarContent .contact-roomnumber .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+    .contactSidebar-default .contactSidebarContent .contact-roomnumber .value li > span,
+    .contactSidebar-default .contactSidebarContent .contact-servicetime .value a,
+    .contactSidebar-default .contactSidebarContent .contact-servicetime .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+    .contactSidebar-default .contactSidebarContent .contact-servicetime .value li > span {
+      color: #00aaa0; }
+      .contactSidebar-default .contactSidebarContent .contact-workphone .value a:link, .contactSidebar-default .contactSidebarContent .contact-workphone .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:link, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-default .contactSidebarContent .contact-workphone .value li > span:link, .contactSidebar-default .contactSidebarContent .contact-workphone .value a:visited, .contactSidebar-default .contactSidebarContent .contact-workphone .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:visited, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-default .contactSidebarContent .contact-workphone .value li > span:visited, .contactSidebar-default .contactSidebarContent .contact-workphone .value a:hover, .contactSidebar-default .contactSidebarContent .contact-workphone .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-default .contactSidebarContent .contact-workphone .value li > span:hover, .contactSidebar-default .contactSidebarContent .contact-workphone .value a:focus, .contactSidebar-default .contactSidebarContent .contact-workphone .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-default .contactSidebarContent .contact-workphone .value li > span:focus, .contactSidebar-default .contactSidebarContent .contact-workphone .value a:active, .contactSidebar-default .contactSidebarContent .contact-workphone .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .contactSidebar-default .contactSidebarContent .contact-workphone .value li > span:active,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value a:link,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:link, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value li > span:link,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value a:visited,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:visited, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value li > span:visited,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value a:hover,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value li > span:hover,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value a:focus,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value li > span:focus,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value a:active,
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-workfax .value li > span:active,
+      .contactSidebar-default .contactSidebarContent .contact-email .value a:link,
+      .contactSidebar-default .contactSidebarContent .contact-email .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:link, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-email .value li > span:link,
+      .contactSidebar-default .contactSidebarContent .contact-email .value a:visited,
+      .contactSidebar-default .contactSidebarContent .contact-email .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:visited, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-email .value li > span:visited,
+      .contactSidebar-default .contactSidebarContent .contact-email .value a:hover,
+      .contactSidebar-default .contactSidebarContent .contact-email .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-email .value li > span:hover,
+      .contactSidebar-default .contactSidebarContent .contact-email .value a:focus,
+      .contactSidebar-default .contactSidebarContent .contact-email .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-email .value li > span:focus,
+      .contactSidebar-default .contactSidebarContent .contact-email .value a:active,
+      .contactSidebar-default .contactSidebarContent .contact-email .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-email .value li > span:active,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value a:link,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:link, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value li > span:link,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value a:visited,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:visited, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value li > span:visited,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value a:hover,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value li > span:hover,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value a:focus,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value li > span:focus,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value a:active,
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-roomnumber .value li > span:active,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value a:link,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:link, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value li > span:link,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value a:visited,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:visited, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value li > span:visited,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value a:hover,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value li > span:hover,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value a:focus,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value li > span:focus,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value a:active,
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+      .contactSidebar-default .contactSidebarContent .contact-servicetime .value li > span:active {
+        color: #00aaa0; }
+
+/* ============================================================================
 		interRestGroup :: Start
 ============================================================================ */
 .interRestGroup-wrapper {
@@ -15652,10 +15863,13 @@ button[disabled][disabled] {
     padding: 0;
     margin: 0;
     text-align: left;
-    font-weight: 500; }
+    font-weight: 500;
+    font-size: 1.3em; }
   #studiengaengepage-wrapper .subTitle {
     margin: 0;
-    padding: 10px 0; }
+    padding: 10px 0;
+    font-size: 1.3em;
+    font-weight: 400; }
   #studiengaengepage-wrapper .content .panel ul,
   #studiengaengepage-wrapper .sidebar .panel ul {
     padding-left: 15px; }
@@ -15692,43 +15906,12 @@ button[disabled][disabled] {
       #studiengaengepage-wrapper .sidebar {
         float: left;
         width: 33.33333%; } }
-    #studiengaengepage-wrapper .sidebar .entry {
-      border-style: solid;
-      border-width: 1px;
-      margin-bottom: 10px;
-      border-radius: 5px; }
-    #studiengaengepage-wrapper .sidebar .sidebarcontactprimary,
-    #studiengaengepage-wrapper .sidebar .sidebarcontactprimarytitle,
-    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondary,
-    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondarytitle {
-      text-align: left;
-      padding: 10px;
-      line-height: 25px; }
-    #studiengaengepage-wrapper .sidebar .sidebarcontactprimary .contact-name,
-    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondary .contact-name {
-      font-weight: bold;
-      font-size: 19px; }
-    #studiengaengepage-wrapper .sidebar .sidebarcontactprimary .text,
-    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondary .text {
-      padding-left: 5px; }
-    #studiengaengepage-wrapper .sidebar .sidebarcontactprimary i,
-    #studiengaengepage-wrapper .sidebar .sidebarcontactsecondary i {
-      width: 30px;
-      text-align: center; }
 
 .studiengaengepage-default .content h1 {
   color: #00aaa0; }
 
 .studiengaengepage-default .content h2 {
   color: #394a5f; }
-
-.studiengaengepage-default .sidebar .entry {
-  border-color: #555555; }
-
-.studiengaengepage-default .sidebar .sidebarcontactprimarytitle,
-.studiengaengepage-default .sidebar .sidebarcontactsecondarytitle {
-  background-color: #394a5f;
-  color: #fff; }
 
 /* ============================================================================
 		Seite - Oeffentliche Ausschreibungen :: Start
@@ -15788,7 +15971,7 @@ button[disabled][disabled] {
 ============================================================================ */
 .processtask-wrapper .processtask-header-icon {
   text-align: center;
-  font-size: 2em !important; }
+  font-size: 1.5em !important; }
 
 .processtask-wrapper .processtask-content {
   border-style: solid;
@@ -16406,7 +16589,7 @@ button[disabled][disabled] {
   .eah-form-wrapper .eah-form .loader {
     background-color: #eeeeee; }
   .eah-form-wrapper .eah-form h3.form-header {
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: #00aaa0;
     text-align: center; }
   .eah-form-wrapper .eah-form .panel-eah {
@@ -16573,7 +16756,7 @@ button[disabled][disabled] {
   text-align: center; }
   #f .ms-srch-sb-border,
   #f .ms-srch-sb-borderFocused {
-    font-size: 1.4em;
+    font-size: 1.3em;
     width: 50%;
     border: none;
     border-bottom: 2px solid #394a5f; }
@@ -16589,15 +16772,15 @@ button[disabled][disabled] {
     #f .ms-srch-sb-borderFocused #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
     #f .ms-srch-sb-borderFocused li > span,
     #f .ms-srch-sb-borderFocused i {
-      font-size: 1.4em; }
+      font-size: 1.3em; }
   #f .ms-srch-sb > input,
   #f .ms-srch-sb > input:active {
     width: 80%;
     color: #394a5f;
     padding: 0;
     margin: 0;
-    height: 1.4em;
-    line-height: 1.4em; }
+    height: 1.3em;
+    line-height: 1.3em; }
   #f .ms-srch-sb .ms-srch-sb-searchLink {
     height: 33px;
     width: 33px;
@@ -17309,7 +17492,7 @@ Main-Navigation :: Start
 #DeltaPlaceHolderMain > div > .container > h1 {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-weight: 400;
+  font-size: 1.5em !important;
   color: #00aaa0; }
 
 #HochschulABCPage > h1 a:hover, #HochschulABCPage > h1 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #HochschulABCPage > h1 li > span:hover,
@@ -17369,8 +17552,7 @@ Main-Navigation :: Start
 #DeltaPlaceHolderMain > div > .container > h2 {
   padding-top: 5px;
   padding-bottom: 10px;
-  font-size: 1.7em;
-  font-weight: 400;
+  font-size: 1.4em;
   color: #394a5f; }
 
 #HochschulABCPage > h2 a:hover, #HochschulABCPage > h2 #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #HochschulABCPage > h2 li > span:hover,
@@ -17448,7 +17630,7 @@ Main-Navigation :: Start
 #DeltaPlaceHolderMain > div > .container > h4 {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 400;
   color: #394a5f; }
 
@@ -17605,7 +17787,7 @@ Main-Navigation :: Start
 #page-content > .ms-rtestate-field h1,
 #page-content > .ms-siteSettings-root h1,
 #DeltaPlaceHolderMain h1 {
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: center;
@@ -18286,12 +18468,19 @@ div[id^='ctl00_PlaceHolderMain'][id$='RichHtmlField_displayContent'] > * {
     background-color: #fff;
     position: relative; }
     .major-interRestGroup-wrapper .major-interRestGroup img {
-      width: 40px;
-      height: 40px; }
+      width: 25px;
+      height: 25px; }
+      @media (min-width: 480px) {
+        .major-interRestGroup-wrapper .major-interRestGroup img {
+          width: 40px;
+          height: 40px; } }
     .major-interRestGroup-wrapper .major-interRestGroup a, .major-interRestGroup-wrapper .major-interRestGroup #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .major-interRestGroup-wrapper .major-interRestGroup li > span {
       vertical-align: middle;
       text-align: center;
-      font-size: 19px; }
+      font-size: 1em; }
+      @media (min-width: 480px) {
+        .major-interRestGroup-wrapper .major-interRestGroup a, .major-interRestGroup-wrapper .major-interRestGroup #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .major-interRestGroup-wrapper .major-interRestGroup li > span {
+          font-size: 1.2em; } }
     .major-interRestGroup-wrapper .major-interRestGroup a:hover, .major-interRestGroup-wrapper .major-interRestGroup #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .major-interRestGroup-wrapper .major-interRestGroup li > span:hover {
       text-decoration: none; }
     .major-interRestGroup-wrapper .major-interRestGroup .major-interRestGroup-img {
@@ -18759,7 +18948,7 @@ div.table {
 
 .studiefilter-wrapper .studiefilter-header-wrapper .header-title {
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.4em;
   padding-bottom: 10px; }
 
 .studiefilter-wrapper .studiefilter-main-wrapper {
@@ -18772,7 +18961,7 @@ div.table {
     height: 170px; }
   .studiefilter-wrapper .studiefilter-main-wrapper .filter-title {
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding-bottom: 20px;
     font-weight: 600; }
   .studiefilter-wrapper .studiefilter-main-wrapper .button-section {
