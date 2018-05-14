@@ -103,41 +103,40 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
 }
 // carousel - element with a sidbar
 #carousel-home-sidebar-wrapper {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 0;
+  //
+  @media (min-width: $screen-md-min) {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
   .carousel-home-content {
-    @include make-xs-column(12);
-    @include make-md-column(10);
+    padding: 0 !important;
+    //
+    @include make-xs-column(12, 0);
+    @include make-md-column(10, 15);
     //
     //
     @media (min-width: $screen-md-min) {
-      padding-left: 0;
-    }
-    .carousel-indicators {
-      z-index: 2;
-      bottom: 0;
-      margin-left: -30% !important;
-      li {
-        margin: 0 9px !important;
-        width: 30px !important;
-        height: 2px !important;
-        display: inline;
-        border-radius: 5px;
-      }
-      .active {
-        border: 5px solid $green;
-        background-color: $green;
-        color: $white;
-      }
+      padding-left: 0 !important;
+      padding-right: 15px !important;
     }
     .carousel-inner {
-      height: 450px;
+      // height: 330px;
+
+      /*
+      @media (min-width: $screen-md-min) {
+        height: 450px;
+      } */
       // width: 750px
       .item {
         .carousel-bgimg {
           .carousel-bgimg-img {
             // width: 100%;
-            height: 400px;
+            // height: 400px;
+            //
+            @media (min-width: $screen-md-min) {
+              height: 380px;
+            }
           }
         }
         //Beschreibungsleiste im Carousel
@@ -183,9 +182,29 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
             }
           }
           .btn {
-            margin-top: 20px;
+            // margin-top: 20px;
           }
         }
+      }
+    }
+    .carousel-indicators {
+      z-index: 2;
+      bottom: 0;
+      // margin-left: -30% !important;
+      position: static;
+      margin-left: 20%;
+      padding-top: 20px;
+      li {
+        margin: 0 9px !important;
+        width: 30px !important;
+        height: 2px !important;
+        display: inline;
+        border-radius: 5px;
+      }
+      .active {
+        border: 5px solid $green;
+        background-color: $green;
+        color: $white;
       }
     }
     // sollen nicht mehr sichtbar sein
@@ -195,7 +214,7 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
   }
   // Sidebar
   .carousel-home-sidebar {
-    margin-top: 15px;
+    // margin: 10px;
     padding-top: 0;
     // margin-right: -15px;
     float: left;
@@ -203,43 +222,78 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
     // padding-right: 15px;
     box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
     // viewports
-    @include make-xs-column(12);
-    @include make-md-column(2);
+    @include make-xs-column(12, 0);
+    @include make-md-column(2, 0);
     // @include make-row();
     //
     @media (min-width: $screen-md-min) {
-      margin-top: 0;
+      margin: 0;
       // margin-left: 15px;
       padding-top: 0;
-      padding-left: 0;
-      padding-right: 0;
+      // padding-left: 0;
+      // padding-right: 0;
       // float: right;
       // padding-bottom: 0;
     }
     a {
-      .entry {
-        // padding: 0;
-        height: 150px;
-        color: $gray;
+      .entry-width {
+        padding-top: 15px;
+        padding-bottom: 10px;
         //
-        @include make-xs-column(4);
+        @include make-xs-column(12, 0);
+        @include make-sm-column(4, 0);
         @include make-md-column(12);
-        // @include make-row();
+      }
+      .entry {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        //
+        @include make-xs-column(6, 0);
+        @include make-sm-column(4, 0);
+        @include make-md-column(12);
+      }
+      .entry,
+      .entry-width {
+        color: $gray;
+        height: 80px;
+        //
+        @media (min-width: $screen-xs-min) {
+          height: 110px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+        //
+        @media (min-width: $screen-sm-min) {
+          height: 140px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
         .sidebar-img {
           text-align: center;
-          padding-top: 30px;
+          //
+          // @media (min-width: $screen-xs-min) {
+          // }
         }
         img {
           margin-left: auto;
           margin-right: auto;
-          height: 40px;
-          width: 40px;
+          height: 25px;
+          width: 25px;
+          //
+          @media (min-width: $screen-xs-min) {
+            height: 40px;
+            width: 40px;
+          }
         }
         .title {
           padding-top: 10px;
           vertical-align: middle;
           text-align: center;
-          font-size: 17px;
+          font-size: 1em;
+          //
+          @media (min-width: $screen-xs-min) {
+            font-size: 1.2em;
+          }
           //
         }
         //
