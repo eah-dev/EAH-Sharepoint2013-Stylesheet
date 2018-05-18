@@ -7,7 +7,7 @@ $carousel-font-headline-size:   22px;
 $carousel-font-headline-family:  "Roboto-Medium";
 $carousel-font-subheadline-size:      15px;
 $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-serif;
-//
+// veraltet
 #carousel-home {
   .carousel-indicators {
     z-index: 2;
@@ -314,7 +314,8 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
 .maincarouselSidebar-default {
   .carousel-home-sidebar {
     a {
-      .entry {
+      .entry,
+      .entry-width {
         &:hover,
         &:active,
         &:focus {
