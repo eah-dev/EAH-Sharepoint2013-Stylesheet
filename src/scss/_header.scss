@@ -92,6 +92,50 @@
     }
   }
 }
+// new nav
+#workspace-top-navigation {
+  .sub-top-navigation {
+    background-color: $green;
+    color: $white;
+    .showSiteLogoImage {
+      height: 55px;
+    }
+    .navbar-toggle {
+      border-color: $blue;
+      background-color: $blue;
+      color: $blue;
+      float: right;
+      margin: 28px 0;
+      .icon-bar {
+        background-color: $white;
+      }
+    }
+    .navbar-brand {
+      height: 80px;
+    }
+    .headersubnav {
+      padding: 28px 0;
+      text-align: center;
+      width: 100%;
+      float: left;
+      //
+      @media screen and (min-width: $screen-sm) {
+        float: right;
+        width: 150px;
+      }
+      .showLoginLink {
+        padding-left: 15px;
+      }
+    }
+  }
+  .main-top-navigation {
+    padding-top: 15px;
+    // this edit link must be hidded
+    .ms-navedit-editArea {
+      display: none;
+    }
+  }
+}
 .eah-accentbar {
   //
 }
