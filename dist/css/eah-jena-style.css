@@ -10865,6 +10865,48 @@ textarea {
 /* ============================================================================
 		Sharepoint 2013 Vorlagen  :: Start
 ============================================================================ */
+/* SharePoint hates box-sizing:border-box * /
+#s4-ribbonrow *,
+#s4-ribbonrow *::before,
+#s4-ribbonrow *::after,
+#ms-help *,
+*[class*='ms-core-menu'],
+*[class*='ms-dlg'],
+*[class*='ms-dlg']::before,
+*[class*='ms-dlg']::after,
+.ms-dlgFrameContainer > div,
+.ms-dlgFrameContainer > div::before,
+.ms-dlgFrameContainer > div::after,
+.ms-dlgFrameContainer > div > div,
+.ms-dlgFrameContainer > div > div::before,
+.ms-dlgFrameContainer > div > div::after,
+.ms-MenuUIPopupBody,
+.ms-MenuUIPopupBody::before,
+.ms-MenuUIPopupBody::after,
+.ms-MenuUIPopupBody *,
+.ms-MenuUIPopupBody *::before,
+.ms-MenuUIPopupBody *::after,
+.ms-ToolPaneOuter,
+.ms-ToolPaneOuter::before,
+.ms-ToolPaneOuter::after,
+.ms-ToolPaneOuter *,
+.ms-ToolPaneOuter *::before,
+.ms-ToolPaneOuter *::after,
+*[class*='ms-cui'],
+*[class*='ms-cui']::before,
+*[class*='ms-cui']::after,
+*[class*='ms-cui'] *,
+*[class*='ms-cui'] *::before,
+*[class*='ms-cui'] *::after,
+*[class*='ms-dlg'] *,
+*[class*='ms-dlg'] *::before,
+*[class*='ms-dlg'] *::after,
+*[class*='ms-webpart'] * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+*/
 .ms-rteImage-Responsive {
   -ms-name: "Bild Responsive";
   display: block !important;
@@ -11934,7 +11976,21 @@ button[disabled][disabled] {
           margin: 0 0 10px;
           color: #fff !important;
           text-align: left; }
-        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .topic {
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .topic,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption a > p,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:hover > p,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:active > p,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:focus > p,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a.active > p,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span > p, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption li > span > p,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption a > div,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:hover > div,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:active > div,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:focus > div,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a.active > div,
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span > div, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+        #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption li > span > div {
           margin: 0;
           padding: 0;
           font-size: 15px;
@@ -11942,7 +11998,35 @@ button[disabled][disabled] {
           text-align: left;
           color: #fff !important; }
           #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .topic p,
-          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .topic div {
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .topic div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption a > p p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:hover > p p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:active > p p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:focus > p p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a.active > p p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span > p p, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption li > span > p p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption a > p div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:hover > p div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:active > p div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:focus > p div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a.active > p div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span > p div, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption li > span > p div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption a > div p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:hover > div p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:active > div p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:focus > div p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a.active > div p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span > div p, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption li > span > div p,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption a > div div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:hover > div div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:active > div div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a:focus > div div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption .eah-language-selector > a.active > div div,
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span > div div, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+          #carousel-home-sidebar-wrapper .carousel-home-content .carousel-inner .item .carousel-caption li > span > div div {
             color: #fff !important;
             text-align: left;
             font-size: 15px;
@@ -12103,14 +12187,29 @@ button[disabled][disabled] {
           border-left-width: 4px;
           text-decoration: none; } }
 
-.maincarouselSidebar-default .carousel-home-sidebar a .entry:hover, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:hover, .maincarouselSidebar-default .carousel-home-sidebar a .entry:active, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:active, .maincarouselSidebar-default .carousel-home-sidebar a .entry:focus, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:focus {
+.maincarouselSidebar-default .carousel-home-sidebar a .entry:hover, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:hover, .maincarouselSidebar-default .carousel-home-sidebar a .entry:active, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:active, .maincarouselSidebar-default .carousel-home-sidebar a .entry:focus, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry:focus,
+.maincarouselSidebar-default .carousel-home-sidebar a .entry-width:hover,
+.maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+.maincarouselSidebar-default .carousel-home-sidebar li > span .entry-width:hover,
+.maincarouselSidebar-default .carousel-home-sidebar a .entry-width:active,
+.maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width:active, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+.maincarouselSidebar-default .carousel-home-sidebar li > span .entry-width:active,
+.maincarouselSidebar-default .carousel-home-sidebar a .entry-width:focus,
+.maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+.maincarouselSidebar-default .carousel-home-sidebar li > span .entry-width:focus {
   background-color: #cdece8;
   border-left-color: #00aaa0; }
 
-.maincarouselSidebar-default .carousel-home-sidebar a .entry .sidebar-img, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .sidebar-img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry .sidebar-img {
+.maincarouselSidebar-default .carousel-home-sidebar a .entry .sidebar-img, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .sidebar-img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry .sidebar-img,
+.maincarouselSidebar-default .carousel-home-sidebar a .entry-width .sidebar-img,
+.maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width .sidebar-img, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+.maincarouselSidebar-default .carousel-home-sidebar li > span .entry-width .sidebar-img {
   color: #555555; }
 
-.maincarouselSidebar-default .carousel-home-sidebar a .entry .title, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry .title {
+.maincarouselSidebar-default .carousel-home-sidebar a .entry .title, .maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .maincarouselSidebar-default .carousel-home-sidebar li > span .entry .title,
+.maincarouselSidebar-default .carousel-home-sidebar a .entry-width .title,
+.maincarouselSidebar-default .carousel-home-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span .entry-width .title, #gloabl-side-menu-wrapper [id*='_RootAspMenu']
+.maincarouselSidebar-default .carousel-home-sidebar li > span .entry-width .title {
   color: #555555; }
 
 .carousel-newsinfo {
@@ -15891,6 +15990,60 @@ button[disabled][disabled] {
       #studiengaengepage-wrapper .content {
         float: left;
         width: 66.66667%; } }
+    #studiengaengepage-wrapper .content .infotable .entry {
+      border-top-style: solid;
+      border-width: 1px; }
+      #studiengaengepage-wrapper .content .infotable .entry .text {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        line-height: 19px;
+        font-size: 1em;
+        font-weight: 500;
+        position: relative;
+        float: left;
+        width: 100%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        @media (min-width: 480px) {
+          #studiengaengepage-wrapper .content .infotable .entry .text {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            line-height: 19px;
+            font-size: 1em; } }
+        @media (min-width: 768px) {
+          #studiengaengepage-wrapper .content .infotable .entry .text {
+            float: left;
+            width: 33.33333%; } }
+      #studiengaengepage-wrapper .content .infotable .entry .value {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        line-height: 19px;
+        font-size: 1em;
+        position: relative;
+        float: left;
+        width: 100%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        @media (min-width: 480px) {
+          #studiengaengepage-wrapper .content .infotable .entry .value {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            line-height: 19px;
+            font-size: 1em; } }
+        @media (min-width: 768px) {
+          #studiengaengepage-wrapper .content .infotable .entry .value {
+            float: left;
+            width: 66.66667%; } }
   #studiengaengepage-wrapper .sidebar {
     position: relative;
     float: left;
@@ -15907,11 +16060,14 @@ button[disabled][disabled] {
         float: left;
         width: 33.33333%; } }
 
-.studiengaengepage-default .content h1 {
+.studiengaengepage-default .content .mainTitle {
   color: #00aaa0; }
 
-.studiengaengepage-default .content h2 {
+.studiengaengepage-default .content .subTitle {
   color: #394a5f; }
+
+.studiengaengepage-default .content .infotable .entry {
+  border-top-color: #ddd; }
 
 /* ============================================================================
 		Seite - Oeffentliche Ausschreibungen :: Start
@@ -16616,15 +16772,6 @@ button[disabled][disabled] {
   margin-left: 0;
   line-height: 1em; }
 
-#s4-ribbonrow * {
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box; }
-  #s4-ribbonrow *::before, #s4-ribbonrow *::after {
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box; }
-
 #area-header {
   background: #00aaa0; }
   #area-header .brand img {
@@ -16644,15 +16791,6 @@ button[disabled][disabled] {
   #suiteBar .suitbarLogoText {
     padding-left: 5px; }
 
-#suiteBar * {
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box; }
-  #suiteBar *::before, #suiteBar *::after {
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box; }
-
 #suiteBarLeft {
   background-color: #08c; }
 
@@ -16668,6 +16806,49 @@ button[disabled][disabled] {
       height: 101px; }
       .global-header-bar .global-header-menu .eah-logo a img, .global-header-bar .global-header-menu .eah-logo #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span img, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .global-header-bar .global-header-menu .eah-logo li > span img {
         width: 280px; }
+
+#workspace-top-navigation {
+  /* SharePoint Fixes */ }
+  #workspace-top-navigation .sub-top-navigation {
+    background-color: #00aaa0;
+    color: #fff; }
+    #workspace-top-navigation .sub-top-navigation .showSiteLogoImage {
+      height: 55px; }
+    #workspace-top-navigation .sub-top-navigation .navbar-toggle {
+      border-color: #394a5f;
+      background-color: #394a5f;
+      color: #394a5f;
+      float: right;
+      margin: 28px 0; }
+      #workspace-top-navigation .sub-top-navigation .navbar-toggle .icon-bar {
+        background-color: #fff; }
+    #workspace-top-navigation .sub-top-navigation .navbar-brand {
+      height: 80px; }
+    #workspace-top-navigation .sub-top-navigation .headersubnav {
+      padding: 28px 0;
+      text-align: center;
+      width: 100%;
+      float: left; }
+      @media screen and (min-width: 768px) {
+        #workspace-top-navigation .sub-top-navigation .headersubnav {
+          float: right;
+          width: 150px; } }
+      #workspace-top-navigation .sub-top-navigation .headersubnav .showLoginLink {
+        padding-left: 15px; }
+  #workspace-top-navigation .main-top-navigation {
+    padding-top: 15px; }
+    #workspace-top-navigation .main-top-navigation .ms-navedit-editArea {
+      display: none; }
+  #workspace-top-navigation ul.dynamic {
+    padding: 0 !important;
+    border: 0 !important; }
+  #workspace-top-navigation .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+    margin: 0 !important;
+    border: 0 !important; }
+  #workspace-top-navigation .ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: none !important; }
 
 .eah-language-menu {
   padding-top: 7px;

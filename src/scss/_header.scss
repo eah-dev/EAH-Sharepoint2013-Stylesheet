@@ -67,6 +67,7 @@
     }
   }
 }
+//
 // new nav
 #workspace-top-navigation {
   .sub-top-navigation {
@@ -109,6 +110,21 @@
     .ms-navedit-editArea {
       display: none;
     }
+  }
+
+  /* SharePoint Fixes */
+  ul.dynamic {
+    padding: 0 !important;
+    border: 0 !important;
+  }
+  .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+    margin: 0 !important;
+    border: 0 !important;
+  }
+  .ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: none !important;
   }
 }
 .eah-accentbar {

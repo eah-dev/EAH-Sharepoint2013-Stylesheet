@@ -2,7 +2,7 @@
 		Sharepoint 2013 Vorlagen  :: Start
 ============================================================================ */
 
-/* SharePoint hates box-sizing:border-box */
+/* SharePoint hates box-sizing:border-box * /
 #s4-ribbonrow *,
 #s4-ribbonrow *::before,
 #s4-ribbonrow *::after,
@@ -43,7 +43,7 @@
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-
+*/
 // Vorlagen - Bilder
 
 // neu, fuer Responsive image
