@@ -91,6 +91,30 @@
     font-size: $font-size-base;
   }
 }
+.bodyheader,
+.bodyheaderRollupImage,
+.bodycontent {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 7px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: $container-md - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg - $grid-gutter-width;
+  }
+}
 #HochschulABCPage,
 #StudiFilterPage,
 #page-content > .ms-rtestate-field,
