@@ -12337,6 +12337,67 @@ button[disabled][disabled] {
     border-bottom-style: solid;
     border-bottom-width: 4px; }
 
+.contact-sidebar-wrapper {
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 10px;
+  border-radius: 5px; }
+  .contact-sidebar-wrapper .contact-header {
+    text-align: left;
+    padding: 10px;
+    line-height: 24px;
+    width: 100%; }
+    .contact-sidebar-wrapper .contact-header .title {
+      text-align: left;
+      font-size: 17px; }
+  .contact-sidebar-wrapper .contact-content {
+    text-align: left;
+    padding: 10px; }
+    .contact-sidebar-wrapper .contact-content .item {
+      line-height: 24px; }
+      .contact-sidebar-wrapper .contact-content .item .icon {
+        text-align: center;
+        position: relative;
+        float: left;
+        width: 16.66667%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+      .contact-sidebar-wrapper .contact-content .item .text {
+        padding-left: 5px;
+        position: relative;
+        float: left;
+        width: 83.33333%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+      .contact-sidebar-wrapper .contact-content .item .value {
+        position: relative;
+        float: left;
+        width: 100%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+    .contact-sidebar-wrapper .contact-content .contact-imgage {
+      text-align: center; }
+      .contact-sidebar-wrapper .contact-content .contact-imgage img {
+        padding-bottom: 15px; }
+    .contact-sidebar-wrapper .contact-content .contact-name {
+      font-weight: bold;
+      font-size: 19px; }
+
+.contact-sidebar-default {
+  border-color: #555555; }
+  .contact-sidebar-default .contact-header {
+    background-color: #394a5f;
+    color: #fff; }
+    .contact-sidebar-default .contact-header .title {
+      color: #fff; }
+  .contact-sidebar-default .contact-content {
+    background-color: #eee;
+    color: rgba(0, 0, 0, 0.65);
+    border-radius: 0 0 5px 5px; }
+
 .contact-wrapper {
   padding: 30px 0; }
   .contact-wrapper .title {
@@ -15990,60 +16051,64 @@ button[disabled][disabled] {
       #studiengaengepage-wrapper .content {
         float: left;
         width: 66.66667%; } }
-    #studiengaengepage-wrapper .content .infotable .entry {
-      border-top-style: solid;
-      border-width: 1px; }
-      #studiengaengepage-wrapper .content .infotable .entry .text {
-        padding-top: 7px;
-        padding-bottom: 7px;
-        line-height: 19px;
-        font-size: 1em;
-        font-weight: 500;
-        position: relative;
-        float: left;
-        width: 100%;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px;
-        position: relative;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px; }
-        @media (min-width: 480px) {
-          #studiengaengepage-wrapper .content .infotable .entry .text {
-            padding-top: 15px;
-            padding-bottom: 15px;
-            line-height: 19px;
-            font-size: 1em; } }
-        @media (min-width: 768px) {
-          #studiengaengepage-wrapper .content .infotable .entry .text {
-            float: left;
-            width: 33.33333%; } }
-      #studiengaengepage-wrapper .content .infotable .entry .value {
-        padding-top: 7px;
-        padding-bottom: 7px;
-        line-height: 19px;
-        font-size: 1em;
-        position: relative;
-        float: left;
-        width: 100%;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px;
-        position: relative;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px; }
-        @media (min-width: 480px) {
-          #studiengaengepage-wrapper .content .infotable .entry .value {
-            padding-top: 15px;
-            padding-bottom: 15px;
-            line-height: 19px;
-            font-size: 1em; } }
-        @media (min-width: 768px) {
-          #studiengaengepage-wrapper .content .infotable .entry .value {
-            float: left;
-            width: 66.66667%; } }
+    #studiengaengepage-wrapper .content .infotable {
+      padding-bottom: 20px; }
+      #studiengaengepage-wrapper .content .infotable .entry {
+        border-top-style: solid;
+        border-width: 1px;
+        margin-left: 0;
+        margin-right: 0; }
+        #studiengaengepage-wrapper .content .infotable .entry .text {
+          padding-top: 7px;
+          padding-bottom: 7px;
+          line-height: 19px;
+          font-size: 1em;
+          font-weight: 500;
+          position: relative;
+          float: left;
+          width: 100%;
+          min-height: 1px;
+          padding-left: 15px;
+          padding-right: 15px;
+          position: relative;
+          min-height: 1px;
+          padding-left: 15px;
+          padding-right: 15px; }
+          @media (min-width: 480px) {
+            #studiengaengepage-wrapper .content .infotable .entry .text {
+              padding-top: 15px;
+              padding-bottom: 15px;
+              line-height: 19px;
+              font-size: 1em; } }
+          @media (min-width: 768px) {
+            #studiengaengepage-wrapper .content .infotable .entry .text {
+              float: left;
+              width: 33.33333%; } }
+        #studiengaengepage-wrapper .content .infotable .entry .value {
+          padding-top: 7px;
+          padding-bottom: 7px;
+          line-height: 19px;
+          font-size: 1em;
+          position: relative;
+          float: left;
+          width: 100%;
+          min-height: 1px;
+          padding-left: 15px;
+          padding-right: 15px;
+          position: relative;
+          min-height: 1px;
+          padding-left: 15px;
+          padding-right: 15px; }
+          @media (min-width: 480px) {
+            #studiengaengepage-wrapper .content .infotable .entry .value {
+              padding-top: 15px;
+              padding-bottom: 15px;
+              line-height: 19px;
+              font-size: 1em; } }
+          @media (min-width: 768px) {
+            #studiengaengepage-wrapper .content .infotable .entry .value {
+              float: left;
+              width: 66.66667%; } }
   #studiengaengepage-wrapper .sidebar {
     position: relative;
     float: left;
@@ -18001,6 +18066,76 @@ Main-Navigation :: Start
 #DeltaPlaceHolderMain p,
 #DeltaPlaceHolderMain ul {
   font-size: 15px; }
+
+.bodyheader,
+.bodyheaderRollupImage,
+.bodycontent {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 7px; }
+  @media screen and (min-width: 768px) {
+    .bodyheader,
+    .bodyheaderRollupImage,
+    .bodycontent {
+      margin-right: auto !important;
+      margin-left: auto !important; } }
+  @media (min-width: 768px) {
+    .bodyheader,
+    .bodyheaderRollupImage,
+    .bodycontent {
+      width: 720px; } }
+  @media (min-width: 992px) {
+    .bodyheader,
+    .bodyheaderRollupImage,
+    .bodycontent {
+      width: 940px; } }
+  @media (min-width: 1200px) {
+    .bodyheader,
+    .bodyheaderRollupImage,
+    .bodycontent {
+      width: 1140px; } }
+  .bodyheader .contentMainFull,
+  .bodyheaderRollupImage .contentMainFull,
+  .bodycontent .contentMainFull {
+    width: 100%; }
+  .bodyheader .contentMain,
+  .bodyheaderRollupImage .contentMain,
+  .bodycontent .contentMain {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .bodyheader .contentMain,
+      .bodyheaderRollupImage .contentMain,
+      .bodycontent .contentMain {
+        float: left;
+        width: 75%; } }
+  .bodyheader .contentSidebar,
+  .bodyheaderRollupImage .contentSidebar,
+  .bodycontent .contentSidebar {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .bodyheader .contentSidebar,
+      .bodyheaderRollupImage .contentSidebar,
+      .bodycontent .contentSidebar {
+        float: left;
+        width: 25%; } }
 
 #HochschulABCPage > div > .container > .row > .panel,
 #HochschulABCPage > p,
