@@ -114,6 +114,17 @@
   @media (min-width: $screen-lg-min) {
     width: $container-lg - $grid-gutter-width;
   }
+  .contentMainFull {
+    width: 100%;
+  }
+  .contentMain {
+    @include make-xs-column(12);
+    @include make-sm-column(9);
+  }
+  .contentSidebar {
+    @include make-xs-column(12);
+    @include make-sm-column(3);
+  }
 }
 #HochschulABCPage,
 #StudiFilterPage,
