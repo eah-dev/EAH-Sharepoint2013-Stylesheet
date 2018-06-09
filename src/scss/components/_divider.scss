@@ -1,0 +1,27 @@
+/* ============================================================================
+		divider / trennlinie :: Start
+============================================================================ */
+//
+.divider {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  .divider-inner {
+    width: 100%;
+    max-width: 100% !important;
+    display: table;
+    min-height: 1px;
+  }
+  .divider-border {
+    border: 0 solid #e5e5e5;
+    border-bottom-width: 1px;
+    height: 1px;
+  }
+  .divider-shadow {
+    position: relative;
+    background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.1) 0, rgba(255, 255, 255, 0) 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.1) 0, rgba(255, 255, 255, 0) 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.1) 0, rgba(255, 255, 255, 0) 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -o-radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.1) 0, rgba(255, 255, 255, 0) 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  }
+}

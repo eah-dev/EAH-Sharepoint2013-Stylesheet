@@ -1,0 +1,51 @@
+/* ============================================================================
+		gazette :: Start
+============================================================================ */
+//
+#studiengaengepageExtended-wrapper {
+  padding-top: 15px;
+  .mainTitle {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.3em;
+  }
+  // h2
+  .subTitle {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+  .infotable {
+    .entry {
+      .text {
+        font-weight: 500;
+      }
+    }
+  }
+  // angaben fuer beide elemente
+  .content {
+    .content-x3 {
+      @include make-xs-column(12);
+      @include make-md-column(4);
+    }
+    .content-x2 {
+      @include make-xs-column(12);
+      @include make-md-column(6);
+    }
+  }
+}
+
+// default color
+.studiengaengepageExtended-default {
+  .content {
+    .mainTitle {
+      color: $green;
+    }
+    .subTitle {
+      color: $blue;
+    }
+  }
+}
