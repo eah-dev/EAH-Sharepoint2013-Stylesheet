@@ -21,6 +21,7 @@
       border-width: 1px;
       margin-bottom: 10px;
       border-radius: 5px;
+      border-color: $gray;
     }
     .sidebarcontactprimary,
     .sidebarcontactprimarytitle,
@@ -43,9 +44,6 @@
         width: 30px;
         text-align: center;
       }
-    }
-    .entry {
-      border-color: $gray;
     }
     .sidebarcontactprimarytitle,
     .sidebarcontactsecondarytitle {

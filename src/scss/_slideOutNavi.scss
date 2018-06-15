@@ -84,6 +84,7 @@ body.slide-active {
     height: 100%;
   }
   #slide-nav {
+    border-top: 0;
     .navbar-header {
       margin: 0 auto;
       padding: 0 15px;
@@ -94,9 +95,6 @@ body.slide-active {
       top: -1px;
       z-index: 1000;
     }
-  }
-  #slide-nav {
-    border-top: 0;
     #slidemenu {
       background: #fff;
       left: -100%;
@@ -111,8 +109,6 @@ body.slide-active {
         min-width: 0;
         width: 100%;
         margin: 0;
-      }
-      .navbar-nav {
         .open .dropdown-menu {
           position: relative;
           float: none;

@@ -1,5 +1,6 @@
 // libs
 const gulp = require('gulp');
+const gulpStylelint = require('gulp-stylelint');
 
 // Input - Files
 const inputFileStyle = './src/scss/eah-jena-style.scss';
@@ -18,8 +19,6 @@ const reportOutputDir = 'build/reports/lint';
 
 // lint-css for style file
 gulp.task('css-lint-style', function lintCssTask() {
-  const gulpStylelint = require('gulp-stylelint');
-  const myStylelintFormatter = require('my-stylelint-formatter');
   return gulp
     .src(inputFolderStyle)
     .pipe(gulpStylelint({
@@ -28,7 +27,7 @@ gulp.task('css-lint-style', function lintCssTask() {
       reporters: [
         {formatter: 'verbose', console: true},
         {formatter: 'json', save: 'report.json'},
-        {formatter: myStylelintFormatter, save: 'sass-report.txt'}
+        {formatter: 'string', save: 'sass-report.txt'}
       ],
       debug: true
     }));

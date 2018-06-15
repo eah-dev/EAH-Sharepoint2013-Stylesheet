@@ -1,5 +1,4 @@
 //Allgemeine Einstellungen
-#HochschulABCPage,
 #StudiFilterPage,
 #pageWithSidebar,
 #page-content > .ms-rtestate-field,
@@ -87,34 +86,19 @@
     font-weight: 400;
   }
   p,
-  ul {
+  li {
     font-size: $font-size-base;
   }
 }
-.bodyheader,
-.bodyheaderRollupImage,
-.bodycontent {
+// full width
+.page-container-fluid {
+  width: 100%;
   margin-left: 15px;
   margin-right: 15px;
-  padding-bottom: 7px;
-
-  @media screen and (min-width: $screen-sm-min) {
-    margin-right: auto !important;
-    margin-left: auto !important;
-  }
-
-  @media (min-width: $screen-sm-min) {
-    width: $container-sm - $grid-gutter-width;
-  }
-
-  @media (min-width: $screen-md-min) {
-    width: $container-md - $grid-gutter-width;
-  }
-
-  @media (min-width: $screen-lg-min) {
-    width: $container-lg - $grid-gutter-width;
-  }
-  .contentMainFull {
+}
+//
+.bodycontent {
+  .contentMainFullWidth {
     width: 100%;
   }
   .contentMain {
@@ -126,7 +110,7 @@
     @include make-sm-column(3);
   }
 }
-#HochschulABCPage,
+//
 #StudiFilterPage,
 #page-content > .ms-rtestate-field,
 #page-content > .ms-siteSettings-root,

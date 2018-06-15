@@ -25,14 +25,6 @@
         }
       }
     }
-    .newsinfo-body {
-      .major-news-body-content,
-      .major-infos-body-content {
-        @media screen and (max-width: $screen-sm) {
-          //
-        }
-      }
-    }
     .major-counter {
       .major-count-block {
         background-color: $count-bg-color;
