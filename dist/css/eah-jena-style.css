@@ -17170,33 +17170,43 @@ Main-Navigation :: Start
       padding: 0 7px;
       line-height: 40px; }
 
+/*
 #area-meta-navi {
-  background: #333333;
-  border-bottom: 1px solid #fff; }
-  #area-meta-navi #meta-navi {
+  background: $gray-dark;
+  border-bottom: 1px solid $white;
+  #meta-navi {
     text-align: center;
-    margin-top: 5px; }
-    #area-meta-navi #meta-navi ul {
+    margin-top: 5px;
+    ul {
       list-style: none;
       margin: 0;
-      padding: 0; }
-      #area-meta-navi #meta-navi ul li {
-        display: inline; }
-        #area-meta-navi #meta-navi ul li a, #area-meta-navi #meta-navi ul #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #area-meta-navi #meta-navi ul li > span {
-          color: #fff;
+      padding: 0;
+      li {
+        display: inline;
+        a {
+          color: $white;
           text-transform: uppercase;
-          padding: 0 3px; }
-          @media (min-width: 992px) {
-            #area-meta-navi #meta-navi ul li a, #area-meta-navi #meta-navi ul #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] #area-meta-navi #meta-navi ul li > span {
-              padding: 0 10px; } }
+          padding: 0 3px;
 
-/* Responsive styles for menu bar */
+          @media (min-width: $screen-md) {
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Responsive styles for menu bar
 #menu-trigger {
-  display: none; }
+  display: none;
+}
 
+//
 #navbar-height-col {
-  z-index: 2; }
-
+  z-index: 2;
+}
+*/
 #slide-nav {
   z-index: inherit !important; }
   #slide-nav #slidemenu {
@@ -17263,22 +17273,27 @@ Main-Navigation :: Start
 #ctl00_PlaceHolderLeftNavBar_PlaceHolderQuickLaunchBottom_idNavLinkViewAllV4 {
   width: 100%; }
 
+/*
 .left-navbar-collapse {
   overflow-x: visible;
   border-top: 1px solid transparent;
-  -webkit-overflow-scrolling: touch; }
-  .left-navbar-collapse::before {
-    display: table;
-    content: ' '; }
-  .left-navbar-collapse::after {
+  -webkit-overflow-scrolling: touch;
+  &::before {
     display: table;
     content: ' ';
-    clear: both; }
-  .left-navbar-collapse.in {
-    overflow-y: auto; }
-
-.navbar-collapse {
-  z-index: 100; }
+  }
+  &::after {
+    display: table;
+    content: ' ';
+    clear: both;
+  }
+  &.in {
+    overflow-y: auto;
+  }
+}
+*/
+.navbar-collapse.in {
+  overflow-y: initial; }
 
 #ctl00_PlaceHolderLeftNavBar_QuickLaunchNavigationManager {
   margin-right: -15px;
@@ -17340,49 +17355,55 @@ Main-Navigation :: Start
     -webkit-box-sizing: content-box;
     box-sizing: content-box; }
 
+/*
 .bs-sidebar.affix {
   position: static;
-  width: 100%; }
-
+  width: 100%;
+}
 .bs-sidenav {
   width: 100% !important;
   padding-top: 10px !important;
   padding-bottom: 0 !important;
   background-color: #f7f5fa;
-  border-radius: 5px; }
-
-.bs-sidebar .nav > li > a, .bs-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .nav > li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .bs-sidebar .nav > li > span {
-  display: block;
-  color: #716b7a;
-  padding: 5px 20px; }
-  .bs-sidebar .nav > li > a:hover, .bs-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .nav > li > span:hover, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .bs-sidebar .nav > li > span:hover, .bs-sidebar .nav > li > a:focus, .bs-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .nav > li > span:focus, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .bs-sidebar .nav > li > span:focus {
-    text-decoration: none;
-    background-color: #e5e3e9;
-    border-right: none; }
-  .bs-sidebar .nav > li > a.selected, .bs-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .nav > li > span.selected, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .bs-sidebar .nav > li > span.selected {
-    font-weight: bold;
-    color: #563d7c;
-    background-color: transparent;
-    border-right: none; }
-
-.bs-sidebar .nav > li:hover > a.selected, .bs-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .nav > li:hover > span.selected, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .bs-sidebar .nav > li:hover > span.selected,
-.bs-sidebar .nav > li:focus > a.selected,
-.bs-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .nav > li:focus > span.selected,
-#gloabl-side-menu-wrapper [id*='_RootAspMenu'] .bs-sidebar .nav > li:focus > span.selected {
-  font-weight: bold;
-  color: #563d7c;
-  background-color: transparent;
-  border-right: none; }
-
-.bs-sidebar .nav .level2 {
-  margin-bottom: 8px; }
-
-.bs-sidebar .nav > li > a.level2, .bs-sidebar #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .nav > li > span.level2, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .bs-sidebar .nav > li > span.level2 {
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 30px !important;
-  font-size: 90%; }
-
+  border-radius: 5px;
+}
+.bs-sidebar .nav {
+  > li {
+    > a {
+      display: block;
+      color: #716b7a;
+      padding: 5px 20px;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        background-color: #e5e3e9;
+        border-right: none;
+      }
+      &.selected {
+        font-weight: bold;
+        color: #563d7c;
+        background-color: transparent;
+        border-right: none;
+      }
+    }
+    &:hover > a.selected,
+    &:focus > a.selected {
+      font-weight: bold;
+      color: #563d7c;
+      background-color: transparent;
+      border-right: none;
+    }
+  }
+  .level2 {
+    margin-bottom: 8px;
+  }
+  > li > a.level2 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 30px !important;
+    font-size: 90%;
+  }
+}
 .left-navbar ul {
   list-style: none outside none !important;
   padding-left: 0;
@@ -17390,13 +17411,15 @@ Main-Navigation :: Start
   padding-top: 10px !important;
   padding-bottom: 0 !important;
   background: none;
-  border-radius: 5px; }
-  .left-navbar ul ul {
-    padding-top: 0 !important; }
-
+  border-radius: 5px;
+  ul {
+    padding-top: 0 !important;
+  }
+}
 .left-navbar .ms-navedit-editLinksText:hover > span > .ms-metadata {
-  color: #563d7c; }
-
+  color: #563d7c;
+}
+*/
 /* ============================================================================
 		News Ticker :: Start
 ============================================================================ */
@@ -17743,7 +17766,7 @@ Main-Navigation :: Start
   margin-left: 15px;
   margin-right: 15px; }
 
-.bodycontent .contentMainFull {
+.bodycontent .contentMainFullWidth {
   width: 100%; }
 
 .bodycontent .contentMain {

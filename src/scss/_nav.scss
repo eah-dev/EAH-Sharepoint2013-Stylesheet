@@ -298,7 +298,7 @@ $menu-padding: 5px;
   }
 }
 
-//
+/*
 #area-meta-navi {
   background: $gray-dark;
   border-bottom: 1px solid $white;
@@ -325,7 +325,7 @@ $menu-padding: 5px;
   }
 }
 
-/* Responsive styles for menu bar */
+// Responsive styles for menu bar
 #menu-trigger {
   display: none;
 }
@@ -334,8 +334,9 @@ $menu-padding: 5px;
 #navbar-height-col {
   z-index: 2;
 }
+*/
 
-//-- Slide Nav --*/
+//-- Slide Nav --
 #slide-nav {
   z-index: inherit !important;
   #slidemenu {
@@ -412,6 +413,8 @@ $menu-padding: 5px;
 #ctl00_PlaceHolderLeftNavBar_PlaceHolderQuickLaunchBottom_idNavLinkViewAllV4 {
   width: 100%;
 }
+
+/*
 .left-navbar-collapse {
   overflow-x: visible;
   border-top: 1px solid transparent;
@@ -429,8 +432,10 @@ $menu-padding: 5px;
     overflow-y: auto;
   }
 }
-.navbar-collapse {
-  z-index: 100;
+*/
+.navbar-collapse.in {
+  // z-index: 100;
+  overflow-y: initial;
 }
 #ctl00_PlaceHolderLeftNavBar_QuickLaunchNavigationManager {
   margin-right: -15px;
@@ -508,6 +513,8 @@ $menu-padding: 5px;
     box-sizing: content-box;
   }
 }
+
+/*
 .bs-sidebar.affix {
   position: static;
   width: 100%;
@@ -571,3 +578,4 @@ $menu-padding: 5px;
 .left-navbar .ms-navedit-editLinksText:hover > span > .ms-metadata {
   color: #563d7c;
 }
+*/
