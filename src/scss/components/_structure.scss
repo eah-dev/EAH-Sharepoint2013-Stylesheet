@@ -40,11 +40,11 @@
     @include make-xs-column(12);
     .hochschule {
       @include make-xs-column(12);
-      @include make-sm-column(4);
+      @include make-sm-column(6);
     }
     .senat {
       @include make-xs-column(12);
-      @include make-sm-column(8);
+      @include make-sm-column(6);
       .entry2 {
         text-align: center;
         margin: 10px 0;
@@ -64,7 +64,9 @@
       }
     }
   }
-  .rektorat {
+  .rektorat,
+  .pruefungsaemter,
+  .praktikantenaemter {
     // @include make-row();
     @include make-xs-column(12);
     .spacer {
@@ -73,6 +75,7 @@
     }
   }
   .fachbereiche,
+  .senatsausschuesse,
   .others {
     // @include make-row();
     @include make-xs-column(12);
@@ -129,6 +132,9 @@
     border-bottom-color: $gray-lighter;
   }
   .rektorat,
+  .senatsausschuesse,
+  .pruefungsaemter,
+  .praktikantenaemter,
   .stabstellen,
   .servicebereiche,
   .referate,
