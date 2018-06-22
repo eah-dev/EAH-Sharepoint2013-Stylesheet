@@ -84,7 +84,7 @@ group: components
   <section class="contact-sidebar-wrapper contact-sidebar-default">
     <div class="contact-header"><span class="title">Titel</span></div>
     <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
-    <div class="contact-details-wrapper"></div>
+    <div class="contact-details-wrapper" data-contact-showimg="true"></div>
   </section>
 {% endhighlight %}
 

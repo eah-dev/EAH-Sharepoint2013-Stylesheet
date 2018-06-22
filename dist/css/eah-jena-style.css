@@ -14334,13 +14334,11 @@ button[disabled][disabled] {
 ============================================================================ */
 /*
 <div class="divider">
-  <div class="divider-border">
-  </div>
+  <div class="divider-border"></div>
 </div>
 or
 <div class="divider">
-  <div class="divider-shadow">
-  </div>
+  <div class="divider-shadow"></div>
 </div>
 */
 .divider {
@@ -15285,223 +15283,6 @@ or
       border-left-color: #fff; } }
 
 /* ============================================================================
-		Seite - structure :: Start
-============================================================================ */
-#structure-wrapper .title {
-  padding: 10px 0;
-  font-weight: 500;
-  font-size: 18px;
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-#structure-wrapper .entry {
-  text-align: center;
-  margin: 10px 0;
-  padding: 10px;
-  height: 80px; }
-
-#structure-wrapper .entry2 {
-  text-align: center;
-  margin: 10px 0;
-  padding: 10px;
-  height: 40px; }
-
-#structure-wrapper .rowx1 {
-  line-height: 60px; }
-
-#structure-wrapper .rowx2 {
-  line-height: 30px; }
-
-#structure-wrapper .rowx3 {
-  line-height: 20px; }
-
-#structure-wrapper .gremien {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  #structure-wrapper .gremien .hochschule {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 768px) {
-      #structure-wrapper .gremien .hochschule {
-        float: left;
-        width: 33.33333%; } }
-  #structure-wrapper .gremien .senat {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 768px) {
-      #structure-wrapper .gremien .senat {
-        float: left;
-        width: 66.66667%; } }
-    #structure-wrapper .gremien .senat .entry2 {
-      text-align: center;
-      margin: 10px 0;
-      padding: 10px;
-      height: 40px;
-      line-height: 20px; }
-  #structure-wrapper .gremien .hochschule .entry,
-  #structure-wrapper .gremien .senat .entry {
-    text-align: center;
-    margin: 10px 0;
-    padding: 10px;
-    height: 80px;
-    line-height: 60px; }
-
-#structure-wrapper .rektorat {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  #structure-wrapper .rektorat .spacer {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 768px) {
-      #structure-wrapper .rektorat .spacer {
-        float: left;
-        width: 25%; } }
-
-#structure-wrapper .fachbereiche,
-#structure-wrapper .others {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  #structure-wrapper .fachbereiche .spacer,
-  #structure-wrapper .others .spacer {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 768px) {
-      #structure-wrapper .fachbereiche .spacer,
-      #structure-wrapper .others .spacer {
-        float: left;
-        width: 33.33333%; } }
-
-#structure-wrapper .stabstellen,
-#structure-wrapper .servicebereiche,
-#structure-wrapper .referate {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
-    #structure-wrapper .stabstellen,
-    #structure-wrapper .servicebereiche,
-    #structure-wrapper .referate {
-      float: left;
-      width: 33.33333%; } }
-  #structure-wrapper .stabstellen .spacer,
-  #structure-wrapper .servicebereiche .spacer,
-  #structure-wrapper .referate .spacer {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-
-#structure-wrapper .line {
-  margin: 15px 0;
-  border-bottom-style: solid;
-  border-width: 2px;
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-.structure-default .gremien .entry {
-  background-color: #394a5f; }
-  .structure-default .gremien .entry a, .structure-default .gremien .entry #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .structure-default .gremien .entry li > span {
-    color: #fff; }
-  .structure-default .gremien .entry:hover {
-    background-color: #eeeeee;
-    color: #394a5f; }
-
-.structure-default .gremien .entry2 {
-  background-color: #eeeeee; }
-  .structure-default .gremien .entry2:hover {
-    background-color: #394a5f;
-    color: #fff; }
-
-.structure-default .fachbereiche a, .structure-default .fachbereiche #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .structure-default .fachbereiche li > span {
-  color: #fff; }
-
-.structure-default .line {
-  border-bottom-color: #eeeeee; }
-
-.structure-default .rektorat .entry,
-.structure-default .stabstellen .entry,
-.structure-default .servicebereiche .entry,
-.structure-default .referate .entry,
-.structure-default .others .entry {
-  background-color: #eeeeee; }
-  .structure-default .rektorat .entry:hover, .structure-default .rektorat .entry:active, .structure-default .rektorat .entry:focus,
-  .structure-default .stabstellen .entry:hover,
-  .structure-default .stabstellen .entry:active,
-  .structure-default .stabstellen .entry:focus,
-  .structure-default .servicebereiche .entry:hover,
-  .structure-default .servicebereiche .entry:active,
-  .structure-default .servicebereiche .entry:focus,
-  .structure-default .referate .entry:hover,
-  .structure-default .referate .entry:active,
-  .structure-default .referate .entry:focus,
-  .structure-default .others .entry:hover,
-  .structure-default .others .entry:active,
-  .structure-default .others .entry:focus {
-    background-color: #394a5f;
-    color: #fff; }
-
-/* ============================================================================
 		Panel  :: Start
 ============================================================================ */
 .panel .panel-heading .clickable {
@@ -15682,6 +15463,269 @@ or
   border-color: #555555; }
 
 /* ============================================================================
+		Seite - structure :: Start
+============================================================================ */
+#structure-wrapper .title {
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+#structure-wrapper .entry {
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+  height: 80px; }
+
+#structure-wrapper .entry2 {
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+  height: 40px; }
+
+#structure-wrapper .rowx1 {
+  line-height: 60px; }
+
+#structure-wrapper .rowx2 {
+  line-height: 30px; }
+
+#structure-wrapper .rowx3 {
+  line-height: 20px; }
+
+#structure-wrapper .gremien {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  #structure-wrapper .gremien .hochschule {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      #structure-wrapper .gremien .hochschule {
+        float: left;
+        width: 50%; } }
+  #structure-wrapper .gremien .senat {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      #structure-wrapper .gremien .senat {
+        float: left;
+        width: 50%; } }
+    #structure-wrapper .gremien .senat .entry2 {
+      text-align: center;
+      margin: 10px 0;
+      padding: 10px;
+      height: 40px;
+      line-height: 20px; }
+  #structure-wrapper .gremien .hochschule .entry,
+  #structure-wrapper .gremien .senat .entry {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    height: 80px;
+    line-height: 60px; }
+
+#structure-wrapper .rektorat,
+#structure-wrapper .referate {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  #structure-wrapper .rektorat .spacer,
+  #structure-wrapper .referate .spacer {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      #structure-wrapper .rektorat .spacer,
+      #structure-wrapper .referate .spacer {
+        float: left;
+        width: 50%; } }
+    @media (min-width: 1200px) {
+      #structure-wrapper .rektorat .spacer,
+      #structure-wrapper .referate .spacer {
+        float: left;
+        width: 25%; } }
+
+#structure-wrapper .fachbereiche,
+#structure-wrapper .senatsausschuesse,
+#structure-wrapper .others,
+#structure-wrapper .pruefpraktikantenaemter {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  #structure-wrapper .fachbereiche .spacer,
+  #structure-wrapper .senatsausschuesse .spacer,
+  #structure-wrapper .others .spacer,
+  #structure-wrapper .pruefpraktikantenaemter .spacer {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      #structure-wrapper .fachbereiche .spacer,
+      #structure-wrapper .senatsausschuesse .spacer,
+      #structure-wrapper .others .spacer,
+      #structure-wrapper .pruefpraktikantenaemter .spacer {
+        float: left;
+        width: 50%; } }
+    @media (min-width: 992px) {
+      #structure-wrapper .fachbereiche .spacer,
+      #structure-wrapper .senatsausschuesse .spacer,
+      #structure-wrapper .others .spacer,
+      #structure-wrapper .pruefpraktikantenaemter .spacer {
+        float: left;
+        width: 33.33333%; } }
+
+#structure-wrapper .stabstellen,
+#structure-wrapper .servicebereiche,
+#structure-wrapper .servicezentren {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    #structure-wrapper .stabstellen,
+    #structure-wrapper .servicebereiche,
+    #structure-wrapper .servicezentren {
+      float: left;
+      width: 50%; } }
+  @media (min-width: 992px) {
+    #structure-wrapper .stabstellen,
+    #structure-wrapper .servicebereiche,
+    #structure-wrapper .servicezentren {
+      float: left;
+      width: 33.33333%; } }
+  #structure-wrapper .stabstellen .spacer,
+  #structure-wrapper .servicebereiche .spacer,
+  #structure-wrapper .servicezentren .spacer {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+
+.structure-default .gremien .entry {
+  background-color: #394a5f; }
+  .structure-default .gremien .entry a, .structure-default .gremien .entry #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .structure-default .gremien .entry li > span {
+    color: #fff; }
+  .structure-default .gremien .entry:hover {
+    background-color: #eeeeee;
+    color: #394a5f; }
+
+.structure-default .gremien .entry2 {
+  background-color: #eeeeee; }
+  .structure-default .gremien .entry2:hover {
+    background-color: #394a5f;
+    color: #fff; }
+
+.structure-default .fachbereiche a, .structure-default .fachbereiche #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .structure-default .fachbereiche li > span {
+  color: #fff; }
+
+.structure-default .line {
+  border-bottom-color: #eeeeee; }
+
+.structure-default .rektorat .entry,
+.structure-default .pruefpraktikantenaemter .entry,
+.structure-default .senatsausschuesse .entry,
+.structure-default .servicezentren .entry,
+.structure-default .servicebereiche .entry,
+.structure-default .stabstellen .entry,
+.structure-default .referate .entry,
+.structure-default .others .entry {
+  background-color: #eeeeee; }
+  .structure-default .rektorat .entry:hover, .structure-default .rektorat .entry:active, .structure-default .rektorat .entry:focus,
+  .structure-default .pruefpraktikantenaemter .entry:hover,
+  .structure-default .pruefpraktikantenaemter .entry:active,
+  .structure-default .pruefpraktikantenaemter .entry:focus,
+  .structure-default .senatsausschuesse .entry:hover,
+  .structure-default .senatsausschuesse .entry:active,
+  .structure-default .senatsausschuesse .entry:focus,
+  .structure-default .servicezentren .entry:hover,
+  .structure-default .servicezentren .entry:active,
+  .structure-default .servicezentren .entry:focus,
+  .structure-default .servicebereiche .entry:hover,
+  .structure-default .servicebereiche .entry:active,
+  .structure-default .servicebereiche .entry:focus,
+  .structure-default .stabstellen .entry:hover,
+  .structure-default .stabstellen .entry:active,
+  .structure-default .stabstellen .entry:focus,
+  .structure-default .referate .entry:hover,
+  .structure-default .referate .entry:active,
+  .structure-default .referate .entry:focus,
+  .structure-default .others .entry:hover,
+  .structure-default .others .entry:active,
+  .structure-default .others .entry:focus {
+    background-color: #394a5f;
+    color: #fff; }
+
+/* ============================================================================
 		gazette :: Start
 ============================================================================ */
 #studiengaengepageExtended-wrapper {
@@ -15758,94 +15802,64 @@ or
     #studiengaengepage-wrapper .content .panel ul li,
     #studiengaengepage-wrapper .sidebar .panel ul li {
       line-height: 25px; }
-  #studiengaengepage-wrapper .content {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 992px) {
-      #studiengaengepage-wrapper .content {
+  #studiengaengepage-wrapper .content .infotable {
+    padding-bottom: 20px; }
+    #studiengaengepage-wrapper .content .infotable .entry {
+      border-top-style: solid;
+      border-width: 1px;
+      margin-left: 0;
+      margin-right: 0; }
+      #studiengaengepage-wrapper .content .infotable .entry .text {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        line-height: 19px;
+        font-size: 1em;
+        font-weight: 500;
+        position: relative;
         float: left;
-        width: 66.66667%; } }
-    #studiengaengepage-wrapper .content .infotable {
-      padding-bottom: 20px; }
-      #studiengaengepage-wrapper .content .infotable .entry {
-        border-top-style: solid;
-        border-width: 1px;
-        margin-left: 0;
-        margin-right: 0; }
-        #studiengaengepage-wrapper .content .infotable .entry .text {
-          padding-top: 7px;
-          padding-bottom: 7px;
-          line-height: 19px;
-          font-size: 1em;
-          font-weight: 500;
-          position: relative;
-          float: left;
-          width: 100%;
-          min-height: 1px;
-          padding-left: 15px;
-          padding-right: 15px;
-          position: relative;
-          min-height: 1px;
-          padding-left: 15px;
-          padding-right: 15px; }
-          @media (min-width: 480px) {
-            #studiengaengepage-wrapper .content .infotable .entry .text {
-              padding-top: 15px;
-              padding-bottom: 15px;
-              line-height: 19px;
-              font-size: 1em; } }
-          @media (min-width: 768px) {
-            #studiengaengepage-wrapper .content .infotable .entry .text {
-              float: left;
-              width: 33.33333%; } }
-        #studiengaengepage-wrapper .content .infotable .entry .value {
-          padding-top: 7px;
-          padding-bottom: 7px;
-          line-height: 19px;
-          font-size: 1em;
-          position: relative;
-          float: left;
-          width: 100%;
-          min-height: 1px;
-          padding-left: 15px;
-          padding-right: 15px;
-          position: relative;
-          min-height: 1px;
-          padding-left: 15px;
-          padding-right: 15px; }
-          @media (min-width: 480px) {
-            #studiengaengepage-wrapper .content .infotable .entry .value {
-              padding-top: 15px;
-              padding-bottom: 15px;
-              line-height: 19px;
-              font-size: 1em; } }
-          @media (min-width: 768px) {
-            #studiengaengepage-wrapper .content .infotable .entry .value {
-              float: left;
-              width: 66.66667%; } }
-  #studiengaengepage-wrapper .sidebar {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 992px) {
-      #studiengaengepage-wrapper .sidebar {
+        width: 100%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        @media (min-width: 480px) {
+          #studiengaengepage-wrapper .content .infotable .entry .text {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            line-height: 19px;
+            font-size: 1em; } }
+        @media (min-width: 768px) {
+          #studiengaengepage-wrapper .content .infotable .entry .text {
+            float: left;
+            width: 33.33333%; } }
+      #studiengaengepage-wrapper .content .infotable .entry .value {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        line-height: 19px;
+        font-size: 1em;
+        position: relative;
         float: left;
-        width: 33.33333%; } }
+        width: 100%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        @media (min-width: 480px) {
+          #studiengaengepage-wrapper .content .infotable .entry .value {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            line-height: 19px;
+            font-size: 1em; } }
+        @media (min-width: 768px) {
+          #studiengaengepage-wrapper .content .infotable .entry .value {
+            float: left;
+            width: 66.66667%; } }
 
 .studiengaengepage-default .content .mainTitle {
   color: #00aaa0; }
@@ -16375,6 +16389,26 @@ or
 
 .eahTile-fc-wi .eahTile-heading .content-body .content-title {
   color: #fff; }
+
+/* ============================================================================
+		 sidebar element :: Start
+============================================================================ */
+.sidebarEntry {
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px; }
+  .sidebarEntry .sidebarEntryTitle {
+    padding: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 17px; }
+
+.sidebarEntry-default {
+  border-color: #555555; }
+  .sidebarEntry-default .sidebarEntryTitle {
+    background-color: #394a5f;
+    color: #fff; }
 
 /* ============================================================================
 		Footer :: Start
@@ -17765,6 +17799,37 @@ Main-Navigation :: Start
   width: 100%;
   margin-left: 15px;
   margin-right: 15px; }
+
+.bodycontent .contentContainer,
+.bodycontent .bodyheaderRollupImage {
+  padding-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .bodycontent .contentContainer:before, .bodycontent .contentContainer:after,
+  .bodycontent .bodyheaderRollupImage:before,
+  .bodycontent .bodyheaderRollupImage:after {
+    content: " ";
+    display: table; }
+  .bodycontent .contentContainer:after,
+  .bodycontent .bodyheaderRollupImage:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .bodycontent .contentContainer,
+    .bodycontent .bodyheaderRollupImage {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .bodycontent .contentContainer,
+    .bodycontent .bodyheaderRollupImage {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .bodycontent .contentContainer,
+    .bodycontent .bodyheaderRollupImage {
+      width: 1170px; } }
+  .bodycontent .contentContainer img,
+  .bodycontent .bodyheaderRollupImage img {
+    width: 100%; }
 
 .bodycontent .contentMainFullWidth {
   width: 100%; }

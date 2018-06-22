@@ -65,38 +65,36 @@
     }
   }
   .rektorat,
-  .pruefungsaemter,
-  .praktikantenaemter {
+  .referate {
     // @include make-row();
     @include make-xs-column(12);
     .spacer {
       @include make-xs-column(12);
-      @include make-sm-column(3);
+      @include make-sm-column(6);
+      @include make-lg-column(3);
     }
   }
   .fachbereiche,
   .senatsausschuesse,
-  .others {
+  .others,
+  .pruefpraktikantenaemter {
     // @include make-row();
     @include make-xs-column(12);
     .spacer {
       @include make-xs-column(12);
-      @include make-sm-column(4);
+      @include make-sm-column(6);
+      @include make-md-column(4);
     }
   }
   .stabstellen,
   .servicebereiche,
-  .referate {
+  .servicezentren {
     @include make-xs-column(12);
-    @include make-sm-column(4);
+    @include make-sm-column(6);
+    @include make-md-column(4);
     .spacer {
       @include make-xs-column(12);
     }
-  }
-  .line {
-    margin: 15px 0;
-    border-bottom-style: solid;
-    border-width: 2px;
     //
     // @include make-row();
     @include make-xs-column(12);
@@ -132,11 +130,11 @@
     border-bottom-color: $gray-lighter;
   }
   .rektorat,
+  .pruefpraktikantenaemter,
   .senatsausschuesse,
-  .pruefungsaemter,
-  .praktikantenaemter,
-  .stabstellen,
+  .servicezentren,
   .servicebereiche,
+  .stabstellen,
   .referate,
   .others {
     .entry {
