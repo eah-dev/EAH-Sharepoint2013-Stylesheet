@@ -11494,6 +11494,63 @@ button[disabled][disabled] {
 }
 */
 /* ============================================================================
+		card  :: Start
+============================================================================ */
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-bottom: 25px; }
+  .card .card-header {
+    padding: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom: 10px; }
+    .card .card-header .clickable {
+      cursor: pointer; }
+  .card .card-body {
+    margin: 10px; }
+    .card .card-body p,
+    .card .card-body div {
+      max-width: 100%; }
+  .card .card-collapse .card-body ul,
+  .card .card-collapse .card-body p {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.card-blue .card-header,
+.card-default .card-header {
+  background-color: #394a5f;
+  color: #fff; }
+
+.card-blue .card-title a, .card-blue .card-title #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .card-blue .card-title li > span,
+.card-default .card-title a,
+.card-default .card-title #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span,
+#gloabl-side-menu-wrapper [id*='_RootAspMenu'] .card-default .card-title li > span {
+  color: #fff; }
+
+.card-gray {
+  border-color: #eeeeee; }
+  .card-gray .card-header {
+    background-color: #eeeeee;
+    color: #000; }
+  .card-gray .card-title a, .card-gray .card-title #gloabl-side-menu-wrapper [id*='_RootAspMenu'] li > span, #gloabl-side-menu-wrapper [id*='_RootAspMenu'] .card-gray .card-title li > span {
+    color: #fff; }
+
+/*
+// card Farbe - green
+.card-green {
+  @include panel-variant($bg-color-green, $white, $bg-color-green, $bg-color-green);
+}
+
+// card Farbe - gray
+.card-gray {
+  @include panel-variant($bg-color-gray, $black, $bg-color-gray, $bg-color-gray);
+}
+*/
+/* ============================================================================
 		carousel :: Start
 ============================================================================ */
 #carousel-home .carousel-indicators {
@@ -16402,7 +16459,8 @@ or
     padding: 10px;
     text-align: left;
     line-height: 25px;
-    font-size: 17px; }
+    font-size: 17px;
+    margin-bottom: 10px; }
 
 .sidebarEntry-default {
   border-color: #555555; }

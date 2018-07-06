@@ -1,1 +1,9 @@
 src/scss/eah-jena-doc.scss
+src/scss/search-form.scss
+src/scss/searchbar.scss
+src/scss/sidebar.scss
+src/scss/language-selector.scss
+src/scss/event-news.scss
+src/scss/dropdown-menu.scss
+src/scss/event-list.scss
+src/scss/breadcrumb.scss
