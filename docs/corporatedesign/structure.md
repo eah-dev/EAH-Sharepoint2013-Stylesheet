@@ -46,7 +46,8 @@ group: corporatedesign
 
       <div class="servicebereiche">
         <div class="title">Servicebereiche</div>
-        <div class="spacer"><a href="/de-de/karriere/beruf-und-karriere/career-service"><div class="entry rowx1">Career Service</div></a></div>
+        <div class="spacer"><a href="/de-de/career-service"><div class="entry rowx1">Career Service</div></a></div>
+        <div class="spacer"><a href="/de-de/gruenderservice"><div class="entry rowx1">Gr&uuml;nderservice</div></a></div>
         <div class="spacer"><a href="/de-de/studium/master-service"><div class="entry rowx1">Master Service</div></a></div>
         <div class="spacer"><a href="/de-de/servicebereiche/aaa"><div class="entry rowx1">International Office</div></a></div>
         <div class="spacer"><a href="/de-de/studium/studienorganisation"><div class="entry rowx1">Studienorganisation</div></a></div>
@@ -66,7 +67,7 @@ group: corporatedesign
         <div class="title">Stabsstellen</div>
         <div class="spacer"><a href="/de-de/stabstellen/cio"><div class="entry rowx1">CIO</div></a></div>
         <div class="spacer"><a href="/de-de/stabstellen/controlling"><div class="entry rowx1">Controlling</div></a></div>
-        <div class="spacer"><a href="/de-de/stabstellen/qm"><div class="entry rowx2">Hochschulentwicklung und Qualitätsmanagement</div></a></div>
+        <div class="spacer"><a href="/de-de/stabstellen/qm"><div class="entry rowx2">Hochschulentwicklung und Qualit&auml;tsmanagement</div></a></div>
         <div class="spacer"><a href="/de-de/stabstellen/hochschulsport"><div class="entry rowx1">Hochschulsport</div></a></div>
         <div class="spacer"><a href="/de-de/stabstellen/justiziariat"><div class="entry rowx1">Justiziariat</div></a></div>
         <div class="spacer"><a href="/de-de/stabstellen/marketing"><div class="entry rowx1">Marketing</div></a></div>
@@ -88,8 +89,8 @@ group: corporatedesign
 
     <div class="pruefpraktikantenaemter">
       <div class="title">Praktikanten- und Prüfungsämter</div>
-      <div class="spacer"><a href="/de-de/praktikantenaemter"><div class="entry rowx1">Praktikantenamt</div></a></div>
-      <div class="spacer"><a href="/de-de/pruefungsaemter"><div class="entry rowx1">Prüfungsamt</div></a></div>
+      <div class="spacer"><a href="/de-de/praktikantenaemter"><div class="entry rowx1">Praktikantenämter</div></a></div>
+      <div class="spacer"><a href="/de-de/pruefungsaemter"><div class="entry rowx1">Prüfungsämter</div></a></div>
     </div>
 
     <div class="divider"><div class="divider-border"></div>

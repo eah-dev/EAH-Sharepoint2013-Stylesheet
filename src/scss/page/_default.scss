@@ -115,9 +115,17 @@
     @media (min-width: $screen-lg-min) {
       width: $container-lg;
     }
+  }
+  .bodyheaderRollupImage {
     // image tag
     img {
       width: 100%;
+    }
+  }
+  .contentContainer {
+    // image tag
+    img {
+      max-width: 100%;
     }
   }
   .contentMainFullWidth {

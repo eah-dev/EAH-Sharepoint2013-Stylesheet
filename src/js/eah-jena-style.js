@@ -68,6 +68,19 @@ jQuery(document).on('click', '.panel-heading', function (e) {
     $this.find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
   }
 });
+// collapse element
+jQuery(document).on('click', '.card-header', function (e) {
+  var $this = jQuery(this);
+  if (!$this.hasClass('card-collapsed')) {
+    $this.parents('.card').find('.card-body').slideUp();
+    $this.addClass('card-collapsed');
+    $this.find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
+  } else {
+    $this.parents('.card').find('.card-body').slideDown();
+    $this.removeClass('card-collapsed');
+    $this.find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
+  }
+});
 
 jQuery(document).on('click', '#showhideSearchbar', function (e) {
   var $this = jQuery('#eahSearchbarWrapper');

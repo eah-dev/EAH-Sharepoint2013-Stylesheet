@@ -11509,6 +11509,8 @@ button[disabled][disabled] {
     margin-bottom: 10px; }
     .card .card-header .clickable {
       cursor: pointer; }
+  .card .card-collapsed {
+    margin-bottom: 0 !important; }
   .card .card-body {
     margin: 10px; }
     .card .card-body p,
@@ -17885,9 +17887,12 @@ Main-Navigation :: Start
     .bodycontent .contentContainer,
     .bodycontent .bodyheaderRollupImage {
       width: 1170px; } }
-  .bodycontent .contentContainer img,
-  .bodycontent .bodyheaderRollupImage img {
-    width: 100%; }
+
+.bodycontent .bodyheaderRollupImage img {
+  width: 100%; }
+
+.bodycontent .contentContainer img {
+  max-width: 100%; }
 
 .bodycontent .contentMainFullWidth {
   width: 100%; }
