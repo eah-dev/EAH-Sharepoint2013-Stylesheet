@@ -13,30 +13,30 @@ group: corporatedesign
     <div class="title">Gremien</div>
 
     <div class="hochschule">
-      <a href="/de-de/gremien/hochschulrat"><div class="entry">Hochschulrat</div></a>
+      <a href="/de-de/struktur/gremien/hochschulrat"><div class="entry">Hochschulrat</div></a>
     </div>
 
     <div class="senat">
-      <a href="/de-de/gremien/senat"><div class="entry">Senat</div></a>
+      <a href="/de-de/struktur/gremien/senat"><div class="entry">Senat</div></a>
     </div>
 
   </div>
 
   <div class="senatsausschuesse">
     <div class="title">Senatsausschüsse</div>
-    <div class="spacer"><a href="/de-de/gremien/senat#studien"><div class="entry rowx1">Studienausschuss</div></a></div>
-    <div class="spacer"><a href="/de-de/gremien/senat#forschung"><div class="entry rowx1">Forschungsausschuss</div></a></div>
-    <div class="spacer"><a href="/de-de/gremien/senat#haushalt"><div class="entry rowx1">Haushaltsausschuss</div></a></div>
-    <div class="spacer"><a href="/de-de/gremien/senat#bibo"><div class="entry rowx1">Bibliotheksausschuss</div></a></div>
-    <div class="spacer"><a href="/de-de/gremien/senat#it"><div class="entry rowx1">IT-Ausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/gremien/senat#studien"><div class="entry rowx1">Studienausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/gremien/senat#forschung"><div class="entry rowx1">Forschungsausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/gremien/senat#haushalt"><div class="entry rowx1">Haushaltsausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/gremien/senat#bibo"><div class="entry rowx1">Bibliotheksausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/gremien/senat#it"><div class="entry rowx1">IT-Ausschuss</div></a></div>
   </div>
 
   <div class="rektorat">
     <div class="title">Rektorat</div>
-    <div class="spacer"><a href="/de-de/rektorat/rektor"><div class="entry rowx1">Rektor</div></a></div>
-    <div class="spacer"><a href="/de-de/rektorat/prorektor-slw"><div class="entry rowx2">Prorektor für Studium, <br/>Lehre und Weiterbildung</div></a></div>
-    <div class="spacer"><a href="/de-de/rektorat/prorektor-fe"><div class="entry rowx2">Prorektor für Forschung <br/>und Entwicklung</div></a></div>
-    <div class="spacer"><a href="/de-de/rektorat/kanzler"><div class="entry rowx1">Kanzler</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/rektorat/rektor"><div class="entry rowx1">Rektor</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/rektorat/prorektor-slw"><div class="entry rowx2">Prorektor für Studium, <br/>Lehre und Weiterbildung</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/rektorat/prorektor-fe"><div class="entry rowx2">Prorektor für Forschung <br/>und Entwicklung</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/rektorat/kanzler"><div class="entry rowx1">Kanzler</div></a></div>
   </div>
 
   <div class="divider"><div class="divider-border"></div>
@@ -48,7 +48,7 @@ group: corporatedesign
       <div class="spacer"><a href="/de-de/career-service"><div class="entry rowx1">Career Service</div></a></div>
       <div class="spacer"><a href="/de-de/gruenderservice"><div class="entry rowx1">Gr&uuml;nderservice</div></a></div>
       <div class="spacer"><a href="/de-de/studium/master-service"><div class="entry rowx1">Master Service</div></a></div>
-      <div class="spacer"><a href="/de-de/servicebereiche/aaa"><div class="entry rowx1">International Office</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/servicebereiche/aaa"><div class="entry rowx1">International Office</div></a></div>
       <div class="spacer"><a href="/de-de/studium/studienorganisation"><div class="entry rowx1">Studienorganisation</div></a></div>
       <div class="spacer"><a href="/de-de/studium/studierendensekretariat"><div class="entry rowx1">Studierendensekretariat</div></a></div>
       <div class="spacer"><a href="/de-de/thoska"><div class="entry rowx1">THOSKA</div></a></div>
@@ -57,39 +57,39 @@ group: corporatedesign
 
     <div class="servicezentren">
       <div class="title">ServiceZentren</div>
-      <div class="spacer"><a href="/de-de/servicebereiche/szi"><div class="entry rowx2">ServiceZentrum <br/>Informatik</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/servicebereiche/szi"><div class="entry rowx2">ServiceZentrum <br/>Informatik</div></a></div>
       <div class="spacer"><a href="/de-de/forschung"><div class="entry rowx2">ServiceZentrum <br/>Forschung und Transfer</div></a></div>
       <div class="spacer"><a href="/de-de/studium/beratung/zentrale-studienberatung"><div class="entry rowx2">ServiceZentrum <br/>Studium und Studienberatung</div></a></div>
     </div>
 
     <div class="stabstellen">
       <div class="title">Stabsstellen</div>
-      <div class="spacer"><a href="/de-de/stabstellen/cio"><div class="entry rowx1">CIO</div></a></div>
-      <div class="spacer"><a href="/de-de/stabstellen/controlling"><div class="entry rowx1">Controlling</div></a></div>
-      <div class="spacer"><a href="/de-de/stabstellen/qm"><div class="entry rowx2">Hochschulentwicklung und Qualit&auml;tsmanagement</div></a></div>
-      <div class="spacer"><a href="/de-de/hss"><div class="entry rowx1">Hochschulsport</div></a></div>
-      <div class="spacer"><a href="/de-de/stabstellen/justiziariat"><div class="entry rowx1">Justiziariat</div></a></div>
-      <div class="spacer"><a href="/de-de/stabstellen/marketing"><div class="entry rowx1">Marketing</div></a></div>
-      <div class="spacer"><a href="/de-de/stabstellen/öa"><div class="entry rowx2">Öffentlichkeitsarbeit und <br/>Kommunikation</div></a></div>
-      <div class="spacer"><a href="/de-de/stabstellen/rektoramt"><div class="entry rowx1">Rektoramt</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/stabstellen/cio"><div class="entry rowx1">CIO</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/stabstellen/controlling"><div class="entry rowx1">Controlling</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/stabstellen/qm"><div class="entry rowx2">Hochschulentwicklung und Qualit&auml;tsmanagement</div></a></div>
+      <div class="spacer"><a href="/hss"><div class="entry rowx1">Hochschulsport</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/stabstellen/justiziariat"><div class="entry rowx1">Justiziariat</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/stabstellen/marketing"><div class="entry rowx1">Marketing</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/stabstellen/öa"><div class="entry rowx2">Öffentlichkeitsarbeit und <br/>Kommunikation</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/stabstellen/rektoramt"><div class="entry rowx1">Rektoramt</div></a></div>
     </div>
 
   </div>
 
   <div class="referate">
     <div class="title">Referate</div>
-    <div class="spacer"><a href="/de-de/referate/1"><div class="entry rowx1">Personal</div></a></div>
-    <div class="spacer"><a href="/de-de/referate/2"><div class="entry rowx1">Haushalt</div></a></div>
-    <div class="spacer"><a href="/de-de/referate/3"><div class="entry rowx2">Bibliothek, Archiv,<br/> Patentwesen</div></a></div>
-    <div class="spacer"><a href="/de-de/referate/4"><div class="entry rowx2">Technik, Liegenschaften,<br/> Bau, Sicherheit</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/referate/1"><div class="entry rowx1">Personal</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/referate/2"><div class="entry rowx1">Haushalt</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/referate/3"><div class="entry rowx2">Bibliothek, Archiv,<br/> Patentwesen</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/referate/4"><div class="entry rowx2">Technik, Liegenschaften,<br/> Bau, Sicherheit</div></a></div>
   </div>
 
   <div class="divider"><div class="divider-border"></div>
 
   <div class="pruefpraktikantenaemter">
     <div class="title">Praktikanten- und Prüfungsämter</div>
-    <div class="spacer"><a href="/de-de/praktikantenaemter"><div class="entry rowx1">Praktikantenämter</div></a></div>
-    <div class="spacer"><a href="/de-de/pruefungsaemter"><div class="entry rowx1">Prüfungsämter</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/praktikantenaemter"><div class="entry rowx1">Praktikantenämter</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/pruefungsaemter"><div class="entry rowx1">Prüfungsämter</div></a></div>
   </div>
 
   <div class="divider"><div class="divider-border"></div>
@@ -112,10 +112,10 @@ group: corporatedesign
   <div class="others">
     <div class="title"> </div>
     <div class="spacer"><a href="http://stura.eah-jena.de"><div class="entry rowx1">Studierendenrat</div></a></div>
-    <div class="spacer"><a href="/de-de/vertretung/personalrat"><div class="entry rowx1">Personalrat</div></a></div>
-    <div class="spacer"><a href="/de-de/vertretung/gleichstellungsbeirat"><div class="entry rowx1">Gleichstellungsbeirat</div></a></div>
-    <div class="spacer"><a href="/de-de/vertretung/schwerbehindertenvertretung"><div class="entry rowx1">Schwerbehindertenvertretung</div></a></div>
-    <div class="spacer"><a href="/de-de/beauftragte/uebersicht"><div class="entry rowx1">Hochschulbeauftragte</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/vertretung/personalrat"><div class="entry rowx1">Personalrat</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/vertretung/gleichstellungsbeirat"><div class="entry rowx1">Gleichstellungsbeirat</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/vertretung/schwerbehindertenvertretung"><div class="entry rowx1">Schwerbehindertenvertretung</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/beauftragte/uebersicht"><div class="entry rowx1">Hochschulbeauftragte</div></a></div>
   </div>
 
 </div>
