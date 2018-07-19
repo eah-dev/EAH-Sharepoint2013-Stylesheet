@@ -34,8 +34,8 @@ group: corporatedesign
   <div class="rektorat">
     <div class="title">Rektorat</div>
     <div class="spacer"><a href="/de-de/rektorat/rektor"><div class="entry rowx1">Rektor</div></a></div>
-    <div class="spacer"><a href="/de-de/rektorat/prorektor-slw"><div class="entry rowx2">Prorektor für Studium, Lehre und Weiterbildung</div></a></div>
-    <div class="spacer"><a href="/de-de/rektorat/prorektor-fe"><div class="entry rowx2">Prorektor für Forschung und Entwicklung</div></a></div>
+    <div class="spacer"><a href="/de-de/rektorat/prorektor-slw"><div class="entry rowx2">Prorektor für Studium, <br/>Lehre und Weiterbildung</div></a></div>
+    <div class="spacer"><a href="/de-de/rektorat/prorektor-fe"><div class="entry rowx2">Prorektor für Forschung <br/>und Entwicklung</div></a></div>
     <div class="spacer"><a href="/de-de/rektorat/kanzler"><div class="entry rowx1">Kanzler</div></a></div>
   </div>
 
@@ -52,14 +52,14 @@ group: corporatedesign
       <div class="spacer"><a href="/de-de/studium/studienorganisation"><div class="entry rowx1">Studienorganisation</div></a></div>
       <div class="spacer"><a href="/de-de/studium/studierendensekretariat"><div class="entry rowx1">Studierendensekretariat</div></a></div>
       <div class="spacer"><a href="/de-de/thoska"><div class="entry rowx1">THOSKA</div></a></div>
-      <div class="spacer"><a href="/de-de/studium/beratung/zentrale-studienberatung"><div class="entry rowx2">Zentrale Studienberatung</div></a></div>
+      <div class="spacer"><a href="/de-de/studium/beratung/zentrale-studienberatung"><div class="entry rowx2">Zentrale <br/>Studienberatung</div></a></div>
     </div>
 
     <div class="servicezentren">
       <div class="title">ServiceZentren</div>
-      <div class="spacer"><a href="/de-de/servicebereiche/szi"><div class="entry rowx1">ServiceZentrum Informatik</div></a></div>
-      <div class="spacer"><a href="/de-de/forschung"><div class="entry rowx2">ServiceZentrum Forschung und Transfer</div></a></div>
-      <div class="spacer"><a href="/de-de/studium/beratung/zentrale-studienberatung"><div class="entry rowx2">ServiceZentrum Studium und Studienberatung</div></a></div>
+      <div class="spacer"><a href="/de-de/servicebereiche/szi"><div class="entry rowx2">ServiceZentrum <br/>Informatik</div></a></div>
+      <div class="spacer"><a href="/de-de/forschung"><div class="entry rowx2">ServiceZentrum <br/>Forschung und Transfer</div></a></div>
+      <div class="spacer"><a href="/de-de/studium/beratung/zentrale-studienberatung"><div class="entry rowx2">ServiceZentrum <br/>Studium und Studienberatung</div></a></div>
     </div>
 
     <div class="stabstellen">
@@ -70,7 +70,7 @@ group: corporatedesign
       <div class="spacer"><a href="/de-de/hss"><div class="entry rowx1">Hochschulsport</div></a></div>
       <div class="spacer"><a href="/de-de/stabstellen/justiziariat"><div class="entry rowx1">Justiziariat</div></a></div>
       <div class="spacer"><a href="/de-de/stabstellen/marketing"><div class="entry rowx1">Marketing</div></a></div>
-      <div class="spacer"><a href="/de-de/stabstellen/öa"><div class="entry rowx2">Öffentlichkeitsarbeit und Kommunikation</div></a></div>
+      <div class="spacer"><a href="/de-de/stabstellen/öa"><div class="entry rowx2">Öffentlichkeitsarbeit und <br/>Kommunikation</div></a></div>
       <div class="spacer"><a href="/de-de/stabstellen/rektoramt"><div class="entry rowx1">Rektoramt</div></a></div>
     </div>
 
@@ -80,8 +80,8 @@ group: corporatedesign
     <div class="title">Referate</div>
     <div class="spacer"><a href="/de-de/referate/1"><div class="entry rowx1">Personal</div></a></div>
     <div class="spacer"><a href="/de-de/referate/2"><div class="entry rowx1">Haushalt</div></a></div>
-    <div class="spacer"><a href="/de-de/referate/3"><div class="entry rowx1">Bibliothek, Archiv, Patentwesen</div></a></div>
-    <div class="spacer"><a href="/de-de/referate/4"><div class="entry rowx2">Technik, Liegenschaften, Bau, Sicherheit</div></a></div>
+    <div class="spacer"><a href="/de-de/referate/3"><div class="entry rowx2">Bibliothek, Archiv,<br/> Patentwesen</div></a></div>
+    <div class="spacer"><a href="/de-de/referate/4"><div class="entry rowx2">Technik, Liegenschaften,<br/> Bau, Sicherheit</div></a></div>
   </div>
 
   <div class="divider"><div class="divider-border"></div>
