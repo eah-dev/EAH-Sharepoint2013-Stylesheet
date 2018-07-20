@@ -24,11 +24,11 @@ group: corporatedesign
 
   <div class="senatsausschuesse">
     <div class="title">Senatsausschüsse</div>
-    <div class="spacer"><a href="/de-de/struktur/gremien/senat#studien"><div class="entry rowx1">Studienausschuss</div></a></div>
-    <div class="spacer"><a href="/de-de/struktur/gremien/senat#forschung"><div class="entry rowx1">Forschungsausschuss</div></a></div>
-    <div class="spacer"><a href="/de-de/struktur/gremien/senat#haushalt"><div class="entry rowx1">Haushaltsausschuss</div></a></div>
-    <div class="spacer"><a href="/de-de/struktur/gremien/senat#bibo"><div class="entry rowx1">Bibliotheksausschuss</div></a></div>
-    <div class="spacer"><a href="/de-de/struktur/gremien/senat#it"><div class="entry rowx1">IT-Ausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/senatsausschuesse/studienausschuss"><div class="entry rowx1">Studienausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/senatsausschuesse/forschungsausschuss"><div class="entry rowx1">Forschungsausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/senatsausschuesse/haushaltsausschuss"><div class="entry rowx1">Haushaltsausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/senatsausschuesse/bibliotheksausschuss"><div class="entry rowx1">Bibliotheksausschuss</div></a></div>
+    <div class="spacer"><a href="/de-de/struktur/senatsausschuesse/it-ausschuss"><div class="entry rowx1">IT-Ausschuss</div></a></div>
   </div>
 
   <div class="rektorat">
