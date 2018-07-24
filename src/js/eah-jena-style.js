@@ -1,6 +1,21 @@
-﻿
+﻿jQuery(document).ready(function(){
+  $("#carousel-home").carousel({
+      interval : 2000
+  });
+})
+jQuery('.carousel').swipe({
+	swipeLeft:function(event, direction, distance, duration, fingerCount) {
+		$(this).carousel('next');
+	},
+	swipeRight:function(event, direction, distance, duration, fingerCount) {
+		$(this).carousel('prev');
+	},
+	threshold:0
+});
+
 // click on the main menu
 jQuery('#showGlobalSideMainMenu').on('click', function (event) {
+  console.log("showGlobalSideMainMenu");
   $('#gloabl-side-menu-wrapper').css({ 'display': 'block' });
   $('#gloabl-side-menu-wrapper').css({ 'right': '0' });
   //$('#s4-workspace').css({ 'left': '-320px' });
@@ -50,6 +65,19 @@ jQuery(document).on('click', '.panel-heading', function (e) {
   } else {
     $this.parents('.panel').find('.panel-body').slideDown();
     $this.removeClass('panel-collapsed');
+    $this.find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
+  }
+});
+// collapse element
+jQuery(document).on('click', '.card-header', function (e) {
+  var $this = jQuery(this);
+  if (!$this.hasClass('card-collapsed')) {
+    $this.parents('.card').find('.card-body').slideUp();
+    $this.addClass('card-collapsed');
+    $this.find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
+  } else {
+    $this.parents('.card').find('.card-body').slideDown();
+    $this.removeClass('card-collapsed');
     $this.find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
   }
 });

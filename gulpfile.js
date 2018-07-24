@@ -3,8 +3,8 @@ const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 
 // gulp-task
-const requireDir = require('require-dir');
-requireDir('./tasks');
+var requireDir = require('require-dir');
+requireDir('./gulp-tasks');
 
 //
 // ---- tasks

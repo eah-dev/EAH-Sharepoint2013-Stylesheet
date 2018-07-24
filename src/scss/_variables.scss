@@ -39,6 +39,12 @@ $search-form-color:     $blue; //#75818f;
 
 $eah-menu-close:        $white;
 
+// Abstand zwischen Ueberschrift und line
+$spacerHeadingMainUnderline: 3px;
+$borderBottomWidthHeadingMainUnderline: 2px;
+$spacerHeadingTitleUnterline: 4px;
+$borderBottomWidthTitleUnterline: 4px;
+
 //
 // buttons
 //
@@ -69,6 +75,26 @@ $brand-info:            #5bc0de;
 $brand-warning:         #f0ad4e;
 $brand-danger:          #d9534f;
 
+// Farben der Fachbereiche
+$faculties-color-bw: rgba(222, 154, 39, 1);
+$faculties-color-bw-overlay: rgba(222, 154, 39, 0.5);
+$faculties-color-et: rgba(160, 49, 57, 1);
+$faculties-color-et-overlay: rgba(160, 49, 57, 0.5);
+$faculties-color-gl: rgba(44, 59, 89, 1);
+$faculties-color-gl-overlay: rgba(44, 59, 89, 0.5);
+$faculties-color-gp: rgba(128, 33, 126, 1);
+$faculties-color-gp-overlay: rgba(128, 33, 126, 0.5);
+$faculties-color-mb: rgba(240, 202, 32, 1);
+$faculties-color-mb-overlay: rgba(240, 202, 32, 0.5);
+$faculties-color-mt: rgba(6, 139, 3, 1);
+$faculties-color-mt-overlay: rgba(6, 139, 3, 0.5);
+$faculties-color-sc: rgba(124, 192, 231, 1);
+$faculties-color-sc-overlay: rgba(124, 192, 231, 0.5);
+$faculties-color-sw: rgba(201, 68, 44, 1);
+$faculties-color-sw-overlay: rgba(201, 68, 44, 0.5);
+$faculties-color-wi: rgba(116, 245, 1, 1);
+$faculties-color-wi-overlay: rgba(116, 245, 1, 0.5);
+
 // typography
 $font-family-sans-serif:    'Roboto', Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
 $font-family-serif:         Georgia, 'Times New Roman', Times, serif;
@@ -79,26 +105,30 @@ $font-family-glyphiconsHalflings: 'Glyphicons Halflings';
 $font-family-monospace: Menlo, Monaco, Consolas, 'Courier New', monospace;
 $font-family-base: $font-family-sans-serif;
 
-$font-size-base:          15px;// !important;
+$font-size-base:          15px;// 0.95em; !important;
 $font-size-bigger:        floor(($font-size-base * 6.4)); // ~90px
 $font-size-big:           floor(($font-size-base * 5)); // ~70px
 $font-size-large:         ceil(($font-size-base * 1.25)); // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)); // ~12px
 $font-size-smaller:       ceil(($font-size-base * 0.7)); // ~10px
 
-$font-size-h1:            32px !important;//28px;//floor(($font-size-base * 2)); // ~28px
-$font-size-h2:            28px !important;//22px;//floor(($font-size-base * 1.57)); // ~22px;
-$font-size-h3:            22px;//12px;//ceil(($font-size-base * 1.22)); // ~18px;
+$font-size-h1:            1.5em !important;//;32px !important;//28px;//floor(($font-size-base * 2)); // ~28px
+$font-size-h2:            1.4em; //28px !important;//22px;//floor(($font-size-base * 1.57)); // ~22px;
+$font-size-h3:            1.3em; //22px;//12px;//ceil(($font-size-base * 1.22)); // ~18px;
 $font-size-h4:            ceil(($font-size-base * 1.14)); // ~16px;
-$font-size-h5:            $font-size-base;                 //14px
+$font-size-h5:            $font-size-base;                 // 15px
 $font-size-h6:            ceil(($font-size-base * 0.85)); // ~12px
 
 // ## Footer
 $footer-font-color:           #75818f;
-$footer-font-headline-size:   16px;
-$footer-font-headline-style:  $font-family-roboto;
-$footer-font-links-size:      13px;
-$footer-font-links-style:     Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$footer-font-headline-size:   18px;
+$footer-font-headline-family:  $font-family-roboto;
+$footer-font-headline-weight:  700;
+$footer-font-links-size:      14px;
+$footer-font-links-family:     Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+$footer-zentral-bg-color: $blue;
+$footer-zentral-font-color: $white;
 
 //== Scaffolding
 //

@@ -11,6 +11,7 @@
 
 // application configuration variables
 @import 'variables';
+@import 'mixins/mixins';
 
 // load Bootstrap
 @import 'loadbootstrap';
@@ -28,7 +29,7 @@ $ionicons-font-path: "/EAH-Sharepoint2013-Stylesheet/assets/ionicons/fonts";
 //
 @import 'function';
 @import 'type';
-@import 'faculty';
+// @import 'faculty';
 
 //
 // SharePoint 2013 - Klassen Anpassungen und Erweiterungen
@@ -60,7 +61,7 @@ $ionicons-font-path: "/EAH-Sharepoint2013-Stylesheet/assets/ionicons/fonts";
 @import 'list-group';
 @import 'nav';
 @import 'news-ticker';
-@import 'pagelayout';
+@import 'page/page';
 @import 'reusable_content';
 @import 'reusable-major';
 // @import 'search-form';
@@ -69,7 +70,7 @@ $ionicons-font-path: "/EAH-Sharepoint2013-Stylesheet/assets/ionicons/fonts";
 @import 'slideOutNavi';
 @import 'style';
 @import 'table';
-@import 'webparts';
+@import 'webparts/webparts';
 
 // seperate file
 @import 'docs/docs';

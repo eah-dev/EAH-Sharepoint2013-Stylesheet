@@ -5,30 +5,9 @@
 /// Zitat
 /// das meiste wird ueber die bootstrap variablen geregelt
 /// @author Carsten Hoelbing
-/// @example markup
-/// <section>
-///   <h1>Zitat gruener Hintergrund</h1>
-///   <section class="element-wrapper blockquote-gray">
-///     <div class="container">
-///       <div class="row">
-///         <div class="blockquote-wrapper">
-///           <blockquote>
-///            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-///              dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-///              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-///              consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-///              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-///              sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-///            <footer>Donald Franz</footer>
-///          </blockquote>
-///        </div>
-///      </div>
-///    </div>
-///  </section>
-/// </section>
 .blockquote-wrapper {
   margin-top: 30px;
-  font-family: "Roboto";
+  font-family: $font-family-roboto;
   blockquote {
     border-left-style: solid;
     border-width: 5px;
@@ -51,73 +30,37 @@
 
 // bw
 .blockquote-fc-bw {
-  background: $gray-lighter;
-  color: $black;
-  blockquote {
-    border-left-color: $faculties-color-bw;
-  }
+  @include blockquote-color( $gray-lighter, $black, $faculties-color-bw);
 }
 // et
 .blockquote-fc-et {
-  background: $gray-lighter;
-  color: $black;
-  blockquote {
-    border-left-color: $faculties-color-et;
-  }
+  @include blockquote-color( $gray-lighter, $black, $faculties-color-et);
 }
 // gl
 .blockquote-fc-gl {
-  background: $gray-lighter;
-  color: $black;
-  blockquote {
-    border-left-color: $faculties-color-gl;
-  }
+  @include blockquote-color( $gray-lighter, $black, $faculties-color-gl);
 }
 // gp
 .blockquote-fc-gp {
-  background: $gray-lighter;
-  color: $black;
-  blockquote {
-    border-left-color: $faculties-color-gp;
-  }
+  @include blockquote-color( $gray-lighter, $black, $faculties-color-gp);
 }
 // mb
 .blockquote-fc-mb {
-  background: $gray-lighter;
-  color: $black;
-  blockquote {
-    border-left-color: $faculties-color-mb;
-  }
+  @include blockquote-color( $gray-lighter, $black, $faculties-color-mb);
 }
 // mt
 .blockquote-fc-mt {
-  background: $gray-lighter;
-  color: $black;
-  blockquote {
-    border-left-color: $faculties-color-bw;
-  }
+  @include blockquote-color( $gray-lighter, $black, $faculties-color-mt);
 }
 // sc
 .blockquote-fc-sc {
-  background: $gray-lighter;
-  color: $black;
-  blockquote {
-    border-left-color: $faculties-color-sc;
-  }
+  @include blockquote-color( $gray-lighter, $black, $faculties-color-sc);
 }
 // sw
 .blockquote-fc-sw {
-  background: $gray-lighter;
-  color: $black;
-  blockquote {
-    border-left-color: $faculties-color-sw;
-  }
+  @include blockquote-color( $gray-lighter, $black, $faculties-color-sw);
 }
 // wi
 .blockquote-fc-wi {
-  background: $gray-lighter;
-  color: $black;
-  blockquote {
-    border-left-color: $faculties-color-wi;
-  }
+  @include blockquote-color( $gray-lighter, $black, $faculties-color-wi);
 }

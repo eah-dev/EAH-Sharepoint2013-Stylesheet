@@ -19,24 +19,35 @@
   border-radius: 1px;
   //display: flex;
   .header-title {
+    padding-bottom: $spacerHeadingMainUnderline;
+    border-bottom-style: solid;
+    border-bottom-width: $borderBottomWidthHeadingMainUnderline;
     h2 {
-      border-bottom-style: solid;
-      border-width: 1px;
+      padding: 0;
+      margin: 0;
+      font-size: $font-size-large !important;
+      line-height: $line-height-base;
       .spantitle {
+        padding-bottom: $spacerHeadingTitleUnterline;
         border-bottom-style: solid;
-        border-width: 1px;
+        border-bottom-width: $borderBottomWidthTitleUnterline;
       }
     }
   }
   .body-content {
     .content-title {
+      padding-bottom: $spacerHeadingMainUnderline;
+      border-bottom-style: solid;
+      border-bottom-width: $borderBottomWidthHeadingMainUnderline;
       h2 {
+        padding: 0;
+        margin: 0;
         text-align: left;
-        border-bottom-style: solid;
-        border-width: 1px;
+        font-size: $font-size-large;
         .spantitle {
+          padding-bottom: $spacerHeadingTitleUnterline;
           border-bottom-style: solid;
-          border-width: 1px;
+          border-bottom-width: $borderBottomWidthTitleUnterline;
         }
       }
     }
@@ -82,8 +93,8 @@
 
     // gib es nur bei .anchorbox-body-single-wrapper
     .header-title {
+      border-bottom-color: $green;
       h2 {
-        border-bottom-color: $green;
         color: $bg-color-blue;
         .spantitle {
           border-bottom-color: $green;
@@ -92,8 +103,8 @@
     }
     .body-content {
       .content-title {
+        border-bottom-color: $green;
         h2 {
-          border-bottom-color: $green;
           color: $bg-color-blue;
           .spantitle {
             border-bottom-color: $green;

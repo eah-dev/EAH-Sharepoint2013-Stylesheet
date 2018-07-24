@@ -1,0 +1,115 @@
+/* ============================================================================
+		majorContactAdress :: Start
+============================================================================ */
+//
+// <div id="majorContactAdress-wrapper"></div>
+//
+#majorContactAdress-wrapper {
+
+  // angaben fuer beide elemente
+  .majorContactAdress-header,
+  .majorContactAdress-body {
+
+    //
+    .entry {
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-bottom: 1px;
+      border-style: solid;
+      border-width: 1px;
+
+      @include make-row();
+      //
+      .unit {
+        // text-align: center;
+        //
+        @include make-xs-column(12);
+        @include make-sm-column(4);
+      }
+      .tel {
+        // text-align: center;
+        //
+        @include make-xs-column(12);
+        @include make-sm-column(2);
+      }
+      .fax {
+        // text-align: center;
+        //
+        @include make-xs-column(12);
+        @include make-sm-column(2);
+      }
+      .email {
+        @include make-xs-column(12);
+        @include make-sm-column(4);
+      }
+
+      /*
+      .roomno {
+        text-align: center;
+        //
+        @include make-xs-column(12);
+        @include make-sm-column(2);
+      }
+      */
+    }
+  }
+  .majorContactAdress-header {
+    //
+    .entry {
+      //
+      .unit {
+        font-weight: 700;
+      }
+      .tel {
+        font-weight: 700;
+      }
+      .fax {
+        font-weight: 700;
+      }
+      .email {
+        font-weight: 700;
+      }
+
+      /*
+      .roomno {
+        font-weight: 700;
+      }
+      */
+    }
+  }
+  .majorContactAdress-body {
+    //
+    .entry {
+      //
+      .unit {
+        //
+      }
+      .tel {
+        //
+      }
+      .fax {
+        //
+      }
+      .email {
+        //
+      }
+
+      /*
+      .roomno {
+        //
+      }
+      */
+    }
+  }
+}
+
+// default farbe
+// es sollte eogentlich auch keine andere Farbe-Klasse verwendet werden.
+.majorContactAdress-default {
+  .majorContactAdress-header,
+  .majorContactAdress-body {
+    .entry {
+      border-color: $gray;
+    }
+  }
+}

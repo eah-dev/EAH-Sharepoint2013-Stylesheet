@@ -1,0 +1,94 @@
+/* ============================================================================
+		contact :: Start
+============================================================================ */
+
+/// Ansprechpartner
+.contactSidebar-wrapper {
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  .contactSidebarTitle {
+    padding: 10px;
+    text-align: left;
+    line-height: 25px;
+  }
+  .contactSidebarContent {
+    padding: 10px;
+    text-align: left;
+    line-height: 25px;
+    i {
+      width: 30px;
+      text-align: center;
+    }
+    .contact-img {
+      margin-bottom: 10px;
+    }
+    .contact-name {
+      font-weight: bold;
+      font-size: 19px;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      //
+    }
+    .contact-workphone,
+    .contact-workfax,
+    .contact-email,
+    .contact-roomnumber,
+    .contact-servicetime {
+      //
+    }
+    a {
+      &:link,
+      &:visited,
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// only colors
+.contactSidebar-default {
+  border-color: $gray;
+  .contactSidebarTitle {
+    background-color: $blue;
+    color: $white;
+  }
+  .contactSidebarContent {
+    .contact-name {
+      color: $black;
+    }
+    .contact-institution,
+    .contact-jobtitle {
+      color: $black;
+    }
+    .contact-workphone i,
+    .contact-workfax i,
+    .contact-email i,
+    .contact-roomnumber i,
+    .contact-servicetime i {
+      color: $black;
+    }
+    .contact-workphone .value,
+    .contact-workfax .value,
+    .contact-email .value,
+    .contact-roomnumber .value,
+    .contact-servicetime .value {
+      color: $black;
+      a {
+        color: $green;
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+          color: $green;
+        }
+      }
+    }
+  }
+}

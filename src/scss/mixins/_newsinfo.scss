@@ -1,0 +1,47 @@
+@mixin newsinfo-color($background-color, $color, $headunderline-color, $count-bg-color, $count-active-bg-color, $border-color) {
+  background-color: $background-color;
+  .newsinfo-news-wrapper,
+  .newsinfo-infos-wrapper {
+    color: $color;
+    .newsinfo-title {
+      border-bottom-color: $headunderline-color;
+      .title {
+        border-bottom-color: $headunderline-color;
+      }
+    }
+    .newsinfo-body {
+      .major-news-items,
+      .major-infos-items {
+        //
+      }
+      .major-news-body-title,
+      .major-infos-body-title {
+        //
+      }
+      .major-news-body-content,
+      .major-infos-body-content {
+        @media screen and (max-width: $screen-sm) {
+          //
+        }
+      }
+    }
+    .major-counter {
+      .major-count-block {
+        background-color: $count-bg-color;
+        &.active {
+          background-color: $count-active-bg-color;
+        }
+      }
+    }
+  }
+  .newsinfo-news-wrapper {
+    @media screen and (min-width: $screen-sm-max) {
+      border-right-color: $border-color;
+    }
+  }
+  .newsinfo-infos-wrapper {
+    @media screen and (min-width: $screen-sm-max) {
+      border-left-color: $border-color;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+/* ============================================================================
+		 sidebar element :: Start
+============================================================================ */
+
+/// sidebar element
+.sidebarEntry {
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  .sidebarEntryTitle {
+    padding: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+}
+
+// only colors
+.sidebarEntry-default {
+  border-color: $gray;
+  .sidebarEntryTitle {
+    background-color: $blue;
+    color: $white;
+  }
+}

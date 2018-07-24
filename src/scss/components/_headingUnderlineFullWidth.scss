@@ -12,15 +12,15 @@
 /// @author Carsten Hoelbing
 .headingUnderlineFullWidth-wrapper {
   width: 100%;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: $spacerHeadingMainUnderline;
+  border-bottom-style: solid;
+  border-bottom-width: $borderBottomWidthHeadingMainUnderline;
+  text-align: center;
   .title {
+    padding-bottom: $spacerHeadingTitleUnterline;
     border-bottom-style: solid;
-    border-bottom-width: 4px;
-    padding-bottom: 10px;
+    border-bottom-width: $borderBottomWidthTitleUnterline;
     font-size: $font-size-large;
     font-family: $font-family-roboto;
   }

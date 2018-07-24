@@ -14,8 +14,8 @@ const folderLocalCss = './dist/css/*.css';
 const folderLocalJs = './dist/js/*.js';
 
 // auf dem Sharpoint-Server - Files / Folder
-const folderServerCss = '_catalogs/masterpage/layouts/eah-jena/css/';
-const folderServerJs = '_catalogs/masterpage/layouts/eah-jena/js/';
+const folderServerCss = 'Style Library/eah-jena/css/';
+const folderServerJs = 'Style Library/eah-jena/js/';
 
 //
 // ---- tasks
@@ -43,7 +43,7 @@ gulp.task('copyToSharePoint:js', ['JavaScriptCompress'], function(){
 
 // dev
 // gulp.task - 'copyToSharePointDev:css'
-gulp.task('copyToSharePointDev:css', ['css-style'], function(){
+gulp.task('copyToSharePointDev:css', ['css-compile-style'], function(){
   return gulp.src(folderLocalCss)
     .pipe(spsave({
         siteUrl: spsiteUrlDev,

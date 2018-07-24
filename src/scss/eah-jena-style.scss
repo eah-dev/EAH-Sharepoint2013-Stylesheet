@@ -6,14 +6,15 @@
 
 // application configuration variables
 @import 'variables';
+@import 'mixins/mixins';
 
 // load Bootstrap
 @import 'loadbootstrap';
 
 // Variables to modify font folders
-$fa-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/font-awesome/fonts";
-$roboto-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/roboto-fontface/fonts";
-$ionicons-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/ionicons/fonts";
+$fa-font-path: "/Style Library/eah-jena/assets/font-awesome/fonts";
+$roboto-font-path: "/Style Library/eah-jena/assets/roboto-fontface/fonts";
+$ionicons-font-path: "/Style Library/eah-jena/assets/ionicons/fonts";
 
 // load all external libs
 @import 'loadexternlibs';
@@ -23,7 +24,7 @@ $ionicons-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/ionicons/fon
 //
 @import 'function';
 @import 'type';
-@import 'faculty';
+// @import 'faculty';
 
 //
 // SharePoint 2013 - Klassen Anpassungen und Erweiterungen
@@ -46,7 +47,7 @@ $ionicons-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/ionicons/fon
 // @import 'event-list';
 @import 'editor';
 @import 'components/components';
-@import 'event-news';
+// @import 'event-news'; // wird jetzt in einem Panel angezeigt
 @import 'footer';
 @import 'form';
 @import 'header';
@@ -55,7 +56,7 @@ $ionicons-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/ionicons/fon
 @import 'list-group';
 @import 'nav';
 @import 'news-ticker';
-@import 'pagelayout';
+@import 'page/page';
 @import 'reusable_content';
 @import 'reusable-major';
 // @import 'search-form';
@@ -64,4 +65,4 @@ $ionicons-font-path: "/_catalogs/masterpage/layouts/eah-jena/assets/ionicons/fon
 @import 'slideOutNavi';
 @import 'style';
 @import 'table';
-@import 'webparts';
+@import 'webparts/webparts';

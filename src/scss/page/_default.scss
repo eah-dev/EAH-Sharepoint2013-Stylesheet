@@ -1,0 +1,197 @@
+//Allgemeine Einstellungen
+#StudiFilterPage,
+#pageWithSidebar,
+#page-content > .ms-rtestate-field,
+#page-content > .ms-siteSettings-root,
+#DeltaPlaceHolderMain {
+  > div > .container > .row > .panel {
+    padding-bottom: 0;
+  }
+  h1,
+  > h1,
+  > div > .container > h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: $font-size-h1;
+    color: $green;
+  }
+  > h1 a:hover {
+    color: $green;
+  }
+  > h1 a {
+    color: $green;
+    text-decoration: none;
+  }
+  h2,
+  > h2,
+  > div > .container > h2 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: $font-size-h2;
+    color: $blue;
+  }
+  > h2 a:hover {
+    color: $blue;
+  }
+  > h2 a {
+    color: $blue;
+    text-decoration: none;
+  }
+  h3,
+  > h3,
+  > div > .container > h3,
+  h4,
+  > h4,
+  > div > .container > h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: $font-size-h3;
+    font-weight: 400;
+    color: $blue;
+  }
+  > h3 a:hover,
+  > h4 a:hover {
+    color: $blue;
+  }
+  > h3 a,
+  > h4 a {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  // Headings
+  // -------------------------
+  // set default font-family
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  input {
+    font-family: $font-family-base !important;
+  }
+  h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    hyphens: auto;
+  }
+  h2,
+  h3 {
+    font-weight: 400;
+  }
+  p,
+  li {
+    font-size: $font-size-base;
+  }
+}
+// full width
+.page-container-fluid {
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+//
+.bodycontent {
+  .contentContainer,
+  .bodyheaderRollupImage {
+    padding-bottom: 15px;
+    //
+    @include container-fixed;
+
+    @media (min-width: $screen-sm-min) {
+      width: $container-sm;
+    }
+
+    @media (min-width: $screen-md-min) {
+      width: $container-md;
+    }
+
+    @media (min-width: $screen-lg-min) {
+      width: $container-lg;
+    }
+  }
+  .bodyheaderRollupImage {
+    // image tag
+    img {
+      width: 100%;
+    }
+  }
+  .contentContainer {
+    // image tag
+    img {
+      max-width: 100%;
+    }
+  }
+  .contentMainFullWidth {
+    width: 100%;
+  }
+  .contentMain {
+    @include make-xs-column(12);
+    @include make-sm-column(9);
+  }
+  .contentSidebar {
+    @include make-xs-column(12);
+    @include make-sm-column(3);
+  }
+}
+//
+#StudiFilterPage,
+#page-content > .ms-rtestate-field,
+#page-content > .ms-siteSettings-root,
+#DeltaPlaceHolderMain {
+  // das erste elemente im container
+  > div > .container > .row > .panel,
+  > p,
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > ul,
+  > ol,
+  > table,
+  .searchresults {
+    //@include container-fixed;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 7px;
+
+    @media screen and (min-width: $screen-sm-min) {
+      margin-right: auto !important;
+      margin-left: auto !important;
+    }
+
+    @media (min-width: $screen-sm-min) {
+      width: $container-sm - $grid-gutter-width;
+    }
+
+    @media (min-width: $screen-md-min) {
+      width: $container-md - $grid-gutter-width;
+    }
+
+    @media (min-width: $screen-lg-min) {
+      width: $container-lg - $grid-gutter-width;
+    }
+  }
+}
+#page-content {
+  // name der id welche die Bezeichnung ... enthaelt
+  // > [id*='headRollupImage'] {
+  > #ctl00_PlaceHolderMain_headRollupImage__ControlWrapper_RichImageField {
+    img {
+      margin: 0 !important;
+      max-width: 100% !important;
+      min-width: 100% !important;
+      width: 100% !important;
+      height: auto !important;
+      display: block !important;
+    }
+  }
+}

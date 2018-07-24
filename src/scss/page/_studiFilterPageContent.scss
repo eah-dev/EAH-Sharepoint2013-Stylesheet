@@ -1,0 +1,40 @@
+#StudiFilterPage {
+  img {
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+  }
+  .button-wrapper a {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0; // For input.btn
+    font-weight: $btn-font-weight;
+    text-align: center;
+    color: $btn-color-white !important;
+    border-color: $btn-color-blue;
+    border: 1px solid transparent;
+    background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+    background-color: $btn-color-blue;
+    display: inline-block;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    &:hover {
+      background: $btn-color-white;
+      border-color: $btn-color-blue;
+      color: $btn-color-blue !important;
+    }
+
+    @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
+    @include user-select(none);
+  }
+  #studiFilterPageContent {
+    h1 {
+      text-align: left;
+      font-weight: 500;
+    }
+  }
+}

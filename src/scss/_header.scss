@@ -16,20 +16,6 @@
   margin-left: 0;
   line-height: 1em;
 }
-[id*='RibbonTrimmedControl'] {
-  // @extend #s4-workspace;
-}
-#s4-ribbonrow * {
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  &::before,
-  &::after {
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-  }
-}
 //
 #area-header {
   background: $green;
@@ -57,17 +43,6 @@
     padding-left: 5px;
   }
 }
-#suiteBar * {
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  &::before,
-  &::after {
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-  }
-}
 #suiteBarLeft {
   background-color: #08c;
 }
@@ -90,6 +65,66 @@
         width: 280px;
       }
     }
+  }
+}
+//
+// new nav
+#workspace-top-navigation {
+  .sub-top-navigation {
+    background-color: $green;
+    color: $white;
+    .showSiteLogoImage {
+      height: 55px;
+    }
+    .navbar-toggle {
+      border-color: $blue;
+      background-color: $blue;
+      color: $blue;
+      float: right;
+      margin: 28px 0;
+      .icon-bar {
+        background-color: $white;
+      }
+    }
+    .navbar-brand {
+      height: 80px;
+    }
+    .headersubnav {
+      padding: 28px 0;
+      text-align: center;
+      width: 100%;
+      float: left;
+      //
+      @media screen and (min-width: $screen-sm) {
+        float: right;
+        width: 150px;
+      }
+      .showLoginLink {
+        padding-left: 15px;
+      }
+    }
+  }
+  .main-top-navigation {
+    padding-top: 15px;
+    // this edit link must be hidded
+    .ms-navedit-editArea {
+      display: none;
+    }
+  }
+
+  /* SharePoint Fixes */
+  ul.dynamic {
+    padding: 0 !important;
+    border: 0 !important;
+  }
+  .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+    margin: 0 !important;
+    border: 0 !important;
+  }
+  .ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: none !important;
   }
 }
 .eah-accentbar {
@@ -233,11 +268,12 @@ $LanguageSelector-font-color: $gray-lighter;
       height: $font-size-h3;
       line-height: $font-size-h3;
     }
-    > .ms-srch-sb-searchLink {
+    .ms-srch-sb-searchLink {
       height: 33px;
       width: 33px;
       float: right;
       color: $search-form-color;
+      font-size: 20px;
       .ms-srch-sb-searchImg {
         display: none;
       }

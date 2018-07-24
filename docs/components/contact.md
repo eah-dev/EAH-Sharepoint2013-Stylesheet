@@ -77,6 +77,17 @@ group: components
   </section>
 </section>
 
+<section class="container">
+  <h1>Ansprechpartner in der Sidebar</h1>
+</section>
+{% highlight html %}
+  <section class="contact-sidebar-wrapper contact-sidebar-default">
+    <div class="contact-header"><span class="title">Titel</span></div>
+    <a class="contact-selector-button" href="#">Ansprechpartner auswählen</a>
+    <div class="contact-details-wrapper" data-contact-showimg="true"></div>
+  </section>
+{% endhighlight %}
+
 <!-- zwei Spalten - default -->
 <section class="container">
   <h1>Ansprechpartner - 2 Spalten</h1>

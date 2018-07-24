@@ -1,6 +1,21 @@
+jQuery(document).ready(function(){
+  $("#carousel-home").carousel({
+      interval : 2000
+  });
+})
+jQuery('.carousel').swipe({
+	swipeLeft:function(event, direction, distance, duration, fingerCount) {
+		$(this).carousel('next');
+	},
+	swipeRight:function(event, direction, distance, duration, fingerCount) {
+		$(this).carousel('prev');
+	},
+	threshold:0
+});
 
 // click on the main menu
 jQuery('#showGlobalSideMainMenu').on('click', function (event) {
+  console.log("showGlobalSideMainMenu");
   $('#gloabl-side-menu-wrapper').css({ 'display': 'block' });
   $('#gloabl-side-menu-wrapper').css({ 'right': '0' });
   //$('#s4-workspace').css({ 'left': '-320px' });

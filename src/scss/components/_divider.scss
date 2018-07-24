@@ -1,0 +1,36 @@
+/* ============================================================================
+		divider / trennlinie :: Start
+============================================================================ */
+//
+
+/*
+<div class="divider">
+  <div class="divider-border"></div>
+</div>
+or
+<div class="divider">
+  <div class="divider-shadow"></div>
+</div>
+*/
+.divider {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100%;
+  max-width: 100% !important;
+  display: table;
+  min-height: 4px;
+  .divider-border {
+    border: 0 solid $blue;
+    border-bottom-width: 2px;
+    min-height: 2px;
+  }
+  .divider-shadow {
+    position: relative;
+    background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.1) 0, rgba(255, 255, 255, 0) 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.1) 0, rgba(255, 255, 255, 0) 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.1) 0, rgba(255, 255, 255, 0) 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -o-radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.1) 0, rgba(255, 255, 255, 0) 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    min-height: 4px;
+  }
+}

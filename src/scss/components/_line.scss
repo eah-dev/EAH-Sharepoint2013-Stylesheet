@@ -7,7 +7,7 @@
   border-bottom-color: $gray-lighter;
   border-bottom-style: solid;
   border-width: 2px;
-  margin: 0 0 20px;
+  margin: 0; //0 0 20px;
 }
 
 /// wrapper klasse fuer die trennline
@@ -18,61 +18,41 @@
 }
 // default farbwert fuer eine line
 .line-default {
-  .line-wrapper {
-    border-bottom-color: $gray-lighter;
-  }
+  @include line-color($gray-lighter);
 }
 // bw
 .line-fc-bw {
-  .line-wrapper {
-    border-bottom-color: $faculties-color-bw;
-  }
+  @include line-color($faculties-color-bw);
 }
 // et
 .line-fc-et {
-  .line-wrapper {
-    border-bottom-color: $faculties-color-et;
-  }
+  @include line-color($faculties-color-et);
 }
 // gl
 .line-fc-gl {
-  .line-wrapper {
-    border-bottom-color: $faculties-color-gl;
-  }
+  @include line-color($faculties-color-gl);
 }
 // gp
 .line-fc-gp {
-  .line-wrapper {
-    border-bottom-color: $faculties-color-gp;
-  }
+  @include line-color($faculties-color-gp);
 }
 // mb
 .line-fc-mb {
-  .line-wrapper {
-    border-bottom-color: $faculties-color-mb;
-  }
+  @include line-color($faculties-color-mb);
 }
 // mt
 .line-fc-mt {
-  .line-wrapper {
-    border-bottom-color: $faculties-color-mt;
-  }
+  @include line-color($faculties-color-mt);
 }
 // sc
 .line-fc-sc {
-  .line-wrapper {
-    border-bottom-color: $faculties-color-sc;
-  }
+  @include line-color($faculties-color-sc);
 }
 // sw
 .line-fc-sw {
-  .line-wrapper {
-    border-bottom-color: $faculties-color-sw;
-  }
+  @include line-color($faculties-color-sw);
 }
 // wi
 .line-fc-wi {
-  .line-wrapper {
-    border-bottom-color: $faculties-color-wi;
-  }
+  @include line-color($faculties-color-wi);
 }

@@ -57,6 +57,24 @@ group: components
   </section>
 </section>
 
+<!-- buttons -->
+<section class="container">
+  <h1>Buttons - Jetzt bewerben</h1>
+</section>
+<section>
+  <section class="element-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="button-wrapper">
+          <a class="btn btn-blue" role="button" href="#">
+            Jetzt bewerben
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
 <br/>
 
 <!-- Fachbereiche -->

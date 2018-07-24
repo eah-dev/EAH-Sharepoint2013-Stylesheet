@@ -1,0 +1,151 @@
+/* ============================================================================
+		Seite - structure :: Start
+============================================================================ */
+/// diese Element dient zum anzeigen des structure
+/// @example markup
+/// <div id="structure-wrapper"></div>
+#structure-wrapper {
+  // general setting
+  .title {
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 18px;
+    //
+    @include make-xs-column(12);
+  }
+  .entry {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    height: 80px;
+  }
+  .entry2 {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    height: 40px;
+  }
+  .rowx1 {
+    line-height: 60px;
+  }
+  .rowx2 {
+    line-height: 30px;
+  }
+  .rowx3 {
+    line-height: 20px;
+  }
+  // jede Zeile extra anpassungen
+  .gremien {
+    // @include make-row();
+    @include make-xs-column(12);
+    .hochschule {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    .senat {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+      .entry2 {
+        text-align: center;
+        margin: 10px 0;
+        padding: 10px;
+        height: 40px;
+        line-height: 20px;
+      }
+    }
+    .hochschule,
+    .senat {
+      .entry {
+        text-align: center;
+        margin: 10px 0;
+        padding: 10px;
+        height: 80px;
+        line-height: 60px;
+      }
+    }
+  }
+  .rektorat,
+  .referate {
+    // @include make-row();
+    @include make-xs-column(12);
+    .spacer {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+      @include make-lg-column(3);
+    }
+  }
+  .fachbereiche,
+  .senatsausschuesse,
+  .others,
+  .pruefpraktikantenaemter {
+    // @include make-row();
+    @include make-xs-column(12);
+    .spacer {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+      @include make-md-column(4);
+    }
+  }
+  .stabstellen,
+  .servicebereiche,
+  .servicezentren {
+    @include make-xs-column(12);
+    @include make-sm-column(6);
+    @include make-md-column(4);
+    .spacer {
+      @include make-xs-column(12);
+    }
+    //
+    // @include make-row();
+    @include make-xs-column(12);
+  }
+}
+// farbliche Anpassung
+.structure-default {
+  .gremien {
+    .entry {
+      background-color: $bg-color-blue;
+      a {
+        color: $white;
+      }
+      &:hover {
+        background-color: $bg-color-gray;
+        color: $bg-color-blue;
+      }
+    }
+    .entry2 {
+      background-color: $bg-color-gray;
+      &:hover {
+        background-color: $bg-color-blue;
+        color: $white;
+      }
+    }
+  }
+  .fachbereiche {
+    a {
+      color: $white;
+    }
+  }
+  .line {
+    border-bottom-color: $gray-lighter;
+  }
+  .rektorat,
+  .pruefpraktikantenaemter,
+  .senatsausschuesse,
+  .servicezentren,
+  .servicebereiche,
+  .stabstellen,
+  .referate,
+  .others {
+    .entry {
+      background-color: $bg-color-gray;
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $bg-color-blue;
+        color: $white;
+      }
+    }
+    //
+  }
+}

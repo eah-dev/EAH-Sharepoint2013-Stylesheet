@@ -1,0 +1,110 @@
+/* ============================================================================
+		gazette :: Start
+============================================================================ */
+//
+#studiengaengepage-wrapper {
+  padding-top: 15px;
+  .mainTitle {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.3em;
+  }
+  .subTitle {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+
+  // angaben fuer beide elemente
+  .content,
+  .sidebar {
+    .panel {
+      ul {
+        padding-left: 15px;
+        li {
+          line-height: 25px;
+        }
+      }
+    }
+  }
+  .content {
+    .infotable {
+      padding-bottom: 20px;
+      .entry {
+        border-top-style: solid;
+        border-width: 1px;
+        margin-left: 0;
+        margin-right: 0;
+        .text {
+          padding-top: 7px;
+          padding-bottom: 7px;
+          line-height: 19px;
+          font-size: 1em;
+          font-weight: 500;
+          //
+          @media (min-width: $screen-xs-min) {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            line-height: 19px;
+            font-size: 1em;
+          }
+          //
+          @include make-xs-column(12);
+          @include make-sm-column(4);
+        }
+        .value {
+          padding-top: 7px;
+          padding-bottom: 7px;
+          line-height: 19px;
+          font-size: 1em;
+          //
+          @media (min-width: $screen-xs-min) {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            line-height: 19px;
+            font-size: 1em;
+          }
+          //
+          @include make-xs-column(12);
+          @include make-sm-column(8);
+        }
+      }
+    }
+    //
+  }
+  // sidebar
+  .sidebar {
+    // viewpoints
+    //
+  }
+}
+
+// default farbe
+// es sollte eogentlich auch keine andere Farbe-Klasse verwendet werden.
+.studiengaengepage-default {
+  .content {
+    .mainTitle {
+      color: $green;
+    }
+    .subTitle {
+      color: $blue;
+    }
+    .infotable {
+      .entry {
+        border-top-color: #ddd;
+        .text {
+          //
+        }
+        .value {
+          //
+        }
+      }
+    }
+  }
+  .sidebar {
+    //
+  }
+}

@@ -298,7 +298,7 @@ $menu-padding: 5px;
   }
 }
 
-//
+/*
 #area-meta-navi {
   background: $gray-dark;
   border-bottom: 1px solid $white;
@@ -325,7 +325,7 @@ $menu-padding: 5px;
   }
 }
 
-/* Responsive styles for menu bar */
+// Responsive styles for menu bar
 #menu-trigger {
   display: none;
 }
@@ -334,8 +334,9 @@ $menu-padding: 5px;
 #navbar-height-col {
   z-index: 2;
 }
+*/
 
-//-- Slide Nav --*/
+//-- Slide Nav --
 #slide-nav {
   z-index: inherit !important;
   #slidemenu {
@@ -373,8 +374,6 @@ $menu-padding: 5px;
     margin: 0;
     border: none;
   }
-}
-.nav {
   li.static > .ms-core-listMenu-item {
     margin: 0 15px 9px 0;
   }
@@ -414,6 +413,8 @@ $menu-padding: 5px;
 #ctl00_PlaceHolderLeftNavBar_PlaceHolderQuickLaunchBottom_idNavLinkViewAllV4 {
   width: 100%;
 }
+
+/*
 .left-navbar-collapse {
   overflow-x: visible;
   border-top: 1px solid transparent;
@@ -431,14 +432,27 @@ $menu-padding: 5px;
     overflow-y: auto;
   }
 }
-.navbar-collapse {
-  z-index: 100;
+*/
+.navbar-collapse.in {
+  // z-index: 100;
+  overflow-y: initial;
 }
 #ctl00_PlaceHolderLeftNavBar_QuickLaunchNavigationManager {
   margin-right: -15px;
   margin-left: -15px;
 }
 .navbar-inverse {
+  &.left-navbar .navbar-toggle {
+    .icon-bar {
+      background-color: #563d7c;
+    }
+    &.collapsed .icon-bar {
+      background-color: #563d7c !important;
+    }
+    &:hover .icon-bar {
+      background-color: #fff;
+    }
+  }
   #left-navbar-toggle {
     border-color: #563d7c;
     &:hover,
@@ -447,6 +461,10 @@ $menu-padding: 5px;
     }
     &.collapsed {
       background-color: #f7f5fa;
+    }
+    &:hover .icon-bar,
+    &:focus .icon-bar {
+      background-color: #fff;
     }
   }
   #left-navbar-brand {
@@ -495,6 +513,8 @@ $menu-padding: 5px;
     box-sizing: content-box;
   }
 }
+
+/*
 .bs-sidebar.affix {
   position: static;
   width: 100%;
@@ -543,25 +563,6 @@ $menu-padding: 5px;
     font-size: 90%;
   }
 }
-.navbar-inverse {
-  &.left-navbar .navbar-toggle {
-    .icon-bar {
-      background-color: #563d7c;
-    }
-    &.collapsed .icon-bar {
-      background-color: #563d7c !important;
-    }
-    &:hover .icon-bar {
-      background-color: #fff;
-    }
-  }
-  #left-navbar-toggle {
-    &:hover .icon-bar,
-    &:focus .icon-bar {
-      background-color: #fff;
-    }
-  }
-}
 .left-navbar ul {
   list-style: none outside none !important;
   padding-left: 0;
@@ -577,3 +578,4 @@ $menu-padding: 5px;
 .left-navbar .ms-navedit-editLinksText:hover > span > .ms-metadata {
   color: #563d7c;
 }
+*/
