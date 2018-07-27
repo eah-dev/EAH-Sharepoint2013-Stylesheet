@@ -12,11 +12,13 @@
   height: 366px;
 
   // rand nur wenn mindestens (>=) sm
-  @media screen and (min-width: $screen-sm-min) {
+  // @media screen and (min-width: $screen-sm-min) {
+  @include media-breakpoint-up(sm) {
     height: 244px;
   }
 
-  @media screen and (min-width: $screen-md-min) {
+  // @media screen and (min-width: $screen-md-min) {
+  @include media-breakpoint-up(md) {
     height: 122px;
   }
   //

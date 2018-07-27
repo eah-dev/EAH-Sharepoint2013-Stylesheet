@@ -11,16 +11,19 @@
   margin-left: auto;
   padding-bottom: 7px;
 
-  @media (min-width: $screen-sm-min) {
-    width: $container-sm - $grid-gutter-width;
+  @include media-breakpoint-up(sm) {
+    // @media (min-width: $screen-sm-min) {
+    width: container-max-widths(sm) - $grid-gutter-width;
   }
 
-  @media (min-width: $screen-md-min) {
-    width: $container-md - $grid-gutter-width;
+  @include media-breakpoint-up(md) {
+    // @media (min-width: $screen-md-min) {
+    width:container-max-widths(md) - $grid-gutter-width;
   }
 
-  @media (min-width: $screen-lg-min) {
-    width: $container-lg - $grid-gutter-width;
+  @include media-breakpoint-up(lg) {
+    // @media (min-width: $screen-lg-min) {
+    width: container-max-widths(lg) - $grid-gutter-width;
   }
 }
 // page-content

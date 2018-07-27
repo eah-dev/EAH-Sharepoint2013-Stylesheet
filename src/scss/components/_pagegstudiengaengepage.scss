@@ -45,15 +45,22 @@
           font-size: 1em;
           font-weight: 500;
           //
-          @media (min-width: $screen-xs-min) {
+          @include media-breakpoint-up(xs) {
+            // @media (min-width: $screen-xs-min) {
             padding-top: 15px;
             padding-bottom: 15px;
             line-height: 19px;
             font-size: 1em;
           }
           //
-          @include make-xs-column(12);
-          @include make-sm-column(4);
+          @include media-breakpoint-up(xs) {
+            @include make-col(12);
+          }
+          @include media-breakpoint-up(sm) {
+            @include make-col(4);
+          }
+          // @include make-xs-column(12);
+          // @include make-sm-column(4);
         }
         .value {
           padding-top: 7px;
@@ -61,15 +68,22 @@
           line-height: 19px;
           font-size: 1em;
           //
-          @media (min-width: $screen-xs-min) {
+          @include media-breakpoint-up(xs) {
+            // @media (min-width: $screen-xs-min) {
             padding-top: 15px;
             padding-bottom: 15px;
             line-height: 19px;
             font-size: 1em;
           }
           //
-          @include make-xs-column(12);
-          @include make-sm-column(8);
+          @include media-breakpoint-up(xs) {
+            @include make-col(12);
+          }
+          @include media-breakpoint-up(sm) {
+            @include make-col(8);
+          }
+          // @include make-xs-column(12);
+          // @include make-sm-column(8);
         }
       }
     }

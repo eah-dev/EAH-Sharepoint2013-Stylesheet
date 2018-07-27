@@ -11,7 +11,10 @@
     font-weight: 500;
     font-size: 18px;
     //
-    @include make-xs-column(12);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12);
+    }
+    // @include make-xs-column(12);
   }
   .entry {
     text-align: center;
@@ -37,14 +40,29 @@
   // jede Zeile extra anpassungen
   .gremien {
     // @include make-row();
-    @include make-xs-column(12);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12);
+    }
+    // @include make-xs-column(12);
     .hochschule {
-      @include make-xs-column(12);
-      @include make-sm-column(6);
+      @include media-breakpoint-up(xs) {
+        @include make-col(12);
+      }
+      @include media-breakpoint-up(sm) {
+        @include make-col(6);
+      }
+      // @include make-xs-column(12);
+      // @include make-sm-column(6);
     }
     .senat {
-      @include make-xs-column(12);
-      @include make-sm-column(6);
+      @include media-breakpoint-up(xs) {
+        @include make-col(12);
+      }
+      @include media-breakpoint-up(sm) {
+        @include make-col(6);
+      }
+      // @include make-xs-column(12);
+      // @include make-sm-column(6);
       .entry2 {
         text-align: center;
         margin: 10px 0;
@@ -67,11 +85,23 @@
   .rektorat,
   .referate {
     // @include make-row();
-    @include make-xs-column(12);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12);
+    }
+    // @include make-xs-column(12);
     .spacer {
-      @include make-xs-column(12);
-      @include make-sm-column(6);
-      @include make-lg-column(3);
+      @include media-breakpoint-up(xs) {
+        @include make-col(12);
+      }
+      @include media-breakpoint-up(sm) {
+        @include make-col(6);
+      }
+      @include media-breakpoint-up(lg) {
+        @include make-col(3);
+      }
+      // @include make-xs-column(12);
+      // @include make-sm-column(6);
+      // @include make-lg-column(3);
     }
   }
   .fachbereiche,
@@ -79,25 +109,49 @@
   .others,
   .pruefpraktikantenaemter {
     // @include make-row();
-    @include make-xs-column(12);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12);
+    }
+    // @include make-xs-column(12);
     .spacer {
-      @include make-xs-column(12);
-      @include make-sm-column(6);
-      @include make-md-column(4);
+      @include media-breakpoint-up(xs) {
+        @include make-col(12);
+      }
+      @include media-breakpoint-up(sm) {
+        @include make-col(6);
+      }
+      @include media-breakpoint-up(md) {
+        @include make-col(4);
+      }
+      // @include make-xs-column(12);
+      // @include make-sm-column(6);
+      // @include make-md-column(4);
     }
   }
   .stabstellen,
   .servicebereiche,
   .servicezentren {
-    @include make-xs-column(12);
-    @include make-sm-column(6);
-    @include make-md-column(4);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12);
+    }
+    @include media-breakpoint-up(sm) {
+      @include make-col(6);
+    }
+    @include media-breakpoint-up(md) {
+      @include make-col(4);
+    }
+    // @include make-xs-column(12);
+    // @include make-sm-column(6);
+    // @include make-md-column(4);
     .spacer {
-      @include make-xs-column(12);
+      @include media-breakpoint-up(xs) {
+        @include make-col(12);
+      }
+      // @include make-xs-column(12);
     }
     //
     // @include make-row();
-    @include make-xs-column(12);
+    // @include make-xs-column(12);
   }
 }
 // farbliche Anpassung

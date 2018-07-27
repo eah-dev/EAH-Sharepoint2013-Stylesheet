@@ -28,12 +28,24 @@
   // angaben fuer beide elemente
   .content {
     .content-x3 {
-      @include make-xs-column(12);
-      @include make-md-column(4);
+      @include media-breakpoint-up(xs) {
+        @include make-col(12);
+      }
+      @include media-breakpoint-up(md) {
+        @include make-col(4);
+      }
+      // @include make-xs-column(12);
+      // @include make-md-column(4);
     }
     .content-x2 {
-      @include make-xs-column(12);
-      @include make-md-column(6);
+      @include media-breakpoint-up(xs) {
+        @include make-col(12);
+      }
+      @include media-breakpoint-up(md) {
+        @include make-col(6);
+      }
+      // @include make-xs-column(12);
+      // @include make-md-column(6);
     }
   }
 }

@@ -1,8 +1,12 @@
 #pageWithSidebar {
   //
   .mainContent {
-    @include make-xs-column(12);
-    @include make-md-column(8);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12);
+    }
+    @include media-breakpoint-up(sm) {
+      @include make-col(8);
+    }
     h1 {
       padding-top: 0;
       margin-top: 0;
@@ -13,8 +17,12 @@
     //
   }
   .sidebarContent {
-    @include make-xs-column(12);
-    @include make-md-column(4);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12);
+    }
+    @include media-breakpoint-up(sm) {
+      @include make-col(4);
+    }
     //
     .entry {
       border-style: solid;

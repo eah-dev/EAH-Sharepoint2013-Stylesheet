@@ -42,18 +42,21 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
         background-color: $eah-overlay-50;
 
         @include transition(all 0.5s linear 0s);
-        @include container-fixed;
+        @include make-container();
 
-        @media (min-width: $screen-sm-min) {
-          width: $container-sm - $grid-gutter-width;
+        // @media (min-width: $screen-xs-min) {
+        @include media-breakpoint-up(sm) {
+          width: container-max-widths(sm) - $grid-gutter-width;
         }
 
-        @media (min-width: $screen-md-min) {
-          width: $container-md - $grid-gutter-width;
+        // @media (min-width: $screen-md-min) {
+        @include media-breakpoint-up(md) {
+          width: container-max-widths(md) - $grid-gutter-width;
         }
 
-        @media (min-width: $screen-lg-min) {
-          width: $container-lg - $grid-gutter-width;
+        // @media (min-width: $screen-lg-min) {
+        @include media-breakpoint-up(lg) {
+          width: container-max-widths(lg) - $grid-gutter-width;
         }
         a {
           &:hover,
@@ -105,18 +108,26 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
 #carousel-home-sidebar-wrapper {
   margin-left: 0;
   //
-  @media (min-width: $screen-md-min) {
+  @include media-breakpoint-up(md) {
+  // @media (min-width: $screen-md-min) {
     margin-left: -15px;
     margin-right: -15px;
   }
   .carousel-home-content {
     padding: 0 !important;
     //
-    @include make-xs-column(12, 0);
-    @include make-md-column(10, 15);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12, 1);
+    }
+    @include media-breakpoint-up(md) {
+      @include make-col(10, 15);
+    }
+    // @include make-xs-column(12, 0);
+    // @include make-md-column(10, 15);
     //
     //
-    @media (min-width: $screen-md-min) {
+    @include media-breakpoint-up(md) {
+    // @media (min-width: $screen-md-min) {
       padding-left: 0 !important;
       padding-right: 15px !important;
     }
@@ -124,7 +135,8 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
       // height: 330px;
 
       /*
-      @media (min-width: $screen-md-min) {
+      @include media-breakpoint-up(md) {
+      // @media (min-width: $screen-md-min) {
         height: 450px;
       } */
       // width: 750px
@@ -134,7 +146,8 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
             // width: 100%;
             // height: 400px;
             //
-            @media (min-width: $screen-md-min) {
+            @include media-breakpoint-up(md) {
+            // @media (min-width: $screen-md-min) {
               height: 380px;
             }
           }
@@ -224,11 +237,18 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
     // padding-right: 15px;
     box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
     // viewports
-    @include make-xs-column(12, 0);
-    @include make-md-column(2, 0);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12, 1);
+    }
+    @include media-breakpoint-up(md) {
+      @include make-col(2, 1);
+    }
+    // @include make-xs-column(12, 0);
+    // @include make-md-column(2, 0);
     // @include make-row();
     //
-    @media (min-width: $screen-md-min) {
+    // @media (min-width: $screen-md-min) {
+    @include media-breakpoint-up(md) {
       margin: 0;
       // margin-left: 15px;
       padding-top: 0;
@@ -242,39 +262,58 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
         padding-top: 15px;
         padding-bottom: 10px;
         //
-        @include make-xs-column(12, 0);
-        @include make-sm-column(4, 0);
-        @include make-md-column(12);
+        @include media-breakpoint-up(xs) {
+          @include make-col(12, 1);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(4, 1);
+        }
+        @include media-breakpoint-up(md) {
+          @include make-col(12);
+        }
+
+        // @include make-xs-column(12, 0);
+        // @include make-sm-column(4, 0);
+        // @include make-md-column(12);
       }
       .entry {
         padding-top: 10px;
         padding-bottom: 15px;
         //
-        @include make-xs-column(6, 0);
-        @include make-sm-column(4, 0);
-        @include make-md-column(12);
+        @include media-breakpoint-up(xs) {
+          @include make-col(6, 1);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(4, 1);
+        }
+        @include media-breakpoint-up(md) {
+          @include make-col(12);
+        }
+
+        // @include make-xs-column(6, 0);
+        // @include make-sm-column(4, 0);
+        // @include make-md-column(12);
       }
       .entry,
       .entry-width {
         color: $gray;
         height: 80px;
         //
-        @media (min-width: $screen-xs-min) {
+        @include media-breakpoint-up(xs) {
+        // @media (min-width: $screen-xs-min) {
           height: 110px;
           padding-top: 20px;
           padding-bottom: 20px;
         }
         //
-        @media (min-width: $screen-sm-min) {
+        @include media-breakpoint-up(sm) {
+          // @media (min-width: $screen-sm-min) {
           height: 140px;
           padding-top: 30px;
           padding-bottom: 30px;
         }
         .sidebar-img {
           text-align: center;
-          //
-          // @media (min-width: $screen-xs-min) {
-          // }
         }
         img {
           margin-left: auto;
@@ -282,7 +321,8 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
           height: 25px;
           width: 25px;
           //
-          @media (min-width: $screen-xs-min) {
+          @include media-breakpoint-up(xs) {
+            // @media (min-width: $screen-xs-min) {
             height: 40px;
             width: 40px;
           }
@@ -293,13 +333,15 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
           text-align: center;
           font-size: 1em;
           //
-          @media (min-width: $screen-xs-min) {
+          @include media-breakpoint-up(xs) {
+            // @media (min-width: $screen-xs-min) {
             font-size: 1.2em;
           }
           //
         }
         //
-        @media screen and (min-width: $screen-md-min) {
+        // @media screen and (min-width: $screen-md-min) {
+        @include media-breakpoint-up(md) {
           //
           &:hover {
             // margin-left: -4px;

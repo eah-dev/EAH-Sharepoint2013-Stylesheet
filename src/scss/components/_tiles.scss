@@ -40,6 +40,7 @@
 ///     </div>
 ///   </div>
 /// </div>
+
 .eahTile,
 .eahTileLink {
   margin: 2px;
@@ -104,7 +105,8 @@
           font-family: $font-family-robotoLight;
           font-size: $font-size-base;
 
-          @media screen and (min-width: $screen-md-min) {
+          // @media screen and (min-width: $screen-md-min) {
+          @include media-breakpoint-up(md) {
             font-size: $font-size-large;
           }
           .tile-icon {

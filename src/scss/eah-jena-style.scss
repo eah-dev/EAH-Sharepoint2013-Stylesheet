@@ -25,7 +25,6 @@ $ionicons-font-path: "/Style Library/eah-jena/assets/ionicons/fonts";
 @import 'function';
 @import 'type';
 // @import 'faculty';
-
 //
 // SharePoint 2013 - Klassen Anpassungen und Erweiterungen
 //
@@ -38,31 +37,35 @@ $ionicons-font-path: "/Style Library/eah-jena/assets/ionicons/fonts";
 
 // laden der verschiedenen elemente
 @import 'utilities';
-// @import 'breadcrumb';
-
-@import 'colorpicker';
 @import 'cookie';
 @import 'color';
-// @import 'dropdown-menu';
-// @import 'event-list';
 @import 'editor';
 @import 'components/components';
-// @import 'event-news'; // wird jetzt in einem Panel angezeigt
 @import 'footer';
 @import 'form';
 @import 'header';
 @import 'images';
-// @import 'language-selector';
-@import 'list-group';
 @import 'nav';
 @import 'news-ticker';
 @import 'page/page';
 @import 'reusable_content';
 @import 'reusable-major';
-// @import 'search-form';
-// @import 'searchbar';
-// @import 'sidebar';
 @import 'slideOutNavi';
 @import 'style';
 @import 'table';
 @import 'webparts/webparts';
+/*
+*/
+
+// unused
+
+// @import 'list-group';
+// @import 'breadcrumb';
+// @import 'colorpicker';
+// @import 'dropdown-menu';
+// @import 'event-list';
+// @import 'event-news'; // wird jetzt in einem Panel angezeigt
+// @import 'language-selector';
+// @import 'search-form';
+// @import 'searchbar';
+// @import 'sidebar';

@@ -46,17 +46,26 @@
       .icon {
         text-align: center;
         //
-        @include make-xs-column(2);
+        @include media-breakpoint-up(xs) {
+          @include make-col(2);
+        }
+        // @include make-xs-column(2);
       }
       // include icon
       .text {
         padding-left: 5px;
         //
-        @include make-xs-column(10);
+        @include media-breakpoint-up(xs) {
+          @include make-col(10);
+        }
+        // @include make-xs-column(10);
       }
       // without before icon
       .value {
-        @include make-xs-column(12);
+        @include media-breakpoint-up(xs) {
+          @include make-col(12);
+        }
+        // @include make-xs-column(12);
       }
     }
     .contact-imgage {
@@ -147,7 +156,8 @@
     line-height: 1.7;
     text-align: left;
 
-    @media screen and (max-width: $screen-md-min) {
+    @include media-breakpoint-up(md) {
+    // @media screen and (max-width: $screen-md-min) {
       text-align: center;
     }
     i {

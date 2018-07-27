@@ -7,7 +7,8 @@ h1 {
   font-size: $font-size-h1;
 }
 // viewpoint: handy
-@media (min-width: $screen-xs-min) {
+@include media-breakpoint-up(xs) {
+// @media (min-width: $screen-xs-min) {
   h1 {
     font-size: $font-size-h2;
   }
@@ -16,7 +17,8 @@ h1 {
   }
 }
 // viewpoint: desktop
-@media (min-width: $screen-sm-min) {
+@include media-breakpoint-up(sm) {
+// @media (min-width: $screen-sm-min) {
   h1 {
     font-size: $font-size-h1;
   }

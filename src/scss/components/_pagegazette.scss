@@ -21,20 +21,38 @@
       .number {
         text-align: center;
         //
-        @include make-xs-column(2);
-        @include make-sm-column(1);
+        @include media-breakpoint-up(xs) {
+          @include make-col(2);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(1);
+        }
+        // @include make-xs-column(2);
+        // @include make-sm-column(1);
       }
       .year {
         text-align: center;
         //
-        @include make-xs-column(2);
-        @include make-sm-column(1);
+        @include media-breakpoint-up(xs) {
+          @include make-col(2);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(1);
+        }
+        // @include make-xs-column(2);
+        // @include make-sm-column(1);
       }
       .month {
         text-align: center;
         //
-        @include make-xs-column(2);
-        @include make-sm-column(2);
+        @include media-breakpoint-up(xs) {
+          @include make-col(2);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(2);
+        }
+        // @include make-xs-column(2);
+        // @include make-sm-column(2);
       }
       //      .topics {
       //        @include make-xs-column(12);
@@ -43,8 +61,14 @@
       .dllink {
         text-align: center;
         //
-        @include make-xs-column(12);
-        @include make-sm-column(8);
+        @include media-breakpoint-up(xs) {
+          @include make-col(12);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(8);
+        }
+        // @include make-xs-column(12);
+        // @include make-sm-column(8);
       }
     }
   }

@@ -269,11 +269,13 @@ $menu-padding: 5px;
       font-size: $font-size-small;
       color: $gray-dark;
 
-      @media (min-width: $screen-md) {
+      // @media (min-width: $screen-md) {
+      @include media-breakpoint-up(md) {
         padding: 15px;
       }
 
-      @media (min-width: $screen-lg) {
+      // @media (min-width: $screen-lg) {
+      @include media-breakpoint-up(lg) {
         text-transform: uppercase;
         padding: 15px 22px;
       }
@@ -346,7 +348,8 @@ $menu-padding: 5px;
     border-top: 0 !important;
   }
   .navbar {
-    @media (max-width: $screen-sm) {
+    // @media (max-width: $screen-sm) {
+    @include media-breakpoint-up(sm) {
       border-bottom: 4px solid $green;
       height: 56px;
       margin: 0;

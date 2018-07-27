@@ -9,7 +9,8 @@
   overflow: hidden;
   height: 360px;
 
-  @media (max-width: $screen-md) {
+  // @media (max-width: $screen-md) {
+  @include media-breakpoint-up(md) {
     margin-bottom: 30px;
     img {
       min-width: 100%;

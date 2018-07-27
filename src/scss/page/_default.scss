@@ -102,18 +102,23 @@
   .bodyheaderRollupImage {
     padding-bottom: 15px;
     //
-    @include container-fixed;
+    // @include container-fixed;
+    @include make-container();
 
-    @media (min-width: $screen-sm-min) {
-      width: $container-sm;
+    @include media-breakpoint-up(sm) {
+      // @media (min-width: $screen-sm-min) {
+      width: container-max-widths(sm); // $container-sm;
+
     }
 
-    @media (min-width: $screen-md-min) {
-      width: $container-md;
+    @include media-breakpoint-up(md) {
+      // @media (min-width: $screen-md-min) {
+      width: container-max-widths(md);// $container-md;
     }
 
-    @media (min-width: $screen-lg-min) {
-      width: $container-lg;
+    @include media-breakpoint-up(lg) {
+      // @media (min-width: $screen-lg-min) {
+      width: container-max-widths(lg); //$container-lg;
     }
   }
   .bodyheaderRollupImage {
@@ -132,12 +137,24 @@
     width: 100%;
   }
   .contentMain {
-    @include make-xs-column(12);
-    @include make-sm-column(9);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12);
+    }
+    @include media-breakpoint-up(sm) {
+      @include make-col(9);
+    }
+    // @include make-xs-column(12);
+    // @include make-sm-column(9);
   }
   .contentSidebar {
-    @include make-xs-column(12);
-    @include make-sm-column(3);
+    @include media-breakpoint-up(xs) {
+      @include make-col(12);
+    }
+    @include media-breakpoint-up(sm) {
+      @include make-col(3);
+    }
+    // @include make-xs-column(12);
+    // @include make-sm-column(3);
   }
 }
 //
@@ -163,21 +180,24 @@
     margin-right: 15px;
     padding-bottom: 7px;
 
-    @media screen and (min-width: $screen-sm-min) {
+    // @media (min-width: $screen-sm-min) {
+    @include media-breakpoint-up(sm) {
       margin-right: auto !important;
       margin-left: auto !important;
     }
 
-    @media (min-width: $screen-sm-min) {
-      width: $container-sm - $grid-gutter-width;
+    // @media (min-width: $screen-sm-min) {
+    @include media-breakpoint-up(sm) {
+      width: container-max-widths(sm) - $grid-gutter-width;
     }
 
-    @media (min-width: $screen-md-min) {
-      width: $container-md - $grid-gutter-width;
+    // @media (min-width: $screen-md-min) {
+    @include media-breakpoint-up(md) {
+      width: container-max-widths(md) - $grid-gutter-width;
     }
-
-    @media (min-width: $screen-lg-min) {
-      width: $container-lg - $grid-gutter-width;
+    @include media-breakpoint-up(lg) {
+    // @media (min-width: $screen-lg-min) {
+      width: container-max-widths(lg) - $grid-gutter-width;
     }
   }
 }

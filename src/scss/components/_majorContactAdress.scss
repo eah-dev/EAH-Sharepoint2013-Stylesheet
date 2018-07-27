@@ -23,24 +23,48 @@
       .unit {
         // text-align: center;
         //
-        @include make-xs-column(12);
-        @include make-sm-column(4);
+        @include media-breakpoint-up(xs) {
+          @include make-col(12);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(4);
+        }
+        // @include make-xs-column(12);
+        // @include make-sm-column(4);
       }
       .tel {
         // text-align: center;
         //
-        @include make-xs-column(12);
-        @include make-sm-column(2);
+        @include media-breakpoint-up(xs) {
+          @include make-col(12);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(2);
+        }
+        // @include make-xs-column(12);
+        // @include make-sm-column(2);
       }
       .fax {
         // text-align: center;
         //
-        @include make-xs-column(12);
-        @include make-sm-column(2);
+        @include media-breakpoint-up(xs) {
+          @include make-col(12);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(2);
+        }
+        // @include make-xs-column(12);
+        // @include make-sm-column(2);
       }
       .email {
-        @include make-xs-column(12);
-        @include make-sm-column(4);
+        @include media-breakpoint-up(xs) {
+          @include make-col(12);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col(4);
+        }
+        // @include make-xs-column(12);
+        // @include make-sm-column(4);
       }
 
       /*

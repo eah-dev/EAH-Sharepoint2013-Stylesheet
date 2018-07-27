@@ -24,10 +24,18 @@
         font-size: $footer-font-links-size;
       }
       // view points
-      @include make-xs-column(12);
-      @include make-sm-column(6);
-      @include make-md-column(4);
-      @include make-lg-column(3);
+      @include media-breakpoint-up(xs) {
+        @include make-col(12);
+      }
+      @include media-breakpoint-up(sm) {
+        @include make-col(6);
+      }
+      @include media-breakpoint-up(md) {
+        @include make-col(4);
+      }
+      @include media-breakpoint-up(lg) {
+        @include make-col(3);
+      }
     }
     // // Spalten Anzahl insgesamt: 5
     // .footer-row-width-x5 {
@@ -73,48 +81,59 @@
         }
       }
       .desktop {
-        .footer-list {
-          font-family: $footer-font-links-family;
-          line-height: 24px;
-          padding: 0;
-          li {
-            a {
-              &:link,
-              &:visited {
-                color: $footer-zentral-font-color;
-              }
-              &:hover,
-              &:focus,
-              &:active {
-                color: $eah-gray;
+        display: none;
+        @include media-breakpoint-up(sm) {
+          display: block;
+          .footer-list {
+            font-family: $footer-font-links-family;
+            line-height: 24px;
+            padding: 0;
+            li {
+              a {
+                &:link,
+                &:visited {
+                  color: $footer-zentral-font-color;
+                }
+                &:hover,
+                &:focus,
+                &:active {
+                  color: $eah-gray;
+                }
               }
             }
           }
         }
       }
       .mobile {
-        .panel {
-          margin-bottom: 10px;
-          margin-top: 10px;
-          .panel-heading {
-            // margin: 0 !important;
-            // padding: 10px 0;
-            // border: 0;
-            .panel-title {
-              padding-left: 5px;
-              padding-right: 5px;
-            }
-            .clickable {
-              float: right;
-            }
-          }
-          .panel-body {
-            li {
-              i {
-                color: $black;
+        display: none;
+        // smaller sm
+        @include media-breakpoint-down(xs) {
+          display: block;
+          .card {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            .card-header {
+              // margin: 0 !important;
+              // padding: 10px 0;
+              // border: 0;
+              .card-title {
+                padding-left: 5px;
+                padding-right: 5px;
+                color: $blue;
               }
-              a {
-                color: $black;
+              .clickable {
+                float: right;
+                color: $blue;
+              }
+            }
+            .card-body {
+              li {
+                i {
+                  color: $black;
+                }
+                a {
+                  color: $black;
+                }
               }
             }
           }
@@ -184,12 +203,14 @@
         padding-right: 10px;
         padding-left: 10px;
         // view point
-        @media screen and (max-width: $screen-sm-min) {
+        @include media-breakpoint-up(sm) {
+        // @media screen and (max-width: $screen-sm-min) {
           padding: 10px;
           width: 48%;
         }
         //
-        @media screen and (max-width: 500px) {
+        @include media-breakpoint-up(xs) {
+        // @media screen and (max-width: 500px) {
           padding: 10px;
           width: 100%;
         }

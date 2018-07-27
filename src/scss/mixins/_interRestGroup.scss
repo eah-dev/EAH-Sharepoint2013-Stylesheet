@@ -3,11 +3,13 @@
     box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
 
     // rand nur wenn mindestens (>=) sm
-    @media screen and (min-width: $screen-sm-min) {
+    // @media screen and (min-width: $screen-sm-min) {
+    @include media-breakpoint-up(sm) {
       box-shadow: 1px 1px 5px grey, -1px 1px 5px grey;
     }
 
-    @media screen and (min-width: $screen-md-min) {
+    // @media screen and (min-width: $screen-md-min) {
+    @include media-breakpoint-up(md) {
       //
     }
     .interRestGroup-icon {
