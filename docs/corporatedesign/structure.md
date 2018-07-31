@@ -59,7 +59,7 @@ group: corporatedesign
       <div class="title">ServiceZentren</div>
       <div class="spacer"><a href="/de-de/struktur/servicebereiche/szi"><div class="entry rowx2">ServiceZentrum <br/>Informatik</div></a></div>
       <div class="spacer"><a href="/de-de/forschung"><div class="entry rowx2">ServiceZentrum <br/>Forschung und Transfer</div></a></div>
-      <div class="spacer"><a href="/de-de/studium/beratung/zentrale-studienberatung"><div class="entry rowx2">ServiceZentrum <br/>Studium und Studienberatung</div></a></div>
+      <div class="spacer"><a href="/de-de/struktur/servicebereiche/studium-studienberatung"><div class="entry rowx2">ServiceZentrum <br/>Studium und Studienberatung</div></a></div>
     </div>
 
     <div class="stabstellen">
