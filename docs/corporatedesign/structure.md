@@ -53,6 +53,7 @@ group: corporatedesign
       <div class="spacer"><a href="/de-de/studium/studierendensekretariat"><div class="entry rowx1">Studierendensekretariat</div></a></div>
       <div class="spacer"><a href="/de-de/thoska"><div class="entry rowx1">THOSKA</div></a></div>
       <div class="spacer"><a href="/de-de/studium/beratung/zentrale-studienberatung"><div class="entry rowx2">Zentrale <br/>Studienberatung</div></a></div>
+      <div class="spacer"><a href="/de-de/veranstaltungen"><div class="entry rowx2">Zentrales <br/>Veranstaltungsmanagement</div></a></div>
     </div>
 
     <div class="servicezentren">
