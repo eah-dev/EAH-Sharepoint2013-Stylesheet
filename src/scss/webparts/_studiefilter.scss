@@ -85,7 +85,8 @@
     &:hover {
       text-decoration: none;
     }
-    .eah-major-header {
+    .eah-major-header,
+    .eah-major-tile-header {
       margin-top: 40px;
       min-height: 70px;
       text-align: right;
@@ -101,6 +102,9 @@
         a {
           color: $bg-color-blue;
         }
+      }
+      a {
+        color: $bg-color-blue;
       }
     }
     .eah-major-body {

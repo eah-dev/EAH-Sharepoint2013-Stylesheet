@@ -67,6 +67,11 @@
             line-height: 19px;
             font-size: 1em;
           }
+          .keyfact {
+            ul {
+              padding-left: 2rem;
+            }
+          }
           //
           @include make-xs-column(12);
           @include make-sm-column(8);
