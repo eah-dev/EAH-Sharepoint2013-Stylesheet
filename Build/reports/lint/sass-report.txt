@@ -1,0 +1,3 @@
+
+Invalid Option: Unexpected option value "false" for rule "no-descending-specificity"
+

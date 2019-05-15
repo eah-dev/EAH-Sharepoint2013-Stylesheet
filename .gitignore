@@ -1,6 +1,5 @@
 # compiled output
 /tmp
-/build
 
 # Ignore docs files
 /_gh_pages/
@@ -12,9 +11,9 @@
 vendor/cache
 vendor/bundle
 
-# dependencies
-/node_modules
-/node_modules2
+# Build generated files
+Build/dist
+Build/node_modules
 
 # IDEs and editors
 /.idea
@@ -54,3 +53,4 @@ _catalogs
 .DS_Store
 Thumbs.db
 
+node_modules

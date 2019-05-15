@@ -291,10 +291,10 @@ $carousel-font-subheadline-family:     Arial,"Helvetica Neue", Helvetica, sans-s
           padding-top: 10px;
           vertical-align: middle;
           text-align: center;
-          font-size: 1em;
+          font-size: $font-size-h4;
           //
           @media (min-width: $screen-xs-min) {
-            font-size: 1.2em;
+            // font-size: $font-size-h4;
           }
           //
         }
