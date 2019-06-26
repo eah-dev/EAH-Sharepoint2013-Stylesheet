@@ -15,6 +15,6 @@
         "content",
       ]
     }],
-    "unit-whitelist": ["px", "%","em", "s","deg"]
+    "unit-whitelist": ["px", "%","em", "rem","s","deg"]
   }
 }
